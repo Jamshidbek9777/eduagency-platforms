@@ -6,11 +6,18 @@ export const en = {
   navbar5: "Contact",
   navbar6: "Educational design",
 
+  servicesButtonTitle:"Services",
+  servicesText1:"Kindergartens",
+  servicesText2:"Elementary schools",
+  servicesText3:"Intermediate schools",
+  servicesText4:"High schools",
+
   slider1Header: "Education technologies",
   slider2Header: "Kosmosx",
   slider3Header: "Labaratories",
   slider4Header: "AcademyX",
   slider5Header: "Expert transfer",
+  slider6Header: "Education design",
 
   slider1Desc:
     "You can get knowledge from a wide range of resources to improve your skills.",
@@ -22,6 +29,7 @@ export const en = {
     "We are fully prepared to support your learning journey by providing advanced technologies and resources through Academyx, helping you gain more knowledge and skills.",
   slider5Desc:
     "Get professional advice tailored to your specialist transfer services",
+  slider6Desc: "We design innovative, innovative and effective education models",
   sliderButton: "Learn more",
   //pages
   //edu-design
@@ -187,7 +195,7 @@ export const en = {
   academyCard8Text:
     "Understand different learning styles and adapt your teaching methods accordingly.",
 
-  //kosmosx
+  //kosmosx.jsx
   kosmosxHeader: "About Kosmosx",
   kosmosxDesc:
     "Kosmosx offers academic guidance, counseling services, and educational opportunities to students applying to universities. We take pride in guiding thousands of students at our Turkey Campus. With us, students receive the best educational support and can benefit from significant discounts during the admission process.",
@@ -224,6 +232,38 @@ export const en = {
     "We ensure openness and honesty at every step, building trustful relationships with our students and partners.",
   hakkimizdaCard4Text:
     "We strive to strengthen cultural ties and provide high-quality services to our students, teachers, and partners.",
+
+  //vision
+  vizyonHeader: "Our Vision and Mission",
+  vizyonText1: "Our Vision",
+  vizyonText2: "Our Mission",
+  vizyonText3: "Maximizing the potential of Turkey and Uzbekistan in the field of education and creating an integration model that serves as an example on the international stage.",
+  vizyonText4: "Creating innovative projects and sustainable partnerships that integrate the educational systems of the two countries, guiding the future of students and teachers.",
+
+  hizmetHeader: "Our Services",
+  hizmetText1: "School Setup and Management Consultancy",
+  hizmetText2: "Educational Model Design",
+  hizmetText3: "Teacher Training and Leadership Development Programs",
+  hizmetText4: "Technological Integration and Digital Education Systems",
+  hizmetText5: "Curriculum Development and Academic Projects",
+  hizmetText6: "School Performance Measurement and Evaluation Services",
+  hizmetText7: "We provide strategic support in all stages from planning, structuring, and implementation of new school projects. We offer consultancy services for creating the school concept, interior design, and equipment, as well as for the integration of management systems.",
+  hizmetText8: "We design curricula and educational models for preschool, primary, secondary, and high school levels according to local and international needs. In projects, we combine modern pedagogical approaches with local values to offer long-term solutions.",
+  hizmetText9: "We organize comprehensive teacher development programs to enhance their competencies in modern teaching techniques, leadership skills, and classroom management. Additionally, we offer professional guidance for administrators and leadership teams.",
+  hizmetText10: "We provide consultancy services for the installation and use of technological infrastructures that support digital transformation in education. We implement innovative solutions from smart boards to distance learning platforms.",
+  hizmetText11: "We develop curricula and programs that comply with both national and international educational standards. We provide solutions tailored to the needs of STEM, arts, language education, and other disciplines.",
+  hizmetText12: "We manage detailed evaluation and measurement processes to increase the academic performance of institutions. We identify strengths and areas for improvement and offer sustainable development plans.",
+
+//values
+  degeHeader: "Our Values",
+  degeText1: "Quality",
+  degeText2: "Collaboration",
+  degeText3: "Innovation",
+  degeText4: "Sustainability",
+  degeText5: "We prioritize excellence in educational projects.",
+  degeText6: "We focus on cultural harmony and collaboration.",
+  degeText7: "We combine modern educational models with local characteristics.",
+  degeText8: "We create lasting value through long-term projects.",
 
   //k12net
   k12netDesc:

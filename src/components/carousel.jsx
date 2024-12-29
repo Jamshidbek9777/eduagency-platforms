@@ -16,34 +16,48 @@ export const Carousel = () => {
   const slides = [
     {
       id: 1,
-      header: getText("slider1Header"),
-      description: getText("slider1Desc"),
-      image: "/img/slider1.png",
-      link: "/edu-design",
+      header: "EduAgency: Türkiye-Özbekistan Eğitim Entegratörü",
+      description: "",
+      image: "/img/integrator.png",
+      link: "",
     },
     {
       id: 2,
+      header: getText("slider6Header"),
+      description: getText("slider6Desc"),
+      image: "/img/edudesign.png",
+      link: "/edu-design",
+    },
+    {
+      id: 3,
+      header: getText("slider1Header"),
+      description: getText("slider1Desc"),
+      image: "/img/slider1.png",
+      link: "/teachingTech",
+    },
+    {
+      id: 4,
       header: getText("slider2Header"),
       description: getText("slider2Desc"),
       image: "/img/slider2.png",
       link: "/cosmic-services",
     },
     {
-      id: 3,
+      id: 5,
       header: getText("slider3Header"),
       description: getText("slider3Desc"),
       image: "/img/slider3.png",
       link: "/labaratories",
     },
     {
-      id: 4,
+      id: 6,
       header: getText("slider4Header"),
       description: getText("slider4Desc"),
       image: "/img/slider4.png",
       link: "/academy",
     },
     {
-      id: 5,
+      id: 7,
       header: getText("slider5Header"),
       description: getText("slider5Desc"),
       image: "/img/slider5.png",
@@ -71,15 +85,19 @@ export const Carousel = () => {
                   <p className="text-lg sm:text-2xl font-bold mt-4 text-[#e63f38]">
                     {slide.description}
                   </p>
-                  <Button
-                    as="a" // Using `as="a"` to render the button as an anchor tag
-                    href={slide.link}
-                    color="primary"
-                    className="mt-10"
-                    startContent={<ArrowRight />}
-                  >
-                    {getText("sliderButton")}
-                  </Button>
+                  {slide.id !== 1 ? (
+                    <Button
+                      as="a"
+                      href={slide.link}
+                      color="primary"
+                      className="mt-10"
+                      startContent={<ArrowRight />}
+                    >
+                      {getText("sliderButton")}
+                    </Button>
+                  ) : (
+                    ""
+                  )}
                 </div>
                 {/* Image Section */}
                 <div className="flex justify-center">

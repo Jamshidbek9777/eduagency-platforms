@@ -47,7 +47,7 @@ const CosmicServices = () => {
       <Helmet
         title={getText("AboutPageTitle") || "KosmosX"}
         description={
-          getText("AboutPageDesc") || "Learn more about our kosmosx website."
+          getText("AboutPageDesc") || "Learn more about our kosmosx.jsx website."
         }
         link="/cosmic-projects"
         keywords="about, EduAgency, Uzbekistan, education"

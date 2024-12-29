@@ -6,11 +6,18 @@ export const uz = {
   navbar5: "Bog'lanish",
   navbar6: "Ta'lim dizayni",
 
+  servicesButtonTitle: "Xizmatlar",
+  servicesText1: "Bog'chalalar",
+  servicesText2: "Boshlang'ich maktablar",
+  servicesText3: "O'rta maktablar",
+  servicesText4: "Oliy maktablar",
+
   slider1Header: "Ta'lim texnologiyalari",
   slider2Header: "Kosmosx",
   slider3Header: "Labaratoriyalar",
   slider4Header: "AcademyX",
   slider5Header: "Mutaxassis transferi",
+  slider6Header: "Ta'lim dizayni",
 
   slider1Desc:
     "Ko‘nikmalaringizni rivojlantirish uchun turli manbalardan bilim olishingiz mumkin.",
@@ -22,6 +29,7 @@ export const uz = {
     "Academyx orqali ilg‘or texnologiyalar va resurslar taqdim etib, ko‘proq bilim va ko‘nikmalarga ega bo‘lishingiz uchun o‘quv jarayonlaringizni to‘liq qo‘llab-quvvatlashga tayyormiz.",
   slider5Desc:
     "Mutaxassis transferi xizmatlariga moslashtirilgan professional maslahatlarni oling",
+  slider6Desc: "Biz innovatsion, innovatsion va samarali ta'lim modellarini ishlab chiqamiz.",
   sliderButton: "Batafsil ma'lumot",
   //pages
   //edu-design
@@ -189,7 +197,7 @@ export const uz = {
   academyCard8Text:
     "Turli o'qish uslublarini tushunib, o'qitish uslublaringizni ularga mos ravishda sozlang.",
 
-  //kosmosx
+  //kosmosx.jsx
   kosmosxHeader: "Kosmosx Haqida",
   kosmosxDesc:
     "Kosmosx, universitetga ariza berayotgan talabalarga akademik yo'l-yo'riq, maslahat xizmatlari va ta'lim imkoniyatlarini taqdim etadi. Biz Turkiya kampusimizda minglab talabalarga yo'l-yo'riq ko'rsatishdan faxrlanamiz. Biz bilan birga talabalar eng yaxshi ta'lim ko'magini olishlari va qabul jarayonida muhim chegirmalardan foydalana olishadi.",
@@ -226,6 +234,38 @@ export const uz = {
     "Har bir qadamimizda ochiqlik va halollikni ta’minlaymiz, talabalarimiz va hamkorlarimiz bilan ishonchli aloqalar quramiz.",
   hakkimizdaCard4Text:
     "Biz madaniy aloqalarni mustahkamlashga intilamiz va talabalarimizga, o‘qituvchilarimizga hamda hamkorlarimizga yuqori darajadagi xizmat ko‘rsatamiz.",
+
+  //vizyonlar
+  vizyonHeader: "Vizyonimiz va Missiyamiz",
+  vizyonText1: "Vizyonimiz",
+  vizyonText2: "Missiyamiz",
+  vizyonText3: "Turkiya va O‘zbekistonning ta'lim sohasidagi salohiyatini maksimal darajada oshirib, xalqaro maydonda namuna bo‘ladigan birlashtirish modelini yaratish.",
+  vizyonText4: "Ikki davlatning ta'lim tizimlarini bir-biriga integratsiya qiladigan yangilikchi loyihalar va barqaror hamkorliklar yaratish, o‘quvchilar va o‘qituvchilarning kelajagiga yo‘l-yo‘riq ko‘rsatish.",
+
+  hizmetHeader: "Xizmatlarimiz",
+  hizmetText1: "Maktabni tashkil etish va boshqaruv bo‘yicha maslahat xizmatlari",
+  hizmetText2: "Ta'lim modelini loyihalash",
+  hizmetText3: "O‘qituvchilarni o‘qitish va yetakchilik rivojlantirish dasturlari",
+  hizmetText4: "Texnologik integratsiya va raqamli ta'lim tizimlari",
+  hizmetText5: "Darslik ishlab chiqish va akademik loyihalar",
+  hizmetText6: "Maktabning ish faoliyatini o‘lchash va baholash xizmatlari",
+  hizmetText7: "Yangi maktab loyihalarida tashkilot bosqichidan boshlang‘ich rejalashtirish, tuzish va amalga oshirish jarayonlarida strategik yordam ko‘rsatamiz. Maktab kontseptsiyasini yaratish, ichki dizayn va jihozlash jarayonlaridan boshqaruv tizimlari integratsiyasigacha barcha bosqichlarda maslahat xizmatini taqdim etamiz.",
+  hizmetText8: "Mahalliy va xalqaro ehtiyojlarga mos ravishda maktabgacha ta'lim, boshlang‘ich maktab, o‘rta maktab va o‘rta ta'lim darajalari uchun o‘quv rejalari va ta'lim modellarini loyihalash. Loyiha doirasida zamonaviy pedagogik yondashuvlarni mahalliy qadriyatlar bilan uyg‘unlashtirib, uzoq muddatli yechimlar taklif etamiz.",
+  hizmetText9: "Ta'limchilar uchun keng qamrovli o‘qituvchi rivojlanish dasturlarini tashkil etib, zamonaviy o‘qitish uslublari, yetakchilik qobiliyatlari va sinfni boshqarish bo‘yicha malakalarini oshiramiz. Shuningdek, rahbarlar va liderlik xodimlari uchun professionallarni yo‘naltirish xizmatlarini taklif etamiz.",
+  hizmetText10: "Ta'limda raqamli transformatsiyani qo‘llab-quvvatlovchi texnologik infratuzilmalarning tashkil etilishi va ishlatilishi bo‘yicha maslahat xizmatlarini taqdim etamiz. Aqlli doskalardan masofaviy ta'lim platformalarigacha yangilikchi yechimlarni amalga oshiramiz.",
+  hizmetText11: "Ham milliy, ham xalqaro ta'lim standartlariga mos, o‘quvchi markazli o‘quv rejalari va dasturlarini ishlab chiqamiz. STEM, san'at, til ta'limi va boshqa sohalarda ehtiyojlarga mos yechimlar taqdim etamiz.",
+  hizmetText12: "Muassasalarining akademik natijalarini yaxshilash maqsadida batafsil baholash va o‘lchov jarayonlarini boshqaramiz. Kuchli va rivojlanish kerak bo‘lgan tomonlarni aniqlab, barqaror rivojlanish rejalarini taqdim etamiz.",
+
+//degeler
+  degeHeader: "Qadriyatlarimiz",
+  degeText1: "Sifat",
+  degeText2: "Hamkorlik",
+  degeText3: "Inovatsiya",
+  degeText4: "Barqarorlik",
+  degeText5: "Ta'lim loyihalarida mukammallikni asos qilib olamiz.",
+  degeText6: "Madaniy moslashuvni va hamkorlikni yuqori baholaymiz.",
+  degeText7: "Zamonaviy ta'lim modellari va mahalliy xususiyatlarni uyg‘unlashtiramiz.",
+  degeText8: "Uzoq muddatli loyihalar bilan barqaror qiymat yaratamiz.",
 
   //k12net
   k12netDesc:

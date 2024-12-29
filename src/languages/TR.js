@@ -7,12 +7,19 @@ export const tr = {
   navbar5: "İletişim",
   navbar6: "Eğitim tasarımı",
 
+  servicesButtonTitle: "Hizmetler",
+  servicesText1: "Anaokulları",
+  servicesText2: "İlkokullar",
+  servicesText3: "Ortaokullar",
+  servicesText4: "Lise",
+
   //sliders
   slider1Header: "Eğitim teknolojileri",
   slider2Header: "Kosmosx",
   slider3Header: "Laboratuvarlar",
   slider4Header: "AcademyX",
   slider5Header: "Uzman Transferi",
+  slider6Header: "Egitim tasarimi",
 
   slider1Desc:
     "Becerilerinizi geliştirmek için geniş bir kaynak yelpazesinden bilgi edinebilirsiniz.",
@@ -23,6 +30,7 @@ export const tr = {
   slider4Desc:
     "Academyx aracılığıyla ileri teknolojiler ve kaynaklar sağlayarak, daha fazla bilgi ve beceri edinmenize yardımcı olmak için öğrenme yolculuğunuzu tamamen desteklemeye hazırız.",
   slider5Desc: "Uzman transfer hizmetlerinize özel profesyonel tavsiyeler alın",
+  slider6Desc: "İnovatif, yenilikçi ve etkili eğitim modelleri tasarlıyoruz.",
   sliderButton: "Daha",
   //pages
   //edu-design
@@ -188,7 +196,7 @@ export const tr = {
   academyCard8Text:
     "Farklı öğrenme stillerini tanıyın ve öğretim yöntemlerinizi buna göre uyarlayın.",
 
-  //kosmosx
+  //kosmosx.jsx
   kosmosxHeader: "Kosmosx Hakkında",
   kosmosxDesc:
     "Kosmosx, üniversiteye başvuran öğrencilere akademik rehberlik, danışmanlık hizmetleri ve eğitim fırsatları sunar. Türkiye Kampüsü'nde binlerce öğrenciye rehberlik etmenin gururunu yaşıyoruz. Bizimle birlikte öğrenciler en iyi eğitim desteğini alırken, kabul işlemleri sırasında önemli indirimlerden faydalanabilirler.",
@@ -209,7 +217,7 @@ export const tr = {
   // Hakkımızda
   hakkimizdaHeader: "Hakkımızda",
   hakkimizdaDesc:
-    "EduAgency, Türkiye ile Özbekistan arasında eğitim alanında rezonans yaratmayı amaçlayan, değişim, iletim ve iş birliğine dayalı bir eğitim topluluğudur. Vizyonumuz, Türkiye ve Özbekistan arasındaki tarihsel kültürel bağlardan aldığımız güçle eğitim alanında ortak bir sürecin inşasına anlamlı bir katkı sağlamaktır.",
+    " EduAgency olarak, Türkiye ve Özbekistan arasında eğitim alanında köprü görevi üstlenen, yenilikçi ve çözüm odaklı bir entegratör firmasıyız. Eğitim sistemlerinin geliştirilmesi ve uluslararası standartlarda hizmet sağlanması amacıyla okul kurulumundan öğretmen eğitimlerine kadar geniş kapsamlı çözümler sunuyoruz.",
   hakkimizdaCardTitle: "Değerlerimiz",
 
   hakkimizdaCard1Header: "İyilik",
@@ -225,6 +233,39 @@ export const tr = {
     "Her adımımızda açıklık ve dürüstlük sağlıyoruz, öğrencilerimiz ve iş ortaklarımızla güvenilir ilişkiler kuruyoruz.",
   hakkimizdaCard4Text:
     "Kültürel bağları güçlendirmeye çabalıyoruz ve öğrencilerimize, öğretmenlerimize ve iş ortaklarımıza yüksek kaliteli hizmet sunuyoruz.",
+
+  //vizyonlar
+  vizyonHeader:"Vizyonumuz ve Misyonumuz",
+  vizyonText1:"Vizyonumuz",
+  vizyonText2:"Misyonumuz",
+  vizyonText3:"Türkiye ve Özbekistan’ın eğitim alanındaki potansiyelini maksimum seviyeye çıkararak, uluslararası arenada örnek teşkil eden bir entegrasyon modeli oluşturmak.",
+  vizyonText4:"İki ülkenin eğitim sistemlerini birbirine entegre edecek şekilde yenilikçi projeler ve sürdürülebilir iş birlikleri oluşturmak, öğrencilerin ve öğretmenlerin geleceğine rehberlik etmek.",
+
+  hizmetHeader:"Hizmetlerimiz",
+  hizmetText1:"Okul Kurulum ve Yönetim Danışmanlığı",
+  hizmetText2:"Eğitim Modeli Tasarımı",
+  hizmetText3:"Öğretmen Eğitimleri ve Liderlik Gelişim Programları",
+  hizmetText4:"Teknolojik Entegrasyon ve Dijital Eğitim Sistemleri  ",
+  hizmetText5:"Müfredat Geliştirme ve Akademik Projeler",
+  hizmetText6:"Okul Performans Ölçme ve Değerlendirme Hizmetleri",
+  hizmetText7:"Yeni okul projelerinde kurulum aşamasından itibaren planlama, yapılandırma ve uygulama süreçlerinde stratejik destek sağlıyoruz. Okul konseptini oluşturma, iç tasarım ve donatım süreçlerinden yönetim sistemleri entegrasyonuna kadar tüm aşamalarda danışmanlık hizmeti veriyoruz.",
+  hizmetText8:"Yerel ve uluslararası ihtiyaçlara uygun olarak okul öncesi, ilkokul, ortaokul ve lise seviyelerine özel müfredat ve eğitim modeli tasarlıyoruz. Projelerde çağdaş pedagojik yaklaşımları yerel değerlerle harmanlayarak uzun vadeli çözümler sunuyoruz.",
+  hizmetText9:"Eğitimciler için kapsamlı öğretmen gelişim programları düzenleyerek modern öğretim teknikleri, liderlik becerileri ve sınıf yönetimi konularında yetkinliklerini artırıyoruz. Ayrıca, yönetici ve lider kadrolar için profesyonel rehberlik sunuyoruz.",
+  hizmetText10:"Eğitimde dijital dönüşümü destekleyen teknolojik altyapıların kurulumu ve kullanımı konusunda danışmanlık hizmeti veriyoruz. Akıllı tahtalardan uzaktan eğitim platformlarına kadar yenilikçi çözümleri hayata geçiriyoruz.",
+  hizmetText11:"Hem ulusal hem de uluslararası eğitim standartlarına uygun, öğrenci merkezli müfredat ve programlar geliştiriyoruz. STEM, sanat, dil eğitimi ve diğer branşlarda ihtiyaçlara özel çözümler sağlıyoruz." ,
+  hizmetText12:"Kurumların akademik performansını artırmak amacıyla detaylı değerlendirme ve ölçümleme süreçleri yönetiyoruz. Güçlü ve gelişmesi gereken yönleri tespit ederek sürdürülebilir gelişim planları sunuyoruz.",
+
+  //degeler
+  degeHeader:"Değerlerimiz",
+  degeText1:"Kalite",
+  degeText2:"İş Birliği",
+  degeText3:"İnovasyon",
+  degeText4:"Sürdürülebilirlik",
+  degeText5:"Eğitim projelerinde mükemmeliyeti esas alıyoruz.  ",
+  degeText6:"Kültürel uyumu ve iş birliğini ön planda tutuyoruz.  ",
+  degeText7:"Modern eğitim modellerini yerel özelliklerle harmanlıyoruz.  ",
+  degeText8:"Uzun vadeli projelerle kalıcı değer üretiyoruz.  ",
+
 
   //k12net
   k12netDesc:
