@@ -58,46 +58,45 @@ const Edudesign= ()=>{
             >
                 {/* Services Section */}
                 <div className="py-10">
-                    <div  className={'flex justify-between items-center mb-10'}>
+                    <div className={'flex justify-between items-center mb-10'}>
 
-                    <h2 className="text-4xl font-bold text-[#e63f38] text-center ">
-                        Ta'lim dizayn xizmatlarimiz
-                    </h2>
+                        <h2 className="text-4xl font-bold text-[#e63f38] text-center ">
+                            Ta'lim dizayn xizmatlarimiz
+                        </h2>
                         <Button
                             as="a"
-                            href={'#'}
+                            href={'/edu-design'}
                             color="primary"
-                            // className="mt-10"
-                            startContent={<ArrowRight />}
+                            startContent={<ArrowRight/>}
                         >
                             {getText("sliderButton")}
                         </Button>
                     </div>
 
-                    <div >
-                            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-                                {cardsData.map((card, index) => (
-                                    <div
-                                        key={index}
-                                        data-aos="fade-up"
-                                        className="cursor-pointer p-6 bg-white shadow-lg rounded-lg hover:shadow-xl transition-all"
+                    <div>
+                        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                            {cardsData.map((card, index) => (
+                                <div
+                                    key={index}
+                                    data-aos="fade-up"
+                                    className="cursor-pointer p-6 bg-white shadow-lg rounded-lg hover:shadow-xl transition-all"
+                                >
+                                    <img
+                                        src={card.imgSrc}
+                                        alt={getText(card.altText)}
+                                        className="w-full h-48 object-cover rounded-md mb-4"
+                                    />
+                                    <h3
+                                        className="text-xl font-bold mb-4"
+                                        style={{color: card.titleColor}}
                                     >
-                                        <img
-                                            src={card.imgSrc}
-                                            alt={getText(card.altText)}
-                                            className="w-full h-48 object-cover rounded-md mb-4"
-                                        />
-                                        <h3
-                                            className="text-xl font-bold mb-4"
-                                            style={{ color: card.titleColor }}
-                                        >
-                                            {getText(card.title)}
-                                        </h3>
-                                        {/*<p className="text-gray-600">*/}
-                                        {/*    {getText(card.description)}*/}
-                                        {/*</p>*/}
-                                    </div>
-                                ))}
+                                        {getText(card.title)}
+                                    </h3>
+                                    {/*<p className="text-gray-600">*/}
+                                    {/*    {getText(card.description)}*/}
+                                    {/*</p>*/}
+                                </div>
+                            ))}
                         </div>
                     </div>
 

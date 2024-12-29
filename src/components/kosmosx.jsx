@@ -41,7 +41,7 @@ const Kosmosx = () => {
                     </h2>
                     <Button
                         as="a"
-                        href={'#'}
+                        href={'/cosmic-services'}
                         color="primary"
                         startContent={<ArrowRight/>}
                     >

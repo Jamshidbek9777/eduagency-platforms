@@ -43,7 +43,7 @@ const TechingTech = () => {
                     </h2>
                     <Button
                         as="a"
-                        href={'#'}
+                        href={'/teachingTech'}
                         color="primary"
                         // className="mt-10"
                         startContent={<ArrowRight/>}

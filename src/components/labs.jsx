@@ -53,7 +53,7 @@ const Labs = () => {
                     </h2>
                     <Button
                         as="a"
-                        href={'#'}
+                        href={'/labaratories'}
                         color="primary"
                         // className="mt-10"
                         startContent={<ArrowRight/>}

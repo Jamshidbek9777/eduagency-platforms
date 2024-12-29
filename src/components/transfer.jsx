@@ -33,7 +33,7 @@ const Transfer = () => {
                     </h2>
                     <Button
                         as="a"
-                        href={'#'}
+                        href={'/transfer'}
                         color="primary"
                         startContent={<ArrowRight/>}
                     >

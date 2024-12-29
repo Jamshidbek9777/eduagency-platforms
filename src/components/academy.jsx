@@ -73,7 +73,7 @@ const Academy = ()=>{
                     </h2>
                     <Button
                         as="a"
-                        href={'#'}
+                        href={'/academy'}
                         color="primary"
                         // className="mt-10"
                         startContent={<ArrowRight/>}
