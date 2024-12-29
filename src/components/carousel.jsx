@@ -66,7 +66,7 @@ export const Carousel = () => {
   ];
 
   return (
-    <div className="pt-52 w-full">
+    <div className="pt-48 md:pt-32 w-full">
       <Swiper
         loop={true}
         autoplay={{ delay: 3000 }}
@@ -79,10 +79,10 @@ export const Carousel = () => {
               <div className="flex flex-col md:flex-row items-center justify-between gap-6 px-4 md:px-10">
                 {/* Text Section */}
                 <div className="text-center md:text-left max-w-lg">
-                  <h1 className="text-3xl md:text-5xl font-bold text-[#1966a2]">
+                  <h1 className="text-xl md:text-3xl font-bold text-[#1966a2]">
                     {slide.header}
                   </h1>
-                  <p className="text-lg sm:text-2xl font-bold mt-4 text-[#e63f38]">
+                  <p className="text-md sm:text-lg font-bold mt-4 text-[#e63f38]">
                     {slide.description}
                   </p>
                   {slide.id !== 1 ? (
@@ -90,8 +90,8 @@ export const Carousel = () => {
                       as="a"
                       href={slide.link}
                       color="primary"
-                      className="mt-10"
-                      startContent={<ArrowRight />}
+                      className="mt-10 text-md"
+                      startContent={<ArrowRight size={20}/>}
                     >
                       {getText("sliderButton")}
                     </Button>
@@ -104,7 +104,7 @@ export const Carousel = () => {
                   <img
                     src={slide.image}
                     alt={`Slider ${slide.id}`}
-                    className="w-full max-w-sm md:max-w-lg"
+                    className="w-full max-w-sm md:max-w-md"
                   />
                 </div>
               </div>

@@ -1,101 +1,101 @@
-import {getText} from "../languages/index.js";
+import { getText } from "../languages/index.js";
 import Wrapper from "../layout/wrapper.jsx";
-import {FaChalkboardTeacher, FaUserGraduate, FaUsers} from "react-icons/fa";
-import {VscVmActive} from "react-icons/vsc";
-import {LuBrain} from "react-icons/lu";
-import {SiMinds} from "react-icons/si";
-import {MdOutlineConnectWithoutContact} from "react-icons/md";
-import {Button} from "@nextui-org/react";
-import {ArrowRight} from "lucide-react";
+import { FaChalkboardTeacher, FaUserGraduate, FaUsers } from "react-icons/fa";
+import { VscVmActive } from "react-icons/vsc";
+import { LuBrain } from "react-icons/lu";
+import { SiMinds } from "react-icons/si";
+import { MdOutlineConnectWithoutContact } from "react-icons/md";
+import { Button } from "@nextui-org/react";
+import { ArrowRight } from "lucide-react";
 
 const AcademyCard = ({ icon, header, text }) => (
-    <div className="bg-white p-6 rounded-xl shadow-lg hover:shadow-2xl transition-shadow duration-300 cursor-pointer">
-        <div className="flex justify-center mb-4 text-[#e63f38] text-5xl">{icon}</div>
-        <h1 className="text-xl font-semibold text-gray-800 text-center mb-2">
+    <div className="flex items-center  justify-between bg-white p-2 rounded-2xl shadow-md hover:shadow-lg transition-shadow duration-300 cursor-pointer hover:scale-105 transform transition-transform">
+        <div className="flex justify-center items-center mb-4 w-16 h-16 rounded-full bg-gradient-to-r from-red-400 to-pink-500 text-white text-3xl">
+            {icon}
+        </div>
+        <h1 className="text-lg font-semibold text-gray-800 text-center mb-2">
             {header}
         </h1>
-        <p className="text-gray-600 text-center text-sm">{text}</p>
+        <p className="text-gray-500 text-center text-sm">{text}</p>
     </div>
 );
+
 const cardData = [
     {
-        icon: <FaChalkboardTeacher/>,
+        icon: <FaChalkboardTeacher />,
         header: getText("academyCard1Header"),
         text: getText("academyCard1Text"),
     },
     {
-        icon: <FaUserGraduate/>,
+        icon: <FaUserGraduate />,
         header: getText("academyCard2Header"),
         text: getText("academyCard2Text"),
     },
     {
-        icon: <FaUsers/>,
+        icon: <FaUsers />,
         header: getText("academyCard3Header"),
         text: getText("academyCard3Text"),
     },
     {
-        icon: <MdOutlineConnectWithoutContact/>,
+        icon: <MdOutlineConnectWithoutContact />,
         header: getText("academyCard4Header"),
         text: getText("academyCard4Text"),
     },
     {
-        icon: <SiMinds/>,
+        icon: <SiMinds />,
         header: getText("academyCard5Header"),
         text: getText("academyCard5Text"),
     },
     {
-        icon: <LuBrain/>,
+        icon: <LuBrain />,
         header: getText("academyCard6Header"),
         text: getText("academyCard6Text"),
     },
     {
-        icon: <VscVmActive/>,
+        icon: <VscVmActive />,
         header: getText("academyCard7Header"),
         text: getText("academyCard7Text"),
     },
     {
-        icon: <FaUsers/>,
+        icon: <FaUsers />,
         header: getText("academyCard8Header"),
         text: getText("academyCard8Text"),
     },
 ];
 
-
-
-const Academy = ()=>{
-    return(
+const Academy = () => {
+    return (
         <>
             <Wrapper>
-                <div className={'flex justify-between items-center '}>
-
-                    <h2 className="text-4xl font-bold text-[#e63f38] text-center ">
-                        Academy xizmatlari
+                <div className="flex flex-col md:flex-row justify-between items-center gap-6 mb-10">
+                    <h2 className="text-3xl md:text-4xl font-bold text-[#e63f38] text-center">
+                        {getText("academyHeader") || "Academy xizmatlari"}
                     </h2>
                     <Button
                         as="a"
-                        href={'/academy'}
+                        href="/academy"
                         color="primary"
-                        // className="mt-10"
-                        startContent={<ArrowRight/>}
+                        startContent={<ArrowRight />}
                     >
                         {getText("sliderButton")}
                     </Button>
                 </div>
                 <div
                     data-aos="fade-up"
-                    className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 py-10"
+                    className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8 py-6"
                 >
                     {cardData.map((card, index) => (
                         <AcademyCard
                             key={index}
                             icon={card.icon}
                             header={card.header}
-                            text={card.text}
+                            // text={card.text}
                         />
                     ))}
                 </div>
             </Wrapper>
         </>
     );
-}
+};
+
 export default Academy;

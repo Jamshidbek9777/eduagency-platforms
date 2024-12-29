@@ -79,15 +79,15 @@ const Edudesign= ()=>{
                                 <div
                                     key={index}
                                     data-aos="fade-up"
-                                    className="cursor-pointer p-6 bg-white shadow-lg rounded-lg hover:shadow-xl transition-all"
+                                    className="cursor-pointer p-2 bg-white shadow-lg rounded-lg hover:shadow-xl transition-all"
                                 >
                                     <img
                                         src={card.imgSrc}
                                         alt={getText(card.altText)}
-                                        className="w-full h-48 object-cover rounded-md mb-4"
+                                        className="w-full h-28 object-cover rounded-md mb-4"
                                     />
                                     <h3
-                                        className="text-xl font-bold mb-4"
+                                        className="text-md font-bold "
                                         style={{color: card.titleColor}}
                                     >
                                         {getText(card.title)}

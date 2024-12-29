@@ -153,43 +153,56 @@ const Navbar = () => {
             {/* Items */}
             <div className="hidden lg:flex gap-4 2xl:gap-8 text-gray-700 text-sm text-center">
               <a
-                href="/edu-design"
-                className="hover:text-red-500 transition text-base font-bold"
+                  href="/"
+                  className="hover:text-red-500 transition text-base font-bold"
               >
-                {getText("navbar6")}
+                {/*{getText("navbar6")}*/}
+                Okul Mimarisi
               </a>
               <a
-                href="/teachingTech"
-                className="hover:text-red-500 transition text-base font-bold"
+                  href="/teachingTech"
+                  className="hover:text-red-500 transition text-base font-bold"
               >
-                {getText("navbar1")}
+                {/*{getText("navbar1")}*/}
+                Eğitim Teknolojileri
               </a>
 
               <a
-                href="/labaratories"
-                className="hover:text-red-500 transition text-base font-bold"
+                  href="/"
+                  className="hover:text-red-500 transition text-base font-bold"
               >
-                {getText("navbar2")}
+                {/*{getText("navbar2")}*/}
+                Eğitim Programları
               </a>
               <a
-                href="/academy"
-                className="hover:text-red-500 transition text-base font-bold"
+                  href="/"
+                  className="hover:text-red-500 transition text-base font-bold"
               >
-                AcademyX
+                Eğitim modelleri
               </a>
 
               <a
-                href="/transfer"
-                className="hover:text-red-500 transition text-base font-bold"
+                  href="/"
+                  className="hover:text-red-500 transition text-base font-bold"
               >
-                {getText("navbar3")}
+                {/*{getText("navbar3")}*/}
+                Öğretmen Eğitimleri
               </a>
               <a
-                href="/cosmic-services"
-                className="hover:text-red-500 transition text-base font-bold"
+                  href="/"
+                  className="hover:text-red-500 transition text-base font-bold"
               >
-                KosmosX
+                Eğitim Materyalleri
               </a>
+
+              <a
+                  href="/"
+                  className="hover:text-red-500 transition text-base font-bold"
+              >
+                Akademik Tur
+              </a>
+
+
             </div>
           </div>
           <div className="hidden lg:flex">

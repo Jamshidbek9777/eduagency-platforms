@@ -22,13 +22,14 @@ function App() {
             >
                 <Carousel className="border-b"/>
                 {/* <WhoWeUs /> */}
-                <Advantages/>
+
                 <Edudesign/>
                 <TeachingTech/>
                 <Labs/>
                 <Academy/>
                 <Transfer/>
                 <Kosmosx/>
+                <Advantages/>
                 <ContactUs/>
                 <LogoCarouselPage/>
             </div>

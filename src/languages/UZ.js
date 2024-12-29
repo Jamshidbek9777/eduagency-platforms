@@ -30,7 +30,7 @@ export const uz = {
   slider5Desc:
     "Mutaxassis transferi xizmatlariga moslashtirilgan professional maslahatlarni oling",
   slider6Desc: "Biz innovatsion, innovatsion va samarali ta'lim modellarini ishlab chiqamiz.",
-  sliderButton: "Batafsil ma'lumot",
+  sliderButton: "Batafsil",
   //pages
   //edu-design
   eduHeader: "Ta'lim Modeli Dizayn Xizmatlarimiz",

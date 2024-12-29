@@ -1,8 +1,9 @@
 import Wrapper from "../layout/wrapper.jsx";
-import {Button} from "@nextui-org/react";
-import {ArrowRight} from "lucide-react";
-import {getText} from "../languages/index.js";
+import { Button } from "@nextui-org/react";
+import { ArrowRight } from "lucide-react";
+import { getText } from "../languages/index.js";
 import React from "react";
+
 const services = [
     {
         title: getText("kosmosxCard1Header"),
@@ -31,54 +32,53 @@ const services = [
 ];
 
 const Kosmosx = () => {
-    return(
-        <>
-            <Wrapper>
-                <div className={'flex justify-between items-center '}>
-
-                    <h2 className="text-4xl font-bold text-[#e63f38] text-center ">
-                        Kosmosx
-                    </h2>
-                    <Button
-                        as="a"
-                        href={'/cosmic-services'}
-                        color="primary"
-                        startContent={<ArrowRight/>}
-                    >
-                        {getText("sliderButton")}
-                    </Button>
-                </div>
-
-                <div
-                    data-aos="fade-up"
-                    className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 py-10"
+    return (
+        <Wrapper>
+            <div className="flex flex-col md:flex-row justify-between items-center mb-10">
+                <h2 className="text-3xl md:text-4xl font-bold text-[#e63f38] text-center md:text-left">
+                    Kosmosx
+                </h2>
+                <Button
+                    as="a"
+                    href="/cosmic-services"
+                    color="primary"
+                    startContent={<ArrowRight />}
                 >
-                    {services.map((service, index) => (
-                        <div
-                            key={index}
-                            className="bg-white p-6 rounded-xl shadow-lg hover:shadow-2xl transition-shadow duration-300"
-                        >
-                            <a href={service.link}>
-                                <div className="h-[50%] flex justify-center mb-4">
-                                    <img
-                                        src={service.image}
-                                        alt={service.title}
-                                        className="h-full object-cover rounded-t-xl"
-                                    />
-                                </div>
-                                <h1 className="text-xl font-semibold text-gray-800 text-center mb-2">
+                    {getText("sliderButton")}
+                </Button>
+            </div>
+
+            <div
+                data-aos="fade-up"
+                className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8"
+            >
+                {services.map((service, index) => (
+                    <div
+                        key={index}
+                        className="bg-white rounded-xl shadow-md hover:shadow-xl transition-shadow duration-300 overflow-hidden"
+                    >
+                        <a href={service.link} className="block h-full">
+                            <div className="relative overflow-hidden group">
+                                <img
+                                    src={service.image}
+                                    alt={service.title}
+                                    className="h-28 w-full object-cover group-hover:scale-110 transition-transform duration-300"
+                                />
+                                <div className="absolute inset-0 bg-black bg-opacity-25 group-hover:bg-opacity-50 transition-all duration-300"></div>
+                            </div>
+                            <div className="p-4 flex flex-col justify-between h-[calc(100%-12rem)]">
+                                <h1 className="text-lg font-semibold text-gray-800 mb-2">
                                     {service.title}
                                 </h1>
-                                <p className="text-gray-600 text-center text-sm mb-4">
-                                    {service.description}
-                                </p>
-                            </a>
-                        </div>
-                    ))}
-                </div>
-            </Wrapper>
-        </>
-    )
-}
+
+
+                            </div>
+                        </a>
+                    </div>
+                ))}
+            </div>
+        </Wrapper>
+    );
+};
 
 export default Kosmosx;

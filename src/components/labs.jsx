@@ -55,7 +55,6 @@ const Labs = () => {
                         as="a"
                         href={'/labaratories'}
                         color="primary"
-                        // className="mt-10"
                         startContent={<ArrowRight/>}
                     >
                         {getText("sliderButton")}
@@ -72,7 +71,7 @@ const Labs = () => {
                             className="bg-white rounded-xl shadow-lg hover:shadow-2xl transition-shadow duration-300 overflow-hidden relative group"
                         >
                             {/* Card Image */}
-                            <div className="relative overflow-hidden h-56">
+                            <div className="relative overflow-hidden h-28">
                                 <img
                                     src={lab.image}
                                     alt={lab.alt}
@@ -82,19 +81,16 @@ const Labs = () => {
                                     className="absolute inset-0 bg-black bg-opacity-25 group-hover:bg-opacity-50 transition-opacity duration-300"></div>
                             </div>
                             {/* Card Content */}
-                            <div className="p-6 flex flex-col items-center">
-                                <h1 className="text-lg font-bold text-gray-800 text-center mb-2">
+                            <div className="p-2 flex flex-col items-center">
+                                <h1 className="text-lg font-bold text-gray-800 text-center">
                                     {getText(lab.header)}
                                 </h1>
 
                             </div>
                             {/* Hover Effect */}
                             <div
-                                className="absolute inset-0 flex items-center justify-center bg-black bg-opacity-0 group-hover:bg-opacity-15 transition-opacity duration-300">
-                                <button
-                                    className="text-white bg-red-500 px-4 py-2 rounded-lg shadow hover:bg-red-600 transition-all duration-300">
-                                    Learn more
-                                </button>
+                                className="absolute inset-0 flex items-center justify-center bg-black bg-opacity-0  transition-opacity duration-300">
+
                             </div>
                         </div>
                     ))}

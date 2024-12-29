@@ -49,11 +49,11 @@ const Transfer = () => {
                         {cards.map((card, index) => (
                             <div
                                 key={index}
-                                className="bg-white rounded-2xl shadow-lg p-6 flex flex-col items-center text-center hover:shadow-2xl transition-shadow duration-300"
+                                className="bg-white rounded-2xl shadow-lg p-4 flex flex-col items-center text-center hover:shadow-2xl transition-shadow duration-300"
                             >
                                 <div className="mb-4">{card.icon}</div>
 
-                                <p className="text-lg text-gray-700 leading-relaxed">
+                                <p className="text-md text-gray-700 leading-relaxed">
                                     {card.content}
                                 </p>
                             </div>
