@@ -1,4 +1,4 @@
-import React, { useContext, useEffect, useState } from "react";
+import  { useContext, useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 
 import { BiLogoInstagramAlt } from "react-icons/bi";
@@ -9,6 +9,7 @@ import {
   Button,
 } from "@nextui-org/react";
 import { Dropdown } from 'antd';
+
 const Navbar = () => {
   const { selectedLanguage, selectedFlag, changeLanguage } =
     useContext(LanguageContext);
@@ -91,16 +92,30 @@ const Navbar = () => {
         </div>
 
         <div className="flex gap-4 items-center ">
-          <div className="gap-5 hidden lg:flex">
+          <div className="gap-5 hidden lg:flex items-center">
+            <div className="hidden lg:flex">
+              <Dropdown
+                  trigger={['hover']}
+                  menu={{
+                    items,
+                  }}
+              >
+                <a onClick={(e) => e.preventDefault()}>
+                  <Button color={'primary'} variant={'flat'}>
+                    Services
+                  </Button>
+                </a>
+              </Dropdown>
+            </div>
             <a
-              href="/about"
-              className="hover:text-red-500 transition text-base font-bold"
+                href="/about"
+                className="hover:text-red-500 transition text-base font-bold"
             >
               {getText("navbar4")}
             </a>
             <a
-              className="hover:text-red-500 transition text-base font-bold"
-              href="/contact"
+                className="hover:text-red-500 transition text-base font-bold"
+                href="/contact"
             >
               {getText("navbar5")}
             </a>
@@ -109,12 +124,12 @@ const Navbar = () => {
           <div className="relative">
             <div className="flex items-center gap-[5px] outline-none border-none cursor-pointer">
               <img
-                src={selectedFlag}
-                style={{ width: "20px", objectFit: "cover" }}
+                  src={selectedFlag}
+                  style={{width: "20px", objectFit: "cover"}}
               />
               <select
-                className="bg-transparent border-none outline-none cursor-pointer"
-                onChange={(e) => changeLanguage(e.target.value)}
+                  className="bg-transparent border-none outline-none cursor-pointer"
+                  onChange={(e) => changeLanguage(e.target.value)}
                 value={selectedLanguage}
               >
                 <option className="dark:bg-[#121624] border-none" value="uz">
@@ -138,7 +153,7 @@ const Navbar = () => {
       {/* bottom bar */}
       <div className="shadow-lg flex flex-row items-center px-4 md:px-6 py-4 gap-10 justify-between bg-white mx-4 rounded-b-3xl">
         <div className="flex justify-between w-full items-center">
-          <div className="flex items-center gap-20">
+          <div className="flex items-center gap-10">
             {/* img */}
             <div className="text-xl font-bold text-red-500">
               <Link to={"/"}>
@@ -153,14 +168,14 @@ const Navbar = () => {
             {/* Items */}
             <div className="hidden lg:flex gap-4 2xl:gap-8 text-gray-700 text-sm text-center">
               <a
-                  href="/"
+                  href="/okul-mimari"
                   className="hover:text-red-500 transition text-base font-bold"
               >
                 {/*{getText("navbar6")}*/}
                 Okul Mimarisi
               </a>
               <a
-                  href="/teachingTech"
+                  href="/egitim-tech"
                   className="hover:text-red-500 transition text-base font-bold"
               >
                 {/*{getText("navbar1")}*/}
@@ -168,7 +183,7 @@ const Navbar = () => {
               </a>
 
               <a
-                  href="/"
+                  href="/egitim-program"
                   className="hover:text-red-500 transition text-base font-bold"
               >
                 {/*{getText("navbar2")}*/}
@@ -205,20 +220,7 @@ const Navbar = () => {
 
             </div>
           </div>
-          <div className="hidden lg:flex">
-            <Dropdown
-                trigger={['hover']}
-                menu={{
-                  items,
-                }}
-            >
-              <a onClick={(e) => e.preventDefault()}>
-                <Button color={'primary'} variant={'shadow'}>
-                 Services
-                </Button>
-              </a>
-            </Dropdown>
-          </div>
+
         </div>
         <div
           className={`burger ${isMenuOpen ? "open" : ""} block lg:hidden`}

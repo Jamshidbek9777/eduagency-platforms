@@ -19,6 +19,10 @@ import Contact from "./pages/contact.jsx";
 import K12net from "./pages/k12net.jsx";
 import OkulAile from "./pages/okulaile.jsx";
 import MentaulUp from "./pages/mentalup.jsx";
+import OkulMimari from "./pages/okul.jsx";
+import EgitimTech from "./pages/egitimTech.jsx";
+import EgitimProg from "./pages/egitimProg.jsx";
+import EducationPrograms from "./pages/egitimProg.jsx";
 
 const Root = () => {
   return (
@@ -30,6 +34,9 @@ const Root = () => {
             <Routes className="min-h-screen">
               <Route path="/" element={<App />} />
               <Route path="/about" element={<About />} />
+              <Route path="/okul-mimari" element={<OkulMimari />} />
+              <Route path="/egitim-tech" element={<EgitimTech />} />
+              <Route path={'egitim-program'} element={<EducationPrograms/>}/>
               <Route path="/teachingTech" element={<TeachingTech />} />
               <Route path="/cosmic-services" element={<CosmicServices />} />
               <Route path="/labaratories" element={<Labaratories />} />
