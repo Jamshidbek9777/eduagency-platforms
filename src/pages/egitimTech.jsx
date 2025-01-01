@@ -34,7 +34,7 @@ const services = [
 
 const EgitimTech = () => {
     return (
-        <div className="bg-gray-50 min-h-screen py-10 px-6 pt-48">
+        <div className="bg-gray-50 min-h-[750px] py-10 px-6 pt-48">
             <div className="max-w-7xl mx-auto text-center">
                 <h1 className="text-4xl font-bold text-blue-600 mb-6">
                     Eğitim Teknolojileriyle Geleceği Şekillendiriyoruz

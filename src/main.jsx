@@ -21,38 +21,44 @@ import OkulAile from "./pages/okulaile.jsx";
 import MentaulUp from "./pages/mentalup.jsx";
 import OkulMimari from "./pages/okul.jsx";
 import EgitimTech from "./pages/egitimTech.jsx";
-import EgitimProg from "./pages/egitimProg.jsx";
 import EducationPrograms from "./pages/egitimProg.jsx";
-
+import EducationStrategies from "./pages/egitimModel.jsx";
+import TeacherTrainings from "./pages/teacherTraining.jsx";
+import EduMaterials from "./pages/eduMaterials.jsx";
+import AcademicTour from "./pages/academicTour.jsx";
 const Root = () => {
   return (
-    <>
-      <LanguageProvider>
-        <NextUIProvider>
-          <BrowserRouter>
-            <Navbar />
-            <Routes className="min-h-screen">
-              <Route path="/" element={<App />} />
-              <Route path="/about" element={<About />} />
-              <Route path="/okul-mimari" element={<OkulMimari />} />
-              <Route path="/egitim-tech" element={<EgitimTech />} />
-              <Route path={'egitim-program'} element={<EducationPrograms/>}/>
-              <Route path="/teachingTech" element={<TeachingTech />} />
-              <Route path="/cosmic-services" element={<CosmicServices />} />
-              <Route path="/labaratories" element={<Labaratories />} />
-              <Route path="/academy" element={<Academy />} />
-              <Route path="/transfer" element={<Transfer />} />
-              <Route path="/edu-design" element={<EducationDesign />} />
-              <Route path="/contact" element={<Contact />} />
-              <Route path="/k12net" element={<K12net />} />
-              <Route path="/okulaile" element={<OkulAile />} />
-              <Route path="/mental-up" element={<MentaulUp />} />
-            </Routes>
-          </BrowserRouter>
-          <Footer />
-        </NextUIProvider>
-      </LanguageProvider>
-    </>
+      <>
+        <LanguageProvider>
+          <NextUIProvider>
+            <BrowserRouter>
+              <Navbar/>
+              <Routes className="min-h-screen">
+                <Route path="/" element={<App/>}/>
+                <Route path="/about" element={<About/>}/>
+                <Route path="/okul-mimari" element={<OkulMimari/>}/>
+                <Route path="/egitim-tech" element={<EgitimTech/>}/>
+                <Route path={'egitim-program'} element={<EducationPrograms/>}/>
+                <Route path="/teachingTech" element={<TeachingTech/>}/>
+                <Route path="/cosmic-services" element={<CosmicServices/>}/>
+                <Route path="/labaratories" element={<Labaratories/>}/>
+                <Route path="/academy" element={<Academy/>}/>
+                <Route path="/transfer" element={<Transfer/>}/>
+                <Route path="/edu-design" element={<EducationDesign/>}/>
+                <Route path="/contact" element={<Contact/>}/>
+                <Route path="/k12net" element={<K12net/>}/>
+                <Route path="/okulaile" element={<OkulAile/>}/>
+                <Route path="/mental-up" element={<MentaulUp/>}/>
+                <Route path="/education-strategies" element={<EducationStrategies/>}/>
+                <Route path="/teacherTrainings" element={<TeacherTrainings/>}/>
+                <Route path={'/edu-materials'} element={<EduMaterials/>}/>
+                <Route path={'/academic-tour'} element={<AcademicTour/>}/>
+              </Routes>
+            </BrowserRouter>
+            <Footer/>
+          </NextUIProvider>
+        </LanguageProvider>
+      </>
   );
 };
 

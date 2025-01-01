@@ -9,6 +9,7 @@ import {
   Button,
 } from "@nextui-org/react";
 import { Dropdown } from 'antd';
+import TeacherTrainings from "../pages/teacherTraining.jsx";
 
 const Navbar = () => {
   const { selectedLanguage, selectedFlag, changeLanguage } =
@@ -190,28 +191,28 @@ const Navbar = () => {
                 Eğitim Programları
               </a>
               <a
-                  href="/"
+                  href="/education-strategies"
                   className="hover:text-red-500 transition text-base font-bold"
               >
-                Eğitim modelleri
+                Eğitim strategies
               </a>
 
               <a
-                  href="/"
+                  href="/teacherTrainings"
                   className="hover:text-red-500 transition text-base font-bold"
               >
                 {/*{getText("navbar3")}*/}
                 Öğretmen Eğitimleri
               </a>
               <a
-                  href="/"
+                  href="/edu-materials"
                   className="hover:text-red-500 transition text-base font-bold"
               >
                 Eğitim Materyalleri
               </a>
 
               <a
-                  href="/"
+                  href="/academic-tour"
                   className="hover:text-red-500 transition text-base font-bold"
               >
                 Akademik Tur
