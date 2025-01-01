@@ -1,46 +1,42 @@
 import { FaBuilding, FaChalkboardTeacher, FaFlask, FaMicroscope } from "react-icons/fa";
+import {getText} from "../languages/index.js";
+import {useContext} from "react";
+import {LanguageContext} from "../context/language.jsx";
 
 const OkulMimari = () => {
+    const { selectedLanguage } = useContext(LanguageContext);
     const services = [
         {
-            title: "Mimari Proje ve Tasarım",
+            title: getText('okul3'),
             description: [
-                "Fonksiyonel ve Estetik Okul Tasarımları: Öğrencilerin akademik başarılarını en üst düzeye çıkaracak, estetik açıdan cazip okul yapıları tasarlıyoruz.",
-                "Çevre Dostu Okul Yapıları: Sürdürülebilir malzemeler ve enerji tasarrufu sağlayan çevre dostu yapılar oluşturuyoruz.",
-                "Adaptif Alanlar: Gelişen eğitim metotlarına göre şekillenen esnek alanlar tasarlıyoruz.",
+                getText('okul4'),
             ],
             icon: <FaBuilding className="text-6xl text-yellow-400" />,
             image: "/img/okulcard1.jpg",
             gradient: "from-blue-500 to-indigo-500",
         },
         {
-            title: "Sınıf Konseptleri ve Düzenlemeleri",
+            title: getText('okul5'),
             description: [
-                "İleri Teknolojiyle Donatılmış Sınıflar: Modern eğitim araçlarıyla (akıllı tahta, tablet ve bilgisayarlar) donatılmış sınıflar sunuyoruz.",
-                "Öğrenci Merkezli Sınıf Tasarımları: Daha verimli ve işlevsel sınıf düzenlemeleri yapıyoruz.",
-                "Yaratıcı Çalışma Alanları: Öğrencilerin yaratıcı düşünme becerilerini geliştirecek alanlar tasarlıyoruz.",
+                getText('okul6'),
             ],
             icon: <FaChalkboardTeacher className="text-6xl text-red-600" />,
             image: "/img/okulcard2.webp", // Example image
             gradient: "from-green-400 to-teal-500",
         },
         {
-            title: "Laboratuvar Kurulumu",
+            title: getText('okul7'),
             description: [
-                "Bilim ve Fen Laboratuvarları: Modern ve güvenli laboratuvar alanları tasarlıyoruz.",
-                "STEM Laboratuvarları: Robotik ve 3D yazıcılarla donatılmış alanlar oluşturuyoruz.",
-                "Yüksek Teknolojiyle Desteklenen Eğitim Alanları: Sanal gerçeklik araçlarıyla zenginleştirilmiş laboratuvarlar kuruyoruz.",
+                getText('okul8'),
             ],
             icon: <FaFlask className="text-6xl text-blue-700" />,
             image: "/img/okulcard3.jpg", // Example image
             gradient: "from-yellow-400 to-orange-500",
         },
         {
-            title: "Bilim Merkezi Kurulumu",
+            title: getText('okul9'),
             description: [
-                "Eğitim ve Keşif Merkezi: Öğrencilerin öğrenme isteklerini artıran bilim merkezleri tasarlıyoruz.",
-                "Atölye ve Sergi Alanları: Öğrencilerin keşif yaparak öğrenebileceği alanlar oluşturuyoruz.",
-                "Ziyaretçi Dostu Bilim Merkezleri: Eğitim teknolojileri ve bilimsel keşifleri birleştiren merkezler sunuyoruz.",
+                getText('okul10'),
             ],
             icon: <FaMicroscope className="text-6xl text-gray-600" />,
             image: "/img/okulcard4.jpg", // Example image
@@ -57,16 +53,14 @@ const OkulMimari = () => {
             >
                 <div className="absolute inset-0 bg-black rounded-xl bg-opacity-50 flex items-center justify-center">
                     <h1 className="text-4xl font-bold text-white text-center px-6">
-                        EduAgency Eğitimde Mükemmellik İçin Okul Mimarisi ve Tasarım Hizmetleri
+                        {getText('okul1')}
                     </h1>
                 </div>
             </div>
 
             {/* Intro Text */}
             <p className="text-lg text-gray-600 text-center mb-12">
-                Özbekistan'da eğitimde fark yaratmaya yönelik okul binalarının ve öğrenme alanlarının tasarımında öncülük ediyoruz.{" "}
-                <span className="font-bold">Eğitimdeki başarı, doğru ortamda yetişen öğrencilerle başlar!</span> Biz de bu yaklaşımı
-                benimsiyor ve okul mimarisi alanında sunduğumuz kapsamlı hizmetlerle ilham verici ve fonksiyonel mekanlar tasarlıyoruz.
+                {getText('okul2')}
             </p>
 
             {/* Services Section */}

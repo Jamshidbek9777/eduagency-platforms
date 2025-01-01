@@ -7,7 +7,7 @@ export const tr = {
   navbar5: "Öğretmen Eğitimleri",
   navbar6: "Eğitim Materyalleri",
   navbar7: "Akademik Tur",
-  navbar8:"Hakkımızda",
+  navbar8: "Hakkımızda",
   navbar9: "İletişim",
   navbar10: "Hizmetler",
 
@@ -19,6 +19,25 @@ export const tr = {
   hero6: "Kayıtlı Öğrenciler",
   hero7: "Ortak Kurumlar",
   hero8: "Mevcut Destek",
+
+  okul1: "EduAgency Eğitimde Mükemmellik İçin Okul Mimarisi ve Tasarım Hizmetleri",
+  okul2: "Özbekistan'da eğitimde fark yaratmaya yönelik okul binalarının ve öğrenme alanlarının tasarımında öncülük ediyoruz. Eğitimdeki başarı, doğru ortamda yetişen öğrencilerle başlar! Biz de bu yaklaşımı benimsiyor ve okul mimarisi alanında sunduğumuz kapsamlı hizmetlerle ilham verici ve fonksiyonel mekanlar tasarlıyoruz.",
+  okul3: "Mimari Proje ve Tasarım",
+  okul4: "Fonksiyonel ve Estetik Okul Tasarımları: Öğrencilerin akademik başarılarını en üst düzeye çıkaracak, estetik açıdan cazip okul yapıları tasarlıyoruz.\n" +
+      "Çevre Dostu Okul Yapıları: Sürdürülebilir malzemeler ve enerji tasarrufu sağlayan çevre dostu yapılar oluşturuyoruz.\n" +
+      "Adaptif Alanlar: Gelişen eğitim metotlarına göre şekillenen esnek alanlar tasarlıyoruz.\n",
+  okul5: "Sınıf Konseptleri ve Düzenlemeleri",
+  okul6: "İleri Teknolojiyle Donatılmış Sınıflar: Modern eğitim araçlarıyla (akıllı tahta, tablet ve bilgisayarlar) donatılmış sınıflar sunuyoruz.\n" +
+      "Öğrenci Merkezli Sınıf Tasarımları: Daha verimli ve işlevsel sınıf düzenlemeleri yapıyoruz.\n" +
+      "Yaratıcı Çalışma Alanları: Öğrencilerin yaratıcı düşünme becerilerini geliştirecek alanlar tasarlıyoruz.",
+  okul7: "Laboratuvar Kurulumu",
+  okul8: "Bilim ve Fen Laboratuvarları: Modern ve güvenli laboratuvar alanları tasarlıyoruz.\n" +
+      "STEM Laboratuvarları: Robotik ve 3D yazıcılarla donatılmış alanlar oluşturuyoruz.\n" +
+      "Yüksek Teknolojiyle Desteklenen Eğitim Alanları: Sanal gerçeklik araçlarıyla zenginleştirilmiş laboratuvarlar kuruyoruz.",
+  okul9: "Bilim Merkezi Kurulumu",
+  okul10: "Eğitim ve Keşif Merkezi: Öğrencilerin öğrenme isteklerini artıran bilim merkezleri tasarlıyoruz.\n" +
+      "Atölye ve Sergi Alanları: Öğrencilerin keşif yaparak öğrenebileceği alanlar oluşturuyoruz.\n" +
+      "Ziyaretçi Dostu Bilim Merkezleri: Eğitim teknolojileri ve bilimsel keşifleri birleştiren merkezler sunuyoruz.",
 
   servicesButtonTitle: "Hizmetler",
   servicesText1: "Anaokulları",
@@ -347,5 +366,5 @@ export const tr = {
   mentalUpCard6Text:
       "MentalUP, akıllı telefon, tablet ve bilgisayarınızda her zaman yanınızda.",
 
-  okul1: "EduAgency Eğitimde Mükemmellik İçin Okul Mimarisi ve Tasarım Hizmetleri"
+
 };

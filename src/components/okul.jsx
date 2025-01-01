@@ -1,30 +1,32 @@
 import Wrapper from "../layout/wrapper.jsx";
 import { FaBuilding, FaChalkboardTeacher } from "react-icons/fa";
+import {getText} from "../languages/index.js";
+import {useContext} from "react";
+import {LanguageContext} from "../context/language.jsx";
 
 const cardsData = [
     {
-        title: "Mimari Proje ve Tasarım",
+        title: getText('okul3'),
         description: [
-            "Fonksiyonel ve Estetik Okul Tasarımları: Öğrencilerin akademik başarılarını en üst düzeye çıkaracak, estetik açıdan cazip okul yapıları tasarlıyoruz.",
-            "Çevre Dostu Okul Yapıları: Sürdürülebilir malzemeler ve enerji tasarrufu sağlayan çevre dostu yapılar oluşturuyoruz.",
-            "Adaptif Alanlar: Gelişen eğitim metotlarına göre şekillenen esnek alanlar tasarlıyoruz.",
+            getText('okul4'),
         ],
         icon: <FaBuilding className="text-6xl text-yellow-400" />,
         image: "/img/okulcard1.jpg",
+        gradient: "from-blue-500 to-indigo-500",
     },
     {
-        title: "Sınıf Konseptleri ve Düzenlemeleri",
+        title: getText('okul5'),
         description: [
-            "İleri Teknolojiyle Donatılmış Sınıflar: Modern eğitim araçlarıyla (akıllı tahta, tablet ve bilgisayarlar) donatılmış sınıflar sunuyoruz.",
-            "Öğrenci Merkezli Sınıf Tasarımları: Daha verimli ve işlevsel sınıf düzenlemeleri yapıyoruz.",
-            "Yaratıcı Çalışma Alanları: Öğrencilerin yaratıcı düşünme becerilerini geliştirecek alanlar tasarlıyoruz.",
+            getText('okul6'),
         ],
         icon: <FaChalkboardTeacher className="text-6xl text-red-600" />,
         image: "/img/okulcard2.webp", // Example image
+        gradient: "from-green-400 to-teal-500",
     },
 ];
 
 const Edudesign = () => {
+    const { selectedLanguage } = useContext(LanguageContext);
     return (
         <Wrapper>
             {/* Cards Section */}
@@ -33,7 +35,7 @@ const Edudesign = () => {
                 <div className="pt-36 pb-10">
                     <div className={"flex items-center mb-10"}>
                         <h2 className="text-4xl font-bold text-center text-gray-800 tracking-tight">
-                            Maktab arxitekturasi
+                            {getText('navbar1')}
                         </h2>
                     </div>
                     <div>

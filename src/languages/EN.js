@@ -19,6 +19,25 @@ export const en = {
   hero7:"Partner Institutions",
   hero8:"Support Available",
 
+  okul1: "EduAgency School Architecture and Design Services for Excellence in Education",
+  okul2: "We are leading the design of school buildings and learning spaces aimed at making a difference in education in Uzbekistan. Educational success starts with students raised in the right environment! We embrace this approach and design inspiring and functional spaces with our comprehensive services in school architecture.",
+  okul3: "Architectural Project and Design",
+  okul4: "Functional and Aesthetic School Designs: We design school buildings that maximize students' academic success and are aesthetically appealing.\n" +
+      "Environmentally Friendly School Buildings: We create sustainable buildings made from eco-friendly materials and energy-efficient designs.\n" +
+      "Adaptive Spaces: We design flexible spaces that evolve according to developing teaching methods.\n",
+  okul5: "Classroom Concepts and Arrangements",
+  okul6: "Classrooms Equipped with Advanced Technology: We provide classrooms equipped with modern educational tools (smart boards, tablets, and computers).\n" +
+      "Student-Centered Classroom Designs: We create more efficient and functional classroom layouts.\n" +
+      "Creative Workspaces: We design spaces that enhance students' creative thinking abilities.",
+  okul7: "Laboratory Setup",
+  okul8: "Science and Technology Laboratories: We design modern and safe laboratory spaces.\n" +
+      "STEM Laboratories: We create spaces equipped with robotics and 3D printers.\n" +
+      "High-Tech Supported Educational Spaces: We set up laboratories enriched with virtual reality tools.",
+  okul9: "Science Center Setup",
+  okul10: "Education and Discovery Center: We design science centers that enhance students' desire to learn.\n" +
+      "Workshop and Exhibition Spaces: We create areas where students can learn through exploration.\n" +
+      "Visitor-Friendly Science Centers: We offer centers that combine educational technologies and scientific discoveries.",
+
   servicesButtonTitle:"Services",
   servicesText1:"Kindergartens",
   servicesText2:"Elementary schools",

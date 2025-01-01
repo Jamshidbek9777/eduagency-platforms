@@ -2,9 +2,11 @@ import { getText } from "../languages/index.js";
 import Wrapper from "../layout/wrapper.jsx";
 import { Button } from "@nextui-org/react";
 import { ArrowRight } from "lucide-react";
-import React from "react";
+import React, {useContext} from "react";
+import {LanguageContext} from "../context/language.jsx";
 
 const TechingTech = () => {
+    const { selectedLanguage } = useContext(LanguageContext);
     const cardData = [
         {
             title: "Okul Yönetim Sistemleri",
@@ -42,7 +44,7 @@ const TechingTech = () => {
             <Wrapper>
                 <div className={"flex justify-between items-center"}>
                     <h2 className="text-4xl font-bold text-gray-800 tracking-tight text-center mb-4">
-                        Ta'lim texnologiyalari
+                        {getText('navbar2')}
                     </h2>
                 </div>
                 {/* Services Grid */}

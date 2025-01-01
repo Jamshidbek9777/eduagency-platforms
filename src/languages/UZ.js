@@ -19,6 +19,25 @@ export const uz = {
   hero7: "Hamkor Institutlar",
   hero8: "Mavjud Yordam",
 
+  okul1: "EduAgency Ta'limda Mukammallik Uchun Maktab Arxitekturasi va Dizayn Xizmatlari",
+  okul2: "O'zbekistonda ta'limda farq yaratishga qaratilgan maktab binolari va o'quv maydonlarining dizaynida yetakchilik qilmoqdamiz. Ta'limdagi muvaffaqiyat, to'g'ri muhitda o'sgan talabalar bilan boshlanadi! Biz ham bu yondashuvni qabul qilib, maktab arxitekturasi sohasida taqdim etgan keng qamrovli xizmatlarimiz bilan ilhomlantiruvchi va funksional joylar dizayn qilmoqdamiz.",
+  okul3: "Arxitektura Loyihasi va Dizayni",
+  okul4: "Funksional va Estetik Maktab Dizaynlari: Talabalarining akademik muvaffaqiyatlarini maksimal darajaga chiqaradigan, estetik jihatdan jozibali maktab binolarini dizayn qilmoqdamiz.\n" +
+      "Atrof-muhitga Do'st Maktab Binolari: Barqaror materiallar va energiya tejamkorligi ta'minlovchi ekologik jihatdan toza binolar yaratmoqdamiz.\n" +
+      "Moslashuvchan Maydonlar: Taraqqiy etayotgan ta'lim usullariga moslashgan fleksibil maydonlar dizayn qilmoqdamiz.\n",
+  okul5: "Sinf Kontseptsiyalari va Tartibga Solish",
+  okul6: "Zamonaviy Texnologiyalar bilan Jihozlangan Sinflar: Zamonaviy o'quv asboblari (aqlli doska, planshet va kompyuterlar) bilan jihozlangan sinflarni taqdim etmoqdamiz.\n" +
+      "Talaba Markazli Sinf Dizaynlari: Yanada samarali va funksional sinf tartiblarini yaratmoqdamiz.\n" +
+      "Ijodiy Ishlash Maydonlari: Talabalarining ijodiy fikrlash qobiliyatlarini rivojlantiradigan maydonlar dizayn qilmoqdamiz.",
+  okul7: "Laboratoriya O'rnatish",
+  okul8: "Fan va Ilmiy Laboratoriyalar: Zamonaviy va xavfsiz laboratoriya maydonlarini dizayn qilmoqdamiz.\n" +
+      "STEM Laboratoriyalari: Robototexnika va 3D printerlar bilan jihozlangan maydonlar yaratmoqdamiz.\n" +
+      "Yuqori Texnologiyalar bilan Ta'minlangan Ta'lim Maydonlari: Virtual haqiqat asboblari bilan boyitilgan laboratoriyalarni o'rnatmoqdamiz.",
+  okul9: "Fan Markazini O'rnatish",
+  okul10: "Ta'lim va Kashfiyot Markazi: Talabalarning o'rganish istagini oshiradigan fan markazlarini dizayn qilmoqdamiz.\n" +
+      "Atelye va Ko'rgazma Maydonlari: Talabalar uchun kashf qilish orqali o'rganish imkoniyatlari yaratmoqdamiz.\n" +
+      "Mehmondo'st Fan Markazlari: Ta'lim texnologiyalari va ilmiy kashfiyotlarni birlashtirgan markazlar taqdim etmoqdamiz.",
+
   servicesButtonTitle: "Xizmatlar",
   servicesText1: "Bog'chalalar",
   servicesText2: "Boshlang'ich maktablar",
