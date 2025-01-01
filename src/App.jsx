@@ -27,9 +27,9 @@ function App() {
                 <Edudesign/>
                 <TeachingTech/>
                 <Labs/>
-                <Academy/>
+                {/*<Academy/>*/}
                 {/*<Transfer/>*/}
-                <Kosmosx/>
+                {/*<Kosmosx/>*/}
                 <Advantages/>
                 <ContactUs/>
                 <LogoCarouselPage/>

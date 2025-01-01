@@ -11,6 +11,15 @@ export const tr = {
   navbar9: "İletişim",
   navbar10: "Hizmetler",
 
+  hero1: "Hoşgeldiniz",
+  hero2: "İhtiyaçlarınıza göre uyarlanmış olağanüstü eğitim hizmetleri sunan güvenilir ortağınız.",
+  hero3: "Bugün Başlayın",
+  hero4: "ÇEVRİMİÇİ DESTEK",
+  hero5: "Sunulan Hizmetler",
+  hero6: "Kayıtlı Öğrenciler",
+  hero7: "Ortak Kurumlar",
+  hero8: "Mevcut Destek",
+
   servicesButtonTitle: "Hizmetler",
   servicesText1: "Anaokulları",
   servicesText2: "İlkokullar",

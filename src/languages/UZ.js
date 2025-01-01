@@ -10,6 +10,15 @@ export const uz = {
   navbar9: "Bog'lanish",
   navbar10: "Xizmatlar",
 
+  hero1: "Xush kelibsiz",
+  hero2: "Sizning ehtiyojlaringizga mos ravishda ajoyib ta'lim xizmatlarini taqdim etuvchi ishonchli hamkoringiz.",
+  hero3: "Bugun Boshlang",
+  hero4: "ONLAYN YORDAM",
+  hero5: "Ta'minlangan Xizmatlar",
+  hero6: "Ro'yxatdan O'tgan Talabalar",
+  hero7: "Hamkor Institutlar",
+  hero8: "Mavjud Yordam",
+
   servicesButtonTitle: "Xizmatlar",
   servicesText1: "Bog'chalalar",
   servicesText2: "Boshlang'ich maktablar",

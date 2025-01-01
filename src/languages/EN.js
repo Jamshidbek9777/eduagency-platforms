@@ -10,6 +10,15 @@ export const en = {
   navbar9: "Contact",
   navbar10: "Services",
 
+  hero1:"Welcome to",
+  hero2:"Your trusted partner in delivering exceptional educational services tailored to your needs.",
+  hero3: "Get Started Today",
+  hero4:"ONLINE SUPPORT",
+  hero5:"Services Provided",
+  hero6:"Students Enrolled",
+  hero7:"Partner Institutions",
+  hero8:"Support Available",
+
   servicesButtonTitle:"Services",
   servicesText1:"Kindergartens",
   servicesText2:"Elementary schools",

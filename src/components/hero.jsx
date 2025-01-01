@@ -1,6 +1,10 @@
 import Wrapper from "../layout/wrapper.jsx";
+import {getText} from "../languages/index.js";
+import {useContext} from "react";
+import {LanguageContext} from "../context/language.jsx";
 
 const HeroSection = () => {
+    const { selectedLanguage } = useContext(LanguageContext);
     return (
         <Wrapper>
 
@@ -8,15 +12,15 @@ const HeroSection = () => {
                 {/* Left Content */}
                 <div className="lg:w-1/2 mb-10 lg:mb-0">
                     <h1 className="text-3xl lg:text-4xl font-bold text-gray-800 leading-tight">
-                        Welcome to
+                        {getText('hero1')}
                         <span className="text-[#EBAD26]"> EduAgency</span>
                     </h1>
                     <p className="mt-4 text-gray-600">
-                        Your trusted partner in delivering exceptional educational services tailored to your needs.
+                        {getText('hero2')}
                     </p>
                     <button
                         className="mt-6 px-6 py-3 bg-[#2664eb] text-white rounded-lg shadow-lg  transition">
-                        Get Started Today
+                        {getText('hero3')}
                     </button>
                 </div>
 
@@ -57,8 +61,8 @@ const HeroSection = () => {
 
                     {/* Contact Box */}
                     <div className="absolute bottom-[20px] left-0 bg-white shadow-lg rounded-lg px-4 py-3">
-                        <p className="text-sm text-gray-600">ONLINE SUPPORT</p>
-                        <p className="text-lg font-bold text-red-500">+012 (345) 6789</p>
+                        <p className="text-sm text-gray-600">{getText('hero4')}</p>
+                        <p className="text-lg font-bold text-red-500">+998 90 277 73 66</p>
                     </div>
                 </div>
 
@@ -68,23 +72,23 @@ const HeroSection = () => {
                         className="max-w-7xl mx-auto px-6 lg:px-24 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8 text-center">
                         {/* Service Stats */}
                         <div className="flex flex-col items-center">
-                            <span className="text-4xl font-bold text-green-600">150+</span>
-                            <p className="mt-2 text-gray-700">Services Provided</p>
+                            <span className="text-4xl font-bold text-green-600">20+</span>
+                            <p className="mt-2 text-gray-700">{getText('hero5')}</p>
                         </div>
                         {/* Students Stats */}
                         <div className="flex flex-col items-center">
-                            <span className="text-4xl font-bold text-blue-600">10,000+</span>
-                            <p className="mt-2 text-gray-700">Students Enrolled</p>
+                            <span className="text-4xl font-bold text-blue-600">1000+</span>
+                            <p className="mt-2 text-gray-700">{getText('hero6')}</p>
                         </div>
                         {/* Partner Institutions */}
                         <div className="flex flex-col items-center">
                             <span className="text-4xl font-bold text-red-600">50+</span>
-                            <p className="mt-2 text-gray-700">Partner Institutions</p>
+                            <p className="mt-2 text-gray-700">{getText('hero7')}</p>
                         </div>
                         {/* Support Team */}
                         <div className="flex flex-col items-center">
                             <span className="text-4xl font-bold text-yellow-600">24/7</span>
-                            <p className="mt-2 text-gray-700">Support Available</p>
+                            <p className="mt-2 text-gray-700">{getText('hero8')}</p>
                         </div>
                     </div>
                 </div>
