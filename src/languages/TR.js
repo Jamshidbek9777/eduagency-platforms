@@ -333,4 +333,6 @@ export const tr = {
     "Daha büyük resmi görün! Çocuğunuzun gelişimini zengin raporlama modülleri ve panelleriyle takip edin.",
   mentalUpCard6Text:
     "MentalUP, akıllı telefon, tablet ve bilgisayarınızda her zaman yanınızda.",
+
+  okul1:"EduAgency Eğitimde Mükemmellik İçin Okul Mimarisi ve Tasarım Hizmetleri"
 };

@@ -7,8 +7,8 @@ import Edudesign from "./components/edudesign.jsx";
 import TeachingTech from "./components/techingTech.jsx";
 import Labs from "./components/labs.jsx";
 import Academy from "./components/academy.jsx";
-import Transfer from "./components/transfer.jsx";
 import Kosmosx from "./components/kosmosx.jsx";
+import HeroSection from "./components/hero.jsx";
 
 function App() {
     return (
@@ -20,14 +20,15 @@ function App() {
                 }}
                 className="min-h-screen"
             >
-                <Carousel className="border-b"/>
+                <HeroSection/>
+                {/*<Carousel className="border-b"/>*/}
                 {/* <WhoWeUs /> */}
 
                 <Edudesign/>
                 <TeachingTech/>
                 <Labs/>
                 <Academy/>
-                <Transfer/>
+                {/*<Transfer/>*/}
                 <Kosmosx/>
                 <Advantages/>
                 <ContactUs/>

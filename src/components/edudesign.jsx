@@ -57,7 +57,7 @@ const Edudesign= ()=>{
                 className=""
             >
                 {/* Services Section */}
-                <div className="py-10">
+                <div className="pt-36">
                     <div className={'flex justify-between items-center mb-10'}>
 
                         <h2 className="text-4xl font-bold text-[#e63f38] text-center ">
