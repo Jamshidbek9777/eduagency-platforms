@@ -35,17 +35,10 @@ const Kosmosx = () => {
     return (
         <Wrapper>
             <div className="flex flex-col md:flex-row justify-between items-center mb-10">
-                <h2 className="text-3xl md:text-4xl font-bold text-[#e63f38] text-center md:text-left">
+                <h2 className="text-3xl md:text-4xl font-bold text-gray-800 tracking-tight text-center md:text-left">
                     Kosmosx
                 </h2>
-                <Button
-                    as="a"
-                    href="/cosmic-services"
-                    color="primary"
-                    startContent={<ArrowRight />}
-                >
-                    {getText("sliderButton")}
-                </Button>
+
             </div>
 
             <div

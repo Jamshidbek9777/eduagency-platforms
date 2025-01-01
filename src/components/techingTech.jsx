@@ -1,7 +1,7 @@
-import {getText} from "../languages/index.js";
+import { getText } from "../languages/index.js";
 import Wrapper from "../layout/wrapper.jsx";
-import {Button} from "@nextui-org/react";
-import {ArrowRight} from "lucide-react";
+import { Button } from "@nextui-org/react";
+import { ArrowRight } from "lucide-react";
 
 const TechingTech = () => {
     const cardData = [
@@ -34,53 +34,45 @@ const TechingTech = () => {
             description: getText("teachingTechCardText4"),
         },
     ];
+
     return (
         <>
             <Wrapper>
-                <div className={'flex justify-between items-center '}>
-                    <h2 className="text-4xl font-bold text-[#e63f38] text-center ">
-                       Ta'lim texnologoyialari
+                <div className={"flex justify-between items-center"}>
+                    <h2 className="text-4xl font-bold text-gray-800 tracking-tight text-center">
+                        Ta'lim texnologiyalari
                     </h2>
-                    <Button
-                        as="a"
-                        href={'/teachingTech'}
-                        color="primary"
-                        // className="mt-10"
-                        startContent={<ArrowRight/>}
-                    >
-                        {getText("sliderButton")}
-                    </Button>
                 </div>
                 <div
                     data-aos="fade-up"
                     className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 py-10"
                 >
-
                     {cardData.map((card, index) => (
                         <a key={index} href={card.href}>
                             <div
-                                className="cursor-pointer bg-white p-6 rounded-xl shadow-lg hover:shadow-2xl transition-shadow duration-300 h-full flex flex-col">
+                                className="cursor-pointer bg-white p-6 rounded-xl shadow-lg hover:shadow-2xl transition-all transform hover:scale-105 duration-300 h-full flex flex-col relative"
+                            >
                                 <div className="flex justify-center mb-4">
                                     <img
                                         src={card.imgSrc}
                                         alt={card.imgAlt}
-                                        className="h-16 object-contain"
+                                        className="h-16 object-contain transition-all duration-300 transform hover:scale-125"
                                     />
                                 </div>
                                 <h1 className="text-xl font-semibold text-gray-800 text-center mb-2">
                                     {card.title}
                                 </h1>
-                                {/*<p className="text-gray-600 text-center text-sm flex-grow">*/}
-                                {/*    {card.description}*/}
-                                {/*</p>*/}
+
+                                <div className="absolute bottom-4 right-4 opacity-1 transition-opacity duration-300 hover:opacity-100">
+                                    <ArrowRight size={30} color="#4A90E2" />
+                                </div>
                             </div>
                         </a>
                     ))}
                 </div>
             </Wrapper>
-
         </>
     );
-}
+};
 
 export default TechingTech;

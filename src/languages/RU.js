@@ -1,11 +1,15 @@
 export const ru = {
   //navbar
-  navbar1: "Технологии",
-  navbar2: "STEMLab",
-  navbar3: "Перевод",
-  navbar4: "О нас",
-  navbar5: "Контакт",
-  navbar6: "Образовательный дизайн",
+  navbar1: "Архитектура школы",
+  navbar2: "Технологии образования",
+  navbar3: "Образовательные программы",
+  navbar4: "Образовательные стратегии",
+  navbar5: "Обучение преподавателей",
+  navbar6: "Образовательные материалы",
+  navbar7: "Академический тур",
+  navbar8: "О нас",
+  navbar9: "Контакты",
+  navbar10: "Услуги",
 
   servicesButtonTitle: "Услуги",
   servicesText1: "Детские сады",

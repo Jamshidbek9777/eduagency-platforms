@@ -61,26 +61,9 @@ const AcademicTourPage = () => {
 
             {/* Additional Info Section */}
             <div className="max-w-7xl mx-auto text-center mt-16">
-                <h3 className="text-3xl font-semibold text-blue-600 mb-4">Neden Katılmalısınız?</h3>
-                <p className="text-gray-600 mb-6">
-                    Geleneksel yöntemlerle sınırlı kalmak yerine, öğrencilerinize yeni nesil öğrenme metodolojilerini sunabileceğiniz bilgi ve becerilere sahip olun. Eğitimde reform yaratmak için bu tur, size ilham veren, sınırları kaldıran bir bakış açısı sunuyor.
-                </p>
 
-                {/* Key Program Highlights */}
-                <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 max-w-7xl mx-auto">
-                    <div className="text-center bg-white p-2 rounded-lg shadow-md">
-                        <FaUniversity className="text-4xl text-blue-600 mb-2" />
-                        <p className="text-gray-600">İTÜ ve Boğaziçi Üniversitesi</p>
-                    </div>
-                    <div className="text-center  bg-white p-2 rounded-lg shadow-md">
-                        <FaRegBuilding className="text-4xl text-blue-600 mb-2" />
-                        <p className="text-gray-600">Uzay Kampı ve Bilim Merkezleri</p>
-                    </div>
-                    <div className="text-center  bg-white p-2 rounded-lg shadow-md">
-                        <FaRocket className="text-4xl text-blue-600 mb-2" />
-                        <p className="text-gray-600">STEM ve Dijital Eğitim</p>
-                    </div>
-                </div>
+
+
 
                 {/* Closing Statement */}
                 <h4 className="text-2xl font-semibold text-blue-600 mt-10">Sizi Keşfe Bekliyoruz!</h4>

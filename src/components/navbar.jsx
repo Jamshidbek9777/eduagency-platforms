@@ -160,13 +160,13 @@ const Navbar = () => {
                   href="/about"
                   className="text-white transition text-base font-bold"
               >
-                {getText("navbar4")}
+                {getText('navbar8')}
               </a>
               <a
                   className="text-white transition text-base font-bold"
                   href="/contact"
               >
-                {getText("navbar5")}
+                {getText('navbar9')}
               </a>
               <div className="gap-5 hidden lg:flex items-center">
                 <div className="hidden lg:flex">
@@ -178,7 +178,7 @@ const Navbar = () => {
                   >
                     <a onClick={(e) => e.preventDefault()} className={'flex items-center gap-2'}>
                       <button className={'text-white transition duration-300 text-base font-bold'}>
-                        Services
+                        {getText('navbar10')}
                       </button>
                       <IoIosArrowDown className="text-white text-sm" size={15}/>
                     </a>
@@ -225,50 +225,46 @@ const Navbar = () => {
                       href="/okul-mimari"
                       className="hover:text-[#EBAD26] transition text-base font-bold"
                   >
-                    {/*{getText("navbar6")}*/}
-                    Okul Mimarisi
+                    {getText('navbar1')}
                   </a>
                   <a
                       href="/egitim-tech"
                       className="hover:text-[#EBAD26] transition text-base font-bold"
                   >
-                    {/*{getText("navbar1")}*/}
-                    Eğitim Teknolojileri
+                    {getText('navbar2')}
                   </a>
 
                   <a
                       href="/egitim-program"
                       className="hover:text-[#EBAD26] transition text-base font-bold"
                   >
-                    {/*{getText("navbar2")}*/}
-                    Eğitim Programları
+                    {getText('navbar3')}
                   </a>
                   <a
                       href="/education-strategies"
                       className="hover:text-[#EBAD26] transition text-base font-bold"
                   >
-                    Eğitim strategies
+                    {getText('navbar4')}
                   </a>
 
                   <a
                       href="/teacherTrainings"
                       className="hover:text-[#EBAD26] transition text-base font-bold"
                   >
-                    {/*{getText("navbar3")}*/}
-                    Öğretmen Eğitimleri
+                    {getText('navbar5')}
                   </a>
                   <a
                       href="/edu-materials"
                       className="hover:text-[#EBAD26] transition text-base font-bold"
                   >
-                    Eğitim Materyalleri
+                    {getText('navbar6')}
                   </a>
 
                   <a
                       href="/academic-tour"
                       className="hover:text-[#EBAD26] transition text-base font-bold"
                   >
-                    Akademik Tur
+                    {getText('navbar7')}
                   </a>
 
 

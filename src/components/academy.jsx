@@ -1,12 +1,13 @@
 import { getText } from "../languages/index.js";
 import Wrapper from "../layout/wrapper.jsx";
-import { FaChalkboardTeacher, FaUserGraduate, FaUsers } from "react-icons/fa";
+import {FaBrain, FaBullseye, FaChalkboardTeacher, FaGlobe, FaUserGraduate, FaUsers} from "react-icons/fa";
 import { VscVmActive } from "react-icons/vsc";
 import { LuBrain } from "react-icons/lu";
 import { SiMinds } from "react-icons/si";
 import { MdOutlineConnectWithoutContact } from "react-icons/md";
 import { Button } from "@nextui-org/react";
 import { ArrowRight } from "lucide-react";
+import React from "react";
 
 const AcademyCard = ({ icon, header, text }) => (
     <div className="flex items-center  justify-between bg-white p-2 rounded-2xl shadow-md hover:shadow-lg transition-shadow duration-300 cursor-pointer hover:scale-105 transform transition-transform">
@@ -22,44 +23,25 @@ const AcademyCard = ({ icon, header, text }) => (
 
 const cardData = [
     {
-        icon: <FaChalkboardTeacher />,
-        header: getText("academyCard1Header"),
-        text: getText("academyCard1Text"),
+        title: "Beyin ve Öğrenme",
+        description:
+            "Beyin temelli öğrenme yaklaşımlarını tanıtarak, öğrenme süreçlerini anlamaya odaklanır.",
+        color: "from-blue-500 to-purple-600",
+        icon: <FaBrain/>,
     },
     {
-        icon: <FaUserGraduate />,
-        header: getText("academyCard2Header"),
-        text: getText("academyCard2Text"),
+        title: "Global Teacher",
+        description:
+            "Küresel eğitim trendlerini ve kültürel yaklaşımları öğretmenlere tanıtan bir program.",
+        color: "from-green-400 to-teal-500",
+        icon: <FaGlobe/>,
     },
     {
-        icon: <FaUsers />,
-        header: getText("academyCard3Header"),
-        text: getText("academyCard3Text"),
-    },
-    {
-        icon: <MdOutlineConnectWithoutContact />,
-        header: getText("academyCard4Header"),
-        text: getText("academyCard4Text"),
-    },
-    {
-        icon: <SiMinds />,
-        header: getText("academyCard5Header"),
-        text: getText("academyCard5Text"),
-    },
-    {
-        icon: <LuBrain />,
-        header: getText("academyCard6Header"),
-        text: getText("academyCard6Text"),
-    },
-    {
-        icon: <VscVmActive />,
-        header: getText("academyCard7Header"),
-        text: getText("academyCard7Text"),
-    },
-    {
-        icon: <FaUsers />,
-        header: getText("academyCard8Header"),
-        text: getText("academyCard8Text"),
+        title: "Dikkat Geliştirme Teknikleri",
+        description:
+            "Öğrencilerin dikkat sürelerini artırmaya yönelik stratejik teknikler.",
+        color: "from-yellow-400 to-orange-500",
+        icon: <FaBullseye/>,
     },
 ];
 
@@ -68,30 +50,31 @@ const Academy = () => {
         <>
             <Wrapper>
                 <div className="flex flex-col md:flex-row justify-between items-center gap-6 mb-10">
-                    <h2 className="text-3xl md:text-4xl font-bold text-[#e63f38] text-center">
-                        {getText("academyHeader") || "Academy xizmatlari"}
+                    <h2 className="text-3xl md:text-4xl font-bold text-gray-800 tracking-tight text-center">
+                        {"Academy xizmatlari"}
                     </h2>
-                    <Button
-                        as="a"
-                        href="/academy"
-                        color="primary"
-                        startContent={<ArrowRight />}
-                    >
-                        {getText("sliderButton")}
-                    </Button>
+
                 </div>
-                <div
-                    data-aos="fade-up"
-                    className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8 py-6"
-                >
-                    {cardData.map((card, index) => (
-                        <AcademyCard
+                <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 mb-10">
+                    {cardData.map((training, index) => (
+                        <div
                             key={index}
-                            icon={card.icon}
-                            header={card.header}
-                            // text={card.text}
-                        />
+                            className={`cursor-pointer bg-white rounded-xl p-6 shadow-md hover:shadow-xl hover:scale-105 transform transition-all duration-300 border-t-4 ${training.color}`}
+                        >
+                            <div className={'flex items-center space-x-4 mb-4'}>
+                                <div
+                                    className="text-3xl text-white bg-gradient-to-r p-3 rounded-lg shadow-md ${program.color}">
+                                    {training.icon}
+                                </div>
+                                <h3 className="text-xl font-bold text-gray-800">
+                                    {training.title}
+                                </h3>
+                            </div>
+
+                            <p className="text-gray-600 text-sm">{training.description}</p>
+                        </div>
                     ))}
+
                 </div>
             </Wrapper>
         </>

@@ -3,7 +3,7 @@ import Advantages from "./components/advantages";
 import { Carousel } from "./components/carousel";
 import ContactUs from "./components/contactUs";
 import LogoCarouselPage from "./components/partners";
-import Edudesign from "./components/edudesign.jsx";
+import Edudesign from "./components/okul.jsx";
 import TeachingTech from "./components/techingTech.jsx";
 import Labs from "./components/labs.jsx";
 import Academy from "./components/academy.jsx";
