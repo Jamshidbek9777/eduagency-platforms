@@ -18,7 +18,7 @@ import {LanguageContext} from "../context/language.jsx";
 const EduMaterials = () => {
     const eduMaterials = [
         {
-            title: getText('eMaterial4'),
+            title: getText('eMaterial3'),
             description:
                 getText('eMaterial4'),
             color: "from-blue-500 to-purple-600",

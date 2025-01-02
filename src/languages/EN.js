@@ -334,7 +334,7 @@ export const en = {
     "Kosmosx offers academic guidance, counseling services, and educational opportunities to students applying to universities. We take pride in guiding thousands of students at our Turkey Campus. With us, students receive the best educational support and can benefit from significant discounts during the admission process.",
 
   kosmosxCard1Header: "Space Camp",
-  kosmosxCard2Header: "Cosmic Labs",
+  kosmosxCard2Header: "Cosmic EduProg",
   kosmosxCard3Header: "Activities",
 
   kosmosxCard1Text:

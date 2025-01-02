@@ -59,39 +59,35 @@ const HeroSection = () => {
                         />
                     </div>
 
-                    {/* Contact Box */}
-                    <div className="absolute bottom-[20px] left-0 bg-white shadow-lg rounded-lg px-4 py-3">
-                        <p className="text-sm text-gray-600">{getText('hero4')}</p>
-                        <p className="text-lg font-bold text-red-500">+998 90 277 73 66</p>
-                    </div>
+
                 </div>
 
-                {/* Stats Section */}
-                <div className="w-full  bg-gray-100 py-10 rounded-xl">
-                    <div
-                        className="max-w-7xl mx-auto px-6 lg:px-24 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8 text-center">
-                        {/* Service Stats */}
-                        <div className="flex flex-col items-center">
-                            <span className="text-4xl font-bold text-green-600">20+</span>
-                            <p className="mt-2 text-gray-700">{getText('hero5')}</p>
-                        </div>
-                        {/* Students Stats */}
-                        <div className="flex flex-col items-center">
-                            <span className="text-4xl font-bold text-blue-600">1000+</span>
-                            <p className="mt-2 text-gray-700">{getText('hero6')}</p>
-                        </div>
-                        {/* Partner Institutions */}
-                        <div className="flex flex-col items-center">
-                            <span className="text-4xl font-bold text-red-600">50+</span>
-                            <p className="mt-2 text-gray-700">{getText('hero7')}</p>
-                        </div>
-                        {/* Support Team */}
-                        <div className="flex flex-col items-center">
-                            <span className="text-4xl font-bold text-yellow-600">24/7</span>
-                            <p className="mt-2 text-gray-700">{getText('hero8')}</p>
-                        </div>
-                    </div>
-                </div>
+                {/*/!* Stats Section *!/*/}
+                {/*<div className="w-full  bg-gray-100 py-10 rounded-xl">*/}
+                {/*    <div*/}
+                {/*        className="max-w-7xl mx-auto px-6 lg:px-24 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8 text-center">*/}
+                {/*        /!* Service Stats *!/*/}
+                {/*        <div className="flex flex-col items-center">*/}
+                {/*            <span className="text-4xl font-bold text-green-600">20+</span>*/}
+                {/*            <p className="mt-2 text-gray-700">{getText('hero5')}</p>*/}
+                {/*        </div>*/}
+                {/*        /!* Students Stats *!/*/}
+                {/*        <div className="flex flex-col items-center">*/}
+                {/*            <span className="text-4xl font-bold text-blue-600">1000+</span>*/}
+                {/*            <p className="mt-2 text-gray-700">{getText('hero6')}</p>*/}
+                {/*        </div>*/}
+                {/*        /!* Partner Institutions *!/*/}
+                {/*        <div className="flex flex-col items-center">*/}
+                {/*            <span className="text-4xl font-bold text-red-600">50+</span>*/}
+                {/*            <p className="mt-2 text-gray-700">{getText('hero7')}</p>*/}
+                {/*        </div>*/}
+                {/*        /!* Support Team *!/*/}
+                {/*        <div className="flex flex-col items-center">*/}
+                {/*            <span className="text-4xl font-bold text-yellow-600">24/7</span>*/}
+                {/*            <p className="mt-2 text-gray-700">{getText('hero8')}</p>*/}
+                {/*        </div>*/}
+                {/*    </div>*/}
+                {/*</div>*/}
 
             </div>
         </Wrapper>

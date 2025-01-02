@@ -155,21 +155,21 @@ const Navbar = () => {
             </div>
 
             <div className="flex gap-4 items-center  ">
-<div className={'flex gap-4 items-center hidden sm:flex'}>
+              <div className={'flex gap-4 items-center hidden sm:flex'}>
 
-              <a
-                  href="/about"
-                  className="text-white transition text-base font-bold"
-              >
-                {getText('navbar8')}
-              </a>
-              <a
-                  className="text-white transition text-base font-bold"
-                  href="/contact"
-              >
-                {getText('navbar9')}
-              </a>
-</div>
+                <a
+                    href="/about"
+                    className="text-white transition text-base font-bold"
+                >
+                  {getText('navbar8')}
+                </a>
+                <a
+                    className="text-white transition text-base font-bold"
+                    href="/contact"
+                >
+                  {getText('navbar9')}
+                </a>
+              </div>
 
               <div className="gap-5 hidden lg:flex items-center">
                 <div className="hidden lg:flex">

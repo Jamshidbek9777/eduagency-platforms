@@ -112,9 +112,9 @@ const EducationDesign = () => {
                           >
                             {getText(card.title)}
                           </h3>
-                          <p className="text-gray-600">
-                            {getText(card.description)}
-                          </p>
+                          {/*<p className="text-gray-600">*/}
+                          {/*  {getText(card.description)}*/}
+                          {/*</p>*/}
                         </div>
                     ))}
                   </div>

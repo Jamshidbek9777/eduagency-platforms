@@ -1,14 +1,14 @@
 import "./App.css";
 import Advantages from "./components/advantages";
-import { Carousel } from "./components/carousel";
 import ContactUs from "./components/contactUs";
 import LogoCarouselPage from "./components/partners";
-import Edudesign from "./components/okul.jsx";
-import TeachingTech from "./components/techingTech.jsx";
-import Labs from "./components/labs.jsx";
-import Academy from "./components/academy.jsx";
-import Kosmosx from "./components/kosmosx.jsx";
+import SchoolArchitecture from "./components/schoolArchitecture.jsx";
+import EduTech from "./components/eduTech.jsx";
+import EduProg from "./components/eduProg.jsx";
 import HeroSection from "./components/hero.jsx";
+import EduStrategies from "./components/eduStr.jsx";
+import TeacherTraining from "./components/teacherTraining.jsx";
+import EduMaterials from "./components/eduMaterials.jsx";
 
 function App() {
     return (
@@ -21,15 +21,12 @@ function App() {
                 className="min-h-screen"
             >
                 <HeroSection/>
-                {/*<Carousel className="border-b"/>*/}
-                {/* <WhoWeUs /> */}
-
-                <Edudesign/>
-                <TeachingTech/>
-                <Labs/>
-                {/*<Academy/>*/}
-                {/*<Transfer/>*/}
-                {/*<Kosmosx/>*/}
+                <SchoolArchitecture/>
+                <EduTech/>
+                <EduProg/>
+                <EduStrategies/>
+                <TeacherTraining/>
+                <EduMaterials/>
                 <Advantages/>
                 <ContactUs/>
                 <LogoCarouselPage/>

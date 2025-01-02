@@ -336,7 +336,7 @@ export const tr = {
       "Kosmosx, üniversiteye başvuran öğrencilere akademik rehberlik, danışmanlık hizmetleri ve eğitim fırsatları sunar. Türkiye Kampüsü'nde binlerce öğrenciye rehberlik etmenin gururunu yaşıyoruz. Bizimle birlikte öğrenciler en iyi eğitim desteğini alırken, kabul işlemleri sırasında önemli indirimlerden faydalanabilirler.",
 
   kosmosxCard1Header: "Uzay Kampi",
-  kosmosxCard2Header: "Kosmik Labs",
+  kosmosxCard2Header: "Kosmik EduProg",
   kosmosxCard3Header: "Faaliyetler",
 
   kosmosxCard1Text:

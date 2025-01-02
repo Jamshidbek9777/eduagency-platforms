@@ -6,7 +6,7 @@ import React from "react";
 import Navbar from "./components/navbar.jsx";
 import About from "./pages/about.jsx";
 import Footer from "./components/footer.jsx";
-import TeachingTech from "./pages/teachingTech.jsx";
+import EduTech from "./pages/eduTech.jsx";
 import CosmicServices from "./pages/cosmicServices.jsx";
 import Labaratories from "./pages/labaratories.jsx";
 import Academy from "./pages/academy.jsx";
@@ -22,7 +22,7 @@ import MentaulUp from "./pages/mentalup.jsx";
 import OkulMimari from "./pages/okul.jsx";
 import EgitimTech from "./pages/egitimTech.jsx";
 import EducationPrograms from "./pages/egitimProg.jsx";
-import EducationStrategies from "./pages/egitimModel.jsx";
+import EducationStrategies from "./pages/eduStr.jsx";
 import TeacherTrainings from "./pages/teacherTraining.jsx";
 import EduMaterials from "./pages/eduMaterials.jsx";
 import AcademicTour from "./pages/academicTour.jsx";
@@ -39,7 +39,7 @@ const Root = () => {
                 <Route path="/okul-mimari" element={<OkulMimari/>}/>
                 <Route path="/egitim-tech" element={<EgitimTech/>}/>
                 <Route path={'egitim-program'} element={<EducationPrograms/>}/>
-                <Route path="/teachingTech" element={<TeachingTech/>}/>
+                <Route path="/teachingTech" element={<EduTech/>}/>
                 <Route path="/cosmic-services" element={<CosmicServices/>}/>
                 <Route path="/labaratories" element={<Labaratories/>}/>
                 <Route path="/academy" element={<Academy/>}/>
