@@ -9,32 +9,23 @@ const TechingTech = () => {
     const { selectedLanguage } = useContext(LanguageContext);
     const cardData = [
         {
-            title: "Okul Yönetim Sistemleri",
-            description: `
-      Verimli yönetim, daha iyi sonuçlar: Okul yönetimi sürecinin her aşamasını kolaylaştıran tam entegre sistemler sunuyoruz.
-      Zaman ve kaynak tasarrufu, hızlı erişim ve öğrencilerin gelişim takibini sağlıyoruz.
-    `,
+            title:  getText('eduTech4'),
+            description: getText('eduTech5'),
             icon: "🏫",
         },
         {
-            title: "E-Learning (Eğitim) Platformları",
-            description: `
-      Zengin içerik ve kaynaklar sunarak esnek öğrenme imkânı tanıyoruz. Öğretmen ve öğrenci desteğiyle eğitimi modernize ediyoruz.
-    `,
+            title: getText('eduTech6'),
+            description: getText('eduTech7'),
             icon: "📚",
         },
         {
-            title: "E-Oyunlar (Eğitim Oyunları)",
-            description: `
-      Eğlenceli öğrenme süreçleri sunarak problem çözme becerilerini ve kişiselleştirilmiş oyun deneyimlerini destekliyoruz.
-    `,
+            title: getText('eduTech8'),
+            description: getText('eduTech9'),
             icon: "🎮",
         },
         {
-            title: "E-LMS (Elektronik Öğrenim Yönetim Sistemleri)",
-            description: `
-      Tüm eğitim süreçlerini tek bir platformda yöneterek veri tabanlı karar destek ve gerçek zamanlı ilerleme takibi sağlıyoruz.
-    `,
+            title: getText('eduTech10'),
+            description: getText('eduTech11'),
             icon: "💻",
         },
     ];
@@ -50,6 +41,8 @@ const TechingTech = () => {
                 {/* Services Grid */}
                 <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8 mx-auto mb-10">
                     {cardData.map((service, index) => (
+                        <a href={'egitim-tech'}>
+
                         <div
                             key={index}
                             className="cursor-pointer bg-white shadow-xl rounded-lg p-8 flex flex-col items-center text-center transition-all duration-300 hover:shadow-2xl hover:scale-105"
@@ -60,6 +53,8 @@ const TechingTech = () => {
                             </h3>
 
                         </div>
+                        </a>
+
                     ))}
                 </div>
             </Wrapper>

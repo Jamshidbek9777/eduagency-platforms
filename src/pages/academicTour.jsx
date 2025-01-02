@@ -1,37 +1,41 @@
-import React from "react";
+import React, {useContext} from "react";
 import { FaRocket, FaGlobe, FaGraduationCap, FaUniversity, FaRegBuilding } from "react-icons/fa";
+import {getText} from "../languages/index.js";
+import {LanguageContext} from "../context/language.jsx";
 
-const academicTours = [
-    {
-        title: "Uzay Kampı Seyahati",
-        description:
-            "Uzay Kampı’nda bilim ve teknolojiye dair birçok etkinlik ve keşif sizi bekliyor. Öğrenciler için etkileyici bir deneyim!",
-        icon: <FaRocket />,
-        color: "from-blue-500 to-indigo-600",
-    },
-    {
-        title: "Türkiye'ye Bilim ve Keşif Turu: Geleceği Şekillendiren Öğretmenler İçin Eşsiz Bir Fırsat!",
-        description:
-            "Özbekistan'daki değerli eğitimciler! Öğretmenlik yalnızca bir meslek değil, geleceği inşa eden bir sanattır. Bu sanatı daha ileriye taşımak ve uluslararası düzeyde etkili yöntemlerle donanmak için sizi Türkiye’nin önde gelen bilim, eğitim ve teknoloji merkezlerinde ilham dolu bir keşfe davet ediyoruz!",
-        icon: <FaGlobe />,
-        color: "from-green-400 to-teal-500",
-    },
-    {
-        title: "Türkiye Eğitim ve Okul Yönetim Sistemleri Keşif Turu: Geleceği Yönlendiren Öğretmenler İçin Eşsiz Bir Fırsat!",
-        description:
-            "Özbekistan’dan eğitim sektörünün öncüsü olmak isteyen değerli eğitimciler, sizi Türkiye’deki eğitim dünyasına doğru heyecan verici bir yolculuğa çıkarıyoruz! Bu keşif turu ile öğretim sistemlerine, okul yönetim modüllerine, bilim merkezlerine ve inovatif projelere dokunarak, eğitimde ne kadar büyük bir fark yaratabileceğinizi keşfedeceksiniz.",
-        icon: <FaGraduationCap />,
-        color: "from-yellow-400 to-orange-500",
-    },
-];
+
 
 const AcademicTourPage = () => {
+    const academicTours = [
+        {
+            title: getText('akademikTur3'),
+            description:
+                getText('akademikTur4'),
+            icon: <FaRocket />,
+            color: "from-blue-500 to-indigo-600",
+        },
+        {
+            title: getText('akademikTur5'),
+            description:
+                getText('akademikTur6'),
+            icon: <FaGlobe />,
+            color: "from-green-400 to-teal-500",
+        },
+        {
+            title: getText('akademikTur7'),
+            description:
+                getText('akademikTur8'),
+            icon: <FaGraduationCap />,
+            color: "from-yellow-400 to-orange-500",
+        },
+    ];
+    const { selectedLanguage } = useContext(LanguageContext);
     return (
         <div className="bg-gray-50 py-16 px-4 sm:px-6 lg:px-8 pt-48">
             <div className="max-w-7xl mx-auto text-center">
-                <h2 className="text-4xl font-extrabold text-blue-600 mb-6">Akademik Turlar</h2>
+                <h2 className="text-4xl font-extrabold text-blue-600 mb-6">{getText('akademikTur1')}</h2>
                 <p className="text-gray-600 mb-10">
-                    Geleceği şekillendiren eğitim ve keşif turları ile kariyerinize ilham verin.
+                    {getText('akademikTur2')}
                 </p>
             </div>
 

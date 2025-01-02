@@ -154,7 +154,8 @@ const Navbar = () => {
               </a>
             </div>
 
-            <div className="flex gap-4 items-center ">
+            <div className="flex gap-4 items-center  ">
+<div className={'flex gap-4 items-center hidden sm:flex'}>
 
               <a
                   href="/about"
@@ -168,6 +169,8 @@ const Navbar = () => {
               >
                 {getText('navbar9')}
               </a>
+</div>
+
               <div className="gap-5 hidden lg:flex items-center">
                 <div className="hidden lg:flex">
                   <Dropdown
@@ -297,33 +300,15 @@ const Navbar = () => {
               </div>
               <li onClick={toggleMenu}>
                 <Link
-                    to={"/about"}
-                    className="font-medium block text-base text-center rounded-xl p-4 mb-2.5 cursor-pointer  bg-[#f19c9c] bg-opacity-10"
-                >
-                  {getText("navbar4")}
-                </Link>
-              </li>
-              <li onClick={toggleMenu}>
-                <Link
-                    to={"/edu-design"}
-                    className="font-medium block text-base text-center rounded-xl p-4 mb-2.5 cursor-pointer  bg-[#f19c9c] bg-opacity-10"
-                >
-                  {getText("navbar6")}
-                </Link>
-              </li>
-              {" "}
-              <li onClick={toggleMenu}>
-                <Link
-                    to={"/teachingTech"}
+                    to={"/okul-mimari"}
                     className="font-medium block text-base text-center rounded-xl p-4 mb-2.5 cursor-pointer  bg-[#f19c9c] bg-opacity-10"
                 >
                   {getText("navbar1")}
                 </Link>
               </li>
-              {" "}
               <li onClick={toggleMenu}>
                 <Link
-                    to={"/labaratories"}
+                    to={"/egitim-tech"}
                     className="font-medium block text-base text-center rounded-xl p-4 mb-2.5 cursor-pointer  bg-[#f19c9c] bg-opacity-10"
                 >
                   {getText("navbar2")}
@@ -332,27 +317,53 @@ const Navbar = () => {
               {" "}
               <li onClick={toggleMenu}>
                 <Link
-                    to={"/academy"}
-                    className="font-medium block text-base text-center rounded-xl p-4 mb-2.5 cursor-pointer  bg-[#f19c9c] bg-opacity-10"
-                >
-                  AcademyX
-                </Link>
-              </li>
-              {" "}
-              <li onClick={toggleMenu}>
-                <Link
-                    to={"/transfer"}
+                    to={"/egitim-program"}
                     className="font-medium block text-base text-center rounded-xl p-4 mb-2.5 cursor-pointer  bg-[#f19c9c] bg-opacity-10"
                 >
                   {getText("navbar3")}
                 </Link>
               </li>
+              {" "}
               <li onClick={toggleMenu}>
                 <Link
-                    to={"/cosmic-services"}
+                    to={"/education-strategies"}
                     className="font-medium block text-base text-center rounded-xl p-4 mb-2.5 cursor-pointer  bg-[#f19c9c] bg-opacity-10"
                 >
-                  KosmosX
+                  {getText("navbar4")}
+                </Link>
+              </li>
+              {" "}
+              <li onClick={toggleMenu}>
+                <Link
+                    to={"/teacherTrainings"}
+                    className="font-medium block text-base text-center rounded-xl p-4 mb-2.5 cursor-pointer  bg-[#f19c9c] bg-opacity-10"
+                >
+                  {getText("navbar5")}
+                </Link>
+              </li>
+              {" "}
+              <li onClick={toggleMenu}>
+                <Link
+                    to={"/edu-materials"}
+                    className="font-medium block text-base text-center rounded-xl p-4 mb-2.5 cursor-pointer  bg-[#f19c9c] bg-opacity-10"
+                >
+                  {getText("navbar6")}
+                </Link>
+              </li>
+              <li onClick={toggleMenu}>
+                <Link
+                    to={"/academic-tour"}
+                    className="font-medium block text-base text-center rounded-xl p-4 mb-2.5 cursor-pointer  bg-[#f19c9c] bg-opacity-10"
+                >
+                  {getText("navbar7")}
+                </Link>
+              </li>
+              <li onClick={toggleMenu}>
+                <Link
+                    to={"/about"}
+                    className="font-medium block text-base text-center rounded-xl p-4 mb-2.5 cursor-pointer  bg-[#3089dd] bg-opacity-10"
+                >
+                  {getText("navbar8")}
                 </Link>
               </li>
               <li onClick={toggleMenu}>
@@ -360,23 +371,23 @@ const Navbar = () => {
                     to={"/contact"}
                     className="font-medium block text-base text-center rounded-xl p-4 mb-2.5 cursor-pointer  bg-[#3089dd] bg-opacity-10"
                 >
-                  {getText("navbar5")}
+                  {getText("navbar9")}
                 </Link>
               </li>
-              <div className="w-full">
-                <Dropdown
-                    trigger={'click'}
-                    menu={{
-                      items,
-                    }}
-                >
-                  <a onClick={(e) => e.preventDefault()}>
-                    <Button className={''} color={'primary'} variant={'shadow'}>
-                      Services
-                    </Button>
-                  </a>
-                </Dropdown>
-              </div>
+              {/*<div className="w-full">*/}
+              {/*  <Dropdown*/}
+              {/*      trigger={'click'}*/}
+              {/*      menu={{*/}
+              {/*        items,*/}
+              {/*      }}*/}
+              {/*  >*/}
+              {/*    <a onClick={(e) => e.preventDefault()}>*/}
+              {/*      <Button className={''} color={'primary'} variant={'shadow'}>*/}
+              {/*        Services*/}
+              {/*      </Button>*/}
+              {/*    </a>*/}
+              {/*  </Dropdown>*/}
+              {/*</div>*/}
             </div>
           </div>
         </div>

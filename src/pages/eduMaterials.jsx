@@ -1,4 +1,4 @@
-import React from "react";
+import React, {useContext} from "react";
 import {
     FaTabletAlt,
     FaFlask,
@@ -10,75 +10,79 @@ import {
     FaBookReader,
     FaLaptop,
 } from "react-icons/fa";
+import {getText} from "../languages/index.js";
+import {LanguageContext} from "../context/language.jsx";
 
-const eduMaterials = [
-    {
-        title: "Dijital Eğitim İçerikleri",
-        description:
-            "Bilgisayar ve tabletlerde kullanılabilecek, etkileşimli videolar, simülasyonlar ve online testlerden oluşur.",
-        color: "from-blue-500 to-purple-600",
-        icon: <FaTabletAlt />,
-    },
-    {
-        title: "Deney Setleri ve STEM Malzemeleri",
-        description:
-            "Fen bilimleri, kimya ve fizik konularında öğrencilerin öğrenirken deney yapabilmelerini sağlayan setlerdir.",
-        color: "from-green-400 to-teal-500",
-        icon: <FaFlask />,
-    },
-    {
-        title: "Eğitici Oyunlar ve Zekâ Kartları",
-        description:
-            "Öğrenirken eğlenmeyi hedefleyen bu materyaller, öğrencilerin yaratıcılıklarını artırır.",
-        color: "from-yellow-400 to-orange-500",
-        icon: <FaPuzzlePiece />,
-    },
-    {
-        title: "Testler ve Değerlendirme Araçları",
-        description:
-            "Öğrencilerin akademik seviyelerini ölçmek için hazır testler, optik okuma formları ve değerlendirme şemaları.",
-        color: "from-pink-500 to-red-500",
-        icon: <FaCheckCircle />,
-    },
-    {
-        title: "Robotik Kodlama Malzemeleri",
-        description:
-            "Mikrodenetleyiciler, sensörler, devre setleri ve kodlama yazılımı gibi materyaller içerir.",
-        color: "from-indigo-400 to-blue-600",
-        icon: <FaRobot />,
-    },
-    {
-        title: "Değerler Eğitimi Materyalleri",
-        description:
-            "Öğrencilere ahlaki ve sosyal değerler kazandırmayı hedefleyen, hikâyeler, görseller ve oyunlar içeren materyaller.",
-        color: "from-gray-400 to-gray-600",
-        icon: <FaHandsHelping />,
-    },
-    {
-        title: "Eğitimcilere Yönelik Materyaller",
-        description:
-            "Öğretmenlerin sınıf yönetimi, ölçme değerlendirme ve özel öğretim ihtiyaçlarını karşılamak için rehber kitaplar.",
-        color: "from-yellow-400 to-orange-500",
-        icon: <FaChalkboardTeacher />,
-    },
-    {
-        title: "E-Öğrenme Platform Abonelikleri",
-        description:
-            "Online platformlara abonelik seçenekleri sunar. E-kitaplar, dijital ders içerikleri ve etkileşimli aktiviteler.",
-        color: "from-blue-500 to-purple-600",
-        icon: <FaLaptop />,
-    },
-];
+
 
 const EduMaterials = () => {
+    const eduMaterials = [
+        {
+            title: getText('eMaterial4'),
+            description:
+                getText('eMaterial4'),
+            color: "from-blue-500 to-purple-600",
+            icon: <FaTabletAlt />,
+        },
+        {
+            title: getText('eMaterial5'),
+            description:
+                getText('eMaterial6'),
+            color: "from-green-400 to-teal-500",
+            icon: <FaFlask />,
+        },
+        {
+            title: getText('eMaterial7'),
+            description:
+                getText('eMaterial8'),
+            color: "from-yellow-400 to-orange-500",
+            icon: <FaPuzzlePiece />,
+        },
+        {
+            title: getText('eMaterial9'),
+            description:
+                getText('eMaterial10'),
+            color: "from-pink-500 to-red-500",
+            icon: <FaCheckCircle />,
+        },
+        {
+            title: getText('eMaterial11'),
+            description:
+                getText('eMaterial12'),
+            color: "from-indigo-400 to-blue-600",
+            icon: <FaRobot />,
+        },
+        {
+            title: getText('eMaterial13'),
+            description:
+                getText('eMaterial14'),
+            color: "from-gray-400 to-gray-600",
+            icon: <FaHandsHelping />,
+        },
+        {
+            title: getText('eMaterial15'),
+            description:
+                getText('eMaterial16'),
+            color: "from-yellow-400 to-orange-500",
+            icon: <FaChalkboardTeacher />,
+        },
+        {
+            title: getText('eMaterial17'),
+            description:
+                getText('eMaterial18'),
+            color: "from-blue-500 to-purple-600",
+            icon: <FaLaptop />,
+        },
+    ];
+    const { selectedLanguage } = useContext(LanguageContext);
     return (
         <div className="bg-gray-50 py-16 px-4 sm:px-6 lg:px-8 pt-48">
             <div className="max-w-7xl mx-auto text-center">
                 <h2 className="text-4xl font-extrabold text-blue-600 mb-6">
-                    Eğitim Materyalleri
+                    {getText('eMaterial1')}
                 </h2>
                 <p className="text-gray-600 mb-10">
-                    Öğrenciler ve öğretmenler için özel olarak hazırlanmış eğitim materyalleri.
+                    {getText('eMaterial2')}
                 </p>
             </div>
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 max-w-7xl mx-auto">

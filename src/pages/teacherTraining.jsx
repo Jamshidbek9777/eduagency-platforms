@@ -1,4 +1,4 @@
-import React from "react";
+import React, {useContext} from "react";
 import {
     FaBrain,
     FaGlobe,
@@ -13,104 +13,107 @@ import {
     FaUsers,
     FaChartLine,
 } from "react-icons/fa";
+import {getText} from "../languages/index.js";
+import {LanguageContext} from "../context/language.jsx";
 
-const teacherTrainings = [
-    {
-        title: "Beyin ve Öğrenme",
-        description:
-            "Beyin temelli öğrenme yaklaşımlarını tanıtarak, öğrenme süreçlerini anlamaya odaklanır.",
-        color: "from-blue-500 to-purple-600",
-        icon: <FaBrain/>,
-    },
-    {
-        title: "Global Teacher",
-        description:
-            "Küresel eğitim trendlerini ve kültürel yaklaşımları öğretmenlere tanıtan bir program.",
-        color: "from-green-400 to-teal-500",
-        icon: <FaGlobe/>,
-    },
-    {
-        title: "Dikkat Geliştirme Teknikleri",
-        description:
-            "Öğrencilerin dikkat sürelerini artırmaya yönelik stratejik teknikler.",
-        color: "from-yellow-400 to-orange-500",
-        icon: <FaBullseye/>,
-    },
-    {
-        title: "Oyunlaştırma (Gamification)",
-        description:
-            "Ders içeriklerini oyun mekaniğiyle entegre ederek öğrenmeyi eğlenceli hale getiren bir yöntem.",
-        color: "from-pink-500 to-red-500",
-        icon: <FaGamepad/>,
-    },
-    {
-        title: "Etkili Öğretim Teknikleri",
-        description:
-            "Yenilikçi ve kanıta dayalı öğretim stratejilerini tanıtarak öğrenmeyi güçlendiren eğitim.",
-        color: "from-indigo-400 to-blue-600",
-        icon: <FaChalkboardTeacher/>,
-    },
-    {
-        title: "Öğrenciyi Tanıma Teknikleri",
-        description:
-            "Öğrencilerin bireysel farklılıklarını ve ihtiyaçlarını anlamaya yönelik yöntemler.",
-        color: "from-gray-400 to-gray-600",
-        icon: <FaUserCheck/>,
-    },
-    {
-        title: "Eğitim Teknolojileri",
-        description:
-            "Dijital araçları ve teknolojileri sınıfta etkin kullanmayı öğreten bir program.",
-        color: "from-yellow-400 to-orange-500",
-        icon: <FaLaptopCode/>,
-    },
-    {
-        title: "E-Portfolio Kullanımı",
-        description:
-            "Öğrencilerin başarılarını elektronik ortamda belgelemeyi öğreten bir program.",
-        color: "from-blue-500 to-purple-600",
-        icon: <FaFolder/>,
-    },
-    {
-        title: "Hikâye Anlatımı (Storytelling)",
-        description:
-            "Ders içeriklerini hikâyelerle daha etkili hale getirme teknikleri.",
-        color: "from-green-400 to-teal-500",
-        icon: <FaBook/>,
-    },
-    {
-        title: "Eğitimde Rehberlik Sistemi",
-        description:
-            "Öğrencilerin akademik, sosyal ve duygusal gelişimlerini izleme becerisi kazandırır.",
-        color: "from-green-400 to-teal-500",
-        icon: <FaUserTie/>,
-    },
-    {
-        title: "Sınıf Yönetimi",
-        description:
-            "Sınıfta düzen ve disiplin sağlamanın ötesinde, öğrenci katılımını artırma yollarını öğretir.",
-        color: "from-green-400 to-teal-500",
-        icon: <FaUsers/>,
-    },
-    {
-        title: "Eğitimde Veriye Dayalı Karar Verme",
-        description:
-            "Sınıf içi kararları şekillendirirken veri analizini kullanmayı öğretir.",
-        color: "from-green-400 to-teal-500",
-        icon: <FaChartLine/>,
-    },
-];
+
 
 const TeacherTrainings = () => {
+    const teacherTrainings = [
+        {
+            title: getText('tTrain3'),
+            description:
+                getText('tTrain4'),
+            color: "from-blue-500 to-purple-600",
+            icon: <FaBrain/>,
+        },
+        {
+            title: getText('tTrain5'),
+            description:
+                getText('tTrain6'),
+            color: "from-green-400 to-teal-500",
+            icon: <FaGlobe/>,
+        },
+        {
+            title: getText('tTrain7'),
+            description:
+                getText('tTrain8'),
+            color: "from-yellow-400 to-orange-500",
+            icon: <FaBullseye/>,
+        },
+        {
+            title: getText('tTrain9'),
+            description:
+                getText('tTrain10'),
+            color: "from-pink-500 to-red-500",
+            icon: <FaGamepad/>,
+        },
+        {
+            title: getText('tTrain11'),
+            description:
+                getText('tTrain12'),
+            color: "from-indigo-400 to-blue-600",
+            icon: <FaChalkboardTeacher/>,
+        },
+        {
+            title: getText('tTrain13'),
+            description:
+                getText('tTrain14'),
+            color: "from-gray-400 to-gray-600",
+            icon: <FaUserCheck/>,
+        },
+        {
+            title: getText('tTrain15'),
+            description:
+                getText('tTrain16'),
+            color: "from-yellow-400 to-orange-500",
+            icon: <FaLaptopCode/>,
+        },
+        {
+            title: getText('tTrain17'),
+            description:
+                getText('tTrain18'),
+            color: "from-blue-500 to-purple-600",
+            icon: <FaFolder/>,
+        },
+        {
+            title: getText('tTrain19'),
+            description:
+                getText('tTrain20'),
+            color: "from-green-400 to-teal-500",
+            icon: <FaBook/>,
+        },
+        {
+            title: getText('tTrain21'),
+            description:
+                getText('tTrain22'),
+            color: "from-green-400 to-teal-500",
+            icon: <FaUserTie/>,
+        },
+        {
+            title: getText('tTrain23'),
+            description:
+                getText('tTrain24'),
+            color: "from-green-400 to-teal-500",
+            icon: <FaUsers/>,
+        },
+        {
+            title: getText('tTrain25'),
+            description:
+                getText('tTrain26'),
+            color: "from-green-400 to-teal-500",
+            icon: <FaChartLine/>,
+        },
+    ];
+    const { selectedLanguage } = useContext(LanguageContext);
     return (
         <div className="bg-gray-50 py-16 px-4 sm:px-6 lg:px-8 pt-48">
             <div className="max-w-7xl mx-auto text-center">
                 <h2 className="text-4xl font-extrabold text-blue-600 mb-6">
-                    Öğretmen Eğitimleri
+                    {getText('tTrain1')}
                 </h2>
                 <p className="text-gray-600 mb-10">
-                    Öğretmenlerin gelişimine yönelik özel olarak hazırlanmış eğitim
-                    programlarımız.
+                    {getText('tTrain2')}
                 </p>
             </div>
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 max-w-7xl mx-auto">

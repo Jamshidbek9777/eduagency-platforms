@@ -4,28 +4,29 @@ import {getText} from "../languages/index.js";
 import {useContext} from "react";
 import {LanguageContext} from "../context/language.jsx";
 
-const cardsData = [
-    {
-        title: getText('okul3'),
-        description: [
-            getText('okul4'),
-        ],
-        icon: <FaBuilding className="text-6xl text-yellow-400" />,
-        image: "/img/okulcard1.jpg",
-        gradient: "from-blue-500 to-indigo-500",
-    },
-    {
-        title: getText('okul5'),
-        description: [
-            getText('okul6'),
-        ],
-        icon: <FaChalkboardTeacher className="text-6xl text-red-600" />,
-        image: "/img/okulcard2.webp", // Example image
-        gradient: "from-green-400 to-teal-500",
-    },
-];
 
 const Edudesign = () => {
+
+    const cardsData = [
+        {
+            title: getText('okul3'),
+            description: [
+                getText('okul4'),
+            ],
+            icon: <FaBuilding className="text-6xl text-yellow-400" />,
+            image: "/img/okulcard1.jpg",
+            gradient: "from-blue-500 to-indigo-500",
+        },
+        {
+            title: getText('okul5'),
+            description: [
+                getText('okul6'),
+            ],
+            icon: <FaChalkboardTeacher className="text-6xl text-red-600" />,
+            image: "/img/okulcard2.webp", // Example image
+            gradient: "from-green-400 to-teal-500",
+        },
+    ];
     const { selectedLanguage } = useContext(LanguageContext);
     return (
         <Wrapper>
@@ -68,7 +69,13 @@ const Edudesign = () => {
 
                                     {/* Overlay Text (Initially hidden, becomes visible on hover) */}
                                     <div className="absolute inset-0 flex items-center justify-center text-white opacity-0 group-hover:opacity-100 transition-opacity duration-300 bg-black bg-opacity-70 rounded-xl">
-                                        <p className="text-lg text-black p-2 z-40 rounded-xl cursor-pointer font-bold bg-yellow-300">Click to See More</p>
+                                        <p className="text-lg text-black p-2 z-40 rounded-xl cursor-pointer font-bold bg-yellow-300">
+                                            <a href={'/okul-mimari'}>
+                                                {getText('sliderButton')}
+
+                                            </a>
+                                        </p>
+
                                     </div>
                                 </div>
                             ))}
