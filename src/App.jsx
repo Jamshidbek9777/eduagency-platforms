@@ -9,6 +9,7 @@ import HeroSection from "./components/hero.jsx";
 import EduStrategies from "./components/eduStr.jsx";
 import TeacherTraining from "./components/teacherTraining.jsx";
 import EduMaterials from "./components/eduMaterials.jsx";
+import AkademikTour from "./components/akademikTour.jsx";
 
 function App() {
     return (
@@ -27,6 +28,7 @@ function App() {
                 <EduStrategies/>
                 <TeacherTraining/>
                 <EduMaterials/>
+                <AkademikTour/>
                 <Advantages/>
                 <ContactUs/>
                 <LogoCarouselPage/>
