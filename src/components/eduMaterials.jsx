@@ -7,7 +7,7 @@ import {
     FaFlask,
     FaGlobe,
     FaPaintBrush,
-    FaProjectDiagram, FaPuzzlePiece,
+    FaProjectDiagram, FaPuzzlePiece, FaRegArrowAltCircleRight,
     FaTabletAlt
 } from "react-icons/fa";
 import React, {useContext} from "react";
@@ -45,6 +45,15 @@ const EduMaterials = () => {
                     <h2 className="text-4xl font-bold text-gray-800 tracking-tight text-center mb-4">
                         {getText('navbar6')}
                     </h2>
+                    <a
+                        href="/edu-materials"
+                        className="flex items-center text-gray-600 hover:text-yellow-500 transition duration-300"
+                    >
+                        <FaRegArrowAltCircleRight
+                            size={35}
+                            className="ml-2 transform group-hover:translate-x-1 transition-transform duration-300 hover:rotate-45"
+                        />
+                    </a>
                 </div>
                 {/* Cards Section */}
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mb-20 ">

@@ -1,6 +1,14 @@
 import Wrapper from "../layout/wrapper.jsx";
 import { getText } from "../languages/index.js";
-import {FaAtom, FaBrain, FaBullseye, FaGlobe, FaPaintBrush, FaProjectDiagram} from "react-icons/fa";
+import {
+    FaAtom,
+    FaBrain,
+    FaBullseye,
+    FaGlobe,
+    FaPaintBrush,
+    FaProjectDiagram,
+    FaRegArrowAltCircleRight
+} from "react-icons/fa";
 import React, {useContext} from "react";
 import {LanguageContext} from "../context/language.jsx";
 
@@ -34,8 +42,17 @@ const TeacherTraining = () => {
             <Wrapper>
                 <div className={'flex justify-between items-center'}>
                     <h2 className="text-4xl font-bold text-gray-800 tracking-tight text-center mb-4">
-                        {getText('navbar3')}
+                        {getText('navbar5')}
                     </h2>
+                    <a
+                        href="/teacherTrainings"
+                        className="flex items-center text-gray-600 hover:text-yellow-500 transition duration-300"
+                    >
+                        <FaRegArrowAltCircleRight
+                            size={35}
+                            className="ml-2 transform group-hover:translate-x-1 transition-transform duration-300 hover:rotate-45"
+                        />
+                    </a>
                 </div>
                 {/* Cards Section */}
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mb-20 ">

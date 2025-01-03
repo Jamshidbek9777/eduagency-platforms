@@ -3,6 +3,7 @@ import { getText } from "../languages/index.js";
 import React, { useContext } from "react";
 import { LanguageContext } from "../context/language.jsx";
 import {useNavigate} from "react-router-dom";
+import {FaRegArrowAltCircleRight} from "react-icons/fa";
 
 const AkademikTour = () => {
     const { selectedLanguage } = useContext(LanguageContext);
@@ -33,10 +34,19 @@ const AkademikTour = () => {
 
     return (
         <Wrapper>
-            <div className=" mb-10">
+            <div className=" flex justify-between items-center mb-10">
                 <h2 className="text-4xl font-bold text-gray-800 tracking-tight">
                     {getText("navbar7")}
                 </h2>
+                <a
+                    href="/akademic-tour"
+                    className="flex items-center text-gray-600 hover:text-yellow-500 transition duration-300"
+                >
+                    <FaRegArrowAltCircleRight
+                        size={35}
+                        className="ml-2 transform group-hover:translate-x-1 transition-transform duration-300 hover:rotate-45"
+                    />
+                </a>
             </div>
 
             {/* Cards Section */}
@@ -47,7 +57,7 @@ const AkademikTour = () => {
                         className="cursor-pointer bg-white rounded-xl p-6 shadow-md hover:shadow-xl hover:scale-105 transform transition-all duration-300"
                         onClick={() => navigate('/academic-tour')}
                     >
-                        <img
+                    <img
                             src={program.image}
                             alt={program.title}
                             className="w-full h-40 object-cover rounded-lg mb-4"

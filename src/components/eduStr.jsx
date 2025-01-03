@@ -1,6 +1,14 @@
 import Wrapper from "../layout/wrapper.jsx";
 import { getText } from "../languages/index.js";
-import {FaAtom, FaFolderOpen, FaLightbulb, FaPaintBrush, FaProjectDiagram, FaUsers} from "react-icons/fa";
+import {
+    FaAtom,
+    FaFolderOpen,
+    FaLightbulb,
+    FaPaintBrush,
+    FaProjectDiagram,
+    FaRegArrowAltCircleRight,
+    FaUsers
+} from "react-icons/fa";
 import React, {useContext} from "react";
 import {LanguageContext} from "../context/language.jsx";
 
@@ -42,6 +50,15 @@ const EduStrategies = () => {
                         {/*{getText('navbar3')}*/}
                         Ta'lim strategiyalari
                     </h2>
+                    <a
+                        href="/education-strategies"
+                        className="flex items-center text-gray-600 hover:text-yellow-500 transition duration-300"
+                    >
+                        <FaRegArrowAltCircleRight
+                            size={35}
+                            className="ml-2 transform group-hover:translate-x-1 transition-transform duration-300 hover:rotate-45"
+                        />
+                    </a>
                 </div>
                 {/* Cards Section */}
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mb-20">

@@ -19,7 +19,7 @@ const EgitimTech = () => {
         {
             title: getText("eduTech8"),
             description: getText("eduTech9"),
-            images: ["/img/mentalup.webp", "/img/0.jpg"],
+            images: [ "/img/0.jpg"],
             icon: "🎮",
         },
         {
@@ -62,7 +62,7 @@ const EgitimTech = () => {
                     {services.map((service, index) => (
                         <div
                             key={index}
-                            className={`flex flex-col lg:flex-row items-center gap-8 ${
+                            className={`flex flex-col lg:flex-row items-center gap-8 py-4 border-b-1 border-t-1 ${
                                 index % 2 === 1 ? "lg:flex-row-reverse" : ""
                             }`}
                         >
@@ -76,7 +76,7 @@ const EgitimTech = () => {
                             </div>
 
                             {/* Image Content */}
-                            <div className="lg:w-1/2 grid grid-cols-2 gap-4">
+                            <div className="lg:w-1/2 grid grid-cols-1 gap-4">
                                 {service.images.map((image, imgIndex) => (
                                     <img
                                         key={imgIndex}

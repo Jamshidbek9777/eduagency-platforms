@@ -1,117 +1,100 @@
-import  { useContext, useEffect } from "react";
-import Wrapper from "../layout/wrapper";
-import ContactUs from "../components/contactUs";
-import AOS from "aos";
-import "aos/dist/aos.css";
+import React, { useContext } from "react";
 import { getText } from "../languages/index.js";
 import { LanguageContext } from "../context/language.jsx";
-import Helmet from "../components/helmet.jsx";
 
-const EduTech = () => {
-  const { selectedLanguage } = useContext(LanguageContext);
-
-  useEffect(() => {
-    AOS.init();
-  }, []);
-
-  const cardData = [
+const EgitimTech = () => {
+  const services = [
     {
-      href: "/k12net",
-      imgSrc: "/img/k12net.png",
-      imgAlt: "k12net",
-      title: "k12net",
-      description: getText("teachingTechCardText1"),
+      title: getText("eduTech4"),
+      description: getText("eduTech5"),
+      images: ["/img/k12net.png"],
+      icon: "🏫",
     },
     {
-      href: "/okulaile",
-      imgSrc: "/img/okulaile.png",
-      imgAlt: "Okulaile",
-      title: "Okulaile",
-      description: getText("teachingTechCardText2"),
+      title: getText("eduTech6"),
+      description: getText("eduTech7"),
+      images: ["/img/okulaile.png"],
+      icon: "📚",
     },
     {
-      href: "/mental-up",
-      imgSrc: "/img/mentalup.webp",
-      imgAlt: "Mentalup",
-      title: "Mentalup",
-      description: getText("teachingTechCardText3"),
+      title: getText("eduTech8"),
+      description: getText("eduTech9"),
+      images: ["/img/mentalup.webp", "/img/0.jpg"],
+      icon: "🎮",
     },
     {
-      href: "https://kosmosx.uz/#/online-platforms",
-      imgSrc: "/img/futureast.png",
-      imgAlt: "Future astronaut",
-      title: "Future astronaut",
-      description: getText("teachingTechCardText4"),
+      title: getText("eduTech10"),
+      description: getText("eduTech11"),
+      images: ["/img/vedubox_logo.svg"],
+      icon: "💻",
     },
   ];
 
-  return (
-      <>
-        <Helmet
-            title={getText("AboutPageTitle") || "Teaching Technologies"}
-            description={
-                getText("AboutPageDesc") || "Learn more about our services."
-            }
-            link="/teachingTech"
-            keywords="about, EduAgency, Uzbekistan, education"
-        />
-        <div
-            style={{
-              background:
-                  "transparent linear-gradient(180deg, #d5f0f7 0%, #ffffff 100%) 0% 0% no-repeat padding-box",
-            }}
-            className="min-h-screen"
-        >
-          <Wrapper>
-            <div data-aos="fade-up" className="pt-40 flex flex-col items-center">
-              <div className="bg-white px-8 py-10 lg:py-1 rounded-3xl shadow-lg flex flex-col md:flex-row items-center gap-10 w-full mx-6 mb-12 justify-between">
-                <div className="flex-1">
-                  <h1 className="text-4xl md:text-5xl font-bold text-[#e63f38] mb-6">
-                    {getText("teachingTechHeader")}
-                  </h1>
-                  <p className="text-gray-700 text-lg leading-relaxed">
-                    {getText("teachingTechDesc")}
-                  </p>
-                </div>
-                <div className="">
-                  <img
-                      src="/img/teachingTechpic.png"
-                      alt="About Us"
-                      className="rounded-xl w-[450px]"
-                  />
-                </div>
-              </div>
+  const { selectedLanguage } = useContext(LanguageContext);
 
-              <div
-                  data-aos="fade-up"
-                  className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 py-10"
-              >
-                {cardData.map((card, index) => (
-                    <a key={index} href={card.href}>
-                      <div className="cursor-pointer bg-white p-6 rounded-xl shadow-lg hover:shadow-2xl transition-shadow duration-300 h-full flex flex-col">
-                        <div className="flex justify-center mb-4">
-                          <img
-                              src={card.imgSrc}
-                              alt={card.imgAlt}
-                              className="h-16 object-contain"
-                          />
-                        </div>
-                        <h1 className="text-xl font-semibold text-gray-800 text-center mb-2">
-                          {card.title}
-                        </h1>
-                        <p className="text-gray-600 text-center text-sm flex-grow">
-                          {card.description}
-                        </p>
-                      </div>
-                    </a>
-                ))}
-              </div>
-            </div>
-            <ContactUs />
-          </Wrapper>
+  return (
+      <div className="max-w-7xl mx-auto px-6 py-12 font-sans pt-48 space-y-16">
+        {/* Hero Section */}
+        <div className="relative bg-cover bg-center h-[500px] rounded-3xl shadow-xl overflow-hidden">
+          <div
+              className="absolute inset-0 bg-gradient-to-b from-black/80 to-transparent flex flex-col justify-center items-center"
+              style={{ backgroundImage: 'url("/img/edutechbg.jpg")' }}
+          >
+            <h1 className="text-6xl font-extrabold text-white text-center drop-shadow-md">
+              {getText("eduTech1")}
+            </h1>
+            <button className="mt-6 px-6 py-3 bg-blue-600 text-white font-semibold rounded-lg hover:bg-blue-700 shadow-lg">
+              {getText("ctaButton")} {/* Add call-to-action */}
+            </button>
+          </div>
         </div>
-      </>
+
+        {/* Introduction Section */}
+        <div className="text-center space-y-6">
+          <h2 className="text-4xl font-bold text-gray-800">
+            {getText("eduTech2")}
+          </h2>
+          <p className="text-lg text-gray-600 leading-relaxed max-w-3xl mx-auto">
+            {getText("eduTech3")}
+          </p>
+        </div>
+
+        {/* Services Section */}
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10">
+          {services.map((service, index) => (
+              <div
+                  key={index}
+                  className="bg-white rounded-3xl shadow-lg hover:shadow-2xl transition-all transform hover:scale-105 overflow-hidden flex flex-col"
+              >
+                {/* Icon and Title */}
+                <div className="p-6 flex items-center space-x-4">
+                  <span className="text-5xl text-blue-500">{service.icon}</span>
+                  <h3 className="text-xl font-bold text-gray-800">
+                    {service.title}
+                  </h3>
+                </div>
+
+                {/* Description */}
+                <p className="px-6 text-gray-600 flex-grow">
+                  {service.description}
+                </p>
+
+                {/* Images */}
+                <div className="grid grid-cols-2 gap-2 mt-4 px-6 pb-6">
+                  {service.images.map((image, imgIndex) => (
+                      <img
+                          key={imgIndex}
+                          src={image}
+                          alt={`Service ${index + 1} Image ${imgIndex + 1}`}
+                          className="w-full h-32 object-cover rounded-xl shadow-md"
+                      />
+                  ))}
+                </div>
+              </div>
+          ))}
+        </div>
+      </div>
   );
 };
 
-export default EduTech;
+export default EgitimTech;
