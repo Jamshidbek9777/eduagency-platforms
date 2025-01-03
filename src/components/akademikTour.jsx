@@ -39,7 +39,7 @@ const AkademikTour = () => {
                     {getText("navbar7")}
                 </h2>
                 <a
-                    href="/akademic-tour"
+                    href="/academic-tour"
                     className="flex items-center text-gray-600 hover:text-yellow-500 transition duration-300"
                 >
                     <FaRegArrowAltCircleRight
