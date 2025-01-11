@@ -17,13 +17,7 @@ import {LanguageContext} from "../context/language.jsx";
 
 const EduMaterials = () => {
     const eduMaterials = [
-        {
-            title: getText('eMaterial3'),
-            description:
-                getText('eMaterial4'),
-            color: "from-blue-500 to-purple-600",
-            icon: <FaTabletAlt />,
-        },
+       
         {
             title: getText('eMaterial5'),
             description:
@@ -31,20 +25,7 @@ const EduMaterials = () => {
             color: "from-green-400 to-teal-500",
             icon: <FaFlask />,
         },
-        {
-            title: getText('eMaterial7'),
-            description:
-                getText('eMaterial8'),
-            color: "from-yellow-400 to-orange-500",
-            icon: <FaPuzzlePiece />,
-        },
-        {
-            title: getText('eMaterial9'),
-            description:
-                getText('eMaterial10'),
-            color: "from-pink-500 to-red-500",
-            icon: <FaCheckCircle />,
-        },
+       
         {
             title: getText('eMaterial11'),
             description:
@@ -52,20 +33,7 @@ const EduMaterials = () => {
             color: "from-indigo-400 to-blue-600",
             icon: <FaRobot />,
         },
-        {
-            title: getText('eMaterial13'),
-            description:
-                getText('eMaterial14'),
-            color: "from-gray-400 to-gray-600",
-            icon: <FaHandsHelping />,
-        },
-        {
-            title: getText('eMaterial15'),
-            description:
-                getText('eMaterial16'),
-            color: "from-yellow-400 to-orange-500",
-            icon: <FaChalkboardTeacher />,
-        },
+       
         {
             title: getText('eMaterial17'),
             description:
