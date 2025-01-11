@@ -7,15 +7,10 @@ const EgitimTech = () => {
     {
       title: getText("eduTech4"),
       description: getText("eduTech5"),
-      images: ["/img/k12net.png"],
+      images: ["/img/k12net.png", '/img/okulaile.png'],
       icon: "🏫",
     },
-    {
-      title: getText("eduTech6"),
-      description: getText("eduTech7"),
-      images: ["/img/okulaile.png"],
-      icon: "📚",
-    },
+   
     {
       title: getText("eduTech8"),
       description: getText("eduTech9"),
