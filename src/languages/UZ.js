@@ -1,5 +1,5 @@
 export const uz = {
-  navbar1: "Maktab Arxitekturasi",
+  navbar1: "Ta'lim dizayni",
   navbar2: "Ta'lim Texnologiyalari",
   navbar3: "Ta'lim Dasturlari",
   navbar4: "Ta'lim Strategiyalari",
@@ -41,7 +41,7 @@ export const uz = {
   eduTech1: "EduAgency Ta’limda Mukammallik Uchun Maktab Arxitekturasi va Dizayn Xizmatlari",
   eduTech2: "Ta’lim Texnologiyalari Bilan Kelajakni Shakllantiramiz",
   eduTech3: "Ta’lim texnologiyalari orqali maktablarda raqamli o‘zgarishlarni qo‘llab-quvvatlab, yanada samarali va ta’sirli jarayonlarni taqdim etamiz.",
-  eduTech4: "Maktab Boshqaruv Tizimlari",
+  eduTech4: "Boshqaruv Tizimlari",
   eduTech5: "Samarali boshqaruv, yaxshi natijalar: Maktab boshqaruvi jarayonining har bir bosqichini osonlashtiruvchi to‘liq integratsiyalangan tizimlar taqdim etamiz.\n      Vaqt va resurslarni tejash, tezkor kirish va o‘quvchilarning rivojlanishini kuzatishni ta’minlaymiz.",
   eduTech6: "E-Learning Platformalari",
   eduTech7: "Boy kontent va manbalar taqdim etib, moslashuvchan o‘qish imkoniyatlarini yaratamiz. O‘qituvchi va o‘quvchi qo‘llab-quvvatlash bilan ta’limni modernizatsiya qilamiz.",

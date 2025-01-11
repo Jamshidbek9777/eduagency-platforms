@@ -15,14 +15,7 @@ const EducationStrategies = () => {
             gradient: "bg-gradient-to-r from-blue-500 to-purple-600",
             image: "/img/ss.jpg", // Example image
         },
-        {
-            title: getText('eStr5'),
-            description:
-                getText('eStr6'),
-            icon: <FaUsers />,
-            gradient: "bg-gradient-to-r from-green-400 to-teal-500",
-            image: "/img/ss.jpg", // Example image
-        },
+       
         {
             title: getText('eStr7'),
             description:
@@ -39,14 +32,7 @@ const EducationStrategies = () => {
             gradient: "bg-gradient-to-r from-red-400 to-pink-500",
             image: "/img/flipped.jpg", // Example image
         },
-        {
-            title: getText('eStr11'),
-            description:
-                getText('eStr12'),
-            icon: <FaBook />,
-            gradient: "bg-gradient-to-r from-indigo-500 to-blue-400",
-            image: "/img/storytelling.jpg", // Example image
-        },
+        
         {
             title: getText('eStr13'),
             description:
@@ -55,14 +41,7 @@ const EducationStrategies = () => {
             gradient: "bg-gradient-to-r from-pink-500 to-purple-600",
             image: "/img/styles.jpg", // Example image
         },
-        {
-            title: getText('eStr15'),
-            description:
-                getText('eStr16'),
-            icon: <FaFlask />,
-            gradient: "bg-gradient-to-r from-green-400 to-blue-500",
-            image: "/img/bigep.jpg", // Example image
-        },
+        
         {
             title: getText('eStr17'),
             description:

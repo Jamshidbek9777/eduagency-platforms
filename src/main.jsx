@@ -26,6 +26,7 @@ import EducationStrategies from "./pages/eduStr.jsx";
 import TeacherTrainings from "./pages/teacherTraining.jsx";
 import EduMaterials from "./pages/eduMaterials.jsx";
 import AcademicTour from "./pages/academicTour.jsx";
+import KindergardensPage from "./pages/kindergardens.jsx";
 const Root = () => {
   return (
       <>
@@ -53,6 +54,7 @@ const Root = () => {
                 <Route path="/teacherTrainings" element={<TeacherTrainings/>}/>
                 <Route path={'/edu-materials'} element={<EduMaterials/>}/>
                 <Route path={'/academic-tour'} element={<AcademicTour/>}/>
+                <Route path={'/kindergardens'} element={<KindergardensPage/>} />
               </Routes>
             </BrowserRouter>
             <Footer/>

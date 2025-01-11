@@ -1,5 +1,5 @@
 export const en = {
-  navbar1: "School Architecture",
+  navbar1: "Education deseign",
   navbar2: "Educational Technologies",
   navbar3: "Educational Programs",
   navbar4: "Educational Strategies",

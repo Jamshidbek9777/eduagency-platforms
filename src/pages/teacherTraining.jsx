@@ -27,13 +27,7 @@ const TeacherTrainings = () => {
             color: "from-blue-500 to-purple-600",
             icon: <FaBrain/>,
         },
-        {
-            title: getText('tTrain5'),
-            description:
-                getText('tTrain6'),
-            color: "from-green-400 to-teal-500",
-            icon: <FaGlobe/>,
-        },
+      
         {
             title: getText('tTrain7'),
             description:
@@ -76,13 +70,7 @@ const TeacherTrainings = () => {
             color: "from-blue-500 to-purple-600",
             icon: <FaFolder/>,
         },
-        {
-            title: getText('tTrain19'),
-            description:
-                getText('tTrain20'),
-            color: "from-green-400 to-teal-500",
-            icon: <FaBook/>,
-        },
+        
         {
             title: getText('tTrain21'),
             description:
