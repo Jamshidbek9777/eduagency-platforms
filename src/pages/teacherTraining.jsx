@@ -63,21 +63,7 @@ const TeacherTrainings = () => {
             color: "from-yellow-400 to-orange-500",
             icon: <FaLaptopCode/>,
         },
-        {
-            title: getText('tTrain17'),
-            description:
-                getText('tTrain18'),
-            color: "from-blue-500 to-purple-600",
-            icon: <FaFolder/>,
-        },
         
-        {
-            title: getText('tTrain21'),
-            description:
-                getText('tTrain22'),
-            color: "from-green-400 to-teal-500",
-            icon: <FaUserTie/>,
-        },
         {
             title: getText('tTrain23'),
             description:
@@ -85,13 +71,7 @@ const TeacherTrainings = () => {
             color: "from-green-400 to-teal-500",
             icon: <FaUsers/>,
         },
-        {
-            title: getText('tTrain25'),
-            description:
-                getText('tTrain26'),
-            color: "from-green-400 to-teal-500",
-            icon: <FaChartLine/>,
-        },
+        
     ];
     const { selectedLanguage } = useContext(LanguageContext);
     return (
