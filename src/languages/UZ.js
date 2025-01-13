@@ -38,7 +38,7 @@ export const uz = {
       "Atelye va Ko'rgazma Maydonlari: Talabalar uchun kashf qilish orqali o'rganish imkoniyatlari yaratmoqdamiz.\n" +
       "Mehmondo'st Fan Markazlari: Ta'lim texnologiyalari va ilmiy kashfiyotlarni birlashtirgan markazlar taqdim etmoqdamiz.",
 
-  eduTech1: "EduAgency Ta’limda Mukammallik Uchun Maktab Arxitekturasi va Dizayn Xizmatlari",
+  eduTech1: "Biz bilan ta'lim texnologiyalarini shakllantiring",
   eduTech2: "Ta’lim Texnologiyalari Bilan Kelajakni Shakllantiramiz",
   eduTech3: "Ta’lim texnologiyalari orqali maktablarda raqamli o‘zgarishlarni qo‘llab-quvvatlab, yanada samarali va ta’sirli jarayonlarni taqdim etamiz.",
   eduTech4: "Boshqaruv Tizimlari",

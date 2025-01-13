@@ -38,7 +38,7 @@ export const en = {
       "Workshop and Exhibition Spaces: We create areas where students can learn through exploration.\n" +
       "Visitor-Friendly Science Centers: We offer centers that combine educational technologies and scientific discoveries.",
 
-  eduTech1: "EduAgency School Architecture and Design Services for Excellence in Education",
+  eduTech1: "Shape educational technology with us",
   eduTech2: "Shaping the Future with Educational Technologies",
   eduTech3: "Supporting digital transformation in schools with educational technologies, offering more efficient and impactful processes.",
   eduTech4: "School Management Systems",

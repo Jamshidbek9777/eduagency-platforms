@@ -46,8 +46,7 @@ export const tr = {
     "Atölye ve Sergi Alanları: Öğrencilerin keşif yaparak öğrenebileceği alanlar oluşturuyoruz.\n" +
     "Ziyaretçi Dostu Bilim Merkezleri: Eğitim teknolojileri ve bilimsel keşifleri birleştiren merkezler sunuyoruz.",
 
-  eduTech1:
-    "EduAgency Eğitimde Mükemmellik İçin Okul Mimarisi ve Tasarım Hizmetleri",
+  eduTech1: "Eğitim teknolojisini bizimle şekillendirin",
   eduTech2: "Eğitim Teknolojileriyle Geleceği Şekillendiriyoruz",
   eduTech3:
     "Eğitim teknolojileriyle okullarda dijital dönüşümü destekliyor, daha verimli ve etkili süreçler sunuyoruz.",
