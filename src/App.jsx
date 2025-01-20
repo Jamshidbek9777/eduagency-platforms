@@ -1,4 +1,3 @@
-import "./App.css";
 import Advantages from "./components/advantages";
 import ContactUs from "./components/contactUs";
 import LogoCarouselPage from "./components/partners";
@@ -10,31 +9,31 @@ import EduStrategies from "./components/eduStr.jsx";
 import TeacherTraining from "./components/teacherTraining.jsx";
 import EduMaterials from "./components/eduMaterials.jsx";
 import AkademikTour from "./components/akademikTour.jsx";
+import Symbols from "./components/symbols.jsx";
+import Recommended from "./components/recommended.jsx";
+import Reklama from "./components/rek.jsx";
 
 function App() {
-    return (
-        <>
-            <div
-                style={{
-                    background:
-                        "transparent linear-gradient(180deg, #d5f0f7 0%, #ffffff 100%) 0% 0% no-repeat padding-box",
-                }}
-                className="min-h-screen"
-            >
-                <HeroSection/>
-                <SchoolArchitecture/>
-                <EduTech/>
-                <EduProg/>
-                <EduStrategies/>
-                <TeacherTraining/>
-                <EduMaterials/>
-                <AkademikTour/>
-                <Advantages/>
-                <ContactUs/>
-                <LogoCarouselPage/>
-            </div>
-        </>
-    );
+  return (
+    <>
+      <div className="min-h-screen">
+        <Symbols />
+        <HeroSection />
+        <Recommended />
+        <Reklama />
+        <SchoolArchitecture />
+        <EduTech />
+        <EduProg />
+        <EduStrategies />
+        <TeacherTraining />
+        <EduMaterials />
+        <AkademikTour />
+        <Advantages />
+        <ContactUs />
+        <LogoCarouselPage />
+      </div>
+    </>
+  );
 }
 
 export default App;
