@@ -173,15 +173,6 @@ const Navbar = () => {
       ),
     },
     {
-      key: "2",
-      label: (
-        <Link className="text-[16px]" href="/">
-          Ta'lim dizayni
-        </Link>
-      ),
-    },
-
-    {
       key: "3",
       label: (
         <Link className="text-[16px]" href="/">
@@ -205,6 +196,15 @@ const Navbar = () => {
         </Link>
       ),
     },
+    {
+      key: "2",
+      label: (
+        <Link className="text-[16px]" href="/">
+          Ta'lim dizayni
+        </Link>
+      ),
+    },
+
     {
       key: "6",
       label: (
