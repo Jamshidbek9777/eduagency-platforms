@@ -193,7 +193,23 @@ const Navbar = () => {
       key: "4",
       label: (
         <Link className="text-[16px]" href="/">
-          O'qitvchi ta'limlari
+          O'qitvchi va direktor ta'limlari
+        </Link>
+      ),
+    },
+    {
+      key: "5",
+      label: (
+        <Link className="text-[16px]" href="/">
+          Ta'lim materiallari
+        </Link>
+      ),
+    },
+    {
+      key: "6",
+      label: (
+        <Link className="text-[16px]" href="/">
+          Ta'lim texnologiyalari
         </Link>
       ),
     },
@@ -228,7 +244,7 @@ const Navbar = () => {
       key: "1",
       label: (
         <Link className="text-[16px]" href="/">
-          Teknofest
+          Seminar va konsferensiyalar
         </Link>
       ),
     },
@@ -236,7 +252,7 @@ const Navbar = () => {
       key: "2",
       label: (
         <Link className="text-[16px]" href="/">
-          Kosmik lager
+          Korgazmalar
         </Link>
       ),
     },
@@ -244,7 +260,7 @@ const Navbar = () => {
       key: "3",
       label: (
         <Link className="text-[16px]" href="/">
-          Bilim kashf
+          Akademik sayohat
         </Link>
       ),
     },
@@ -271,6 +287,37 @@ const Navbar = () => {
   return (
     <>
       <div className="bg-white fixed w-full z-[999]">
+        <div className="flex items-center h-8 bg-blue-600">
+          <Wrapper>
+            <div className="flex justify-between">
+              <div></div>
+              <div className="flex gap-4">
+                <div className="text-white">Turkiyada talim</div>
+                <div className="text-white">Turkiyada O'zbekistonda talim</div>
+              </div>
+              <div>
+                {" "}
+                <Dropdown
+                  overlay={languageMenu}
+                  trigger={["hover"]}
+                  placement="bottom"
+                >
+                  <div className="flex items-center gap-[5px] cursor-pointer">
+                    <img
+                      src={selectedFlag}
+                      style={{ width: "20px", objectFit: "cover" }}
+                      alt="Selected Language"
+                    />
+                    <span className="text-black text-sm font-bold">
+                      {selectedLanguage.toUpperCase()}
+                    </span>
+                    <IoIosArrowDown className="text-black text-sm" size={15} />
+                  </div>
+                </Dropdown>
+              </div>
+            </div>
+          </Wrapper>
+        </div>
         <Wrapper>
           <div
             className="flex flex-row items-center px-2 py-4 gap-3"
@@ -294,12 +341,7 @@ const Navbar = () => {
                 </div>
 
                 {/* Items */}
-                <div
-                  className="relative hidden lg:flex gap-4 lg:gap-6 text-gray-700 text-sm text-center p-3  px-6 "
-                  // style={{
-                  //   border: "2px solid #dce0e7",
-                  // }}
-                >
+                <div className="relative hidden lg:flex gap-4 lg:gap-6 text-gray-700 text-sm text-center p-3  px-6 ">
                   {/* Menu Items */}
                   <Dropdown trigger={["hover"]} menu={menu1}>
                     <a
@@ -309,19 +351,6 @@ const Navbar = () => {
                       Ta'lim xizmatlari
                     </a>
                   </Dropdown>
-
-                  <a
-                    href="/academic-tour"
-                    className="hover:text-[#0556FF] transition text-[17px] font-bold"
-                  >
-                    Ta'lim texnologiyalar
-                  </a>
-                  <a
-                    href="/academic-tour"
-                    className="hover:text-[#0556FF] transition text-[17px] font-bold"
-                  >
-                    Ta'lim materiallari
-                  </a>
 
                   <Dropdown trigger={["hover"]} menu={menu3}>
                     <a
@@ -336,7 +365,7 @@ const Navbar = () => {
                       onClick={(e) => e.preventDefault()}
                       className="hover:text-[#0556FF] transition text-[17px] font-bold cursor-pointer"
                     >
-                      Transfer xizmatlari
+                      Akademik va ortoqlik
                     </a>
                   </Dropdown>
                   <Dropdown trigger={["hover"]} menu={menu4}>
@@ -344,7 +373,7 @@ const Navbar = () => {
                       onClick={(e) => e.preventDefault()}
                       className="hover:text-[#0556FF] transition text-[17px] font-bold cursor-pointer"
                     >
-                      Uzay va havachilik
+                      Sertifikat va akkredatsion
                     </a>
                   </Dropdown>
                 </div>
@@ -354,26 +383,6 @@ const Navbar = () => {
                   {/* services */}
                   <div className="hidden lg:flex items-center">
                     <div className="hidden lg:flex gap-4">
-                      <Dropdown
-                        overlay={languageMenu}
-                        trigger={["hover"]}
-                        placement="bottom"
-                      >
-                        <div className="flex items-center gap-[5px] cursor-pointer">
-                          <img
-                            src={selectedFlag}
-                            style={{ width: "20px", objectFit: "cover" }}
-                            alt="Selected Language"
-                          />
-                          <span className="text-black text-sm font-bold">
-                            {selectedLanguage.toUpperCase()}
-                          </span>
-                          <IoIosArrowDown
-                            className="text-black text-sm"
-                            size={15}
-                          />
-                        </div>
-                      </Dropdown>
                       <Dropdown
                         trigger={["hover"]}
                         menu={{

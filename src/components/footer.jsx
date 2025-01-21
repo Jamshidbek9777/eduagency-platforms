@@ -53,7 +53,7 @@ const Footer = () => {
             </div>
             <div className="flex items-start gap-2">
               <div className="flex items-center justify-center rounded-full bg-white border border-gray-300 h-[60px] w-[60px]">
-                <MdAccessTime className="text-2xl"  />
+                <MdAccessTime className="text-2xl" />
               </div>
               <div>
                 <p className="font-semibold">Ish vaqti:</p>
