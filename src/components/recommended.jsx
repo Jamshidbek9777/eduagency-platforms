@@ -5,7 +5,7 @@ const Recommended = () => {
   return (
     <Wrapper>
       <div className="py-10">
-        <h2 className="text-3xl font-bold mb-8">Recommended</h2>
+        <h2 className="text-3xl font-bold mb-4">Recommended</h2>
         <div className="grid grid-cols-1 sm:grid-cols-2  xl:grid-cols-4 gap-4">
           {/* Card 1 */}
           <div className="flex  bg-white border-2 hover:border-[#0290EB] transition-all ease-in-out p-4 rounded-[20px] cursor-pointer ">
