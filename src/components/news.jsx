@@ -2,6 +2,7 @@ import React, { useContext } from "react";
 import { getText } from "../languages";
 import { LanguageContext } from "../context/language";
 import Wrapper from "../layout/wrapper";
+import { FaRegArrowAltCircleRight } from "react-icons/fa";
 
 const News = () => {
   const { selectedLanguage } = useContext(LanguageContext);
@@ -31,9 +32,18 @@ const News = () => {
     <div className="py-16">
       <Wrapper>
         <div>
-          <h1 className="text-4xl font-bold mb-8 text-center">
-            Ta'lim sohasidagi yangiliklar
-          </h1>
+          <div className=" flex justify-between items-center">
+            <h2 className="text-3xl font-bold mb-4">{getText("navbar7")}</h2>
+            <a
+              href="/academic-tour"
+              className="flex items-center text-gray-600 hover:text-yellow-500 transition duration-300"
+            >
+              <FaRegArrowAltCircleRight
+                size={35}
+                className="ml-2 transform group-hover:translate-x-1 transition-transform duration-300 hover:rotate-45"
+              />
+            </a>
+          </div>
 
           <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8">
             {news.map((item) => (

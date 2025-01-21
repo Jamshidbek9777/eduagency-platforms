@@ -26,7 +26,6 @@ const Footer = () => {
             </p>
           </div>
 
-          {/* Middle Section: Contact Info */}
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-2 gap-6">
             <div className="flex items-center gap-2">
               <div className="flex items-center justify-center rounded-full bg-white border border-gray-300 h-[60px] w-[60px]">
@@ -80,7 +79,6 @@ const Footer = () => {
             </div>
           </div>
 
-          {/* Right Section: Links and Social Icons */}
           <div className="flex flex-col items-center lg:items-end">
             <div className="flex gap-6 mb-4">
               <a href="/about" className="hover:underline">
