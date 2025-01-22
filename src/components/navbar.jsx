@@ -167,25 +167,25 @@ const Navbar = () => {
     {
       key: "1",
       label: (
-        <Link className="text-[16px]" href="/">
+        <a className="text-[16px]" href="/eduModels">
           Ta'lim modellari
-        </Link>
+        </a>
       ),
     },
     {
       key: "3",
       label: (
-        <Link className="text-[16px]" href="/">
+        <a className="text-[16px]" href="/eduStrategies">
           Dasturlar va strategiyalar
-        </Link>
+        </a>
       ),
     },
     {
       key: "4",
       label: (
-        <Link className="text-[16px]" href="/">
+        <a className="text-[16px]" href="/teacherTrainings">
           O'qitvchi va direktor ta'limlari
-        </Link>
+        </a>
       ),
     },
     {
@@ -287,33 +287,19 @@ const Navbar = () => {
   return (
     <>
       <div className="bg-white fixed w-full z-[999]">
-        <div className="flex items-center h-8 bg-blue-600">
+        <div className="flex items-center h-8 bg-[#394B59]">
           <Wrapper>
             <div className="flex justify-between">
-              <div></div>
+              <div>
+                <h1 className="text-white">info@eduagency.uz</h1>
+              </div>
               <div className="flex gap-4">
                 <div className="text-white">Turkiyada talim</div>
                 <div className="text-white">Turkiyada O'zbekistonda talim</div>
               </div>
-              <div>
-                {" "}
-                <Dropdown
-                  overlay={languageMenu}
-                  trigger={["hover"]}
-                  placement="bottom"
-                >
-                  <div className="flex items-center gap-[5px] cursor-pointer">
-                    <img
-                      src={selectedFlag}
-                      style={{ width: "20px", objectFit: "cover" }}
-                      alt="Selected Language"
-                    />
-                    <span className="text-black text-sm font-bold">
-                      {selectedLanguage.toUpperCase()}
-                    </span>
-                    <IoIosArrowDown className="text-black text-sm" size={15} />
-                  </div>
-                </Dropdown>
+              <div className="flex gap-4">
+                <h1 className="text-white">About us </h1>
+                <h1 className="text-white">Contact us </h1>
               </div>
             </div>
           </Wrapper>
@@ -383,6 +369,26 @@ const Navbar = () => {
                   {/* services */}
                   <div className="hidden lg:flex items-center">
                     <div className="hidden lg:flex gap-4">
+                      <Dropdown
+                        overlay={languageMenu}
+                        trigger={["hover"]}
+                        placement="bottom"
+                      >
+                        <div className="flex items-center gap-[5px] cursor-pointer">
+                          <img
+                            src={selectedFlag}
+                            style={{ width: "20px", objectFit: "cover" }}
+                            alt="Selected Language"
+                          />
+                          <span className="text-black text-sm font-bold">
+                            {selectedLanguage.toUpperCase()}
+                          </span>
+                          <IoIosArrowDown
+                            className="text-black text-sm"
+                            size={15}
+                          />
+                        </div>
+                      </Dropdown>
                       <Dropdown
                         trigger={["hover"]}
                         menu={{

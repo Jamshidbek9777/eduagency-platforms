@@ -9,7 +9,7 @@ const Footer = () => {
   const { selectedLanguage } = useContext(LanguageContext);
 
   return (
-    <div className="bg-[#E6EDFF] py-10">
+    <div className="bg-[#D2D2D2] py-10">
       <Wrapper>
         <div className="flex flex-col lg:flex-row justify-between items-center gap-8">
           {/* Left Section: Logo */}

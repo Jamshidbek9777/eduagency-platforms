@@ -3,7 +3,7 @@ import Wrapper from "../layout/wrapper";
 import { FaSchool, FaBook, FaRunning } from "react-icons/fa";
 import { Breadcrumb } from "antd";
 
-const TeacherTrainings = () => {
+const EducationModels = () => {
   const models = [
     {
       title: "Bilsem modeli",
@@ -48,9 +48,10 @@ const TeacherTrainings = () => {
       <div
         className="relative bg-cover bg-center h-[708px] flex flex-col items-center justify-center text-white"
         style={{
-          backgroundImage: "url('img/teacherTrainingsBg.jpeg')",
+          backgroundImage: "url('img/eduModelsBg.jpeg')", // Replace with your background image URL
         }}
       >
+        {/* Breadcrumb Section */}
         <div className="absolute top-36 left-8 z-10">
           <Breadcrumb
             separator={<span className="text-white">&gt;</span>}
@@ -68,16 +69,13 @@ const TeacherTrainings = () => {
               Ta'lim xizmatlari
             </Breadcrumb.Item>
             <Breadcrumb.Item>
-              <p className="text-white cursor-pointer">
-                Dasturlar va strategiyalar
-              </p>
+              <p className="text-white cursor-pointer">Ta'lim modellari</p>
             </Breadcrumb.Item>
           </Breadcrumb>
         </div>
+        {/* Title Section */}
         <div className="absolute inset-0 bg-black bg-opacity-40"></div>
-        <h1 className="relative z-10 text-6xl font-bold">
-          Dasturlar va strategiyalar
-        </h1>
+        <h1 className="relative z-10 text-6xl font-bold">Ta'lim modellari</h1>
       </div>
 
       <Wrapper>
@@ -97,9 +95,22 @@ const TeacherTrainings = () => {
             ))}
           </div>
         </div>
+        <div className="flex flex-col justify-center text-center mb-4">
+          <div>
+            <h1 className="text-3xl mb-4">
+              Bu yerdan ozingi9zga kerakli t’alim modelini topolmadingizmi ?
+              Unda biz sizga kerakli ta’lim modelini yaratishga yordam beramiz.
+            </h1>
+          </div>
+          <div>
+            <button className="bg-[#3658A9] p-2 text-white px-20 rounded-xl">
+              Boglanish
+            </button>
+          </div>
+        </div>
       </Wrapper>
     </>
   );
 };
 
-export default TeacherTrainings;
+export default EducationModels;
