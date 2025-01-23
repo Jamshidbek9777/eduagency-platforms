@@ -12,7 +12,6 @@ import { useContext } from "react";
 export const Carousel = () => {
   const { selectedLanguage } = useContext(LanguageContext);
 
-  // Array of slide data
   const slides = [
     {
       id: 1,
@@ -91,7 +90,7 @@ export const Carousel = () => {
                       href={slide.link}
                       color="primary"
                       className="mt-10 text-md"
-                      startContent={<ArrowRight size={20}/>}
+                      startContent={<ArrowRight size={20} />}
                     >
                       {getText("sliderButton")}
                     </Button>

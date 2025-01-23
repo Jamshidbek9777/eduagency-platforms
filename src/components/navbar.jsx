@@ -173,6 +173,22 @@ const Navbar = () => {
       ),
     },
     {
+      key: "2",
+      label: (
+        <a className="text-[16px]" href="/education-design">
+          Ta'lim dizayni
+        </a>
+      ),
+    },
+    {
+      key: "6",
+      label: (
+        <a className="text-[16px]" href="/education-technologies">
+          Ta'lim texnologiyalari
+        </a>
+      ),
+    },
+    {
       key: "3",
       label: (
         <a className="text-[16px]" href="/eduStrategies">
@@ -193,23 +209,6 @@ const Navbar = () => {
       label: (
         <Link className="text-[16px]" href="/">
           Ta'lim materiallari
-        </Link>
-      ),
-    },
-    {
-      key: "2",
-      label: (
-        <Link className="text-[16px]" href="/">
-          Ta'lim dizayni
-        </Link>
-      ),
-    },
-
-    {
-      key: "6",
-      label: (
-        <Link className="text-[16px]" href="/">
-          Ta'lim texnologiyalari
         </Link>
       ),
     },
@@ -287,19 +286,38 @@ const Navbar = () => {
   return (
     <>
       <div className="bg-white fixed w-full z-[999]">
-        <div className="flex items-center h-8 bg-[#394B59]">
+        <div className="items-center h-8 bg-[#394B59] md:flex hidden">
           <Wrapper>
-            <div className="flex justify-between">
+            <div className="flex justify-between ">
               <div>
-                <h1 className="text-white">info@eduagency.uz</h1>
+                <a
+                  href="mailto:info@EduAgency.uz"
+                  className="text-white hover:underline select-none"
+                >
+                  info@eduagency.uz
+                </a>
               </div>
               <div className="flex gap-4">
-                <div className="text-white">Turkiyada talim</div>
-                <div className="text-white">Turkiyada O'zbekistonda talim</div>
+                <a href="/about" className="text-white">
+                  Turkiyada talim
+                </a>
+                <a href="/contact" className="text-white">
+                  Turkiyada O'zbekistonda talim
+                </a>
               </div>
               <div className="flex gap-4">
-                <h1 className="text-white">About us </h1>
-                <h1 className="text-white">Contact us </h1>
+                <a
+                  href="/about"
+                  className="text-white cursor-pointer select-none"
+                >
+                  About us{" "}
+                </a>
+                <a
+                  href="/contact"
+                  className="text-white cursor-pointer select-none"
+                >
+                  Contact us{" "}
+                </a>
               </div>
             </div>
           </Wrapper>

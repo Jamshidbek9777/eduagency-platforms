@@ -23,14 +23,14 @@ const HeroSection = () => {
 
   return (
     <Wrapper>
-      <div className="pt-2 flex flex-wrap items-center justify-center lg:justify-between  relative">
+      <div className="pt-24 flex flex-wrap items-center justify-center lg:justify-between  relative">
         <Swiper
           ref={swiperRef}
           navigation={false}
           autoplay={{ delay: 5000, disableOnInteraction: false }}
           loop={true}
           modules={[Autoplay, Pagination, Navigation]}
-          className="w-full h-[520px] rounded-[36px]"
+          className="w-full md:h-[520px] h-[320px] rounded-[36px]"
           pagination={{
             renderBullet: (index, className) => {
               return `
@@ -42,7 +42,7 @@ const HeroSection = () => {
         >
           <SwiperSlide>
             <div
-              className="h-full bg-cover bg-center relative"
+              className="h-full bg-cover bg-center relative "
               style={{
                 backgroundImage: "url('/img/slider1.jpeg')",
               }}
@@ -76,7 +76,7 @@ const HeroSection = () => {
         </Swiper>
 
         <button
-          className="z-[888] absolute left-4 top-1/2 transform -translate-y-1/2 bg-white text-black p-4 rounded-full shadow-lg"
+          className="z-[888] hidden md:flex absolute left-4 top-1/2 transform -translate-y-1/2 bg-white text-black p-4 rounded-full shadow-lg"
           onClick={handlePrev}
         >
           <svg
@@ -95,7 +95,7 @@ const HeroSection = () => {
           </svg>
         </button>
         <button
-          className="z-[888] absolute right-4 top-1/2 transform -translate-y-1/2 bg-white text-black p-4 rounded-full shadow-lg"
+          className="z-[888] hidden md:flex absolute right-4 top-1/2 transform -translate-y-1/2 bg-white text-black p-4 rounded-full shadow-lg"
           onClick={handleNext}
         >
           <svg
