@@ -13,7 +13,7 @@ const AkademikTour = () => {
     {
       id: 1,
       title: "Teknofest",
-      image: "/img/akademikcard1.jpg",
+      image: "/img/service4.jpg",
     },
     {
       id: 2,
@@ -30,7 +30,7 @@ const AkademikTour = () => {
   return (
     <Wrapper>
       <div className=" flex justify-between items-center">
-        <h2 className="text-3xl font-bold mb-4">{getText("navbar7")}</h2>
+        <h2 className="text-3xl font-bold mb-4">{getText("navbar12")}</h2>
         <a
           href="/academic-tour"
           className="flex items-center text-gray-600 hover:text-yellow-500 transition duration-300"

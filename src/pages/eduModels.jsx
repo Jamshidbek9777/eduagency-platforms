@@ -1,45 +1,36 @@
-import React from "react";
+import React, { useContext } from "react";
 import Wrapper from "../layout/wrapper";
 import { FaSchool, FaBook, FaRunning } from "react-icons/fa";
-import { Breadcrumb } from "antd";
+import { getText } from "../languages";
+import { LanguageContext } from "../context/language";
 
 const EducationModels = () => {
+  const { selectedLanguage } = useContext(LanguageContext);
+
   const models = [
     {
-      title: "Bilsem modeli",
-      description:
-        "Xorazm ta'lim modeli farzandga yo'naltirilgan o'qitishni ta'minlab, bilim olishga, mustaqillik va ijodiy fikrlashni rivojlantirishga imkoniyat yaratadi.",
-      icon: <FaSchool className="text-blue-500 w-16 h-16 mb-4" />,
+      title: getText("eduModel1"),
+      description: getText("eduModel2"),
     },
     {
-      title: "Maaf modeli",
-      description:
-        "Xorazm ta'lim modeli farzandga yo'naltirilgan o'qitishni ta'minlab, bilim olishga, mustaqillik va ijodiy fikrlashni rivojlantirishga imkoniyat yaratadi.",
-      icon: <FaBook className="text-green-500 w-16 h-16 mb-4" />,
+      title: getText("eduModel3"),
+      description: getText("eduModel4"),
     },
     {
-      title: "Spor Lisesi",
-      description:
-        "Xorazm ta'lim modeli farzandga yo'naltirilgan o'qitishni ta'minlab, bilim olishga, mustaqillik va ijodiy fikrlashni rivojlantirishga imkoniyat yaratadi.",
-      icon: <FaRunning className="text-red-500 w-16 h-16 mb-4" />,
+      title: getText("eduModel5"),
+      description: getText("eduModel6"),
     },
     {
-      title: "Bilsem modeli",
-      description:
-        "Xorazm ta'lim modeli farzandga yo'naltirilgan o'qitishni ta'minlab, bilim olishga, mustaqillik va ijodiy fikrlashni rivojlantirishga imkoniyat yaratadi.",
-      icon: <FaSchool className="text-blue-500 w-16 h-16 mb-4" />,
+      title: getText("eduModel7"),
+      description: getText("eduModel8"),
     },
     {
-      title: "Maaf modeli",
-      description:
-        "Xorazm ta'lim modeli farzandga yo'naltirilgan o'qitishni ta'minlab, bilim olishga, mustaqillik va ijodiy fikrlashni rivojlantirishga imkoniyat yaratadi.",
-      icon: <FaBook className="text-green-500 w-16 h-16 mb-4" />,
+      title: getText("eduModel9"),
+      description: getText("eduModel10"),
     },
     {
-      title: "Spor Lisesi",
-      description:
-        "Xorazm ta'lim modeli farzandga yo'naltirilgan o'qitishni ta'minlab, bilim olishga, mustaqillik va ijodiy fikrlashni rivojlantirishga imkoniyat yaratadi.",
-      icon: <FaRunning className="text-red-500 w-16 h-16 mb-4" />,
+      title: getText("eduModel11"),
+      description: getText("eduModel12"),
     },
   ];
 
@@ -51,31 +42,11 @@ const EducationModels = () => {
           backgroundImage: "url('img/eduModelsBg.jpeg')", // Replace with your background image URL
         }}
       >
-        {/* Breadcrumb Section */}
-        <div className="absolute top-36 left-8 z-10">
-          <Breadcrumb
-            separator={<span className="text-white">&gt;</span>}
-            style={{
-              color: "white",
-              fontSize: "16px",
-            }}
-          >
-            <Breadcrumb.Item>
-              <a href="/" style={{ color: "white" }}>
-                Bosh sahifa
-              </a>
-            </Breadcrumb.Item>
-            <Breadcrumb.Item className="cursor-pointer">
-              Ta'lim xizmatlari
-            </Breadcrumb.Item>
-            <Breadcrumb.Item>
-              <p className="text-white cursor-pointer">Ta'lim modellari</p>
-            </Breadcrumb.Item>
-          </Breadcrumb>
-        </div>
         {/* Title Section */}
         <div className="absolute inset-0 bg-black bg-opacity-40"></div>
-        <h1 className="relative z-10 text-6xl font-bold">Ta'lim modellari</h1>
+        <h1 className="relative z-10 text-6xl font-bold">
+          {getText("eduModelHeader")}
+        </h1>
       </div>
 
       <Wrapper>
@@ -97,14 +68,11 @@ const EducationModels = () => {
         </div>
         <div className="flex flex-col justify-center text-center mb-4">
           <div>
-            <h1 className="text-3xl mb-4">
-              Bu yerdan ozingi9zga kerakli t’alim modelini topolmadingizmi ?
-              Unda biz sizga kerakli ta’lim modelini yaratishga yordam beramiz.
-            </h1>
+            <h1 className="text-3xl mb-4">{getText("eduModelPlus")}</h1>
           </div>
           <div>
             <button className="bg-[#3658A9] p-2 text-white px-20 rounded-xl">
-              Boglanish
+              {getText("eduModelButton")}
             </button>
           </div>
         </div>

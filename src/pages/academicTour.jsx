@@ -1,64 +1,94 @@
-import {getText} from "../languages/index.js";
-import {useContext} from "react";
-import {LanguageContext} from "../context/language.jsx";
+import React, { useContext } from "react";
+import Wrapper from "../layout/wrapper";
+import { IoCheckmarkDone } from "react-icons/io5";
+import { getText } from "../languages";
+import { LanguageContext } from "../context/language";
 
 const AcademicTourPage = () => {
-    const academicTours = [
-        {
-            title: getText('akademikTur1'),
-            description: getText('akademikTur2'),
-            image: "/img/akademikcard1.jpg",
-        },
-        {
-            title: getText('akademikTur3'),
-            description:getText('akademikTur4'),
-            image: "/img/akademikcard2.jpg",
-        },
-        {
-            title: getText('akademikTur5'),
-            description: getText('akademikTur6'),
-            image: "/img/akademikcard3.jpg",
-        },
-    ];
-    const { selectedLanguage, selectedFlag, changeLanguage } =
-        useContext(LanguageContext);
+  const { selectedLanguage } = useContext(LanguageContext);
+  return (
+    <>
+      {/* Header Section */}
+      <div
+        className="relative bg-cover bg-center h-[708px] flex flex-col items-center justify-center text-white"
+        style={{
+          backgroundImage: "url('img/academicTourBg.jpg')",
+        }}
+      >
+        <div className="absolute inset-0 bg-black bg-opacity-40"></div>
+        <h1 className="relative z-10 text-6xl font-bold">
+          {getText("eduDesign1")}
+        </h1>
+      </div>
 
-    return (
-        <div className="bg-gray-50 py-16 px-4 sm:px-6 lg:px-8 pt-48">
-            <div className="max-w-7xl mx-auto text-center">
-                <h2 className="text-4xl font-extrabold text-blue-600 mb-6">{getText('akademikTur7')}</h2>
-                <p className="text-gray-600 mb-10">{getText('akademikTur8')}</p>
+      {/* Content Section */}
+      <Wrapper>
+        <div className="py-10 space-y-16">
+          {/* Kosmik lager */}
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center bg-[#E6EAF4] p-4 rounded-[20px]">
+            <div className="w-full h-[400px] md:h-[500px] overflow-hidden rounded-[18px] shadow-lg">
+              <img
+                src="/img/service1.jpg"
+                alt="Classroom Design"
+                className="w-full h-full object-cover"
+              />
             </div>
+            <div>
+              <h2 className="text-2xl font-bold mb-4">
+                {getText("akTourTitle")}
+              </h2>
+              <p className="mb-2">{getText("akTour2")}</p>
+              <ul className="list-disc pl-5 space-y-2">
+                <li>{getText("akTour3")}</li>
+              </ul>
+            </div>
+          </div>
 
-            {/* Tour Sections */}
-            <div className="space-y-16 max-w-7xl mx-auto">
-                {academicTours.map((tour, index) => (
-                    <div
-                        key={index}
-                        className={`flex flex-col ${index % 2 === 0 ? 'md:flex-row' : 'md:flex-row-reverse'} items-center gap-8`}
-                    >
-                        <img
-                            src={tour.image}
-                            alt={tour.title}
-                            className="w-full md:w-1/2 rounded-lg shadow-lg"
-                        />
-                        <div className="md:w-1/2">
-                            <h3 className="text-2xl font-bold text-gray-800 mb-4">{tour.title}</h3>
-                            <p className="text-gray-600 text-lg">{tour.description}</p>
-                        </div>
-                    </div>
-                ))}
+          {/* Teknofest */}
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center bg-[#E6EAF4] p-4 rounded-[20px]">
+            <div className="w-full h-[400px] md:h-[500px] overflow-hidden rounded-lg shadow-lg ">
+              <img
+                src="/img/service4.jpg"
+                alt="Classroom Design"
+                className="w-full h-full object-cover"
+              />
             </div>
+            <div>
+              <h2 className="text-2xl font-bold mb-4">Teknofest</h2>
+              <p className="mb-2">{getText("akTour3")}</p>
 
-            {/* Additional Info Section */}
-            <div className="max-w-7xl mx-auto text-center mt-16">
-                <h4 className="text-2xl font-semibold text-blue-600 mt-10">{getText('akademikTur8')}</h4>
-                <p className="text-gray-600 mb-6">
-                    {getText('akademikTur9')}
-                </p>
+              <h2 className="text-md mb-4">{getText("akTour4")}</h2>
             </div>
+          </div>
+
+          {/* Bilim va kashf */}
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center bg-[#E6EAF4] p-4 rounded-[20px]">
+            <div className="w-full h-[400px] md:h-[500px] overflow-hidden rounded-lg shadow-lg">
+              <img
+                src="/img/akademikcard2.jpg"
+                alt="Classroom Design"
+                className="w-full h-full object-cover"
+              />
+            </div>
+            <div>
+              <h2 className="text-2xl font-bold mb-4">{getText("akTour5")}</h2>
+              <p className="mb-2">{getText("akTour7")}</p>
+
+              <h2 className="text-md font-semibold mb-4 mt-4">
+                {getText("akTour8")}
+              </h2>
+              <ul className="list-disc pl-6">
+                <li>{getText("akTour9")}</li>
+                <li>{getText("akTour10")}</li>
+                <li>{getText("akTour11")}</li>
+                <li>{getText("akTour12")}</li>
+              </ul>
+            </div>
+          </div>
         </div>
-    );
+      </Wrapper>
+    </>
+  );
 };
 
 export default AcademicTourPage;

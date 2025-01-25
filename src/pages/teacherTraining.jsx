@@ -1,40 +1,36 @@
-import React from "react";
+import React, { useContext } from "react";
 import Wrapper from "../layout/wrapper";
-import { FaSchool, FaBook, FaRunning } from "react-icons/fa";
-import { Breadcrumb } from "antd";
+import { getText } from "../languages";
+
 import { IoCheckmarkDone } from "react-icons/io5";
+import { LanguageContext } from "../context/language";
 
 const TeacherTrainings = () => {
+  const { selectedLanguage } = useContext(LanguageContext);
   const models = [
     {
-      title: "Miya va o'rganish",
-      description:
-        "Ushbu dastur o'qituvchilarga miyaga asoslangan ta'lim yondashuvlarini joriy etishga qaratilgan. Miyaning ta'lim jarayonlariga qanday ta'sir qilishini tushunib, ishtirokchilar samarali ta'lim dizayni uchun ilmiy usullarni kashf etadilar. Neyrologiya va ta'lim o'rtasidagi aloqaga e'tibor qaratish orqali o'rganish yanada mazmunli va doimiy bo'ladi.",
+      title: getText("tTraining1"),
+      description: getText("tTraining2"),
     },
     {
-      title: "Maaf modeli",
-      description:
-        "Ushbu dastur o'qituvchilarga miyaga asoslangan ta'lim yondashuvlarini joriy etishga qaratilgan. Miyaning ta'lim jarayonlariga qanday ta'sir qilishini tushunib, ishtirokchilar samarali ta'lim dizayni uchun ilmiy usullarni kashf etadilar. Neyrologiya va ta'lim o'rtasidagi aloqaga e'tibor qaratish orqali o'rganish yanada mazmunli va doimiy bo'ladi.",
+      title: getText("tTraining3"),
+      description: getText("tTraining4"),
     },
     {
-      title: "Spor Lisesi",
-      description:
-        "Ushbu dastur o'qituvchilarga miyaga asoslangan ta'lim yondashuvlarini joriy etishga qaratilgan. Miyaning ta'lim jarayonlariga qanday ta'sir qilishini tushunib, ishtirokchilar samarali ta'lim dizayni uchun ilmiy usullarni kashf etadilar. Neyrologiya va ta'lim o'rtasidagi aloqaga e'tibor qaratish orqali o'rganish yanada mazmunli va doimiy bo'ladi.",
+      title: getText("tTraining5"),
+      description: getText("tTraining6"),
     },
     {
-      title: "Bilsem modeli",
-      description:
-        "Ushbu dastur o'qituvchilarga miyaga asoslangan ta'lim yondashuvlarini joriy etishga qaratilgan. Miyaning ta'lim jarayonlariga qanday ta'sir qilishini tushunib, ishtirokchilar samarali ta'lim dizayni uchun ilmiy usullarni kashf etadilar. Neyrologiya va ta'lim o'rtasidagi aloqaga e'tibor qaratish orqali o'rganish yanada mazmunli va doimiy bo'ladi.",
+      title: getText("tTraining7"),
+      description: getText("tTraining8"),
     },
     {
-      title: "Maaf modeli",
-      description:
-        "Ushbu dastur o'qituvchilarga miyaga asoslangan ta'lim yondashuvlarini joriy etishga qaratilgan. Miyaning ta'lim jarayonlariga qanday ta'sir qilishini tushunib, ishtirokchilar samarali ta'lim dizayni uchun ilmiy usullarni kashf etadilar. Neyrologiya va ta'lim o'rtasidagi aloqaga e'tibor qaratish orqali o'rganish yanada mazmunli va doimiy bo'ladi.",
+      title: getText("tTraining9"),
+      description: getText("tTraining10"),
     },
     {
-      title: "Spor Lisesi",
-      description:
-        "Ushbu dastur o'qituvchilarga miyaga asoslangan ta'lim yondashuvlarini joriy etishga qaratilgan. Miyaning ta'lim jarayonlariga qanday ta'sir qilishini tushunib, ishtirokchilar samarali ta'lim dizayni uchun ilmiy usullarni kashf etadilar. Neyrologiya va ta'lim o'rtasidagi aloqaga e'tibor qaratish orqali o'rganish yanada mazmunli va doimiy bo'ladi.",
+      title: getText("tTraining11"),
+      description: getText("tTraining12"),
     },
   ];
 
@@ -46,37 +42,16 @@ const TeacherTrainings = () => {
           backgroundImage: "url('img/teacherTrainingsBg.jpeg')",
         }}
       >
-        <div className="absolute top-36 left-8 z-10">
-          <Breadcrumb
-            separator={<span className="text-white">&gt;</span>}
-            style={{
-              color: "white",
-              fontSize: "16px",
-            }}
-          >
-            <Breadcrumb.Item>
-              <a href="/" style={{ color: "white" }}>
-                Bosh sahifa
-              </a>
-            </Breadcrumb.Item>
-            <Breadcrumb.Item className="cursor-pointer">
-              Ta'lim xizmatlari
-            </Breadcrumb.Item>
-            <Breadcrumb.Item>
-              <p className="text-white cursor-pointer">O'qituvchi ta'limlari</p>
-            </Breadcrumb.Item>
-          </Breadcrumb>
-        </div>
         <div className="absolute inset-0 bg-black bg-opacity-40"></div>
         <h1 className="relative z-10 text-6xl font-bold">
-          O'qituvchi ta'limlari
+          {getText("tTraningHeader")}
         </h1>
       </div>
 
       <Wrapper>
         <div className="py-10">
           <div className="">
-            <h1 className="text-4xl mb-4">O'qituvchi talimlari</h1>
+            <h1 className="text-4xl mb-4">{getText("tTraningHeader")}</h1>
             {models.map((model, index) => (
               <div
                 key={index}

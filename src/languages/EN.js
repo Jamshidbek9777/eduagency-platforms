@@ -1,295 +1,201 @@
 export const en = {
-  navbar1: "Education deseign",
-  navbar2: "Educational Technologies",
-  navbar3: "Educational Programs",
-  navbar4: "Educational Strategies",
-  navbar5: "Teacher Trainings",
-  navbar6: "Educational Materials",
-  navbar7: "Academic Tour",
-  navbar8: "About Us",
-  navbar9: "Contact",
-  navbar10: "Services",
+  //main nav
+  navbar1: "Education services",
+  navbar2: "Organization services",
+  navbar3: "Partnership services",
+  navbar4: "Institutional services",
 
-  hero1:"Welcome to",
-  hero2:"Your trusted partner in delivering exceptional educational services tailored to your needs.",
-  hero3: "Get Started Today",
-  hero4:"ONLINE SUPPORT",
-  hero5:"Services Provided",
-  hero6:"Students Enrolled",
-  hero7:"Partner Institutions",
-  hero8:"Support Available",
+  //nav dropdowns
+  //edu services
+  navbar5: "Education models",
+  navbar6: "Education design",
+  navbar7: "Education technologies",
+  navbar8: "Programms and strategies",
+  navbar9: "Teacher trainings",
 
-  okul1: "EduAgency School Architecture and Design Services for Excellence in Education",
-  okul2: "We are leading the design of school buildings and learning spaces aimed at making a difference in education in Uzbekistan. Educational success starts with students raised in the right environment! We embrace this approach and design inspiring and functional spaces with our comprehensive services in school architecture.",
-  okul3: "Architectural Project and Design",
-  okul4: "Functional and Aesthetic School Designs: We design school buildings that maximize students' academic success and are aesthetically appealing.\n" +
-      "Environmentally Friendly School Buildings: We create sustainable buildings made from eco-friendly materials and energy-efficient designs.\n" +
-      "Adaptive Spaces: We design flexible spaces that evolve according to developing teaching methods.\n",
-  okul5: "Classroom Concepts and Arrangements",
-  okul6: "Classrooms Equipped with Advanced Technology: We provide classrooms equipped with modern educational tools (smart boards, tablets, and computers).\n" +
-      "Student-Centered Classroom Designs: We create more efficient and functional classroom layouts.\n" +
-      "Creative Workspaces: We design spaces that enhance students' creative thinking abilities.",
-  okul7: "Laboratory Setup",
-  okul8: "Science and Technology Laboratories: We design modern and safe laboratory spaces.\n" +
-      "STEM Laboratories: We create spaces equipped with robotics and 3D printers.\n" +
-      "High-Tech Supported Educational Spaces: We set up laboratories enriched with virtual reality tools.",
-  okul9: "Science Center Setup",
-  okul10: "Education and Discovery Center: We design science centers that enhance students' desire to learn.\n" +
-      "Workshop and Exhibition Spaces: We create areas where students can learn through exploration.\n" +
-      "Visitor-Friendly Science Centers: We offer centers that combine educational technologies and scientific discoveries.",
+  //organization services
+  navbar10: "Seminars and conferences",
+  navbar11: "Exhibitions",
+  navbar12: "Academic travel",
 
-  eduTech1: "Shape educational technology with us",
-  eduTech2: "Shaping the Future with Educational Technologies",
-  eduTech3: "Supporting digital transformation in schools with educational technologies, offering more efficient and impactful processes.",
-  eduTech4: "School Management Systems",
-  eduTech5: "Efficient management, better results: We provide fully integrated systems to simplify every stage of school management.\n      Save time and resources, ensure quick access, and monitor students' progress.",
-  eduTech6: "E-Learning Platforms",
-  eduTech7: "We provide rich content and resources, enabling flexible learning opportunities. Modernizing education with teacher and student support.",
-  eduTech8: "E-Games",
-  eduTech9: "Delivering fun learning processes, supporting problem-solving skills and personalized game experiences.",
-  eduTech10: "E-LMS",
-  eduTech11: "Managing all educational processes on a single platform, offering data-driven decision support and real-time progress tracking.",
+  //partnership
+  navbar14: "Akademik hamkorik",
+  navbar15: "Accreditation",
 
-  eProg1: "Educational Programs",
-  eProg2: "Discover our programs that make a difference in the world of education!",
-  eProg3: "Khorezm Education Model",
-  eProg4: "The Khorezm Education Model offers an interdisciplinary approach that allows students to learn mathematics, technology, engineering, science, and social sciences together. This model aims to develop problem-solving, analytical thinking, and collaboration skills while encouraging work on real-life projects.",
-  eProg5: "BILSEM Program",
-  eProg6: "Science and Art Centers (BILSEM) provide a supportive educational environment tailored to the individual differences of gifted children. It is a specially designed program to help them discover and develop their potential in science, art, technology, and creativity.",
-  eProg7: "STEM Education",
-  eProg8: "STEM (Science, Technology, Engineering, Mathematics) is a learning approach that combines these disciplines. Through practical and project-based learning, it develops students' problem-solving, creative thinking, and teamwork skills.",
-  eProg9: "IB STEM Program",
-  eProg10: "The IB STEM program, a STEM-focused version of the International Baccalaureate (IB), aims to develop students' scientific thinking and analytical skills at international standards.",
-  eProg11: "Teaching Turkish to Foreign Children",
-  eProg12: "Turkish is not just a language for foreign children, but also a cultural bridge. This program effectively teaches Turkish with communication-based methods while strengthening cultural ties.",
-  eProg13: "Robotics and Coding",
-  eProg14: "The robotics and coding program is one of the most fun ways to introduce children to technology and equip them with 21st-century skills.",
+  //topbar
+  topbar1: "Education in Turkey",
+  topbar2: "Education in Uzbekistan",
+  topbar3: "About us",
+  topbar4: "Contact us",
 
-  eStr1: "Educational Strategies",
-  eStr2: "Make a difference with new approaches in education!",
-  eStr3: "Renzulli Learning System",
-  eStr4: "The Renzulli Learning System offers personalized education based on students' interests, learning styles, and abilities.",
-  eStr5: "Temperament-Based Education and Guidance",
-  eStr6: "Temperament-based education provides guidance tailored to students' natural tendencies.",
-  eStr7: "Portfolio Assessment",
-  eStr8: "Portfolio assessment allows students to perform self-evaluation.",
-  eStr9: "Flipped Learning",
-  eStr10: "Flipped Learning encourages learning materials at home and applying them in class.",
-  eStr11: "Storytelling",
-  eStr12: "Storytelling makes learning more meaningful and lasting.",
-  eStr13: "Learning Styles",
-  eStr14: "Education tailored to different learning styles increases students' motivation.",
-  eStr15: "BIGEP (Science and Development Program)",
-  eStr16: "BIGEP provides opportunities to solve problems and develop innovative projects.",
-  eStr17: "AP (Advanced Placement) Program",
-  eStr18: "The AP Program offers high school students the chance to take university-level courses.",
+  //services
+  servicesText1: "Kindergartens",
+  servicesText2: "Primary schools",
+  servicesText3: "Secondary schools",
+  servicesText4: "High schools",
+  servicesText5: "Universities",
 
-  tTrain1: "Teacher Trainings",
-  tTrain2: "Specially designed training programs for teacher development.",
-  tTrain3: "Brain and Learning",
-  tTrain4: "Focuses on introducing brain-based learning approaches and understanding learning processes.",
-  tTrain5: "Global Teacher",
-  tTrain6: "A program that introduces global educational trends and cultural approaches to teachers.",
-  tTrain7: "Attention Development Techniques",
-  tTrain8: "Strategic techniques aimed at increasing students' attention spans.",
-  tTrain9: "Gamification",
-  tTrain10: "A method that integrates lesson content with game mechanics to make learning fun.",
-  tTrain11: "Effective Teaching Techniques",
-  tTrain12: "Training on innovative and evidence-based teaching strategies to enhance learning.",
-  tTrain13: "Student Recognition Techniques",
-  tTrain14: "Methods for understanding students' individual differences and needs.",
-  tTrain15: "Educational Technologies",
-  tTrain16: "A program that teaches effective use of digital tools and technologies in the classroom.",
-  tTrain17: "E-Portfolio Usage",
-  tTrain18: "A program that teaches how to document students' achievements electronically.",
-  tTrain19: "Storytelling",
-  tTrain20: "Techniques to make lesson content more effective through storytelling.",
-  tTrain21: "Guidance System in Education",
-  tTrain22: "Develops the ability to monitor students' academic, social, and emotional growth.",
-  tTrain23: "Classroom Management",
-  tTrain24: "Goes beyond maintaining order and discipline by teaching ways to increase student engagement.",
-  tTrain25: "Data-Driven Decision Making in Education",
-  tTrain26: "Teaches how to use data analysis to shape classroom decisions.",
+  //home
+  //recommended
+  recommendedText1: "Recommended",
+  recommendedText2: "Automate your kindergarten with Okulaile",
+  recommendedText3: "Make your education fun",
+  recommendedText4:
+    "Embark on an incredible space adventure designed for kids aged 4-10!",
+  recommendedText5: "Everything You Want on MentalUP!",
 
-  eMaterial1: "Educational Materials",
-  eMaterial2: "Specially prepared educational materials for students and teachers.",
-  eMaterial3: "Digital Learning Content",
-  eMaterial4: "Interactive videos, simulations, and online tests that can be used on computers and tablets.",
-  eMaterial5: "Experiment Kits and STEM Materials",
-  eMaterial6: "Sets that allow students to conduct experiments while learning about natural sciences, chemistry, and physics.",
-  eMaterial7: "Educational Games and Intelligence Cards",
-  eMaterial8: "Materials aimed at making learning fun while increasing students' creativity.",
-  eMaterial9: "Tests and Assessment Tools",
-  eMaterial10: "Ready-made tests, optical reading forms, and evaluation schemes to measure students' academic levels.",
-  eMaterial11: "Robotics and Coding Materials",
-  eMaterial12: "Includes microcontrollers, sensors, circuit kits, and coding software.",
-  eMaterial13: "Values Education Materials",
-  eMaterial14: "Materials containing stories, visuals, and games aimed at instilling moral and social values in students.",
-  eMaterial15: "Materials for Educators",
-  eMaterial16: "Guidebooks for teachers to address classroom management, assessment, and special teaching needs.",
-  eMaterial17: "E-Learning Platform Subscriptions",
-  eMaterial18: "Provides subscription options for online platforms. Includes e-books, digital lesson content, and interactive activities.",
-
-  akademikTur1: "SPACE CAMP JOURNEY",
-  akademikTur2: "This trip to one of Turkey's most important scientific centers, the Space Camp, offers participants hands-on learning opportunities about space science and technology.",
-  akademikTur3: "SCIENCE AND DISCOVERY TOUR TO TURKEY",
-  akademikTur4: "For educators wishing to explore modern teaching methods such as STEM, robotics, and gamification, visits to universities, private, and public schools in Turkey are organized.",
-  akademikTur5: "TURKEY EDUCATION AND SCHOOL MANAGEMENT EXPLORATION TOUR",
-  akademikTur6: "Offers a unique experience for leading teachers seeking to see innovative solutions in education systems and school management modules.",
-  akademikTur7: "ACADEMIC TOUR",
-  akademikTur8: "We Invite You to Discover!",
-  akademikTur9: "To build the future even stronger, we are ready to guide you on this science-filled journey. Imagine, learn, and reshape the future. Don't miss this experience filled with Turkey's unique riches!",
-  servicesButtonTitle:"Services",
-  servicesText1:"Kindergartens",
-  servicesText2:"Elementary schools",
-  servicesText3:"Intermediate schools",
-  servicesText4:"High schools",
-
-  slider1Header: "Education technologies",
-  slider2Header: "Kosmosx",
-  slider3Header: "Labaratories",
-  slider4Header: "AcademyX",
-  slider5Header: "Expert transfer",
-  slider6Header: "Education design",
-
-  slider1Desc:
-    "You can get knowledge from a wide range of resources to improve your skills.",
-  slider2Desc:
-    "KosmosX, as a leading educational and project company operating in the field of space and aviation in Uzbekistan, has set itself the task of training young people and adults in space sciences.",
-  slider3Desc:
-    "We are here to assist you in creating laboratories tailored exactly to your needs and preferences.",
-  slider4Desc:
-    "We are fully prepared to support your learning journey by providing advanced technologies and resources through Academyx, helping you gain more knowledge and skills.",
-  slider5Desc:
-    "Get professional advice tailored to your specialist transfer services",
-  slider6Desc: "We design innovative, innovative and effective education models",
-  sliderButton: "Learn more",
   //pages
-  //edu-design
-  eduHeader: "Our Educational Model Design Services",
-  eduHeaderDesc:
-    "We design innovative, modern, and effective educational models. Our goal is to provide a learning environment where every student can maximize their potential.",
+  //education models
+  eduModelHeader: "Education Models",
+  eduModel1: "Maarif Education Model",
+  eduModel2:
+    "An innovative concept aimed at organizing learning and teaching based on modern approaches in this education system.",
+  eduModel3: "Special Education",
+  eduModel4:
+    "An education model that provides special education and rehabilitation services tailored to the needs of children with certain limitations in physical, mental, emotional, or developmental abilities.",
+  eduModel5: "Montessori Education Model",
+  eduModel6:
+    "An educational methodology focused on students' self-learning, independent thinking, and creativity. This model was developed by Maria Montessori (1870–1952) and is based on the natural development of the child.",
+  eduModel7: "STEAM Education Model",
+  eduModel8:
+    "An educational methodology that integrates science, technology, engineering, arts, and mathematics, aimed at developing students' creative thinking, problem-solving, collaboration, and innovation in these fields.",
+  eduModel9: "Bilsem Model",
+  eduModel10:
+    "A special education system implemented in Turkey, focused on developing students' intellectual and creative potential. BILSEM provides students with high-level academic and creative knowledge and skills. This model is particularly designed for children with high IQ or intellectual abilities.",
+  eduModel11: "P4C Model",
+  eduModel12:
+    "An educational approach aimed at developing philosophical thinking in children and young people. The P4C model helps students learn independent and critical thinking skills, engage in philosophical discussions, and understand each person’s perspectives, thoughts, and feelings.",
+  eduModelPlus:
+    "Did you not find the learning model you need here? We will help you create the educational model you need.",
+  eduModelButton: "Contact Us",
 
-  //card1
-  eduCard1Header: "Curriculum Development",
-  eduCard1Text1:
-    "Content design aligned with student-centered and modern educational principles",
-  eduCard1Text2: "Interdisciplinary learning models",
-  eduCard1Text3: "Programs focused on STEM, arts, and languages",
+  //education design
+  eduDesign1: "Education design",
+  eduDesign2: "Classroom Concepts and Arrangements",
+  eduDesign3:
+    "Classrooms equipped with modern technologies are important for increasing the effectiveness of education nowadays.",
+  eduDesign4:
+    "Building equipment: Classrooms equipped with interactive screens and multimedia systems.",
+  eduDesign5:
+    "Provide convenient workspaces for tablets and personal computers in every classroom.",
+  eduDesign6:
+    "Equipping students with ergonomic furniture (desks and chairs) and paying attention to the aesthetic aspect.",
+  eduDesign7: "Laboratory Setup",
+  eduDesign8:
+    "Ta'limning fan yo‘nalishida sifatini oshirish uchun zamonaviy va xavfsiz laboratoriyalarni o‘rnatamiz:",
+  eduDesign9:
+    "Kimyo va biologiya tajribalarini amalga oshirish uchun maxsus laboratoriya jihozlari.",
+  eduDesign10: "STEM Laboratoriyalari",
+  eduDesign11:
+    "STEM yo‘nalishi uchun quyidagi xizmatlarni taklif etamiz:Robototexnika, 3D printerlar va dasturlash uchun maxsus jihozlar.Zamonaviy qurilmalar yordamida muhandislik va texnologik amaliy mashg‘ulotlar.Yuqori Texnologiyalar bilan",
+  eduDesign12:
+    "Ta'minlangan Ta'lim MaydonlariBizning laboratoriyalarimiz virtual haqiqat va kengaytirilgan haqiqat (VR/AR) vositalari bilan jihozlangan:Talabalar innovatsion asbob-uskunalar yordamida fanga bo‘lgan qiziqishlarini oshiradilar.Xususiylashtirilgan dasturlar va interaktiv darslarni o‘tkazish imkoniyati.",
+  eduDesign13: "Why Choose Us?",
+  eduDesign14: "Professional Approach:",
+  eduDesign15:
+    "We develop a special plan for each project and focus on quality.",
+  eduDesign16: "Innovative Technologies:",
+  eduDesign17:
+    "We improve the educational process by using modern and leading technologies.",
+  eduDesign18: "Customization:",
+  eduDesign19:
+    "Each class or laboratory is designed according to the client's requirements.",
 
-  //card2
-  eduCard2Header: "Teacher Training",
-  eduCard2Text1: "Innovative teaching techniques",
-  eduCard2Text2: "Utilizing digital tools and technologies",
-  eduCard2Text3: "Classroom management and motivation strategies",
+  //education technologies
+  eduTech1: "We shape the future with education technologies",
+  eduTech2:
+    "As a pioneer of digital transformation in education in Uzbekistan, we enhance efficiency across all sectors from school management to e-learning with innovative solutions based on educational technologies and modernize the educational process. Education technologies offer important tools to increase student success, improve teaching effectiveness, and manage all processes in a digital environment. As EduAgency, we provide technological solutions to ease school management and make teaching more effective in the digital transformation of education.",
+  eduTech3: "Our education technology services:",
+  eduTech4: "School management systems",
+  eduTech5:
+    "School management systems are designed to ensure the efficient operation of educational institutions. We offer solutions that establish communication between teachers, students, and parents and help digitize processes.",
+  eduTech6:
+    "The OkulAile system, developed by SiberUzay Teknolojileri A.Ş., combines over 10 years of experience in the sector with an innovative approach. It is a system for tracking students, collecting information about parents, and automating schools.",
+  eduTech7:
+    "The OkulAile system serves kindergartens, primary schools, secondary schools, private schools, colleges, private education courses, learning centers, art centers, and rehabilitation centers.",
+  eduTech8: "Videos about OkulAile",
+  eduTech9: "E-learning platform",
+  eduTech10:
+    "E-learning platforms enhance the educational process. We offer platforms used for customizing learning processes, automating tests, and creating interactive materials for students.",
+  eduTech11:
+    "Vedubox is an all-in-one cloud-based platform designed for e-learning, online training, and webinars. It integrates tools for virtual classrooms, live streaming, content management, and exams. It is especially popular among educators, businesses, and organizations offering online courses or managing training programs.",
+  eduTech12: "Videos about Vedubox",
+  eduTech13: "E-games",
+  eduTech14:
+    "E-games are one of the most effective ways to make education fun and interactive. We provide innovative gaming platforms that make learning more engaging for students.",
+  eduTech15:
+    "Gamified exercises to develop cognitive skills for ages 4 to 13 — and even adults — are all in one app, complete with performance reports showing strengths and areas for improvement!",
+  eduTech16:
+    "Loved by 10 million users. Join millions of parents, teachers, and kids all around the world.",
+  eduTech17: "Here are some videos about MentalUp:",
+  eduTech18: "Future astronaut project:",
+  eduTech19:
+    "Embark on an incredible space adventure designed for kids aged 4-10! Future Astronaut is the ultimate educational app that combines fun games, interactive missions, and engaging science experiments to spark a love for space and science in your little ones. 🚀 Explore the Universe with Fun Missions",
+  eduTech20: "Here are some videos about Future astronaut:",
 
-  //card3
-  eduCard3Header: "Assessment and Evaluation Systems",
-  eduCard3Text1: "Advanced evaluation methods to monitor academic success",
-  eduCard3Text2: "Performance analysis through data analytics",
-  eduCard3Text3: "Systems supporting personalized learning paths",
+  // Programs and strategies
+  eduStrHeader: "Programs and Strategies",
+  eduStr1: "Renzulli Learning System",
+  eduStr2:
+    "The Renzulli Learning System offers personalized education based on students' interests, learning styles, and abilities. This online platform matches each student with thousands of enrichment activities by identifying their strengths. As a result, students' motivation increases and academic success is supported.",
+  eduStr3: "Temperament-Based Education and Guidance Approach",
+  eduStr4:
+    "Temperament-based education aims to create a personalized learning environment by considering students' innate temperament traits. This approach provides appropriate guidance and support by understanding students' natural tendencies and behavior patterns. This encourages students to maximize their potential.",
+  eduStr5: "Portfolio Assessment",
+  eduStr6:
+    "Portfolio assessment is a method in which students systematically collect their works and developments, reflecting on their own learning processes. This approach allows students to self-assess, recognize their strengths and weaknesses, and provides teachers with a more comprehensive way to monitor students' progress.",
+  eduStr7: "Flipped Learning",
+  eduStr8:
+    "Flipped Learning is a model where traditional teaching methods are reversed. In this method, students learn lesson materials at home through online resources, and class time is spent on application, discussion, and problem-solving activities. This increases students' active participation in class and deepens their learning process.",
+  eduStr9: "Storytelling",
+  eduStr10:
+    "Storytelling is an effective teaching method where information and concepts are conveyed through stories. This technique captures students' attention, makes learning more meaningful and lasting, simplifies complex topics, and fosters creative thinking skills.",
+  eduStr11: "Learning Styles",
+  eduStr12:
+    "Learning styles are personal characteristics that determine how individuals learn best. Teachers who recognize different learning styles such as visual, auditory, and kinesthetic can tailor their lessons to students' needs, creating a more effective learning environment. This approach enhances students' motivation and academic success.",
 
-  //card4
-  eduCard4Header: "Internal School Management Systems",
-  eduCard4Text1: "Strategic planning in education management",
-  eduCard4Text2: "Developing school culture and leadership",
-  eduCard4Text3: "Performance tracking and continuous improvement",
+  // Teacher Trainings
+  tTraningHeader: "Teacher Trainings",
+  tTraining1: "Brain and Learning",
+  tTraining2:
+    "This program aims to introduce brain-based learning approaches to teachers. Participants will explore scientific methods for effective teaching design by understanding how the brain impacts learning processes. Focusing on the connection between neuroscience and education, it ensures that learning becomes more meaningful and lasting.",
+  tTraining3: "Global Teacher Program",
+  tTraining4:
+    "This training introduces teachers to global education trends and different cultural approaches. Teachers will gain skills in internationally recognized methodologies, digital tools, and working with multicultural classrooms. Teachers will be equipped with global skills to meet the educational needs of the 21st century.",
+  tTraining5: "Attention Development Techniques",
+  tTraining6:
+    "Focused on strategies to enhance attention, this program is designed based on the fact that attention spans have shortened in modern times. Teachers can improve students' focus by making classroom activities and techniques more effective.",
+  tTraining7: "Gamification",
+  tTraining8:
+    "Gamification is the method of integrating game mechanics into course content to make the learning process more fun and interactive. This program teaches teachers the basic principles of gamification and how to apply it, making lessons more engaging and motivating.",
+  tTraining9: "Effective Teaching Techniques",
+  tTraining10:
+    "This training introduces innovative and evidence-based teaching strategies that teachers can use in the classroom. It includes methods such as active learning, group work, and individual guidance to make learning more effective.",
+  tTraining11: "Techniques for Understanding Students",
+  tTraining12:
+    "This program guides teachers in recognizing their students' individual differences, interests, and needs. By using surveys, observations, and other assessment tools, teachers can better adapt to students' learning processes.",
 
-  //card5
-  eduCard5Header: "Innovative Education Projects",
-  eduCard5Text1: "Designing workshops, laboratories, and maker spaces",
-  eduCard5Text2: "Digital and hybrid learning solutions",
-  eduCard5Text3: "Models fostering social awareness and project-based learning",
-
-  bottomText:
-    "We offer special solutions to the different needs of each institution and guide you for sustainable success in education. Contact us to build a stronger educational future together!",
-
-  // Transfer page
-  transferHeader: "Expert transfer",
-  transferDesc:
-    "As EduAgency, we build a strong educational bridge between Uzbekistan and Turkey, combining the cultural ties and academic potential of the two countries. With our experienced team and many years of experience, we provide professional services in the exchange of educational specialists.",
-
-  // Card 1
-  transferCard1Header:
-    "Transfer of Educational Specialists from Turkey to Uzbekistan",
-  transferCard1Text1:
-    "Qualified Specialist Selection: Selecting and placing experts who stand out with their experience in the education sector.",
-  transferCard1Text2:
-    "Education Project Management: Teacher training, curriculum development, and consultancy services.",
-  transferCard1Text3:
-    "Cultural Adaptation Support: Special programs for Turkish education specialists to adapt to Uzbek culture.",
-
-  // Card 2
-  transferCard2Header: "The Power of Cultural Ties, Academic Cooperation",
-  transferCard2Text1:
-    "As EduAgency, we act with the mission of strengthening the historical and cultural ties between the Turkish and Uzbek people.",
-  transferCard2Text2:
-    "Education is not just about transferring knowledge but also a bridge between cultures.",
-  transferCard2Text3:
-    "With this understanding, we are proud to be the most reliable solution partner for students and education specialists.",
-
-  // teaching-tech
-  teachingTechHeader: "Education Technologies",
-  teachingTechDesc:
-    "Modern education technologies are innovative tools developed to make the learning process more effective, accessible, and engaging. At EduAgency, we offer technology-driven solutions for both students and educators. With smart classroom applications, digital learning platforms, and interactive content, we align education with the needs of the future. By leveraging the power of technology in education, we redefine individuals' learning experiences.",
-
-  // card
-  teachingTechCardText1:
-    "K12NET is a student information system that combines technology to improve performance, accuracy, and communication for teachers, students, staff, and parents.",
-  teachingTechCardText2:
-    "With OkulAile, Preschools, Primary Schools, High Schools, Private Schools, Colleges, Private Education Courses, Study Centers, Art Centers, and Rehabilitation Centers can meet all their needs easily and quickly via mobile.",
-  teachingTechCardText3:
-    "MentalUP is an effective way of cognitive development with over 150 fun brain games. Personalized brain-training games support individual development.",
-  teachingTechCardText4:
-    "Embark on an incredible space adventure designed for children aged 4-10! Future Astronaut is an excellent educational app that combines fun games.",
-
-  //labs
-  labsHeader: "Education labaratories",
-  labsDesc:
-    "Explore our advanced laboratories designed to provide students with hands-on learning experiences. From STEM and energy innovation to aerospace and digital design, we offer cutting-edge resources for aspiring professionals and researchers.",
-
-  //card1
-  labsCard1Header: "STEM Laboratory",
-  labsCard1Text:
-    "A place for innovation and discovery in science, technology, engineering, and math. Equipped with the latest tools to foster creativity and problem-solving skills.",
-
-  //card2
-  labsCard2Header: "Intellectual Games",
-  labsCard2Text:
-    "Engage in mental exercises designed to enhance cognitiv skills and boost problem-solving abilities in a fun and interactive way.",
-
-  //card3
-  labsCard3Header: "Aerospace Laboratory",
-  labsCard3Text:
-    "Dive into the world of aviation and space exploration with cutting-edge equipment and simulations.",
-
-  //card4
-  labsCard4Header: "Energy Innovation",
-  labsCard4Text:
-    "Learn about renewable energy sources, smart grids, and innovative technologies shaping the future of energy.",
-
-  //card5
-  labsCard5Header: "Electronics Laboratory",
-  labsCard5Text:
-    "Hands-on experience with circuits, robotics, and microcontroller programming in a dynamic environment.",
-
-  //card6
-  labsCard6Header: "Design Applications",
-  labsCard6Text:
-    "Explore creative software tools and techniques to bring innovative design concepts to life.",
-
-  //contact
-  contactHeader: "Contact us",
-  placeHolderName: "Enter you name",
-  placeHolderPhone: "Phone number",
-  placeHolderEmail: "Enter your email",
-  placeHolderText: "Write your message here",
-  submitButton: "Submit",
-
-  labelName: "Name",
-  labelPhone: "Phone",
-  labelEmail: "Email",
-  labelMessage: "Message",
+  // Academic Tour
+  akTourHeader: "",
+  akTourTitle: "Trip to the Cosmic Camp",
+  akTour1:
+    "Kosmosx, as the exclusive distributor of the space camp in Turkey, offers its participants a unique space experience. The trip to the space camp is an exciting program that allows every participant to explore the secrets of space and serves as an inspiration for future scientists.",
+  akTour2:
+    "This trip provides participants with in-depth knowledge of space technologies and sciences, while also offering opportunities to develop skills in teamwork, problem-solving, and leadership. Through activities such as simulations, rocket design, and astronaut training in the space camp, participants combine theoretical knowledge with practical experiences.",
+  akTour3:
+    "This year, the TEKNOFEST technology festival in the Turkish Republic of Northern Cyprus aims to bring innovations to the technology world through new competitions. Participants will have the opportunity to showcase and develop their projects. A total of 2.5 million TL prize money and 3 million TL financial support will be provided for teams.",
+  akTour4:
+    "The competitions within TEKNOFEST 2025 offer opportunities to develop innovative solutions in various technology fields. The Tourism Technologies Competition will focus on innovative solutions for the rich cultural heritage, tourism potential, culture, and events of Turkey and the Turkish Republic of Northern Cyprus. The Social Innovation Competition, held for the first time, will propose creative, technology-based approaches to social problems.",
+  akTour5: "Knowledge and Discovery Journey",
+  akTour6:
+    "'Knowledge and Discovery Journey' is a process or experience aimed at expanding one's knowledge, learning new information, and discovering new opportunities. This journey is an important part of personal development, which includes being ready for change and expanding your opportunities.",
+  akTour7:
+    "For every individual, gaining knowledge and accepting new ideas is about opening new horizons, discovering new perspectives, and leading to innovative thinking. During this journey, you will have the opportunity to learn every new piece of information and understand the latest achievements in science and technology.",
+  akTour8: "What will be focused on during the journey?",
+  akTour9: "Personal and professional development",
+  akTour10: "Developing innovative and creative thinking",
+  akTour11: "Learning scientific and technological achievements",
+  akTour12: "Creating and discovering new opportunities",
 
   //advantages
   advHeader: "Advantages",
@@ -299,52 +205,6 @@ export const en = {
   advCard4: "Horizon-Expanding Programs",
   advCard5: "Exclusive Services",
   advCard6: "Innovation and Creativity",
-
-  academyHeader: "Welcome to Academyx",
-  academyDesc:
-    "At Academyx, we aim to transform education. Our online platform brings together teachers and collaboration groups, creating a learning environment focused on cooperation and development. You could be a teacher looking to inspire or a professional seeking a project team; Academyx is the best solution for you. Together, we are shaping the future of education!",
-  academyCard1Header: "STEM",
-  academyCard2Header: "Attention",
-  academyCard3Header: "Classroom Management",
-  academyCard4Header: "Communication",
-  academyCard5Header: "Mind Map",
-  academyCard6Header: "High Intelligence",
-  academyCard7Header: "Active Learning Method",
-  academyCard8Header: "Learning Styles",
-  academyCard1Text:
-    "Provide students with leadership opportunities in science, technology, engineering, and mathematics by offering learning opportunities.",
-  academyCard2Text:
-    "Collaborate with expert teachers in different fields to customize learning experiences.",
-  academyCard3Text:
-    "Teachers and mentors provide useful techniques for classroom management.",
-  academyCard4Text:
-    "Establish strong communication with students to make learning experiences more effective.",
-  academyCard5Text:
-    "Create mind maps to help students learn lessons more effectively.",
-  academyCard6Text:
-    "Discover students with high intelligence and guide them to more advanced programs.",
-  academyCard7Text:
-    "Capture students' attention using active learning methods and train them more effectively.",
-  academyCard8Text:
-    "Understand different learning styles and adapt your teaching methods accordingly.",
-
-  //kosmosx.jsx
-  kosmosxHeader: "About Kosmosx",
-  kosmosxDesc:
-    "Kosmosx offers academic guidance, counseling services, and educational opportunities to students applying to universities. We take pride in guiding thousands of students at our Turkey Campus. With us, students receive the best educational support and can benefit from significant discounts during the admission process.",
-
-  kosmosxCard1Header: "Space Camp",
-  kosmosxCard2Header: "Cosmic EduProg",
-  kosmosxCard3Header: "Activities",
-
-  kosmosxCard1Text:
-    "Kosmosx helps students with university applications and registration processes. Step towards success with our expert guides.",
-  kosmosxCard2Text:
-    "Kosmosx provides modern laboratories and practical areas offering development opportunities in various fields for students.",
-  kosmosxCard3Text:
-    "We organize various seminars and events that support educational and scientific development.",
-  kosmosxCard4Text:
-    "We organize events and competitions for students aiming to become leaders in the world of technology and innovation.",
 
   //hakkimizda
   hakkimizdaHeader: "About Us",
@@ -370,24 +230,12 @@ export const en = {
   vizyonHeader: "Our Vision and Mission",
   vizyonText1: "Our Vision",
   vizyonText2: "Our Mission",
-  vizyonText3: "Maximizing the potential of Turkey and Uzbekistan in the field of education and creating an integration model that serves as an example on the international stage.",
-  vizyonText4: "Creating innovative projects and sustainable partnerships that integrate the educational systems of the two countries, guiding the future of students and teachers.",
+  vizyonText3:
+    "Maximizing the potential of Turkey and Uzbekistan in the field of education and creating an integration model that serves as an example on the international stage.",
+  vizyonText4:
+    "Creating innovative projects and sustainable partnerships that integrate the educational systems of the two countries, guiding the future of students and teachers.",
 
-  hizmetHeader: "Our Services",
-  hizmetText1: "School Setup and Management Consultancy",
-  hizmetText2: "Educational Model Design",
-  hizmetText3: "Teacher Training and Leadership Development Programs",
-  hizmetText4: "Technological Integration and Digital Education Systems",
-  hizmetText5: "Curriculum Development and Academic Projects",
-  hizmetText6: "School Performance Measurement and Evaluation Services",
-  hizmetText7: "We provide strategic support in all stages from planning, structuring, and implementation of new school projects. We offer consultancy services for creating the school concept, interior design, and equipment, as well as for the integration of management systems.",
-  hizmetText8: "We design curricula and educational models for preschool, primary, secondary, and high school levels according to local and international needs. In projects, we combine modern pedagogical approaches with local values to offer long-term solutions.",
-  hizmetText9: "We organize comprehensive teacher development programs to enhance their competencies in modern teaching techniques, leadership skills, and classroom management. Additionally, we offer professional guidance for administrators and leadership teams.",
-  hizmetText10: "We provide consultancy services for the installation and use of technological infrastructures that support digital transformation in education. We implement innovative solutions from smart boards to distance learning platforms.",
-  hizmetText11: "We develop curricula and programs that comply with both national and international educational standards. We provide solutions tailored to the needs of STEM, arts, language education, and other disciplines.",
-  hizmetText12: "We manage detailed evaluation and measurement processes to increase the academic performance of institutions. We identify strengths and areas for improvement and offer sustainable development plans.",
-
-//values
+  //values
   degeHeader: "Our Values",
   degeText1: "Quality",
   degeText2: "Collaboration",
@@ -398,68 +246,16 @@ export const en = {
   degeText7: "We combine modern educational models with local characteristics.",
   degeText8: "We create lasting value through long-term projects.",
 
-  //k12net
-  k12netDesc:
-    "K12NET is an enterprise student information system that allows all aspects of the learning environment to seamlessly coordinate their efforts. School administrators, staff, teachers, students, and parents can access our solution on a single enterprise, cloud or SaaS platform.",
-  k12Card1: "COURSE MANAGEMENT",
-  k12Card2: "SCHOOL CALENDAR",
-  k12Card3: "HOMEWORK ASSIGMENTS",
-  k12Card4: "STUDENT & TEACHER PORTALS",
-  k12Card5: "CLASS REGISTRATION",
+  //contact
+  contactHeader: "Contact us",
+  placeHolderName: "Enter you name",
+  placeHolderPhone: "Phone number",
+  placeHolderEmail: "Enter your email",
+  placeHolderText: "Write your message here",
+  submitButton: "Submit",
 
-  //okulaile
-  okulaileDesc:
-    "With OkulAile, Kindergartens, Primary Schools, High Schools, Private Schools, Colleges, Private Education Courses, Study Centers, Art Centers and Rehabilitation Centers meet all their needs easily and quickly from mobile.",
-  okulaileCard1Header: "Okulaile for kindergardens",
-  okulaileCard2Header: "Okulaile for personalized schools",
-  okulaileCard3Header: "Okulaile for private education course",
-
-  okulaileCard1Text1: "Photo & video",
-  okulaileCard1Text2: "Nutrition, Activity, Sleep",
-  okulaileCard1Text3: "Taking medicine",
-  okulaileCard1Text4: "Annoucements, Monthly Bulletin",
-  okulaileCard1Text5: "Menu, Event calendar",
-  okulaileCard1Text6: "Messages, Notification",
-  okulaileCard1Text7: "Free tracking & Reminder",
-  okulaileCard1Text8: "Managing Multiple Schools",
-
-  okulaileCard2Text1: "Pre-registration (CRM)",
-  okulaileCard2Text2: "Measurment and Evaluation",
-  okulaileCard2Text3: "Attendence, TimeTable",
-  okulaileCard2Text4: "Assignments & Evaluations",
-  okulaileCard2Text5: "Online lessons",
-  okulaileCard2Text6: "Guidance",
-  okulaileCard2Text7: "Income-Expense",
-  okulaileCard2Text8: "Reports",
-
-  okulaileCard3Text1: "Customer Management, Student Registration",
-  okulaileCard3Text2: "Exams, Assessment and Evaluation",
-  okulaileCard3Text3: "Income - Expense",
-  okulaileCard3Text4: "Announcement, Messages",
-  okulaileCard3Text5: "Attendance, Timetable",
-  okulaileCard3Text6: "One-on-One Lesson Program",
-  okulaileCard3Text7: "Assignments & Evaluations  ",
-  okulaileCard3Text8: "Guidance",
-
-  //mentalUp
-  mentalUpDesc:
-    "MentalUP Educational Games For Kids. Your children are your future. Meet your children’s needs with MentalUP Brain  Training Games and help them to improve their intelligence and  discover their potential. Try now!",
-  mentalUpCard1Header: "100+ BRAIN EXERCISES",
-  mentalUpCard2Header: "BRAIN BOOSTER & WORKOUTS FOR KIDS",
-  mentalUpCard3Header: "FOR ALL CHILDREN",
-  mentalUpCard4Header: "CHILD SAFE & NO ADS",
-  mentalUpCard5Header: "ADVANCED PERFORMANCE TRACKING",
-  mentalUpCard6Header: "ALWAYS WITH YOU",
-
-  mentalUpCard1Text:
-    "Memory games, attention, focusing, analytical thinking, visual intelligence, and more... They're all on MentalUP!",
-
-  mentalUpCard2Text:
-    "One app for both! 20 minutes daily brain training and 7-minute home workouts for kids.",
-  mentalUpCard3Text: "MentalUP is suitable for all children regardless of age.",
-  mentalUpCard4Text:
-    "MentalUP doesn't contain ads, pop-ups, or inappropriate content. It's a safe and fun world for kids.",
-  mentalUpCard5Text:
-    "Get the bigger picture! Track your child's development with rich reporting modules and dashboards.",
-  mentalUpCard6Text: "MentalUP is on your smartphone, tablet, and PC.",
+  labelName: "Name",
+  labelPhone: "Phone",
+  labelEmail: "Email",
+  labelMessage: "Message",
 };

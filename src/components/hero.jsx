@@ -8,6 +8,7 @@ import "swiper/css/pagination";
 
 // import required modules
 import { Autoplay, Navigation, Pagination } from "swiper/modules";
+import { getText } from "../languages/index.js";
 
 const HeroSection = () => {
   const { selectedLanguage } = useContext(LanguageContext);
@@ -23,14 +24,14 @@ const HeroSection = () => {
 
   return (
     <Wrapper>
-      <div className="pt-24 flex flex-wrap items-center justify-center lg:justify-between  relative">
+      <div className="md:pt-1 pt-24  flex flex-wrap items-center justify-center lg:justify-between  relative">
         <Swiper
           ref={swiperRef}
           navigation={false}
           autoplay={{ delay: 5000, disableOnInteraction: false }}
           loop={true}
           modules={[Autoplay, Pagination, Navigation]}
-          className="w-full md:h-[520px] h-[320px] rounded-[36px]"
+          className="w-full md:h-[520px] h-[320px] rounded-md md:rounded-[16px] "
           pagination={{
             renderBullet: (index, className) => {
               return `
@@ -50,7 +51,7 @@ const HeroSection = () => {
               <div className="bg-black/40 h-full flex items-end justify-center p-8">
                 <div className="text-center text-black bg-white/70 rounded-[30px]">
                   <h2 className="text-[20px] px-6 py-2  font-bold ">
-                    Ta'lim dizayni
+                    {getText("navbar6")}
                   </h2>
                 </div>
               </div>
@@ -67,7 +68,7 @@ const HeroSection = () => {
               <div className="bg-black/40 h-full flex items-end justify-center p-8">
                 <div className="text-center text-black bg-white/70 rounded-[30px]">
                   <h2 className="text-[20px] px-6 py-2  font-bold ">
-                    Texnologiyalar
+                    {getText("navbar7")}
                   </h2>
                 </div>
               </div>

@@ -18,6 +18,9 @@ import AcademicTour from "./pages/academicTour.jsx";
 import EducationModels from "./pages/eduModels.jsx";
 import EducationDesign from "./pages/eduDesign.jsx";
 import EducationTechnologies from "./pages/eduTech.jsx";
+import Accredation from "./pages/accredation.jsx";
+import StudyTurkey from "./pages/studyTurkey.jsx";
+import StudyUz from "./pages/studyUzb.jsx";
 
 const Root = () => {
   return (
@@ -41,6 +44,9 @@ const Root = () => {
               <Route path="/teacherTrainings" element={<TeacherTrainings />} />
               <Route path={"/edu-materials"} element={<EduMaterials />} />
               <Route path={"/academic-tour"} element={<AcademicTour />} />
+              <Route path="/accredation" element={<Accredation />} />
+              <Route path="/study-turkey" element={<StudyTurkey />} />
+              <Route path="/study-uz" element={<StudyUz />} />
             </Routes>
           </BrowserRouter>
           <Footer />

@@ -1,349 +1,202 @@
 export const uz = {
-  navbar1: "Ta'lim dizayni",
-  navbar2: "Ta'lim Texnologiyalari",
-  navbar3: "Ta'lim Dasturlari",
-  navbar4: "Ta'lim Strategiyalari",
-  navbar5: "O'qituvchi Ta'limlari",
-  navbar6: "Ta'lim Materiallari",
-  navbar7: "Akademik Sayohat",
-  navbar8: "Biz haqimizda",
-  navbar9: "Bog'lanish",
-  navbar10: "Xizmatlar",
+  //main nav
+  navbar1: "Ta'lim xizmatlari",
+  navbar2: "Tashkilot xizmatlari",
+  navbar3: "Hamkorlik xizmatlari",
+  navbar4: "Muassasa xizmatlari",
 
-  hero1: "Xush kelibsiz",
-  hero2:
-    "Sizning ehtiyojlaringizga mos ravishda ajoyib ta'lim xizmatlarini taqdim etuvchi ishonchli hamkoringiz.",
-  hero3: "Bugun Boshlang",
-  hero4: "ONLAYN YORDAM",
-  hero5: "Ta'minlangan Xizmatlar",
-  hero6: "Ro'yxatdan O'tgan Talabalar",
-  hero7: "Hamkor Institutlar",
-  hero8: "Mavjud Yordam",
+  //nav dropdowns
+  //edu services
+  navbar5: "Ta'lim modellari",
+  navbar6: "Ta'lim dizayni",
+  navbar7: "Ta'lim texnologiyalari",
+  navbar8: "Dasturlar va strategiyalar",
+  navbar9: "O‘qituvchilar uchun treninglar",
 
-  okul1:
-    "EduAgency Ta'limda Mukammallik Uchun Maktab Arxitekturasi va Dizayn Xizmatlari",
-  okul2:
-    "O'zbekistonda ta'limda farq yaratishga qaratilgan maktab binolari va o'quv maydonlarining dizaynida yetakchilik qilmoqdamiz. Ta'limdagi muvaffaqiyat, to'g'ri muhitda o'sgan talabalar bilan boshlanadi! Biz ham bu yondashuvni qabul qilib, maktab arxitekturasi sohasida taqdim etgan keng qamrovli xizmatlarimiz bilan ilhomlantiruvchi va funksional joylar dizayn qilmoqdamiz.",
-  okul3: "Arxitektura Loyihasi va Dizayni",
-  okul4:
-    "Funksional va Estetik Maktab Dizaynlari: Talabalarining akademik muvaffaqiyatlarini maksimal darajaga chiqaradigan, estetik jihatdan jozibali maktab binolarini dizayn qilmoqdamiz.\n" +
-    "Atrof-muhitga Do'st Maktab Binolari: Barqaror materiallar va energiya tejamkorligi ta'minlovchi ekologik jihatdan toza binolar yaratmoqdamiz.\n" +
-    "Moslashuvchan Maydonlar: Taraqqiy etayotgan ta'lim usullariga moslashgan fleksibil maydonlar dizayn qilmoqdamiz.\n",
-  okul5: "Sinf Kontseptsiyalari va Tartibga Solish",
-  okul6:
-    "Zamonaviy Texnologiyalar bilan Jihozlangan Sinflar: Zamonaviy o'quv asboblari (aqlli doska, planshet va kompyuterlar) bilan jihozlangan sinflarni taqdim etmoqdamiz.\n" +
-    "Talaba Markazli Sinf Dizaynlari: Yanada samarali va funksional sinf tartiblarini yaratmoqdamiz.\n" +
-    "Ijodiy Ishlash Maydonlari: Talabalarining ijodiy fikrlash qobiliyatlarini rivojlantiradigan maydonlar dizayn qilmoqdamiz.",
-  okul7: "Laboratoriya O'rnatish",
-  okul8:
-    "Fan va Ilmiy Laboratoriyalar: Zamonaviy va xavfsiz laboratoriya maydonlarini dizayn qilmoqdamiz.\n" +
-    "STEM Laboratoriyalari: Robototexnika va 3D printerlar bilan jihozlangan maydonlar yaratmoqdamiz.\n" +
-    "Yuqori Texnologiyalar bilan Ta'minlangan Ta'lim Maydonlari: Virtual haqiqat asboblari bilan boyitilgan laboratoriyalarni o'rnatmoqdamiz.",
-  okul9: "Fan Markazini O'rnatish",
-  okul10:
-    "Ta'lim va Kashfiyot Markazi: Talabalarning o'rganish istagini oshiradigan fan markazlarini dizayn qilmoqdamiz.\n" +
-    "Atelye va Ko'rgazma Maydonlari: Talabalar uchun kashf qilish orqali o'rganish imkoniyatlari yaratmoqdamiz.\n" +
-    "Mehmondo'st Fan Markazlari: Ta'lim texnologiyalari va ilmiy kashfiyotlarni birlashtirgan markazlar taqdim etmoqdamiz.",
+  //organization services
+  navbar10: "Seminarlar va konferensiyalar",
+  navbar11: "Ko‘rgazmalar",
+  navbar12: "Akademik sayohat",
 
-  eduTech1: "Biz bilan ta'lim texnologiyalarini shakllantiring",
-  eduTech2: "Ta’lim Texnologiyalari Bilan Kelajakni Shakllantiramiz",
-  eduTech3:
-    "Ta’lim texnologiyalari orqali maktablarda raqamli o‘zgarishlarni qo‘llab-quvvatlab, yanada samarali va ta’sirli jarayonlarni taqdim etamiz.",
-  eduTech4: "Boshqaruv Tizimlari",
-  eduTech5:
-    "Samarali boshqaruv, yaxshi natijalar: Maktab boshqaruvi jarayonining har bir bosqichini osonlashtiruvchi to‘liq integratsiyalangan tizimlar taqdim etamiz.\n      Vaqt va resurslarni tejash, tezkor kirish va o‘quvchilarning rivojlanishini kuzatishni ta’minlaymiz.",
-  eduTech6: "E-Learning Platformalari",
-  eduTech7:
-    "Boy kontent va manbalar taqdim etib, moslashuvchan o‘qish imkoniyatlarini yaratamiz. O‘qituvchi va o‘quvchi qo‘llab-quvvatlash bilan ta’limni modernizatsiya qilamiz.",
-  eduTech8: "E-O‘yinlar",
-  eduTech9:
-    "Qiziqarli o‘qish jarayonlarini taqdim etib, muammolarni hal qilish qobiliyatlari va shaxsiylashtirilgan o‘yin tajribalarini qo‘llab-quvvatlaymiz.",
-  eduTech10: "E-LMS",
-  eduTech11:
-    "Barcha ta’lim jarayonlarini yagona platformada boshqarib, ma’lumotlarga asoslangan qarorlarni qo‘llab-quvvatlash va real vaqt rejimida rivojlanishni kuzatib borishni ta’minlaymiz.",
+  //partnership
+  navbar14: "Sertifikat",
+  navbar15: "Akkreditatsiya",
 
-  eProg1: "Ta'lim dasturlari",
-  eProg2: "Ta'lim sohasida farq yaratadigan dasturlarimiz bilan tanishing!",
-  eProg3: "Xorazmiy ta'lim modeli",
-  eProg4:
-    "Xorazmiy ta'lim modeli fanlararo yondashuv orqali o‘quvchilarga matematika, texnologiya, muhandislik, fan va ijtimoiy fanlarni birgalikda o‘rganish imkoniyatini taqdim etadi. Muammo yechish, analitik fikrlash va hamkorlik ko‘nikmalarini rivojlantirishga qaratilgan ushbu model real hayotga oid loyihalar ustida ishlashni rag‘batlantiradi.",
-  eProg5: "BILSEM dasturi",
-  eProg6:
-    "Fan va san’at markazlari (BILSEM) alohida qobiliyatli bolalar uchun shaxsiy farqlarga mos qo‘llab-quvvatlovchi ta'lim muhiti yaratadi. Ularning fan, san’at, texnologiya va ijod sohasidagi salohiyatlarini kashf etishlari va rivojlantirishlari uchun maxsus ishlab chiqilgan dasturdir.",
-  eProg7: "STEM ta’limi",
-  eProg8:
-    "STEM (Fan, Texnologiya, Muhandislik, Matematika) ta'lim yondashuvi bo‘lib, amaliy va loyiha asosida ta'lim orqali o‘quvchilarning muammo yechish, ijodiy fikrlash va jamoada ishlash ko‘nikmalarini rivojlantiradi.",
-  eProg9: "IB STEM dasturi",
-  eProg10:
-    "Xalqaro bakalavriat (IB) dasturining STEMga yo‘naltirilgan versiyasi bo‘lgan IB STEM, o‘quvchilarning xalqaro standartlarda ilmiy fikrlash va tahlil ko‘nikmalarini rivojlantirishni maqsad qilgan.",
-  eProg11: "Xorijiy bolalarga turk tili o‘rgatish",
-  eProg12:
-    "Turk tili xorijiy bolalar uchun nafaqat bir til, balki madaniyat ko‘prigi sifatida ahamiyatlidir. Ushbu dastur muloqotga asoslangan usullar yordamida turk tilini samarali o‘rgatib, madaniy aloqalarni mustahkamlaydi.",
-  eProg13: "Robotika va dasturlash",
-  eProg14:
-    "Robotika va dasturlash dasturi bolalarni texnologiya bilan tanishtirish va 21-asr ko‘nikmalarini egallashning eng qiziqarli usullaridan biridir.",
+  //topbar
+  topbar1: "Turkiyada o‘qish",
+  topbar2: "O‘zbekistonda o‘qish",
+  topbar3: "Biz haqimizda",
+  topbar4: "Biz bilan bog‘lanish",
 
-  eStr1: "Ta'lim strategiyalari",
-  eStr2: "Ta'limda yangi yondashuvlar bilan farq yarating!",
-  eStr3: "Renzulli o‘qitish tizimi",
-  eStr4:
-    "Renzulli o‘qitish tizimi o‘quvchilarning qiziqishlari, o‘rganish uslublari va qobiliyatlariga moslashtirilgan ta'limni taqdim etadi.",
-  eStr5: "Temperamentga asoslangan ta'lim va yo‘riq",
-  eStr6:
-    "Temperamentga asoslangan ta'lim o‘quvchilarning tabiiy moyilliklarini tushunib, ularga mos yo‘riqni taqdim etadi.",
-  eStr7: "Portfel baholash",
-  eStr8: "Portfel baholash o‘quvchilarga o‘zini baholash imkoniyatini beradi.",
-  eStr9: "Flipped Learning (Teskari o‘qitish)",
-  eStr10:
-    "Flipped Learning dars materiallarini uyda o‘rganish va sinfda amaliyot qilishni rag‘batlantiradi.",
-  eStr11: "Hikoya qilish (Storytelling)",
-  eStr12: "Hikoya qilish o‘rganishni yanada mazmunli va mustahkam qiladi.",
-  eStr13: "O‘rganish uslublari",
-  eStr14:
-    "Turli o‘rganish uslublariga moslashtirilgan ta'lim o‘quvchilarning motivatsiyasini oshiradi.",
-  eStr15: "BIGEP (Fan va rivojlanish dasturi)",
-  eStr16:
-    "BIGEP muammo yechish va innovatsion loyihalar yaratish imkoniyatini taqdim etadi.",
-  eStr17: "AP (Advanced Placement) dasturi",
-  eStr18:
-    "AP dasturi o‘rta maktab o‘quvchilariga universitet darajasidagi darslarni o‘rganish imkoniyatini beradi.",
-
-  tTrain1: "O‘qituvchi ta'limlari",
-  tTrain2:
-    "O‘qituvchilarni rivojlantirishga yo‘naltirilgan maxsus ta'lim dasturlarimiz.",
-  tTrain3: "Miya va o‘rganish",
-  tTrain4:
-    "Miyaga asoslangan o‘rganish yondashuvlarini tanitib, o‘rganish jarayonlarini tushunishga qaratilgan.",
-  tTrain5: "Global o‘qituvchi",
-  tTrain6:
-    "Kglobal ta'lim trendlari va madaniy yondashuvlarni o‘qituvchilarga tanituvchi dastur.",
-  tTrain7: "Diqqatni rivojlantirish texnikalari",
-  tTrain8:
-    "O‘quvchilarning diqqat davomiyligini oshirishga qaratilgan strategik texnikalar.",
-  tTrain9: "O‘yinlashtirish (Gamification)",
-  tTrain10:
-    "Dars materiallarini o‘yin mexanikasi bilan birlashtirib, o‘rganishni qiziqarli qiluvchi usul.",
-  tTrain11: "Samarali o‘qitish texnikalari",
-  tTrain12:
-    "Innovatsion va dalillarga asoslangan o‘qitish strategiyalarini tanitib, o‘rganishni kuchaytiruvchi ta'lim.",
-  tTrain13: "O‘quvchini tanish texnikalari",
-  tTrain14:
-    "O‘quvchilarning individual farqlarini va ehtiyojlarini tushunishga qaratilgan usullar.",
-  tTrain15: "Ta'lim texnologiyalari",
-  tTrain16:
-    "Raqamli vositalar va texnologiyalarni sinfda samarali qo‘llashni o‘rgatadigan dastur.",
-  tTrain17: "Elektron portfel foydalanishi",
-  tTrain18:
-    "O‘quvchilarning yutuqlarini elektron shaklda qayd qilishni o‘rgatadigan dastur.",
-  tTrain19: "Hikoya qilish (Storytelling)",
-  tTrain20:
-    "Dars mazmunini hikoyalar orqali yanada samarali qilish texnikalari.",
-  tTrain21: "Ta'limda yo‘riq tizimi",
-  tTrain22:
-    "O‘quvchilarning akademik, ijtimoiy va hissiy rivojlanishini kuzatish ko‘nikmasini o‘rgatadi.",
-  tTrain23: "Sinf boshqaruvi",
-  tTrain24:
-    "Sinfda tartib va intizomni ta'minlashdan tashqari, o‘quvchilar ishtirokini oshirish yo‘llarini o‘rgatadi.",
-  tTrain25: "Ta'limda ma'lumotga asoslangan qaror qabul qilish",
-  tTrain26:
-    "Sinf ichidagi qarorlarni shakllantirishda ma'lumot tahlilidan foydalanishni o‘rgatadi.",
-
-  eMaterial1: "Ta'lim materiallari",
-  eMaterial2:
-    "O‘quvchilar va o‘qituvchilar uchun maxsus tayyorlangan ta'lim materiallari.",
-  eMaterial3: "Raqamli ta'lim mazmunlari",
-  eMaterial4:
-    "Kompyuter va planshetlarda foydalanish mumkin bo‘lgan, interaktiv videolar, simulyatsiyalar va onlayn testlar.",
-  eMaterial5: "Tajriba to‘plamlari va STEM materiallari",
-  eMaterial6:
-    "Tabiiy fanlar, kimyo va fizika bo‘yicha o‘quvchilarning o‘rganish davomida tajriba qilishlarini ta'minlaydigan to‘plamlar.",
-  eMaterial7: "O‘qituvchi o‘yinlar va intellektual kartalar",
-  eMaterial8:
-    "O‘qish jarayonida qiziqarli bo‘lishni maqsad qilgan ushbu materiallar o‘quvchilarning ijodkorligini oshiradi.",
-  eMaterial9: "Testlar va baholash vositalari",
-  eMaterial10:
-    "O‘quvchilarning akademik darajasini o‘lchash uchun tayyor testlar, optik o‘qish shakllari va baholash sxemalari.",
-  eMaterial11: "Robotika kodlash materiallari",
-  eMaterial12:
-    "Mikroprotsessorlar, datchiklar, elektr to‘plamlari va kodlash dasturlari kabi materiallarni o‘z ichiga oladi.",
-  eMaterial13: "Qadriyatlarni o‘rgatish materiallari",
-  eMaterial14:
-    "O‘quvchilarga axloqiy va ijtimoiy qadriyatlarni o‘rgatishga qaratilgan hikoyalar, tasvirlar va o‘yinlarni o‘z ichiga oladi.",
-  eMaterial15: "Ta'limchilarga mo‘ljallangan materiallar",
-  eMaterial16:
-    "O‘qituvchilarning sinf boshqaruvi, o‘lchov va baholash hamda maxsus ta'lim ehtiyojlarini qondirish uchun qo‘llanma kitoblari.",
-  eMaterial17: "E-ta'lim platformasi obunalari",
-  eMaterial18:
-    "Onlayn platformalarga obuna imkoniyatlarini taqdim etadi. Elektron kitoblar, raqamli dars mazmunlari va interaktiv faoliyatlar.",
-
-  akademikTur1: "KOSMIK LAGER SAYOHATI",
-  akademikTur2:
-    "Turkiyaning eng muhim ilmiy markazlaridan biri bo‘lgan Kosmik Lagerga ushbu sayohat ishtirokchilarga kosmos ilmi va texnologiyalari bilan amaliy o‘qitish imkoniyatini taqdim etadi.",
-  akademikTur3: "TURKIYAGA FAN VA KASHFIYOT SAFARI",
-  akademikTur4:
-    "STEM, robototexnika va o‘yinlashtirish kabi zamonaviy ta'lim usullarini o‘rganishni xohlaydigan o‘qituvchilar uchun Turkiyaning universitetlari, xususiy va davlat maktablariga tashrif buyuriladi.",
-  akademikTur5: "Bilim va kashf",
-  akademikTur6:
-    "Ta'lim tizimlari va maktab boshqaruv modullari bo‘yicha innovatsion yechimlarni ko‘rishni istagan yetakchi o‘qituvchilar uchun noyob bir tajriba taqdim etadi.",
-  akademikTur7: "AKADEMIK SAYOHAT",
-  akademikTur8: "Sizni Kashfiyotga Taklif Qilamiz!",
-  akademikTur9:
-    "Kelajakni yanada kuchliroq qurishingiz uchun ushbu ilm bilan boyitilgan sayohatda sizga yo‘l ko‘rsatishga tayyormiz. Tasavvur qiling, o‘rganing va kelajakni qayta shakllantiring. Turkiyaning betakror boyliklariga boy bu tajribani o‘tkazib yubormang!",
-
-  servicesButtonTitle: "Xizmatlar",
-  servicesText1: "Bog'chalalar",
+  //services
+  servicesText1: "Bog'chalar",
   servicesText2: "Boshlang'ich maktablar",
   servicesText3: "O'rta maktablar",
   servicesText4: "Oliy maktablar",
+  servicesText5: "Universities",
 
-  slider1Header: "Ta'lim texnologiyalari",
-  slider2Header: "Kosmosx",
-  slider3Header: "Labaratoriyalar",
-  slider4Header: "AcademyX",
-  slider5Header: "Mutaxassis transferi",
-  slider6Header: "Ta'lim dizayni",
+  //home
+  //recommended
+  recommendedText1: "Tavsiya etilgan",
+  recommendedText2: "Bog‘changizni Okulaile bilan avtomatlashtiring",
+  recommendedText3: "Ta'limingizni qiziqarli qiling",
+  recommendedText4:
+    "4-10 yoshdagi bolalar uchun mo‘ljallangan ajoyib kosmik sarguzashtga sho‘ng‘ing!",
+  recommendedText5: "MentalUP orqali barcha xohlagan narsangiz!",
 
-  slider1Desc:
-    "Ko‘nikmalaringizni rivojlantirish uchun turli manbalardan bilim olishingiz mumkin.",
-  slider2Desc:
-    "KosmosX, O‘zbekistonda kosmos va aviatsiya sohasida faoliyat yurituvchi yetakchi ta'lim va loyiha kompaniyasi sifatida yoshlarga va kattalarga kosmik fanlarni o‘rgatishni o‘z oldiga maqsad qilgan.",
-  slider3Desc:
-    "Aynan ehtiyojlaringiz va xohishingizga mos laboratoriyalarni yaratishda sizga yordam berishga tayyormiz.",
-  slider4Desc:
-    "Academyx orqali ilg‘or texnologiyalar va resurslar taqdim etib, ko‘proq bilim va ko‘nikmalarga ega bo‘lishingiz uchun o‘quv jarayonlaringizni to‘liq qo‘llab-quvvatlashga tayyormiz.",
-  slider5Desc:
-    "Mutaxassis transferi xizmatlariga moslashtirilgan professional maslahatlarni oling",
-  slider6Desc:
-    "Biz innovatsion, innovatsion va samarali ta'lim modellarini ishlab chiqamiz.",
-  sliderButton: "Batafsil",
   //pages
-  //edu-design
-  eduHeader: "Ta'lim Modeli Dizayn Xizmatlarimiz",
-  eduHeaderDesc:
-    "Innovatsion, yangicha va samarali ta'lim modellarini ishlab chiqamiz. Maqsadimiz har bir o'quvchining salohiyatini maksimal darajada ochib bera oladigan o'quv muhitini taqdim etishdir.",
+  //education models
+  // ta'lim modellari
+  eduModelHeader: "Ta'lim modellari",
+  eduModel1: "Maarif ta'lim modeli",
+  eduModel2:
+    "Bu ta'lim tizimida bilim olish va o'rgatishni zamonaviy yondashuvlar asosida tashkil etishga qaratilgan innovatsion konsepsiya.",
+  eduModel3: "Maxsus ta'lim",
+  eduModel4:
+    "Bu jismoniy, aqliy, emotsional yoki rivojlanish qobiliyatlarida muayyan cheklovlarga ega bo'lgan bolalarga ularning ehtiyojlariga moslashtirilgan maxsus ta'lim va reabilitatsiya xizmatlarini taqdim etadigan ta'lim modeli.",
+  eduModel5: "Montessori ta'lim modeli",
+  eduModel6:
+    "Bu o'quvchilarning o'z-o'zini o'rganishga, mustaqil fikrlashga va kreativlikni rivojlantirishga qaratilgan ta'lim metodikasi. Ushbu modelni Maria Montessori (1870–1952) ishlab chiqqan va u bolaning tabiiy rivojlanishiga asoslanadi.",
+  eduModel7: "STEAM ta'lim modeli",
+  eduModel8:
+    "Bu ilm-fan, texnologiya, muhandislik, san'at va matematika fanlarini o'zaro integratsiya qilgan va o'quvchilarni ushbu sohalarda kreativ fikrlash, muammolarni hal qilish, hamkorlik qilish va innovatsiyalarni rivojlantirishga yo'naltirgan ta'lim metodikasi.",
+  eduModel9: "Bilsem modeli",
+  eduModel10:
+    "Bu Turkiyada amalga oshiriladigan maxsus ta'lim tizimidir, u o'quvchilarning intellektual va ijodiy salohiyatini rivojlantirishga qaratilgan. BILSEM o'quvchilarga akademik va ijodiy jihatdan yuqori darajadagi bilim va ko'nikmalarni taqdim etadi. Bu model ayniqsa, yuqori iq yoki aqliy salohiyatga ega bo'lgan bolalar uchun mo'ljallangan.",
+  eduModel11: "P4C modeli",
+  eduModel12:
+    "Bu bolalar va yoshlarni falsafiy fikrlashni rivojlantirishga yo'naltirilgan ta'lim yondashuvi. P4C modeli, o'quvchilarga mustaqil va tanqidiy fikrlash ko'nikmalarini o'rgatishga, ular bilan falsafiy muhokamalarga kirishishga va har bir insonning qarashlarini, fikrlarini va his-tuyg'ularini tushunishga yordam beradi.",
+  eduModelPlus:
+    "Kerakli o'quv modelini bu yerda topa olmadingizmi? Biz sizga kerakli ta'lim modelini yaratishda yordam beramiz.",
+  eduModelButton: "Biz bilan bog'laning",
 
-  //card1
-  eduCard1Header: "O'quv Rejasini Ishlab Chiqish",
-  eduCard1Text1:
-    "O'quvchi markazli va zamonaviy ta'lim tushunchasiga mos kontent dizayni",
-  eduCard1Text2: "Fanlararo o'rganish modellarini yaratish",
-  eduCard1Text3: "STEM, san'at va tilga yo'naltirilgan dasturlar",
+  //education design
+  eduDesign1: "Ta'lim dizayni",
+  eduDesign2: "Sinf kontseptsiyalari va tartibga solish",
+  eduDesign3:
+    "Zamonaviy texnologiyalar bilan jihozlangan sinfxonalar bugungi kunda ta'lim samaradorligini oshirishda muhim ahamiyatga ega.",
+  eduDesign4:
+    "Binolarni jihozlash: Interaktiv ekranlar va multimedia tizimlari bilan jihozlangan sinfxonalar.",
+  eduDesign5:
+    "Har bir sinfda planshetlar va shaxsiy kompyuterlar uchun qulay ish joylarini taqdim eting.",
+  eduDesign6:
+    "O‘quvchilarni ergonomik mebellar (parta va stullar) bilan ta'minlash va estetik jihatlarga e'tibor qaratish.",
+  eduDesign7: "Laboratoriya O'rnatish",
+  eduDesign8:
+    "Ta'limning fan yo‘nalishida sifatini oshirish uchun zamonaviy va xavfsiz laboratoriyalarni o‘rnatamiz:",
+  eduDesign9:
+    "Kimyo va biologiya tajribalarini amalga oshirish uchun maxsus laboratoriya jihozlari.",
+  eduDesign10: "STEM Laboratoriyalari",
+  eduDesign11:
+    "STEM yo‘nalishi uchun quyidagi xizmatlarni taklif etamiz:Robototexnika, 3D printerlar va dasturlash uchun maxsus jihozlar. Zamonaviy qurilmalar yordamida muhandislik va texnologik amaliy mashg‘ulotlar.",
+  eduDesign12:
+    "Yuqori texnologiyalar bilan ta'minlangan ta'lim maydonlari. Bizning laboratoriyalarimiz virtual haqiqat va kengaytirilgan haqiqat (VR/AR) vositalari bilan jihozlangan:Talabalar innovatsion asbob-uskunalar yordamida fanga bo‘lgan qiziqishlarini oshiradilar. Xususiylashtirilgan dasturlar va interaktiv darslarni o‘tkazish imkoniyati.",
+  eduDesign13: "Nima uchun bizni tanlaysiz?",
+  eduDesign14: "Professional Yondashuv:",
+  eduDesign15:
+    "Har bir loyiha uchun maxsus reja ishlab chiqamiz va sifatga e'tibor qaratamiz.",
+  eduDesign16: "Innovatsion Texnologiyalar:",
+  eduDesign17:
+    "Zamonaviy va ilg‘or texnologiyalardan foydalangan holda ta'lim jarayonini yaxshilaymiz.",
+  eduDesign18: "Moslashtirish:",
+  eduDesign19:
+    "Har bir sinf yoki laboratoriya mijozning talablariga muvofiq loyihalashtiriladi.",
 
-  //card2
-  eduCard2Header: "O'qituvchilarni Tayyorlash",
-  eduCard2Text1: "Innovatsion o'qitish usullari",
-  eduCard2Text2: "Raqamli vositalar va texnologiyalardan foydalanish",
-  eduCard2Text3: "Sinf boshqaruvi va motivatsiya usullari",
+  //ta'lim texnologiyalari
+  eduTech1: "Biz kelajakni ta'lim texnologiyalari bilan shakllantiramiz",
+  eduTech2:
+    "O‘zbekistonda ta’limda raqamli transformatsiyaning kashshofi sifatida biz ta’lim texnologiyalariga asoslangan innovatsion yechimlar bilan maktab boshqaruvidan tortib elektron ta’limgacha bo‘lgan barcha sohalarda samaradorlikni oshiramiz va ta’lim jarayonlarini modernizatsiya qilamiz. Ta'lim texnologiyalari talabalar muvaffaqiyatini oshirish, o'qitish samaradorligini oshirish va raqamli muhitdagi barcha jarayonlarni boshqarish uchun muhim vositalarni taklif etadi. EduAgency sifatida taqdim etayotgan xizmatlarimiz bilan biz ta’limdagi raqamli transformatsiya jarayonida maktab boshqaruvini osonlashtirish va o‘qitishni samaraliroq qilish uchun texnologik yechimlarni taklif etamiz.",
+  eduTech3: "Bizning ta'lim texnologiyalari xizmatlarimiz:",
+  eduTech4: "Maktab boshqaruv tizimlari",
+  eduTech5:
+    "Maktab boshqaruv tizimlari ta'lim muassasalarining samarali ishlashini ta'minlash uchun mo'ljallangan. Biz o'qituvchilar, o'quvchilar va ota-onalar o'rtasida aloqa o'rnatadigan va jarayonlarni raqamlashtirishga yordam beradigan yechimlarni taklif qilamiz.",
+  eduTech6:
+    "OkulAile tizimi sektordagi 10 yildan ortiq tajribani innovatsion yondashuv bilan birlashtirgan SiberUzay Teknolojileri A.Ş. tomonidan ishlab chiqilgan. Bu kompaniya tomonidan ishlab chiqarilgan talabalarni kuzatish, ota-onalar haqida ma'lumot va maktabni avtomatlashtirish tizimi.",
+  eduTech7:
+    "OkulAile tizimi; U bolalar bog'chalari, boshlang'ich maktablar, o'rta maktablar, xususiy maktablar, kollejlar, xususiy ta'lim kurslari, o'quv markazlari, san'at markazlari va reabilitatsiya markazlariga xizmat ko'rsatadi.",
+  eduTech8: "OkulAile haqida videolavhalar",
+  eduTech9: "Elektron ta'lim platformasi",
+  eduTech10:
+    "Elektron ta'lim platformalari ta'lim jarayonini takomillashtiradi. Biz ta'lim jarayonlarini moslashtirish, testlarni avtomatlashtirish va o'quvchilar uchun interaktiv materiallar yaratish uchun ishlatiladigan platformalarni taqdim etamiz.",
+  eduTech11:
+    "Vedubox — bu bulutda ishlovchi barcha-in-bir platforma bo'lib, u e-learning, onlayn treninglar va vebinarlar uchun mo'ljallangan. U virtual sinflar, jonli efirlar, kontentni boshqarish va imtihonlarni o'tkazish uchun vositalarni integratsiya qiladi. Bu platforma ta'limchilar, bizneslar va tashkilotlar orasida onlayn kurslar taklif qilish yoki trening dasturlarini boshqarish uchun mashhur.",
+  eduTech12: "Vedubox haqidagi videolar",
+  eduTech13: "E-o'yinlar",
+  eduTech14:
+    "E-o'yinlar ta'limni qiziqarli va interaktiv qilishning eng samarali usullaridan biridir. Biz talabalar uchun o'qitishni yanada qiziqarli qiladigan innovatsion o'yin platformalarini taqdim etamiz.",
+  eduTech15:
+    "4-13 yoshdagi bolalar va hatto kattalar uchun kognitiv qobiliyatlarni rivojlantirishga mo'ljallangan gamifikatsiyalangan mashqlar — barchasi bitta ilovada, kuchli tomonlar va yaxshilanish kerak bo'lgan sohalar ko'rsatilgan hisobotlar bilan birga!",
+  eduTech16:
+    "10 million foydalanuvchi tomonidan sevib ishlatiladi. Dunyo bo'ylab millionlab ota-onalar, o'qituvchilar va bolalar bilan qo'shiling.",
+  eduTech17: "MentalUp haqida ba'zi videolar:",
+  eduTech18: "Kelajak astronauti loyihasi:",
+  eduTech19:
+    "4-10 yoshdagi bolalar uchun mo'ljallangan ajoyib kosmik sarguzashtni boshlang! Future Astronaut — bu bolalar uchun kosmos va fan atrofida sevgi uyg'otadigan, o'yinlar, interaktiv missiyalar va qiziqarli ilmiy tajribalarni birlashtirgan eng mukammal ta'lim ilovasi. 🚀 Qiziqarli missiyalar bilan Koinotni kashf eting",
+  eduTech20: "Future astronaut haqida ba'zi videolar:",
 
-  //card3
-  eduCard3Header: "Baholash va O'lchov Tizimlari",
-  eduCard3Text1: "Akademik muvaffaqiyatni kuzatuvchi ilg'or baholash usullari",
-  eduCard3Text2: "Ma'lumot tahlili orqali o'qish samaradorligini aniqlash",
-  eduCard3Text3: "Shaxsiy o'rganish yo'llarini qo'llab-quvvatlaydigan tizimlar",
+  // Dasturlar va strategiyalar
+  eduStrHeader: "Dasturlar va strategiyalar",
+  eduStr1: "Renzulli O‘rganish Tizimi",
+  eduStr2:
+    "Renzulli O‘rganish Tizimi talabalarning qiziqishlari, o‘rganish uslublari va qobiliyatlariga asoslangan shaxsiylashtirilgan ta'limni taqdim etadi. Ushbu onlayn platforma har bir talabani o‘z kuchli tomonlari orqali minglab boyitish faoliyatlari bilan bog‘laydi. Natijada, talabalar motivatsiyasi oshadi va akademik muvaffaqiyat qo‘llab-quvvatlanadi.",
+  eduStr3: "Mizaçga Asoslangan Ta'lim va Yo‘riqlik Yondashuvi",
+  eduStr4:
+    "Mizaçga asoslangan ta'lim talabalarning tug‘ma mizaç xususiyatlarini hisobga olib, shaxsiylashtirilgan o‘rganish muhitini yaratishga qaratilgan. Ushbu yondashuv talabalarning tabiiy moyilliklari va xulq-atvor shakllarini tushunib, ularga mos yo‘riqlik va qo‘llab-quvvatlashni taqdim etadi. Bu talabalarning potentsiallarini eng yuqori darajada ishlatishga undaydi.",
+  eduStr5: "Portfel Baholash",
+  eduStr6:
+    "Portfel baholash talabalar o‘z ishlarini va rivojlanishlarini tizimli ravishda yig‘adigan va o‘z o‘rganish jarayonlarini aks ettiradigan usuldir. Ushbu yondashuv talabalar o‘zini baholash imkoniyatini yaratadi, kuchli va zaif tomonlarini tan olishga yordam beradi. Shuningdek, o‘qituvchilarga talabalar rivojlanishini yanada kengroq kuzatish imkoniyatini beradi.",
+  eduStr7: "Flipped Learning (Teskari O‘rganish)",
+  eduStr8:
+    "Flipped Learning — bu an'anaviy o‘qitish usulini teskari aylantirgan modeldir. Ushbu usulda talabalar dars materiallarini uyda onlayn manbalar orqali o‘rganadilar, dars vaqti esa amaliyot, muhokama va muammo yechish faoliyatlari bilan o‘tkaziladi. Bu talabalar darsda faol qatnashishiga yordam beradi va o‘rganish jarayonini chuqurlashtiradi.",
+  eduStr9: "Hikoya Aytilishi (Storytelling)",
+  eduStr10:
+    "Hikoya aytish — bu bilimlar va tushunchalarni hikoyalar orqali etkazishning samarali o‘qitish usulidir. Ushbu texnika talabalar diqqatini jalb qiladi, o‘rganishni yanada ma'noli va barqaror qiladi. Shuningdek, murakkab mavzularni tushunishni osonlashtiradi va talabalar ijodiy fikrlash qobiliyatlarini rivojlantiradi.",
+  eduStr11: "O‘rganish Usullari",
+  eduStr12:
+    "O‘rganish usullari — bu shaxslar qanday qilib eng yaxshi o‘rganishni belgilaydigan shaxsiy xususiyatlardir. O‘qituvchilar vizual, audivizual va kinestetik kabi turli o‘rganish uslublarini tanib, darslarini talabalar ehtiyojlariga moslashtirib, samarali o‘qitish muhiti yaratishlari mumkin. Ushbu yondashuv talabalar motivatsiyasini va akademik muvaffaqiyatlarini oshiradi.",
 
-  //card4
-  eduCard4Header: "Maktab Ichki Boshqaruv Tizimlari",
-  eduCard4Text1: "Ta'lim boshqaruvida strategik rejalashtirish",
-  eduCard4Text2: "Maktab madaniyati va liderlikni rivojlantirish",
-  eduCard4Text3: "Natijalarni kuzatish va doimiy takomillashtirish",
+  // O'qituvchilarni tayyorlash
+  tTraningHeader: "O'qituvchilarni tayyorlash",
+  tTraining1: "Miya va o'rganish",
+  tTraining2:
+    "Ushbu dastur o'qituvchilarga miya asosidagi o'rganish yondashuvlari bilan tanishtirishni maqsad qiladi. Ishtirokchilar, o'rganish jarayoniga miya qanday ta'sir qilishini tushunib, samarali o'qitish dizaynini yaratish uchun ilmiy usullarni o'rganadilar. Neyrobiologiya va ta'lim o'rtasidagi bog'lanishga e'tibor qaratilib, o'rganish yanada mazmunli va barqaror bo'lishi ta'minlanadi.",
+  tTraining3: "Global O'qituvchi (Küresel Öğretmen Programı)",
+  tTraining4:
+    "Ushbu o'quv dasturi o'qituvchilarga global ta'lim tendensiyalari va turli madaniy yondashuvlar bilan tanishtiradi. Xalqaro miqyosda amal qiluvchi metodologiyalar, raqamli vositalar va ko'p madaniyatli sinflarda ishlash ko'nikmalarini o'zlashtirish imkoniyatini beradi. O'qituvchilar, XXI asrning ta'lim ehtiyojlarini qondirish uchun global ko'nikmalarga ega bo'lishadi.",
+  tTraining5: "Diqqatni rivojlantirish texnikalari",
+  tTraining6:
+    "Diqqatni oshirishga qaratilgan strategiyalarni o'z ichiga olgan ushbu dastur aynan bugungi kunda diqqat davomiyligining qisqarishini hisobga olib tayyorlangan. O'qituvchilar sinfdagi faoliyatlar va texnikalarni samarali tarzda o'tkazib, talabalarning diqqatini rivojlantirishlari mumkin.",
+  tTraining7: "O'yinlashtirish (Gamification)",
+  tTraining8:
+    "O'yinlashtirish — bu dars mazmunini o'yin mexanikasi bilan birlashtirib, o'rganish jarayonini qiziqarli va interaktiv qilish metodidir. Ushbu dastur o'qituvchilarga o'yinlashtirishning asosiy prinsiplarini va uni qanday amalga oshirishni o'rgatadi, shuningdek, darslarni yanada jozibador va motivatsiyalovchi qiladi.",
+  tTraining9: "Samarali o'qitish texnikalari",
+  tTraining10:
+    "Ushbu o'quv dasturi o'qituvchilarga sinfda qo'llaniladigan innovatsion va ilmiy asoslangan o'qitish strategiyalarini tanishtiradi. Aktiv o'rganish, guruh ishlari va individual qo'llab-quvvatlash kabi usullar orqali o'qish jarayonini yanada samarali qilish yo'llari ko'rsatiladi.",
+  tTraining11: "Talabalarni tushunish texnikalari",
+  tTraining12:
+    "Ushbu dastur o'qituvchilarga o'z talabalarining individual farqlari, qiziqishlari va ehtiyojlarini tushunishga yordam beradi. So'rovnomalar, kuzatishlar va boshqa baholash vositalari orqali talabalar o'rganish jarayonlariga yaxshiroq moslashishlariga yordam beradi.",
 
-  //card5
-  eduCard5Header: "Innovatsion Ta'lim Loyihalari",
-  eduCard5Text1:
-    "Seminarlar, laboratoriyalar va maker zonalarini tashkil etish",
-  eduCard5Text2: "Raqamli va gibrid ta'lim echimlari",
-  eduCard5Text3:
-    "Jamiyat ongini rivojlantiruvchi va loyiha asosida o'rganish modellarini joriy etish",
-
-  bottomText:
-    "Biz har bir muassasaning turli ehtiyojlari uchun maxsus echimlarni taklif qilamiz va ta'limda barqaror muvaffaqiyatga erishishingizga yordam beramiz. Kuchli ta'lim kelajagini birgalikda qurish uchun biz bilan bog'laning!",
-
-  // Transfer sahifasi
-  transferHeader: "Mutaxassis transferi",
-  transferDesc:
-    "EduAgency sifatida biz O‘zbekiston va Turkiya o‘rtasida kuchli ta’lim ko‘prigini barpo etib, ikki mamlakatning madaniy aloqalari va akademik salohiyatini birlashtiramiz. Tajribali jamoamiz va ko‘p yillik tajribamiz bilan ta’lim mutaxassislari almashinuvida professional xizmatlar taqdim etamiz.",
-
-  // 1-karta
-  transferCard1Header:
-    "Turkiyadan O‘zbekistonga Ta'lim Mutaxassislari Transferi",
-  transferCard1Text1:
-    "Malakali Mutaxassis Tanlovi: Ta’lim sohasidagi tajribasi bilan ajralib turadigan mutaxassislarni tanlash va joylashtirish.",
-  transferCard1Text2:
-    "Ta'lim Loyihalarini Boshqarish: O‘qituvchilarni tayyorlash, o‘quv dasturlarini ishlab chiqish va maslahat xizmatlari.",
-  transferCard1Text3:
-    "Madaniy Moslashuv Yordam: Turkiyadagi ta’lim mutaxassislarini O‘zbek madaniyatiga moslashtirish uchun maxsus dasturlar.",
-
-  // 2-karta
-  transferCard2Header: "Madaniy Aloqalar Kuch-qudrati, Akademik Hamkorlik",
-  transferCard2Text1:
-    "EduAgency sifatida biz o‘zbek va turk xalqlari o‘rtasidagi tarixiy va madaniy aloqalarni mustahkamlash missiyasi bilan harakat qilamiz.",
-  transferCard2Text2:
-    "Ta'lim faqat bilim uzatish emas, balki madaniyatlararo ko‘prikdir.",
-  transferCard2Text3:
-    "Shu tushuncha bilan biz talabalar va ta’lim mutaxassislari uchun eng ishonchli yechim hamkori bo‘lishdan faxrlanamiz.",
-
-  // teaching-tech
-  teachingTechHeader: "Ta'lim texnologiyalari",
-  teachingTechDesc:
-    "Zamonaviy ta'lim texnologiyalari o‘quv jarayonini yanada samarali, qulay va qiziqarli qilish uchun ishlab chiqilgan innovatsion vositalardir. EduAgency sifatida biz o‘quvchilar va o‘qituvchilar uchun texnologiya asosida ishlaydigan yechimlarni taqdim etamiz. Aqlli sinf ilovalari, raqamli o‘quv platformalari va interaktiv kontentlar yordamida ta'limni kelajak ehtiyojlariga moslashtiramiz. Ta'limda texnologiyalarning kuchidan foydalanib, shaxslarning o‘quv tajribasini yangicha talqin qilamiz.",
-
-  // card
-  teachingTechCardText1:
-    "K12NET — bu o‘qituvchilar, o‘quvchilar, xodimlar va ota-onalar uchun texnologiyalarni birlashtirib, samaradorlik, aniqlik va muloqotni yaxshilashga xizmat qiluvchi o‘quvchilar ma'lumot tizimi.",
-  teachingTechCardText2:
-    "OkulAile yordamida bolalar bog‘chalari, boshlang‘ich maktablar, o‘rta maktablar, xususiy maktablar, kollejlar, maxsus ta'lim kurslari, o‘quv markazlari, san'at markazlari va reabilitatsiya markazlari o‘z ehtiyojlarini mobil ilovalar orqali tez va oson hal qiladilar.",
-  teachingTechCardText3:
-    "MentalUP — bu 150 dan ortiq qiziqarli aqliy o‘yinlar bilan samarali intellektual rivojlanish yo‘nalishi. Shaxsga moslashtirilgan miya gimnastikasi o‘yinlari shaxsiy rivojlanishni qo‘llab-quvvatlaydi.",
-  teachingTechCardText4:
-    "4-10 yoshli bolalar uchun mo‘ljallangan ajoyib kosmik sarguzashtga qo‘shiling! Future Astronaut — bu qiziqarli o‘yinlarni birlashtirgan mukammal ta'lim ilovasi.",
-
-  //labs
-  labsHeader: "Ta'lim laboratoriyalari",
-  labsDesc:
-    "Talabalarga amaliy ta'lim olish imkonini beradigan ilg'or laboratoriyalarimizni kashf eting. STEM va energiya innovatsiyalaridan aviatsiya va raqamli dizaynlargacha, biz kelajakdagi mutaxassislar va tadqiqotchilar uchun ilg'or resurslarni taklif etamiz.",
-
-  //card1
-  labsCard1Header: "STEM Laboratoriyasi",
-  labsCard1Text:
-    "Ilm-fan, texnologiya, muhandislik va matematika sohalarida innovatsiya va kashfiyotlar uchun joy. Yaratilish va muammolarni hal qilish ko'nikmalarini rivojlantirish uchun eng yangi vositalar bilan jihozlangan.",
-
-  //card2
-  labsCard2Header: "Intellektual O'yinlar",
-  labsCard2Text:
-    "Kognitiv ko'nikmalarni oshirish va muammolarni hal qilish qobiliyatlarini kuchaytirish uchun mo'ljallangan aqliy mashqlar bilan interaktiv va qiziqarli tarzda shug'ullaning.",
-
-  //card3
-  labsCard3Header: "Aerospace Laboratoriyasi",
-  labsCard3Text:
-    "Aviatsiya va kosmik tadqiqotlar dunyosiga ilg'or jihozlar va simulyatsiyalar yordamida sho'ng'ish.",
-
-  //card4
-  labsCard4Header: "Energiya Innovatsiyalari",
-  labsCard4Text:
-    "Yoqilg'i manbalarini, aqlli tarmoqlarni va energiyaning kelajagini shakllantirayotgan innovatsion texnologiyalarni o'rganing.",
-
-  //card5
-  labsCard5Header: "Elektronika Laboratoriyasi",
-  labsCard5Text:
-    "Dinamik muhitda sxemalar, robototexnika va mikrocontroller dasturlash bilan amaliy tajriba.",
-
-  //card6
-  labsCard6Header: "Dizayn Ilovalari",
-  labsCard6Text:
-    "Ijodiy dizayn g'oyalarini hayotga tatbiq etish uchun yaratuvchi dasturiy vositalar va texnikalarni o'rganing.",
-
-  // contact
-  contactHeader: "Biz bilan bog'lanish",
-  placeHolderName: "Ismingizni kiriting",
-  placeHolderPhone: "Telefon raqami",
-  placeHolderEmail: "Email manzilingizni kiriting",
-  placeHolderText: "Xabarni shu yerga yozing",
-  submitButton: "Yuborish",
-
-  labelName: "Ism",
-  labelPhone: "Telefon",
-  labelEmail: "Email",
-  labelMessage: "Xabar",
+  //akademikTour
+  akTourHeader: "",
+  akTourTitle: "Komsik lagerga sayohat",
+  akTour1:
+    "Kosmosx Turkiyadagi kosmik lagerning O'zbekistondagi eksklyuziv distribyutori sifatida o'z ishtirokchilariga noyob kosmik tajribani taklif etadi. Kosmik lagerga sayohat-bu har bir hayot ishtirokchisiga Kosmos sirlarini kashf etish va kelajakda olimlar uchun Ilhom manbai bo'lishga imkon beradigan qiziqarli dastur.",
+  akTour2:
+    "Ushbu sayohat ishtirokchilarga kosmik texnologiyalar va fanlar bo'yicha chuqur bilim beradi, shu bilan birga jamoaviy ish, muammolarni hal qilish va etakchilik kabi vakolatlarini rivojlantirish imkoniyatini beradi. Simulyatsiya, raketa dizayni va kosmik lagerda kosmonavtlarni tayyorlash kabi tadbirlar bilan ishtirokchilar nazariy bilimlarni amaliy tajribalar bilan birlashtiradilar.",
+  akTour3:
+    "Bu yil Shimoliy Kipr Turk Respublikasida bo‘lib o‘tadigan TEKNOFEST texnologiya olamiga yangi musobaqalar orqali innovatsiyalarni olib kirishni maqsad qilgan. Ishtirokchilar o‘z loyihalarini namoyish etish va rivojlantirish imkoniyatiga ega bo‘lishadi. Jamoalar uchun jami 2 yarim million TL mukofot puli va 3 million TL moliyaviy qo‘llab-quvvatlash taqdim etiladi.",
+  akTour4:
+    "TEKNOFEST 2025 doirasida tashkil etiladigan musobaqalar turli texnologiya sohalarida innovatsion yechimlarni rivojlantirish imkoniyatini taklif etadi. Turizm Texnologiyalari Musobaqasi orqali Turkiya va Shimoliy Kipr Turk Respublikasining boy madaniy merosi, turizm salohiyati, madaniyati va tadbirlari uchun innovatsion yechimlar ishlab chiqiladi. Ilk bor o‘tkaziladigan Ijtimoiy Innovatsiya Musobaqasi esa ijtimoiy muammolarga texnologiyaga asoslangan ijodiy yondashuvlarni taklif etadi.",
+  akTour5: "Bilim va kashf sayohati",
+  akTour6:
+    "'Bilim va kashf sayohati' — bu o'z bilimini kengaytirish, yangi ma'lumotlarni o'rganish va yangi imkoniyatlarni kashf etishga yo'naltirilgan jarayon yoki tajriba. Bu sayohat, shaxsiy rivojlanishning muhim qismi bo'lib, o'zgarishlarga tayyor bo'lishni va o'z imkoniyatlaringizni yanada kengaytirishni o'z ichiga oladi.",
+  akTour7:
+    "Har bir inson uchun bilim olish va yangi g'oyalarni qabul qilish  — bu yangi ufqlarni ochish, yangi dunyoqarashlarni kashf etish  va innovatsion fikrlashga yo'l ochadi. Bu sayohat davomida har  bir yangi ma'lumotni o'rganish, ilm-fan va texnologiyalarning  yangi yutuqlarini anglash imkoniyati yaratadi.",
+  akTour8: "Sayohat davomida nimalarga e'tibor qaratiladi?",
+  akTour9: "Shaxsiy va kasbiy rivojlanish",
+  akTour10: "Innovatsion va kreativ fikrlashni rivojlantirish",
+  akTour11: "Ilmiy va texnologik yutuqlarni o'rganish",
+  akTour12: "Yangi imkoniyatlar yaratish va kashf etish",
 
   //advantages
   advHeader: "Afzalliklar",
@@ -353,52 +206,6 @@ export const uz = {
   advCard4: "Kengaytirilgan Dasturlar",
   advCard5: "Eksklyuziv Xizmatlar",
   advCard6: "Innovatsiya va Yangilik",
-
-  academyHeader: "Academyx'ga Xush Kelibsiz",
-  academyDesc:
-    "Academyx sifatida biz ta'limni o'zgartirishni maqsad qilganmiz. Bizning onlayn platformamiz o'qituvchilarni va hamkorlik guruhlarini birlashtirib, hamkorlik va rivojlanish asosida o'quv muhitini yaratmoqda. Ilhom berishni xohlagan o'qituvchi yoki loyiha jamoasini qidirayotgan mutaxassis bo'lishingiz mumkin; Academyx, siz uchun eng yaxshi yechim. Birgalikda ta'limning kelajagini shakllantirmoqdamiz!",
-  academyCard1Header: "STEM",
-  academyCard2Header: "Diqqat",
-  academyCard3Header: "Sinfni boshqarish",
-  academyCard4Header: "Aloqa",
-  academyCard5Header: "Zihin xaritasi",
-  academyCard6Header: "Yuqori aql",
-  academyCard7Header: "Faol o'qitish usuli",
-  academyCard8Header: "O'qish uslublari",
-  academyCard1Text:
-    "Talabalarga fan, texnologiya, muhandislik va matematikada yetakchilik qilish imkoniyatlarini taqdim eting.",
-  academyCard2Text:
-    "Turli sohalardagi mutaxassis o'qituvchilar bilan hamkorlik qilib, o'qish tajribalarini shaxsiylashtiring.",
-  academyCard3Text:
-    "O'qituvchilar va mentorlar sinfni boshqarish bo'yicha foydali usullarni taqdim etadi.",
-  academyCard4Text:
-    "Talabalar bilan kuchli aloqa o'rnatish orqali o'qish tajribalarini yanada samaraliroq qiling.",
-  academyCard5Text:
-    "Talabalarga darslarni yanada samarali o'rganishlari uchun zihin xaritalarini yarating.",
-  academyCard6Text:
-    "Yuqori aqlga ega talabalarning qobiliyatlarini aniqlang va ularni yanada rivojlangan dasturlar bilan yo'naltiring.",
-  academyCard7Text:
-    "Faol o'qitish metodlari yordamida talabalarning e'tiborini torting va ularni samaraliroq o'qitish.",
-  academyCard8Text:
-    "Turli o'qish uslublarini tushunib, o'qitish uslublaringizni ularga mos ravishda sozlang.",
-
-  //kosmosx.jsx
-  kosmosxHeader: "Kosmosx Haqida",
-  kosmosxDesc:
-    "Kosmosx, universitetga ariza berayotgan talabalarga akademik yo'l-yo'riq, maslahat xizmatlari va ta'lim imkoniyatlarini taqdim etadi. Biz Turkiya kampusimizda minglab talabalarga yo'l-yo'riq ko'rsatishdan faxrlanamiz. Biz bilan birga talabalar eng yaxshi ta'lim ko'magini olishlari va qabul jarayonida muhim chegirmalardan foydalana olishadi.",
-
-  kosmosxCard1Header: "Kosmik Lager",
-  kosmosxCard2Header: "Kosmik Laboratoriyalar",
-  kosmosxCard3Header: "Faoliyatlar",
-
-  kosmosxCard1Text:
-    "Kosmosx, talabalarga universitetga ariza berish va ro'yxatdan o'tish jarayonlarida yordam beradi. Bizning mutaxassis maslahatchilarimiz bilan muvaffaqiyatga qadam qo'ying.",
-  kosmosxCard2Text:
-    "Kosmosx, talabalarga turli sohalarda rivojlanish imkoniyatlarini taqdim etadigan zamonaviy laboratoriyalar va amaliyot maydonchalarini taqdim etadi.",
-  kosmosxCard3Text:
-    "Biz ta'lim va ilmiy rivojlanishni qo'llab-quvvatlovchi turli seminarlar va tadbirlar tashkil etamiz.",
-  kosmosxCard4Text:
-    "Texnologiya va innovatsiyalar sohasida yetakchi bo'lishni istagan talabalar uchun tadbirlar va musobaqalar o'tkazamiz.",
 
   //hakkimizda
   hakkimizdaHeader: "Biz haqimizda",
@@ -429,27 +236,34 @@ export const uz = {
   vizyonText4:
     "Ikki davlatning ta'lim tizimlarini bir-biriga integratsiya qiladigan yangilikchi loyihalar va barqaror hamkorliklar yaratish, o‘quvchilar va o‘qituvchilarning kelajagiga yo‘l-yo‘riq ko‘rsatish.",
 
-  hizmetHeader: "Xizmatlarimiz",
-  hizmetText1:
-    "Maktabni tashkil etish va boshqaruv bo‘yicha maslahat xizmatlari",
-  hizmetText2: "Ta'lim modelini loyihalash",
-  hizmetText3:
-    "O‘qituvchilarni o‘qitish va yetakchilik rivojlantirish dasturlari",
-  hizmetText4: "Texnologik integratsiya va raqamli ta'lim tizimlari",
-  hizmetText5: "Darslik ishlab chiqish va akademik loyihalar",
-  hizmetText6: "Maktabning ish faoliyatini o‘lchash va baholash xizmatlari",
-  hizmetText7:
-    "Yangi maktab loyihalarida tashkilot bosqichidan boshlang‘ich rejalashtirish, tuzish va amalga oshirish jarayonlarida strategik yordam ko‘rsatamiz. Maktab kontseptsiyasini yaratish, ichki dizayn va jihozlash jarayonlaridan boshqaruv tizimlari integratsiyasigacha barcha bosqichlarda maslahat xizmatini taqdim etamiz.",
-  hizmetText8:
-    "Mahalliy va xalqaro ehtiyojlarga mos ravishda maktabgacha ta'lim, boshlang‘ich maktab, o‘rta maktab va o‘rta ta'lim darajalari uchun o‘quv rejalari va ta'lim modellarini loyihalash. Loyiha doirasida zamonaviy pedagogik yondashuvlarni mahalliy qadriyatlar bilan uyg‘unlashtirib, uzoq muddatli yechimlar taklif etamiz.",
-  hizmetText9:
-    "Ta'limchilar uchun keng qamrovli o‘qituvchi rivojlanish dasturlarini tashkil etib, zamonaviy o‘qitish uslublari, yetakchilik qobiliyatlari va sinfni boshqarish bo‘yicha malakalarini oshiramiz. Shuningdek, rahbarlar va liderlik xodimlari uchun professionallarni yo‘naltirish xizmatlarini taklif etamiz.",
-  hizmetText10:
-    "Ta'limda raqamli transformatsiyani qo‘llab-quvvatlovchi texnologik infratuzilmalarning tashkil etilishi va ishlatilishi bo‘yicha maslahat xizmatlarini taqdim etamiz. Aqlli doskalardan masofaviy ta'lim platformalarigacha yangilikchi yechimlarni amalga oshiramiz.",
-  hizmetText11:
-    "Ham milliy, ham xalqaro ta'lim standartlariga mos, o‘quvchi markazli o‘quv rejalari va dasturlarini ishlab chiqamiz. STEM, san'at, til ta'limi va boshqa sohalarda ehtiyojlarga mos yechimlar taqdim etamiz.",
-  hizmetText12:
-    "Muassasalarining akademik natijalarini yaxshilash maqsadida batafsil baholash va o‘lchov jarayonlarini boshqaramiz. Kuchli va rivojlanish kerak bo‘lgan tomonlarni aniqlab, barqaror rivojlanish rejalarini taqdim etamiz.",
+  //hakkimizda
+  hakkimizdaHeader: "Biz haqimizda",
+  hakkimizdaDesc:
+    "EduAgency, biz Turkiya va O'zbekiston o'rtasidagi ta'lim sohasida rezonans yaratish maqsadida almashish, uzatish va hamkorlik qilishga qaratilgan ta'lim hamjamiyatimiz. Bizning vizyonimiz Turkiya va O‘zbekistonning tarixiy madaniy aloqalaridan olgan kuchimiz bilan ta’lim sohasida umumiy jarayonning qurilishiga mazmunli hissa qo‘shishdir.",
+  hakkimizdaCardTitle: "Bizning Qadriyatlarimiz",
+
+  hakkimizdaCard1Header: "Yaxshilik",
+  hakkimizdaCard2Header: "Tezkor aloqa",
+  hakkimizdaCard3Header: "Sifatli xizmat",
+  hakkimizdaCard4Header: "Madaniy munosabatlar",
+
+  hakkimizdaCard1Text:
+    "Talabalarimiz kelajagi uchun javobgarmiz. Ularning vizyonlari va moliyaviy imkoniyatlariga mos eng yaxshi yechimlarni taklif qilamiz.",
+  hakkimizdaCard2Text:
+    "Biz ijodkorlikni va innovatsion fikrlashni qo‘llab-quvvatlab, ta’lim va talabalarni qo‘llab-quvvatlash xizmatlarini mukammallikka olib chiqamiz.",
+  hakkimizdaCard3Text:
+    "Har bir qadamimizda ochiqlik va halollikni ta’minlaymiz, talabalarimiz va hamkorlarimiz bilan ishonchli aloqalar quramiz.",
+  hakkimizdaCard4Text:
+    "Biz madaniy aloqalarni mustahkamlashga intilamiz va talabalarimizga, o‘qituvchilarimizga hamda hamkorlarimizga yuqori darajadagi xizmat ko‘rsatamiz.",
+
+  //vizyonlar
+  vizyonHeader: "Vizyonimiz va Missiyamiz",
+  vizyonText1: "Vizyonimiz",
+  vizyonText2: "Missiyamiz",
+  vizyonText3:
+    "Turkiya va O‘zbekistonning ta'lim sohasidagi salohiyatini maksimal darajada oshirib, xalqaro maydonda namuna bo‘ladigan birlashtirish modelini yaratish.",
+  vizyonText4:
+    "Ikki davlatning ta'lim tizimlarini bir-biriga integratsiya qiladigan yangilikchi loyihalar va barqaror hamkorliklar yaratish, o‘quvchilar va o‘qituvchilarning kelajagiga yo‘l-yo‘riq ko‘rsatish.",
 
   //degeler
   degeHeader: "Qadriyatlarimiz",
@@ -462,71 +276,17 @@ export const uz = {
   degeText7:
     "Zamonaviy ta'lim modellari va mahalliy xususiyatlarni uyg‘unlashtiramiz.",
   degeText8: "Uzoq muddatli loyihalar bilan barqaror qiymat yaratamiz.",
+  // contact
+  contactHeader: "Biz bilan bog'lanish",
+  placeHolderName: "Ismingizni kiriting",
+  placeHolderPhone: "Telefon raqami",
+  placeHolderEmail: "Email manzilingizni kiriting",
+  placeHolderText: "Xabarni shu yerga yozing",
+  submitButton: "Yuborish",
 
-  //k12net
-  k12netDesc:
-    "K12NET – bu ta’lim muhiti bilan bog‘liq barcha jihatlarni bir platformada muvofiqlashtirish imkonini beruvchi korporativ talaba ma'lumot tizimi. Maktab ma'murlari, xodimlari, o‘qituvchilar, o‘quvchilar va ota-onalar bitta korporativ, bulutli yoki SaaS platformada bizning yechimimizdan foydalanishlari mumkin.",
-  k12Card1: "KURS BOSHQARUVI",
-  k12Card2: "MAKTAB TAQVIMI",
-  k12Card3: "UYGA VAZIFALAR",
-  k12Card4: "O‘QUVCHI VA O‘QITUVCHI PORTALLARI",
-  k12Card5: "SINFLARGA RO‘YXATDAN O‘TISH",
-
-  //okulaile
-  okulaileDesc:
-    "OkulAile bilan Bolalar bog‘chalari, Boshlang‘ich maktablar, O‘rta maktablar, Xususiy maktablar, Kollejlar, Xususiy ta’lim kurslari, O‘quv markazlari, San’at markazlari va Reabilitatsiya markazlari barcha ehtiyojlarini mobil platformada oson va tez bajarishlari mumkin.",
-  okulaileCard1Header: "Bolalar bog‘chalari uchun Okulaile",
-  okulaileCard2Header: "Shaxsiy maktablar uchun Okulaile",
-  okulaileCard3Header: "Xususiy ta’lim kurslari uchun Okulaile",
-
-  okulaileCard1Text1: "Foto va video",
-  okulaileCard1Text2: "Oziqlanish, Faoliyat, Uyqu",
-  okulaileCard1Text3: "Dori qabul qilish",
-  okulaileCard1Text4: "E’lonlar, Oylik byulleten",
-  okulaileCard1Text5: "Menyu, Tadbirlar taqvimi",
-  okulaileCard1Text6: "Xabarlar, Bildirishnomalar",
-  okulaileCard1Text7: "Bepul kuzatuv va Eslatmalar",
-  okulaileCard1Text8: "Bir nechta maktablarni boshqarish",
-
-  okulaileCard2Text1: "Dastlabki ro‘yxatga olish (CRM)",
-  okulaileCard2Text2: "O‘lchov va Baholash",
-  okulaileCard2Text3: "Davomat, Dars jadvali",
-  okulaileCard2Text4: "Vazifalar va Baholash",
-  okulaileCard2Text5: "Onlayn darslar",
-  okulaileCard2Text6: "Yo‘riqnoma",
-  okulaileCard2Text7: "Daromad va Xarajat",
-  okulaileCard2Text8: "Hisobotlar",
-
-  okulaileCard3Text1: "Mijozlarni boshqarish, Talabalarni ro‘yxatga olish",
-  okulaileCard3Text2: "Imtihonlar, Baholash va Tahlil qilish",
-  okulaileCard3Text3: "Daromad - Xarajat",
-  okulaileCard3Text4: "E’lonlar, Xabarlar",
-  okulaileCard3Text5: "Davomat, Jadval",
-  okulaileCard3Text6: "Birga-bir dars dasturi",
-  okulaileCard3Text7: "Vazifalar va Baholash",
-  okulaileCard3Text8: "Yo‘riqnoma",
-
-  //mentalUp
-  mentalUpDesc:
-    "MentalUP Bolalar uchun Ta'limiy O‘yinlar. Bolalaringiz – kelajagingiz. MentalUP Aqliy Mashq O‘yinlari bilan bolalaringizning ehtiyojlarini qondiring, aqlini rivojlantirishga yordam bering va ularning salohiyatini kashf qiling. Hozir sinab ko‘ring!",
-  mentalUpCard1Header: "100+ MIYA MASHQLARI",
-  mentalUpCard2Header: "BOLALAR UCHUN MIYA MASHQLARI VA JISMONIY TARBIYA",
-  mentalUpCard3Header: "BARCHA BOLALAR UCHUN",
-  mentalUpCard4Header: "BOLALAR UCHUN XAVFSIZ VA REKLAMASIZ",
-  mentalUpCard5Header: "RIVOJLANISHNI ILG‘OR KUZATISH",
-  mentalUpCard6Header: "HAR DOIM SIZ BILAN",
-
-  mentalUpCard1Text:
-    "Xotira o‘yinlari, diqqat, e’tibor, tahliliy fikrlash, vizual aql va yana ko‘plab o‘yinlar... Bularning barchasi MentalUPda!",
-
-  mentalUpCard2Text:
-    "Bitta ilova bilan ikkala ehtiyojni qondiring! Har kuni 20 daqiqa aqliy mashqlar va 7 daqiqalik uy jismoniy mashqlari.",
-  mentalUpCard3Text:
-    "MentalUP har qanday yoshdagi barcha bolalar uchun mos keladi.",
-  mentalUpCard4Text:
-    "MentalUPda reklamalar, pop-uplar yoki nomunosib kontent mavjud emas. Bu bolalar uchun xavfsiz va qiziqarli dunyo.",
-  mentalUpCard5Text:
-    "Katta rasmni ko‘ring! Bolalaringizning rivojlanishini boy hisobot modullari va boshqaruv panellari bilan kuzating.",
-  mentalUpCard6Text:
-    "MentalUP sizning smartfon, planshet va kompyuteringizda mavjud.",
+  //study-in-turkey
+  labelName: "Ism",
+  labelPhone: "Telefon",
+  labelEmail: "Email",
+  labelMessage: "Xabar",
 };

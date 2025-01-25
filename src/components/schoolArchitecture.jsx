@@ -31,7 +31,7 @@ const SchoolArchitecture = () => {
       <div className="pt-3 pb-10">
         <div className="flex justify-between items-center">
           <h2 className="text-3xl font-bold text-gray-800 mb-4">
-            Sinf konseptlari
+            {getText("navbar6")}
           </h2>
           <a
             href="/okul-mimari"

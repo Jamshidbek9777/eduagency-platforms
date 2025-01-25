@@ -5,7 +5,6 @@ import HeroSection from "./components/hero.jsx";
 import AkademikTour from "./components/akademikTour.jsx";
 import Symbols from "./components/symbols.jsx";
 import Recommended from "./components/recommended.jsx";
-import Reklama from "./components/rek.jsx";
 import News from "./components/news.jsx";
 
 function App() {
@@ -15,11 +14,9 @@ function App() {
         <Symbols />
         <HeroSection />
         <Recommended />
-        <Reklama />
         <SchoolArchitecture />
         <AkademikTour />
         <Advantages />
-        <News />
         <LogoCarouselPage />
       </div>
     </>

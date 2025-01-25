@@ -1,45 +1,35 @@
-import React from "react";
+import React, { useContext } from "react";
 import Wrapper from "../layout/wrapper";
 import { FaSchool, FaBook, FaRunning } from "react-icons/fa";
-import { Breadcrumb } from "antd";
+import { getText } from "../languages";
+import { LanguageContext } from "../context/language";
 
 const EducationStrategies = () => {
+  const { selectedLanguage } = useContext(LanguageContext);
   const models = [
     {
-      title: "Bilsem modeli",
-      description:
-        "Xorazm ta'lim modeli farzandga yo'naltirilgan o'qitishni ta'minlab, bilim olishga, mustaqillik va ijodiy fikrlashni rivojlantirishga imkoniyat yaratadi.",
-      icon: <FaSchool className="text-blue-500 w-16 h-16 mb-4" />,
+      title: getText("eduStr1"),
+      description: getText("eduStr2"),
     },
     {
-      title: "Maaf modeli",
-      description:
-        "Xorazm ta'lim modeli farzandga yo'naltirilgan o'qitishni ta'minlab, bilim olishga, mustaqillik va ijodiy fikrlashni rivojlantirishga imkoniyat yaratadi.",
-      icon: <FaBook className="text-green-500 w-16 h-16 mb-4" />,
+      title: getText("eduStr3"),
+      description: getText("eduStr4"),
     },
     {
-      title: "Spor Lisesi",
-      description:
-        "Xorazm ta'lim modeli farzandga yo'naltirilgan o'qitishni ta'minlab, bilim olishga, mustaqillik va ijodiy fikrlashni rivojlantirishga imkoniyat yaratadi.",
-      icon: <FaRunning className="text-red-500 w-16 h-16 mb-4" />,
+      title: getText("eduStr5"),
+      description: getText("eduStr6"),
     },
     {
-      title: "Bilsem modeli",
-      description:
-        "Xorazm ta'lim modeli farzandga yo'naltirilgan o'qitishni ta'minlab, bilim olishga, mustaqillik va ijodiy fikrlashni rivojlantirishga imkoniyat yaratadi.",
-      icon: <FaSchool className="text-blue-500 w-16 h-16 mb-4" />,
+      title: getText("eduStr7"),
+      description: getText("eduStr8"),
     },
     {
-      title: "Maaf modeli",
-      description:
-        "Xorazm ta'lim modeli farzandga yo'naltirilgan o'qitishni ta'minlab, bilim olishga, mustaqillik va ijodiy fikrlashni rivojlantirishga imkoniyat yaratadi.",
-      icon: <FaBook className="text-green-500 w-16 h-16 mb-4" />,
+      title: getText("eduStr9"),
+      description: getText("eduStr10"),
     },
     {
-      title: "Spor Lisesi",
-      description:
-        "Xorazm ta'lim modeli farzandga yo'naltirilgan o'qitishni ta'minlab, bilim olishga, mustaqillik va ijodiy fikrlashni rivojlantirishga imkoniyat yaratadi.",
-      icon: <FaRunning className="text-red-500 w-16 h-16 mb-4" />,
+      title: getText("eduStr11"),
+      description: getText("eduStr12"),
     },
   ];
 
@@ -51,32 +41,9 @@ const EducationStrategies = () => {
           backgroundImage: "url('img/eduStrBg.jpeg')",
         }}
       >
-        <div className="absolute top-36 left-8 z-10">
-          <Breadcrumb
-            separator={<span className="text-white">&gt;</span>}
-            style={{
-              color: "white",
-              fontSize: "16px",
-            }}
-          >
-            <Breadcrumb.Item>
-              <a href="/" style={{ color: "white" }}>
-                Bosh sahifa
-              </a>
-            </Breadcrumb.Item>
-            <Breadcrumb.Item className="cursor-pointer">
-              Ta'lim xizmatlari
-            </Breadcrumb.Item>
-            <Breadcrumb.Item>
-              <p className="text-white cursor-pointer">
-                Dasturlar va strategiyalar
-              </p>
-            </Breadcrumb.Item>
-          </Breadcrumb>
-        </div>
         <div className="absolute inset-0 bg-black bg-opacity-40"></div>
         <h1 className="relative z-10 text-6xl font-bold">
-          Dasturlar va strategiyalar
+          {getText("eduHeader")}
         </h1>
       </div>
 
