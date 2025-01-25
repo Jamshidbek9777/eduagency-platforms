@@ -112,8 +112,7 @@ export const uz = {
     "Maktab boshqaruv tizimlari ta'lim muassasalarining samarali ishlashini ta'minlash uchun mo'ljallangan. Biz o'qituvchilar, o'quvchilar va ota-onalar o'rtasida aloqa o'rnatadigan va jarayonlarni raqamlashtirishga yordam beradigan yechimlarni taklif qilamiz.",
   eduTech6:
     "OkulAile tizimi sektordagi 10 yildan ortiq tajribani innovatsion yondashuv bilan birlashtirgan SiberUzay Teknolojileri A.Ş. tomonidan ishlab chiqilgan. Bu kompaniya tomonidan ishlab chiqarilgan talabalarni kuzatish, ota-onalar haqida ma'lumot va maktabni avtomatlashtirish tizimi.",
-  eduTech7:
-    "OkulAile tizimi; U bolalar bog'chalari, boshlang'ich maktablar, o'rta maktablar, xususiy maktablar, kollejlar, xususiy ta'lim kurslari, o'quv markazlari, san'at markazlari va reabilitatsiya markazlariga xizmat ko'rsatadi.",
+  eduTech7: "OkulAile tizimi - U bolalar bog'chalariga xizmat ko'rsatadi.",
   eduTech8: "OkulAile haqida videolavhalar",
   eduTech9: "Elektron ta'lim platformasi",
   eduTech10:

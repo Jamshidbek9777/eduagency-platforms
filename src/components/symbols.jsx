@@ -5,7 +5,7 @@ const Symbols = () => {
   return (
     <Wrapper>
       <div className="pt-32 hidden md:flex">
-        <img src="/img/symbols.png" alt="" />
+        <img src="/img/symbols" alt="" />
       </div>
     </Wrapper>
   );

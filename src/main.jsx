@@ -23,6 +23,11 @@ import StudyTurkey from "./pages/studyTurkey.jsx";
 import StudyUz from "./pages/studyUzb.jsx";
 import Seminars from "./pages/seminars.jsx";
 import Exhibitions from "./pages/exhibitions.jsx";
+import Kindergartens from "./pages/kgardens.jsx";
+import ElementarySchool from "./pages/elemantarySchool.jsx";
+import IntermediateSchools from "./pages/intermediateSchools.jsx";
+import HighSchools from "./pages/highSchools.jsx";
+import Universities from "./pages/universities.jsx";
 
 const Root = () => {
   return (
@@ -51,6 +56,14 @@ const Root = () => {
               <Route path="/study-uz" element={<StudyUz />} />
               <Route path="/seminars" element={<Seminars />} />
               <Route path="/exhibitons" element={<Exhibitions />} />
+              <Route path="/kindergartens" element={<Kindergartens />} />
+              <Route path="/elementary-school" element={<ElementarySchool />} />
+              <Route
+                path="/intermediate-school"
+                element={<IntermediateSchools />}
+              />
+              <Route path="/high-schools" element={<HighSchools />} />
+              <Route path="/universities" element={<Universities />} />
             </Routes>
           </BrowserRouter>
           <Footer />

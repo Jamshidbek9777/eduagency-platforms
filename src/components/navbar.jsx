@@ -33,81 +33,25 @@ const Navbar = () => {
   const items = [
     {
       key: "1",
-      label: getText("servicesText1"),
-      children: [
-        {
-          label: <Link to="/education-technologies">Okulaile</Link>,
-          key: "1-1",
-        },
-        {
-          label: <Link to="/education-technologies">Mental Up</Link>,
-          key: "1-2",
-        },
-        {
-          label: (
-            <Link to="https://kosmosx.uz/#/online-platforms">
-              Future astronaut
-            </Link>
-          ),
-          key: "1-3",
-        },
-        { label: <Link to="/education-design">STEMLab</Link>, key: "1-4" },
-      ],
+      label: <Link to={"/kindergartens"}>{getText("servicesText1")}</Link>,
     },
     {
       key: "2",
-      label: getText("servicesText2"),
-      children: [
-        {
-          label: <Link to="/education-technologies">Mental Up</Link>,
-          key: "2-1",
-        },
-        {
-          label: (
-            <Link to="https://kosmosx.uz/#/online-platforms">
-              Future astronaut
-            </Link>
-          ),
-          key: "2-2",
-        },
-        { label: <Link to="/education-design">STEMLab</Link>, key: "2-4" },
-        {
-          label: (
-            <Link to="https://kosmosx.uz/#/trip-to-space">Uzay Kampi</Link>
-          ),
-          key: "2-5",
-        },
-      ],
+      label: <Link to={"/elementary-school"}>{getText("servicesText2")}</Link>,
     },
     {
       key: "3",
-      label: getText("servicesText3"),
-      children: [
-        {
-          label: <Link to="/education-technologies">Mental Up</Link>,
-          key: "3-1",
-        },
-        { label: <Link to="/education-design">STEMLab</Link>, key: "3-3" },
-        {
-          label: (
-            <Link to="https://kosmosx.uz/#/trip-to-space">Uzay Kampi</Link>
-          ),
-          key: "3-4",
-        },
-      ],
+      label: (
+        <Link to={"/intermediate-school"}>{getText("servicesText3")}</Link>
+      ),
     },
     {
       key: "4",
-      label: getText("servicesText4"),
-      children: [
-        {
-          label: (
-            <Link to="https://kosmosx.uz/#/trip-to-space">Uzay Kampi</Link>
-          ),
-          key: "4-2",
-        },
-        { label: <Link to="/education-design">STEMLab</Link>, key: "4-3" },
-      ],
+      label: <Link to={"/high-schools"}>{getText("servicesText4")}</Link>,
+    },
+    {
+      key: "5",
+      label: <Link to={"/universities"}>Universisss</Link>,
     },
   ];
 
