@@ -21,6 +21,8 @@ import EducationTechnologies from "./pages/eduTech.jsx";
 import Accredation from "./pages/accredation.jsx";
 import StudyTurkey from "./pages/studyTurkey.jsx";
 import StudyUz from "./pages/studyUzb.jsx";
+import Seminars from "./pages/seminars.jsx";
+import Exhibitions from "./pages/exhibitions.jsx";
 
 const Root = () => {
   return (
@@ -47,6 +49,8 @@ const Root = () => {
               <Route path="/accredation" element={<Accredation />} />
               <Route path="/study-turkey" element={<StudyTurkey />} />
               <Route path="/study-uz" element={<StudyUz />} />
+              <Route path="/seminars" element={<Seminars />} />
+              <Route path="/exhibitons" element={<Exhibitions />} />
             </Routes>
           </BrowserRouter>
           <Footer />

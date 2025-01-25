@@ -233,6 +233,22 @@ const Navbar = () => {
 
   const nav3Items = [
     {
+      key: "1",
+      label: (
+        <Link className="text-[16px]" to="/seminars">
+          {getText("navbar10")}
+        </Link>
+      ),
+    },
+    {
+      key: "2",
+      label: (
+        <Link className="text-[16px]" to="/exhibitons">
+          {getText("navbar11")}
+        </Link>
+      ),
+    },
+    {
       key: "3",
       label: (
         <Link className="text-[16px]" to="/academic-tour">

@@ -16,9 +16,7 @@ const AcademicTourPage = () => {
         }}
       >
         <div className="absolute inset-0 bg-black bg-opacity-40"></div>
-        <h1 className="relative z-10 text-6xl font-bold">
-          {getText("eduDesign1")}
-        </h1>
+        <h1 className="relative z-10 text-6xl font-bold">Akademik Tour</h1>
       </div>
 
       {/* Content Section */}
