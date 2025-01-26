@@ -2,6 +2,7 @@ import React, { useContext } from "react";
 import Wrapper from "../layout/wrapper";
 import { getText } from "../languages";
 import { LanguageContext } from "../context/language";
+import { FaArrowAltCircleRight } from "react-icons/fa";
 
 const Kindergartens = () => {
   const { selectedLanguage } = useContext(LanguageContext);
@@ -17,7 +18,7 @@ const Kindergartens = () => {
       >
         <div className="absolute inset-0 bg-gradient-to-b from-black to-transparent"></div>
         <h1 className="relative z-10 text-6xl font-bold drop-shadow-lg text-center">
-          Our Services for Kindergartens
+          {getText("kgartenHeader")}
         </h1>
       </div>
 
@@ -27,7 +28,6 @@ const Kindergartens = () => {
           <div className="p-6 bg-white rounded-lg shadow-lg">
             <div>
               <h2 className="text-2xl font-bold mb-4">OkulAile</h2>
-              <p className="text-lg">{getText("eduTech5")}</p>
             </div>
 
             {/* OkulAile Card */}
@@ -35,13 +35,13 @@ const Kindergartens = () => {
               <div className="mt-10">
                 <img
                   src="/img/okulaile.png"
-                  alt="K12NET"
+                  alt="OkulAile"
                   className="w- h-auto rounded-lg"
                 />
                 <p className="mt-4 text-base">{getText("eduTech6")}</p>
                 <p className="mt-4 text-base">{getText("eduTech7")}</p>
                 <div className="mt-4">
-                  <p className="text-lg mb-4">{getText("eduTech8")}</p>
+                  <p className="text-lg mb-4">{getText("videoandpic")}</p>
 
                   <div className="flex flex-wrap justify-start gap-4">
                     {/* Video 1 */}
@@ -86,7 +86,7 @@ const Kindergartens = () => {
                 <p className="mt-4 text-base">{getText("eduTech15")}</p>
                 <p className="mt-4 text-base">{getText("eduTech16")}</p>
                 <div className="mt-4">
-                  <p className="text-lg mb-4">{getText("eduTech17")}</p>
+                  <p className="text-lg mb-4">{getText("videoandpic")}</p>
 
                   <div className="flex flex-wrap justify-start gap-4">
                     {/* Video 1 */}
@@ -136,7 +136,7 @@ const Kindergartens = () => {
                 </div>
               </div>
               <div className="mt-4">
-                <p className="text-lg mb-4">{getText("eduTech20")}</p>
+                <p className="text-lg mb-4">{getText("videoandpic")}</p>
 
                 <div className="flex flex-wrap justify-start gap-4">
                   {/* Video 1 */}
@@ -175,47 +175,22 @@ const Kindergartens = () => {
 
             {/* Space camp */}
             <div className="mt-10">
-              <h1 className="text-2xl font-bold mb-4">Uzay kampi</h1>
+              <h1 className="text-2xl font-bold mb-4">
+                {getText("uzayKampi")}
+              </h1>
               <div className="flex flex-col md:flex-row gap-6 items-center">
                 <img
                   src="/img/partner9.png"
                   alt="K12NET"
                   className="w- h-auto rounded-lg"
                 />
-                <p className="mt-4 text-base">
-                  Kosmosx Turkiyadagi kosmik lagerning O'zbekistondagi
-                  eksklyuziv distribyutori sifatida o'z ishtirokchilariga noyob
-                  kosmik tajribani taklif etadi. Kosmik lagerga sayohat-bu har
-                  bir hayot ishtirokchisiga Kosmos sirlarini kashf etish va
-                  kelajakda olimlar uchun Ilhom manbai bo'lishga imkon beradigan
-                  qiziqarli dastur.
-                </p>
+                <p className="mt-4 text-base">{getText("uzayKapmi1")}</p>
               </div>
-              <p className="mt-4 text-base">
-                Ushbu sayohat ishtirokchilarga kosmik texnologiyalar va fanlar
-                bo'yicha chuqur bilim beradi, shu bilan birga jamoaviy ish,
-                muammolarni hal qilish va etakchilik kabi vakolatlarini
-                rivojlantirish imkoniyatini beradi. Simulyatsiya, raketa dizayni
-                va kosmik lagerda kosmonavtlarni tayyorlash kabi tadbirlar bilan
-                ishtirokchilar nazariy bilimlarni amaliy tajribalar bilan
-                birlashtiradilar.
-              </p>
-              <p className="mt-4 text-base">
-                Bizning kosmik lagerga sayohatimiz nafaqat ta'lim, balki
-                qiziqarli sarguzashtni ham taklif qilish orqali
-                ishtirokchilarning ilmiy qiziqishini oshirish va kosmik
-                texnologiyalarga qiziqishni kuchaytirishga qaratilgan.
-                Kelajakdagi kosmonavtlar uchun unutilmas tajribani taqdim
-                etadigan ushbu dastur akademik va shaxsiy rivojlanish uchun
-                katta imkoniyatlarni taqdim etadi.
-              </p>
-              <p className="mt-4 text-base">
-                Kosmosx sifatida biz ishtirokchilarimizni kosmosning ajoyib
-                dunyosi bilan bog'lash uchun barcha tafsilotlarni professional
-                ravishda rejalashtiramiz va boshqaramiz.
-              </p>
+              <p className="mt-4 text-base">{getText("uzayKapmi2")}</p>
+              <p className="mt-4 text-base">{getText("uzayKapmi3")}</p>
+              <p className="mt-4 text-base">{getText("uzayKapmi4")}</p>
               <div className="mt-4">
-                <p className="text-lg mb-4">Videolar va rasmlar:</p>
+                <p className="text-lg mb-4">{getText("videoandpic")}</p>
 
                 <div className="flex flex-wrap justify-start gap-4">
                   {/* Video 2 */}
@@ -264,28 +239,13 @@ const Kindergartens = () => {
                   alt="K12NET"
                   className="w- h-auto rounded-lg"
                 />
-                <p className="mt-4 text-base">
-                  Fun. Learn. Explore. Every moment of children is precious. We
-                  support every moment of this valuable time with educational
-                  content!
-                </p>
+                <p className="mt-4 text-base">{getText("piagmo1")}</p>
               </div>
-              <p className="mt-4 text-base">
-                At Piagmo Technology, we believe that play is the foundation of
-                learning. Inspired by the Montessori pedagogy, we create mobile
-                games that nurture a child’s natural curiosity and love for
-                exploration. Our journey began with a simple idea: to blend
-                education with fun in a way that feels effortless and engaging
-                for young minds. ​
-              </p>
-              <p className="mt-4 text-base">
-                We are passionate about making learning a joyful adventure, and
-                we’re committed to helping every child reach their full
-                potential one game at a time.
-              </p>
+              <p className="mt-4 text-base">{getText("piagmo2")}</p>
+              <p className="mt-4 text-base">{getText("piagmo3")}</p>
 
               <div className="mt-4">
-                <p className="text-lg mb-4">Videolar va rasmlar:</p>
+                <p className="text-lg mb-4">{getText("videoandpic")}</p>
 
                 <div className="flex flex-wrap justify-start gap-4">
                   {/* Video 2 */}
@@ -321,25 +281,21 @@ const Kindergartens = () => {
 
             {/* Edudesign */}
             <div className="mt-10">
-              <h1 className="text-2xl font-bold mb-4">Education design</h1>
+              <h1 className="text-2xl font-bold mb-4">
+                {getText("eduDesign1")}
+              </h1>
               <div className="flex flex-col md:flex-row gap-6 items-center">
                 <p className="mt-4 text-xl font-bold">
-                  Sinf kontseptsiyalari va tartibga solish
+                  {getText("eduDesign2")}
                 </p>
               </div>
-              <p className="mt-4 text-base">
-                Zamonaviy texnologiyalar bilan jihozlangan sinfxonalar bugungi
-                kunda ta'lim samaradorligini oshirishda muhim ahamiyatga ega.
-              </p>
+              <p className="mt-4 text-base">{getText("eduDesign3")}</p>
               <div className="flex flex-col md:flex-row gap-6 items-center">
                 <p className="mt-4 text-xl font-bold">
-                  Labaratoriyalar o'rnatish
+                  {getText("eduDesign7")}
                 </p>
               </div>
-              <p className="mt-4 text-base">
-                Ta'limning fan yo‘nalishida sifatini oshirish uchun zamonaviy va
-                xavfsiz laboratoriyalarni o‘rnatamiz
-              </p>
+              <p className="mt-4 text-base">{getText("eduDesign8")}</p>
 
               <div className="mt-4">
                 <div className="flex flex-wrap justify-start gap-4">
@@ -365,6 +321,59 @@ const Kindergartens = () => {
                       className="w-full h-[200px] sm:h-[250px] md:h-[280px] lg:h-[315px] rounded-lg shadow-lg object-cover"
                       alt=""
                     />
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            {/* Ta'lim modellari */}
+            <div className="mt-10">
+              <div className="flex justify-between items-center">
+                <h1 className="text-4xl font-bold mb-4">
+                  {getText("navbar5")}
+                </h1>
+                <a href="/education-models" className="flex items-center gap-2">
+                  <p>Learn more</p>
+                  <FaArrowAltCircleRight />
+                </a>
+              </div>
+              <div className="flex flex-col md:flex-row gap-6 items-center">
+                <p className="mt-4 text-base">{getText("eduModeTitle")}</p>
+              </div>
+
+              <div className="mt-4">
+                <div className="flex flex-wrap justify-start gap-4">
+                  {/* Video 2 */}
+                  <div className="w-full sm:w-[calc(50%-1rem)] lg:w-[calc(33.333%-1rem)]">
+                    <img
+                      src="/img/eduModel1.jpg"
+                      className="w-full h-[200px] sm:h-[250px] md:h-[280px] lg:h-[315px] rounded-lg shadow-lg object-cover"
+                      alt=""
+                    />
+                    <h1 className="text-2xl mt-2 text-center font-bold">
+                      Maarif ta'lim modeli
+                    </h1>
+                  </div>
+                  <div className="w-full sm:w-[calc(50%-1rem)] lg:w-[calc(33.333%-1rem)]">
+                    <img
+                      src="/img/eduModel2.jpg"
+                      className="w-full h-[200px] sm:h-[250px] md:h-[280px] lg:h-[315px] rounded-lg shadow-lg object-cover"
+                      alt=""
+                    />
+                    <h1 className="text-2xl mt-2 text-center font-bold">
+                      O'zel egitim
+                    </h1>
+                  </div>
+                  {/* Video 1 */}
+                  <div className="w-full sm:w-[calc(50%-1rem)] lg:w-[calc(33.333%-1rem)]">
+                    <img
+                      src="/img/eduModel3.jpg"
+                      className="w-full h-[200px] sm:h-[250px] md:h-[280px] lg:h-[315px] rounded-lg shadow-lg object-cover"
+                      alt=""
+                    />
+                    <h1 className="text-2xl mt-2 text-center font-bold">
+                      Montessori
+                    </h1>
                   </div>
                 </div>
               </div>

@@ -33,7 +33,7 @@ export const uz = {
   servicesText2: "Boshlang'ich maktablar",
   servicesText3: "O'rta maktablar",
   servicesText4: "Oliy maktablar",
-  servicesText5: "Universities",
+  servicesText5: "Universitetlar",
 
   //home
   //recommended
@@ -109,7 +109,7 @@ export const uz = {
   eduTech3: "Bizning ta'lim texnologiyalari xizmatlarimiz:",
   eduTech4: "Maktab boshqaruv tizimlari",
   eduTech5:
-    "Maktab boshqaruv tizimlari ta'lim muassasalarining samarali ishlashini ta'minlash uchun mo'ljallangan. Biz o'qituvchilar, o'quvchilar va ota-onalar o'rtasida aloqa o'rnatadigan va jarayonlarni raqamlashtirishga yordam beradigan yechimlarni taklif qilamiz.",
+    "Bolalar bog'chalarini boshqarish tizimlari ta'lim muassasalarining samarali ishlashini ta'minlash uchun mo'ljallangan. Biz o'qituvchilar, bolalar va ota-onalar o'rtasida aloqa o'rnatadigan va jarayonlarni raqamlashtirishga yordam beradigan echimlarni taklif qilamiz.",
   eduTech6:
     "OkulAile tizimi sektordagi 10 yildan ortiq tajribani innovatsion yondashuv bilan birlashtirgan SiberUzay Teknolojileri A.Ş. tomonidan ishlab chiqilgan. Bu kompaniya tomonidan ishlab chiqarilgan talabalarni kuzatish, ota-onalar haqida ma'lumot va maktabni avtomatlashtirish tizimi.",
   eduTech7: "OkulAile tizimi - U bolalar bog'chalariga xizmat ko'rsatadi.",
@@ -275,6 +275,59 @@ export const uz = {
   degeText7:
     "Zamonaviy ta'lim modellari va mahalliy xususiyatlarni uyg‘unlashtiramiz.",
   degeText8: "Uzoq muddatli loyihalar bilan barqaror qiymat yaratamiz.",
+
+  //kindergartens
+  //kosmik lager
+  kgartenHeader: "Bog‘chalar uchun xizmatlarimiz",
+  uzayKampi: "Kosmik lager",
+  uzayKapmi1:
+    "Kosmosx, Turkiyadagi kosmik lagerning O‘zbekistondagi eksklyuziv distribyutori sifatida, ishtirokchilarga noyob kosmik tajribani taklif etadi. Kosmik lagerga sayohat – bu har bir ishtirokchiga kosmos sirlarini kashf etish va kelajakda olimlar uchun ilhom manbai bo‘lish imkoniyatini beruvchi qiziqarli dasturdir.",
+  uzayKapmi2:
+    "Ushbu sayohat ishtirokchilarga kosmik texnologiyalar va fanlar bo‘yicha chuqur bilim beradi. Shuningdek, jamoaviy ish, muammolarni hal qilish va liderlik kabi ko‘nikmalarni rivojlantirishga yordam beradi. Simulyatsiyalar, raketa dizayni va kosmonavtlarni tayyorlash tadbirlari orqali ishtirokchilar nazariy bilimlarni amaliy tajribalar bilan uyg‘unlashtiradilar.",
+  uzayKapmi3:
+    "Bizning kosmik lagerga sayohatimiz nafaqat ta’limni, balki qiziqarli sarguzashtni ham o‘z ichiga oladi. Ushbu dastur ishtirokchilarning ilmiy qiziqishini oshirish va kosmik texnologiyalarga bo‘lgan e’tiborini kuchaytirish uchun yaratilgan. Kelajakdagi kosmonavtlar uchun unutilmas tajriba va shaxsiy rivojlanish imkoniyatlarini taqdim etadi.",
+  uzayKapmi4:
+    "Kosmosx sifatida biz ishtirokchilarimizni kosmosning ajoyib dunyosi bilan bog‘lash uchun barcha tafsilotlarni professional tarzda rejalashtiramiz va boshqaramiz.",
+
+  //piagmo
+  piagmo1:
+    "Qiziq. O‘rgan. Kashf et. Bolalar uchun har bir lahza qadrli. Biz ushbu qimmatli vaqtni ta’limiy kontent bilan boyitishga ko‘maklashamiz!",
+  piagmo2:
+    "Piagmo Technology kompaniyasida biz o‘yin o‘rganishning asosidir deb hisoblaymiz. Montessori pedagogikasidan ilhomlanib, bolalarning tabiiy qiziqishi va kashf etishga bo‘lgan sevgisini rivojlantiruvchi mobil o‘yinlar yaratamiz. Bizning sayohatimiz oddiy g‘oya bilan boshlandi: ta’lim va qiziqarli o‘yinlarni yosh onglar uchun oson va jalb etuvchi tarzda birlashtirish.",
+  piagmo3:
+    "Biz o‘qishni quvonchli bir sarguzashtga aylantirishga ishtiyoqmandmiz va har bir bolaning o‘z salohiyatiga erishishiga yordam berishga sodiqmiz. Har bir o‘yinda bu maqsadimizni amalga oshiramiz.",
+
+  //ta’lim modellari
+  eduModeTitle:
+    "Biz sizga innovatsion va keng qamrovli ta’lim modellari orqali mukammal ta’lim tajribasini taqdim etishga intilamiz. Modellarimiz keng qamrovli o‘quv ehtiyojlariga moslashtirilgan bo‘lib, sizga eng yaxshi yo‘nalish va qo‘llab-quvvatlashni taqdim etishni maqsad qiladi. Ushbu modellar orqali biz o‘sishni rag‘batlantiruvchi, bilimni yaxshiroq saqlab qoluvchi va o‘quv sayohatingizda muvaffaqiyat qozonishingiz uchun zarur ko‘nikmalarni shakllantiruvchi o‘quv muhitini yaratishga harakat qilamiz.",
+
+  //vedubox
+  vdebox1:
+    "Vedubox - O‘quv jarayonlari uchun sun’iy intellekt asosidagi super ilova",
+  vdebox2:
+    "Vedubox — bu bizneslar, ta’lim muassasalari va tashkilotlar uchun e-o‘qitish, onlayn trening va muloqot jarayonlarini soddalashtirishga mo‘ljallangan bulutga asoslangan kompleks O‘quv jarayonlarini boshqarish tizimi (LMS). Platforma kuchli funksiyalarni taklif etadi, jumladan kurslarni yaratish va boshqarish, jonli video treninglar, vebinarlar o‘tkazish, avtomatlashtirilgan baholashlar va batafsil tahlillar. Zoom va Microsoft Teams kabi vositalar bilan uzviy integratsiya orqali Vedubox interaktiv o‘quv tajribalarini taqdim etadi. Maxsus brendlash imkoniyatlari va avtomatlashtirilgan sertifikat yaratish xususiyati tufayli bu platforma professional va shaxsiylashtirilgan trening yechimlarini taqdim etish uchun ideal hisoblanadi. Korporativ treninglar, akademik dasturlar yoki vebinarlar uchun bo‘lsin, Vedubox onlayn o‘quv jarayonini soddalashtiradi va takomillashtiradi.",
+
+  tTrain1:
+    "Biz ushbu tizim orqali o‘qituvchilarni o‘qitish mahoratini oshirishga yordam berishga bag‘ishlanganmiz. Ularga yanada samarali pedagog bo‘lishlari va umumiy dars o‘tish usullarini takomillashtirish uchun zarur bo‘lgan vositalar va treninglarni taqdim etamiz.",
+
+  wandt1: "Hayotingizni Germaniyada ish va sayohat bilan o'zgartiring!",
+  wandt2:
+    "O'zbekistonning eng ishonchli va tajribali Ish va Sayohat kompaniyasi sifatida biz yoshlarni Germaniyaga ishlash va turli madaniyatlarni o'rganish uchun yuboramiz. Biz sizga har qadamda yoningizda bo'lib, xavfsiz, yoqimli va foydali sayohat taqdim etishga intilamiz.",
+
+  sTransfer1: "Student transfer",
+  sTransfer2: "Talaba transferi xizmati bilan hayotingizni o'zgartiring",
+  sTransfer3:
+    "Ma'lumot va maslahat: Talabalar agentlikning ekspert maslahatchilaridan Turkiya va O'zbekistondagi ta'lim muassasalari haqida ma'lumot olishlari mumkin. Bu yordam talabalariga o'z akademik tarixi va maqsadlariga mos ta'lim dasturlarini aniqlashda yordam beradi.",
+  sTransfer4:
+    "Ariza hujjatlarini tayyorlash: Agentlik talabalariga zarur hujjatlarni to'plashda va ariza shakllarini to'liq to'ldirishda yordam beradi. Bu hujjatlar o'z ichiga oladi: transkriptlar, til bilish sertifikatlari, tavsiyanomalar va boshqa zarur hujjatlar.",
+  sTransfer5:
+    "Ariza kuzatuvi va aloqa: Agentlik arizalarni tegishli ta'lim muassasalariga vaqtida yetkazilishini ta'minlaydi va jarayonning har bir bosqichini diqqat bilan kuzatib boradi. Ariza jarayonida talabalar bilan muntazam aloqada bo'lib, har qanday kamchilik yoki kechikish holatida tezkor yechimlar ishlab chiqadi.",
+  sTransfer6:
+    "Joylashtirish va moslashish: Agentlik talabalariga qabul qilingan ta'lim muassasalariga joylashish jarayonida ham yo'riq beradi. Shuningdek, talabalarning yangi ta'lim muhitiga moslashishini osonlashtirish uchun yo'riq dasturlarini tashkil etadi.",
+
+  //video va rasmlar
+  videoandpic: "Video va rasmlar:",
+
   // contact
   contactHeader: "Biz bilan bog'lanish",
   placeHolderName: "Ismingizni kiriting",

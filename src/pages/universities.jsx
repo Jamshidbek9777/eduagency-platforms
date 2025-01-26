@@ -26,23 +26,15 @@ const Universities = () => {
       <Wrapper>
         <div className="py-14 space-y-20">
           <div className="p-6 bg-white rounded-lg shadow-lg">
-            {/* Edudesign */}
+            {/* Work and travel */}
             <div className="mt-10">
               <div className="flex justify-between items-center">
                 <h1 className="text-4xl font-bold mb-4">Work and travel</h1>
               </div>
               <div className="flex flex-col md:flex-row gap-6 items-center">
-                <p className="mt-4 text-xl font-bold">
-                  Change Your Life with Work & Travel in Germany!
-                </p>
+                <p className="mt-4 text-xl font-bold">{getText("wandt1")}</p>
               </div>
-              <p className="mt-4 text-base">
-                As Uzbekistan's most reliable and experienced Work and Travel
-                company, we send our youth to the Germany to both work and
-                explore different cultures. We aim to provide you with a safe,
-                enjoyable, and profitable journey by being by your side every
-                step of the way.
-              </p>
+              <p className="mt-4 text-base">{getText("wandt2")}</p>
 
               <div className="mt-4">
                 <div className="flex flex-wrap justify-start gap-4">
@@ -73,45 +65,22 @@ const Universities = () => {
               </div>
             </div>
 
-            {/* Edudesign */}
+            {/* Student transfer */}
             <div className="mt-10">
               <div className="flex justify-between items-center">
-                <h1 className="text-4xl font-bold mb-4">Student transfer</h1>
+                <h1 className="text-4xl font-bold mb-4">
+                  {getText("sTransfer1")}
+                </h1>
               </div>
               <div className="flex flex-col md:flex-row gap-6 items-center">
                 <p className="mt-4 text-xl font-bold">
-                  Change Your Life with Student transfer service
+                  {getText("sTransfer1")}
                 </p>
               </div>
-              <p className="mt-4 text-base">
-                Information and Consultancy: Students can get detailed
-                information about educational institutions in Turkey and
-                Uzbekistan from the agency's expert consultants. The consultants
-                help students determine educational programs that are suitable
-                for their academic background and goals.
-              </p>
-              <p className="mt-4 text-base">
-                Preparation of Application Documents: The agency supports
-                students in collecting the necessary documents and filling out
-                the application forms completely. These documents include
-                transcripts, language proficiency certificates, reference
-                letters and other necessary documents.
-              </p>
-              <p className="mt-4 text-base">
-                Application Tracking and Communication: The agency ensures that
-                applications reach the relevant educational institutions on time
-                and closely follows every stage of the process. It establishes
-                regular communication with students throughout the application
-                process and produces rapid solutions in case of any deficiencies
-                or delays.
-              </p>
-              <p className="mt-4 text-base">
-                Placement and Adaptation: The agency also guides students in the
-                process of being placed in the educational institutions they are
-                accepted to. It also organizes orientation programs to
-                facilitate students' adaptation to the new educational
-                environment.
-              </p>
+              <p className="mt-4 text-base">{getText("sTransfer3")}</p>
+              <p className="mt-4 text-base">{getText("sTransfer4")}</p>
+              <p className="mt-4 text-base">{getText("sTransfer5")}</p>
+              <p className="mt-4 text-base">{getText("sTransfer6")}</p>
 
               <div className="mt-4">
                 <div className="flex flex-wrap justify-start gap-4">
@@ -145,24 +114,16 @@ const Universities = () => {
             {/* Ta'lim modellari */}
             <div className="mt-10">
               <div className="flex justify-between items-center">
-                <h1 className="text-4xl font-bold mb-4">Ta'lim modellari</h1>
+                <h1 className="text-4xl font-bold mb-4">
+                  {getText("navbar5")}
+                </h1>
                 <a href="/education-models" className="flex items-center gap-2">
                   <p>Learn more</p>
                   <FaArrowAltCircleRight />
                 </a>
               </div>
               <div className="flex flex-col md:flex-row gap-6 items-center">
-                <p className="mt-4 text-base">
-                  We are committed to providing you with an exceptional
-                  educational experience by offering innovative and
-                  comprehensive education models. Our models are thoughtfully
-                  designed to cater to a wide range of learning needs, ensuring
-                  that you receive the best possible guidance and support.
-                  Through these models, we strive to create a learning
-                  environment that fosters growth, enhances knowledge retention,
-                  and equips you with the skills necessary to succeed in your
-                  educational journey.
-                </p>
+                <p className="mt-4 text-base">{getText("eduModeTitle")}</p>
               </div>
 
               <div className="mt-4">
@@ -206,19 +167,16 @@ const Universities = () => {
             {/* Teacher trainings */}
             <div className="mt-10">
               <div className="flex justify-between items-center">
-                <h1 className="text-4xl font-bold mb-4">Teacher Trainings</h1>
+                <h1 className="text-4xl font-bold mb-4">
+                  {getText("navbar9")}
+                </h1>
                 <a href="/teacherTrainings" className="flex items-center gap-2">
                   <p>Learn more</p>
                   <FaArrowAltCircleRight />
                 </a>
               </div>
               <div className="flex flex-col md:flex-row gap-6 items-center">
-                <p className="mt-4 text-base">
-                  We are dedicated to helping you improve teachers' teaching
-                  skills through this system, providing them with the tools and
-                  training needed to become more effective educators and enhance
-                  their overall teaching methods.
-                </p>
+                <p className="mt-4 text-base">{getText("tTrain1")}</p>
               </div>
 
               <div className="mt-4">

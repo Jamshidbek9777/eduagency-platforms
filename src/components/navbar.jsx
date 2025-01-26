@@ -51,7 +51,7 @@ const Navbar = () => {
     },
     {
       key: "5",
-      label: <Link to={"/universities"}>Universisss</Link>,
+      label: <Link to={"/universities"}>{getText("servicesText5")}</Link>,
     },
   ];
 

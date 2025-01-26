@@ -109,11 +109,10 @@ export const tr = {
   eduTech3: "Eğitim teknolojileri hizmetlerimiz:",
   eduTech4: "Okul yönetim sistemleri",
   eduTech5:
-    "Okul yönetim sistemleri, eğitim kurumlarının verimli çalışmasını sağlamak amacıyla tasarlanmıştır. Öğretmenler, öğrenciler ve veliler arasında iletişim kuran ve süreçlerin dijitalleşmesine yardımcı olan çözümler sunuyoruz.",
+    "Anaokulu yönetim sistemleri eğitim kurumlarının verimli çalışmasını sağlamak için tasarlanmıştır. Öğretmen, çocuk ve veli arasındaki iletişimi kuran, süreçlerin dijitalleşmesine yardımcı olan çözümler sunuyoruz.",
   eduTech6:
     "OkulAile sistemi, sektörde 10 yılı aşkın deneyimi yenilikçi bir yaklaşım ile birleştiren SiberUzay Teknolojileri A.Ş. tarafından geliştirilmiştir. Bu şirket tarafından geliştirilen öğrenci takibi, veli bilgileri ve okul otomasyonu sistemidir.",
-  eduTech7:
-    "OkulAile sistemi; Anaokulları, ilkokullar, ortaokullar, özel okullar, kolejler, özel eğitim kursları, eğitim merkezleri, sanat merkezleri ve rehabilitasyon merkezlerine hizmet vermektedir.",
+  eduTech7: "OkulAile sistemi - Anaokullarına hizmet vermektedir.",
   eduTech8: "OkulAile hakkında videolar",
   eduTech9: "Elektronik eğitim platformu",
   eduTech10:
@@ -246,6 +245,55 @@ export const tr = {
   degeText6: "Kültürel uyumu ve iş birliğini ön planda tutuyoruz.  ",
   degeText7: "Modern eğitim modellerini yerel özelliklerle harmanlıyoruz.  ",
   degeText8: "Uzun vadeli projelerle kalıcı değer üretiyoruz.  ",
+
+  //uzay kampı
+  kgartenHeader: "Anaokulları için Hizmetlerimiz",
+  uzayKampi: "Uzay Kampı",
+  uzayKapmi1:
+    "Kosmosx, Türkiye'deki uzay kampının Özbekistan'daki tek yetkili distribütörü olarak katılımcılarına benzersiz bir uzay deneyimi sunuyor. Uzay kampı gezisi, her katılımcıya uzayın sırlarını keşfetme ve geleceğin bilim insanları için ilham kaynağı olma fırsatı sağlayan heyecan verici bir programdır.",
+  uzayKapmi2:
+    "Bu gezi, katılımcılara uzay teknolojileri ve bilimleri hakkında derinlemesine bilgi verirken, ekip çalışması, problem çözme ve liderlik gibi becerilerini geliştirme fırsatı sunar. Simülasyonlar, roket tasarımı ve uzay kampında astronot eğitimi gibi etkinliklerle katılımcılar, teorik bilgilerini pratik deneyimlerle birleştirir.",
+  uzayKapmi3:
+    "Uzay kampına yaptığımız gezimiz, sadece eğitim değil, aynı zamanda heyecan verici bir macera sunarak katılımcıların bilimsel merakını artırmayı ve uzay teknolojilerine olan ilgisini güçlendirmeyi hedefliyor. Geleceğin astronotları için unutulmaz bir deneyim sunan bu program, akademik ve kişisel gelişim için büyük fırsatlar sunar.",
+  uzayKapmi4:
+    "Kosmosx olarak, katılımcılarımızı uzayın büyüleyici dünyasıyla buluşturmak için tüm detayları profesyonel bir şekilde planlar ve yönetiriz.",
+
+  //Piagmo
+  piagmo1:
+    "Eğlen. Öğren. Keşfet. Çocukların her anı değerlidir. Bu değerli zamanı eğitim içerikleriyle destekliyoruz!",
+  piagmo2:
+    "Piagmo Technology olarak, oyunun öğrenmenin temeli olduğuna inanıyoruz. Montessori pedagojisinden ilham alarak, çocuğun doğal merakını ve keşfetme sevgisini besleyen mobil oyunlar tasarlıyoruz. Yolculuğumuz, eğitimi ve eğlenceyi genç zihinler için zahmetsiz ve etkileyici bir şekilde birleştirme fikriyle başladı.",
+  piagmo3:
+    "Öğrenmeyi keyifli bir macera haline getirme konusunda tutkuluyuz ve her çocuğun potansiyeline ulaşmasına, oyunlar aracılığıyla destek olmayı taahhüt ediyoruz.",
+
+  //eğitim modelleri
+  eduModeTitle:
+    "Sizlere yenilikçi ve kapsamlı eğitim modelleri sunarak olağanüstü bir eğitim deneyimi sağlamayı taahhüt ediyoruz. Modellerimiz, geniş bir öğrenme ihtiyacını karşılamak için özenle tasarlanmıştır ve sizlere en iyi rehberliği ve desteği sunmayı hedefler. Bu modeller aracılığıyla, büyümeyi teşvik eden, bilgi edinmeyi geliştiren ve eğitim yolculuğunuzda başarılı olmanız için gerekli becerileri kazandıran bir öğrenme ortamı yaratmayı amaçlıyoruz.",
+
+  //vedubox
+  vdebox1: "Vedubox - Yapay Zekâ Destekli Süper Eğitim Uygulaması",
+  vdebox2:
+    "Vedubox, işletmeler, eğitim kurumları ve organizasyonlar için e-öğrenme, çevrimiçi eğitim ve iletişim süreçlerini kolaylaştırmak amacıyla tasarlanmış bulut tabanlı bir Öğrenme Yönetim Sistemi (LMS)’dir. Platform, kurs oluşturma ve yönetimi, canlı video eğitimleri, web semineri düzenleme, otomatik değerlendirmeler ve detaylı analizler gibi güçlü özellikler sunar. Zoom ve Microsoft Teams gibi araçlarla sorunsuz entegrasyon sayesinde Vedubox, etkileşimli öğrenme deneyimleri sağlar. Özel markalama seçenekleri ve otomatik sertifika oluşturma özellikleri, profesyonel ve kişiselleştirilmiş eğitim çözümleri sunmak için idealdir. İster kurumsal eğitim, ister akademik programlar ya da web seminerleri olsun, Vedubox çevrimiçi öğrenme yolculuğunu basitleştirir ve geliştirir.",
+  tTrain1:
+    "Bu sistemle öğretmenlerin öğretme becerilerini geliştirmelerine yardımcı olmaya kendimizi adadık. Onlara daha etkili eğitmenler olmalarını sağlamak ve genel öğretim yöntemlerini geliştirmek için gereken araçlar ve eğitimleri sunuyoruz.",
+
+  wandt1: "Hayatınızı Work & Travel ile Almanya'da Değiştirin!",
+  wandt2:
+    "Uzbekistan'ın en güvenilir ve deneyimli Work and Travel şirketi olarak, gençlerimizi Almanya'ya gönderiyor ve farklı kültürleri keşfetmelerini sağlıyoruz. Her adımda yanınızda olarak güvenli, keyifli ve kazançlı bir yolculuk sunmayı hedefliyoruz.",
+
+  sTransfer1: "Öğrenci transferi",
+  sTransfer2: "Öğrenci transferi hizmeti ile hayatınızı değiştirin",
+  sTransfer3:
+    "Bilgi ve Danışmanlık: Öğrenciler, ajansın uzman danışmanlarından Türkiye ve Uzbekistan'daki eğitim kurumları hakkında bilgi alabilir. Biz, öğrencilerin akademik geçmişlerine ve hedeflerine uygun eğitim programlarını belirlemelerine yardımcı oluyoruz.",
+  sTransfer4:
+    "Başvuru Belgelerinin Hazırlanması: Ajans, öğrencilerin gerekli belgeleri toplamalarına ve başvuru formlarını eksiksiz bir şekilde doldurmalarına yardımcı olur. Bu belgeler, transkriptler, dil yeterlilik belgeleri, referans mektupları ve diğer gerekli belgeleri içerir.",
+  sTransfer5:
+    "Başvuru Takibi ve İletişim: Ajans, başvuruların ilgili eğitim kurumlarına zamanında ulaşmasını sağlar ve sürecin her aşamasını yakından takip eder. Başvuru süreci boyunca öğrencilerle düzenli iletişim kurarak herhangi bir eksiklik veya gecikme durumunda hızlı çözümler üretir.",
+  sTransfer6:
+    "Yerleştirme ve Uyum: Ajans, öğrencilerin kabul edildikleri eğitim kurumlarına yerleştirilme sürecinde de onlara rehberlik eder. Ayrıca, öğrencilerin yeni eğitim ortamlarına uyum sağlamalarını kolaylaştırmak için oryantasyon programları düzenler.",
+
+  //video va rasmlar
+  videoandpic: "Videolar ve resimler:",
 
   // contact
   contactHeader: "Bize Ulaşın",

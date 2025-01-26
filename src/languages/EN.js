@@ -108,11 +108,10 @@ export const en = {
   eduTech3: "Our education technology services:",
   eduTech4: "School management systems",
   eduTech5:
-    "School management systems are designed to ensure the efficient operation of educational institutions. We offer solutions that establish communication between teachers, students, and parents and help digitize processes.",
+    "Kindergarten management systems are designed to ensure the efficient operation of educational institutions. We offer solutions that establish communication between teachers, childrens, and parents and help digitize processes.",
   eduTech6:
     "The OkulAile system, developed by SiberUzay Teknolojileri A.Ş., combines over 10 years of experience in the sector with an innovative approach. It is a system for tracking students, collecting information about parents, and automating schools.",
-  eduTech7:
-    "The OkulAile system serves kindergartens, primary schools, secondary schools, private schools, colleges, private education courses, learning centers, art centers, and rehabilitation centers.",
+  eduTech7: "OkulAile system - It provides services to kindergartens.",
   eduTech8: "Videos about OkulAile",
   eduTech9: "E-learning platform",
   eduTech10:
@@ -245,6 +244,57 @@ export const en = {
   degeText6: "We focus on cultural harmony and collaboration.",
   degeText7: "We combine modern educational models with local characteristics.",
   degeText8: "We create lasting value through long-term projects.",
+
+  //kindergartens
+  //space camp
+  kgartenHeader: "Our Services for Kindergartens",
+  uzayKampi: "Space Camp",
+  uzayKapmi1:
+    "Kosmosx, as the exclusive distributor of the space camp in Turkey for Uzbekistan, offers participants a unique space experience. A trip to the space camp is an exciting program that allows every participant to explore the mysteries of space and become a source of inspiration for future scientists.",
+  uzayKapmi2:
+    "This trip provides participants with in-depth knowledge of space technologies and sciences while helping them develop skills such as teamwork, problem-solving, and leadership. Through activities like simulations, rocket design, and astronaut training at the space camp, participants combine theoretical knowledge with hands-on experiences.",
+  uzayKapmi3:
+    "Our trip to the space camp is designed not only to provide education but also to offer exciting adventures that boost participants' scientific curiosity and interest in space technologies. This program offers an unforgettable experience for future astronauts, providing significant opportunities for academic and personal development.",
+  uzayKapmi4:
+    "At Kosmosx, we professionally plan and manage every detail to connect our participants with the fascinating world of space.",
+  //piagmo
+  piagmo1:
+    "Fun. Learn. Explore. Every moment of a child’s life is precious. We support each moment of this valuable time with educational content!",
+  piagmo2:
+    "At Piagmo Technology, we believe that play is the foundation of learning. Inspired by Montessori pedagogy, we create mobile games that nurture a child’s natural curiosity and love for exploration. Our journey began with a simple idea: to blend education with fun in a way that feels effortless and engaging for young minds.",
+  piagmo3:
+    "We are passionate about making learning a joyful adventure, and we are committed to helping every child reach their full potential, one game at a time.",
+  //educational models
+  eduModeTitle:
+    "We are committed to providing you with an exceptional educational experience by offering innovative and comprehensive education models. Our models are thoughtfully designed to cater to a wide range of learning needs, ensuring that you receive the best possible guidance and support. Through these models, we strive to create a learning environment that fosters growth, enhances knowledge retention, and equips you with the skills necessary to succeed in your educational journey.",
+
+  //vedubox
+  vdebox1: "Vedubox- AI Powered Super App for Learning",
+  vdebox2:
+    "Vedubox is a comprehensive, cloud-based Learning Management  System (LMS) designed to streamline e-learning, online training,  and communication processes for businesses, educational  institutions, and organizations. The platform offers robust  features, including course creation and management, live video  training, webinar hosting, automated assessments, and detailed  analytics. With seamless integration with tools like Zoom and  Microsoft Teams, Vedubox enables interactive learning  experiences. Custom branding options and automated certificate  generation make it ideal for delivering professional,  personalized training solutions. Whether for corporate training,  academic programs, or webinars, Vedubox simplifies and enhances  the online learning journey.",
+
+  //tTrains
+  tTrain1:
+    "We are dedicated to helping you improve teachers' teaching skills through this system, providing them with the tools and training needed to become more effective educators and enhance their overall teaching methods.",
+
+  //unvs
+  wandt1: "Change Your Life with Work & Travel in Germany!",
+  wandt2:
+    "As Uzbekistan's most reliable and experienced Work and Travel  company, we send our youth to the Germany to both work and  explore different cultures. We aim to provide you with a safe,  enjoyable, and profitable journey by being by your side every  step of the way.",
+
+  sTransfer1: "Student transfer",
+  sTransfer2: "Change Your Life with Student transfer service",
+  sTransfer3:
+    "Information and Consultancy: Students can get  information about educational institutions in Turkey  Uzbekistan from the agency's expert consultants. The  help students determine educational programs that are  for their academic background and goals.",
+  sTransfer4:
+    "Preparation of Application Documents: The agency supports students in collecting the necessary documents and filling out the application forms completely. These documents include transcripts, language proficiency certificates, reference letters and other necessary documents.",
+  sTransfer5:
+    " Application Tracking and Communication: The agency ensures that applications reach the relevant educational institutions on time and closely follows every stage of the process. It establishes regular communication with students throughout the application process and produces rapid solutions in case of any deficiencies or delays.",
+  sTransfer6:
+    "Placement and Adaptation: The agency also guides students in the  process of being placed in the educational institutions they are  accepted to. It also organizes orientation programs to  facilitate students' adaptation to the new educational  environment.",
+
+  //video va rasmlar
+  videoandpic: "Videos and pictures:",
 
   //contact
   contactHeader: "Contact us",
