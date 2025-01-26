@@ -10,7 +10,7 @@ const EducationDesign = () => {
     <>
       {/* Header Section */}
       <div
-        className="relative bg-cover bg-center h-[708px] flex flex-col items-center justify-center text-white"
+        className="relative bg-cover bg-center h-[600px] flex flex-col items-center justify-center text-white"
         style={{
           backgroundImage: "url('img/eduDesignBg.jpeg')",
         }}
@@ -24,53 +24,116 @@ const EducationDesign = () => {
       {/* Content Section */}
       <Wrapper>
         <div className="py-10 space-y-16">
-          {/* Class Concepts Section */}
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center bg-[#E6EAF4] p-4 rounded-[20px]">
-            <div className="w-full h-[400px] md:h-[500px] overflow-hidden rounded-[18px] shadow-lg">
-              <img
-                src="/img/classConcept.jpeg"
-                alt="Classroom Design"
-                className="w-full h-full object-cover"
-              />
-            </div>
-            <div>
-              <h2 className="text-2xl font-bold mb-4">
-                {getText("eduDesign2")}
-              </h2>
-              <p className="mb-2">{getText("eduDesign3")}</p>
-              <ul className="list-disc pl-5 space-y-2">
-                <li>{getText("eduDesign4")}</li>
-                <li>{getText("eduDesign5")}</li>
-                <li>{getText("eduDesign6")}</li>
-              </ul>
+          <div>
+            <div class="mx-auto p-6">
+              <div class="section-header mb-8">
+                <h1 class="text-4xl font-bold text-center">
+                  {getText("eduDesign2")}
+                </h1>
+              </div>
+              <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 mb-8">
+                <div class="card bg-white p-4 rounded-lg shadow-lg">
+                  <img
+                    src="/img/activeLC1.jpg"
+                    alt="Active Learning Center"
+                    class="w-full h-48 object-cover rounded-lg mb-4"
+                  />
+                  <h2 class="text-xl font-semibold mb-2">
+                    {getText("eduDesign4")}
+                  </h2>
+                  <p>{getText("eduDesign5")}</p>
+                </div>
+                <div class="card bg-white p-4 rounded-lg shadow-lg">
+                  <img
+                    src="/img/flexibleRoom.jpg"
+                    alt="Active Learning Center"
+                    class="w-full h-48 object-cover rounded-lg mb-4"
+                  />
+                  <h2 class="text-xl font-semibold mb-2">
+                    {" "}
+                    {getText("eduDesign6")}
+                  </h2>
+                  <p>{getText("eduDesign9")}</p>
+                </div>
+                <div class="card bg-white p-4 rounded-lg shadow-lg">
+                  <img
+                    src="/img/stemRoom.jpg"
+                    alt="Active Learning Center"
+                    class="w-full h-48 object-cover rounded-lg mb-4"
+                  />
+                  <h2 class="text-xl font-semibold mb-2">STEM</h2>
+                  <p>{getText("eduDesign10")}</p>
+                </div>
+                <div class="card bg-white p-4 rounded-lg shadow-lg">
+                  <img
+                    src="/img/melodyRoom.jpg"
+                    alt="Active Learning Center"
+                    class="w-full h-48 object-cover rounded-lg mb-4"
+                  />
+                  <h2 class="text-xl font-semibold mb-2">
+                    {" "}
+                    {getText("eduDesign11")}
+                  </h2>
+                  <p>{getText("eduDesign12")}</p>
+                </div>
+              </div>
+
+              {/* labs */}
+              <div class="section-header mb-8">
+                <h1 class="text-4xl font-bold text-center">
+                  {getText("eduDesign7")}
+                </h1>
+              </div>
+              <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
+                <div class="card bg-white p-4 rounded-lg shadow-lg">
+                  <img
+                    src="/img/stemLab1.jpg"
+                    alt="Active Learning Center"
+                    class="w-full h-48 object-cover rounded-lg mb-4"
+                  />
+                  <h2 class="text-xl font-semibold mb-2">
+                    {" "}
+                    {getText("eduDesign13")}
+                  </h2>
+                  <p>{getText("eduDesign14")}</p>
+                </div>
+                <div class="card bg-white p-4 rounded-lg shadow-lg">
+                  <img
+                    src="/img/astranomy.jpg"
+                    alt="Active Learning Center"
+                    class="w-full h-48 object-cover rounded-lg mb-4"
+                  />
+                  <h2 class="text-xl font-semibold mb-2">
+                    {" "}
+                    {getText("eduDesign15")}
+                  </h2>
+                  <p>{getText("eduDesign16")}</p>
+                </div>
+                <div class="card bg-white p-4 rounded-lg shadow-lg">
+                  <img
+                    src="/img/electronicsLab.jpg"
+                    alt="Active Learning Center"
+                    class="w-full h-48 object-cover rounded-lg mb-4"
+                  />
+                  <h2 class="text-xl font-semibold mb-2">
+                    {getText("eduDesign17")}
+                  </h2>
+                  <p>{getText("eduDesign18")}</p>
+                </div>
+                <div class="card bg-white p-4 rounded-lg shadow-lg">
+                  <img
+                    src="/img/robotic.jpeg"
+                    alt="Active Learning Center"
+                    class="w-full h-48 object-cover rounded-lg mb-4"
+                  />
+                  <h2 class="text-xl font-semibold mb-2">
+                    {getText("eduDesign19")}
+                  </h2>
+                  <p>{getText("eduDesign20")}</p>
+                </div>
+              </div>
             </div>
           </div>
-
-          {/* Laboratory Section */}
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center bg-[#E6EAF4] p-4 rounded-[20px]">
-            <div className="w-full h-[400px] md:h-[500px] overflow-hidden rounded-lg shadow-lg ">
-              <img
-                src="/img/labsBg.jpeg"
-                alt="Classroom Design"
-                className="w-full h-full object-cover"
-              />
-            </div>
-            <div>
-              <h2 className="text-2xl font-bold mb-4">
-                {getText("eduDesign7")}
-              </h2>
-              <p className="mb-2">{getText("eduDesign8")}</p>
-              <ul className="list-disc pl-5 space-y-2">
-                <li>{getText("eduDesign9")}</li>
-              </ul>
-              <h2 className="text-2xl font-bold mb-4 mt-4">
-                {getText("eduDesign10")}
-              </h2>
-              <h2 className="text-md mb-4">{getText("eduDesign11")}</h2>
-              <h2 className="text-md  mb-4">{getText("eduDesign12")}</h2>
-            </div>
-          </div>
-
           {/* Why Choose Us Section */}
           <div className="bg-[#E6EAF4] p-8 rounded-lg shadow-lg">
             <h2 className="text-2xl font-bold mb-4">

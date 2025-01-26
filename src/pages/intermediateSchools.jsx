@@ -18,7 +18,7 @@ const IntermediateSchools = () => {
       >
         <div className="absolute inset-0 bg-gradient-to-b from-black to-transparent"></div>
         <h1 className="relative z-10 text-6xl font-bold drop-shadow-lg text-center">
-          Our Services for Intermediate schools
+          {getText("header2")}
         </h1>
       </div>
 

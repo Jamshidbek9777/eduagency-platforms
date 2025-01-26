@@ -71,36 +71,36 @@ export const tr = {
   eduModelButton: "Bize Ulaşın",
 
   //education design
-  eduDesign1: "Eğitim Tasarımı",
+  eduDesign1: "Eğitim tasarımı",
   eduDesign2: "Sınıf Konseptleri ve Düzenlemeleri",
   eduDesign3:
     "Modern teknolojilerle donatılmış sınıflar, günümüzde eğitimin etkinliğini artırmak için önemlidir.",
-  eduDesign4:
-    "Bina ekipmanları: İnteraktif ekranlar ve multimedya sistemleriyle donatılmış sınıflar.",
-  eduDesign5:
-    "Her sınıfta tabletler ve kişisel bilgisayarlar için uygun çalışma alanları sağlayın.",
-  eduDesign6:
-    "Öğrencilere ergonomik mobilyalar (sıralar ve sandalyeler) sağlayarak estetik açıya dikkat edin.",
   eduDesign7: "Laboratuvar Kurulumu",
   eduDesign8:
-    "Eğitimdeki bilimsel alanın kalitesini artırmak için modern ve güvenli laboratuvarlar kuruyoruz:",
+    "Bilim odaklı eğitimin kalitesini artırmak için modern ve güvenli laboratuvarlar kuruyoruz:",
+  eduDesign4: "Aktif Öğrenme Merkezi",
+  eduDesign5:
+    "Aktif öğrenme merkezinde, hem öğretmenler hem de öğrenciler sınıflarını ihtiyaçlarına göre kullanabilir, daha verimli çalışabilir ve oluşturdukları öğrenme ortamında daha iyi sonuçlar elde edebilirler.",
+  eduDesign6: "Esnek Sınıf",
   eduDesign9:
-    "Kimya ve biyoloji deneyleri yapmak için özel laboratuvar ekipmanları.",
-  eduDesign10: "STEM Laboratuvarları",
-  eduDesign11:
-    "STEM alanı için şu hizmetleri sunuyoruz: Robotik, 3D yazıcılar ve programlama için özel ekipmanlar. Modern cihazlarla mühendislik ve teknoloji pratik dersleri.",
+    "Sınıf yapısının öğrenme stillerine etkileri. Marilee Sprenger'in araştırmaları, öğrenme ve çevre arasındaki ilişkiye odaklanmaktadır. Sprenger'e göre öğrenciler yalnızca kendilerine uygun bir ortamda etkili bir öğrenme sürecine dahil olabilirler.",
+  eduDesign10:
+    "STEM eğitimi, üretim ve icat konularında bilgi ve beceriler sağlamayı amaçlar. STEM Eğitimi, okul öncesinden yükseköğretime kadar tüm eğitim sürecini kapsayan disiplinler arası bir yaklaşım olarak kabul edilmektedir.",
+  eduDesign11: "Melodi",
   eduDesign12:
-    "Yüksek teknoloji ile donatılmış Eğitim Alanları. Laboratuvarlarımız sanal gerçeklik ve artırılmış gerçeklik (VR/AR) araçlarıyla donatılmıştır: Öğrenciler, yenilikçi ekipmanlar sayesinde bilimle ilgilerini artırır. Kişiye özel programlar ve interaktif dersler düzenleme imkanı.",
-  eduDesign13: "Neden Bizi Tercih Etmelisiniz?",
-  eduDesign14: "Profesyonel Yaklaşım:",
-  eduDesign15:
-    "Her proje için özel bir plan geliştiriyoruz ve kaliteye odaklanıyoruz.",
-  eduDesign16: "İnovatif Teknolojiler:",
-  eduDesign17:
-    "Eğitim sürecini modern ve öncü teknolojileri kullanarak iyileştiriyoruz.",
-  eduDesign18: "Özelleştirme:",
-  eduDesign19:
-    "Her sınıf veya laboratuvar, müşterinin taleplerine göre tasarlanır.",
+    "Grup müzik çalışmaları, çocukların ve gençlerin gelişiminde önemli bir rol oynar. Müzik eğitimi ile sosyal bir birey olmanın gerekliliğine inanan bireyler, bir müzik grubunda çeşitli çalışmalar yapabilir ve bunları etkinliklere dönüştürebilir.",
+  eduDesign13: "STEM Laboratuvarları",
+  eduDesign14:
+    "STEM (Bilim, Teknoloji, Mühendislik ve Matematik) alanında eğitim ve araştırma faaliyetlerinin giderek yaygınlaştığı günümüzde, STEM atölyeleri giderek daha fazla ilgi görmekte ve önemi her geçen gün artmaktadır.",
+  eduDesign15: "Astronomi Atölyeleri",
+  eduDesign16:
+    "Astronomi, evrenin sırlarını keşfetme merakıyla dolu bilim dallarından biridir. Eduagency olarak eğitim kurumlarına sunduğumuz 'Astronomi Atölyesi Kurulumu' hizmeti, öğrencilere gökyüzünü tanıma ve astronomi bilimini derinlemesine öğrenme fırsatı sunar.",
+  eduDesign17: "Elektronik Atölyesi",
+  eduDesign18:
+    "Elektronik atölyeleri, öğrenciler için temel elektronik bilgilerini derinleştirmeleri ve uygulamalı beceriler kazanmaları için ideal bir ortam sunar. Eduagency olarak, eğitim programları için özel olarak tasarladığımız 'Elektronik Kurulum' hizmeti ile devre tasarımı, lehimleme teknikleri, programlama ve robotik sistemler gibi uygulamalı eğitim fırsatları sunuyoruz.",
+  eduDesign19: "Robotik",
+  eduDesign20:
+    "Robotik kodlama atölyeleri, öğrencilerin programlama ve mühendislik becerilerini kazanmaları için ideal bir ortam sağlar. Eduagency olarak eğitim kurumlarına özel olarak tasarladığımız 'Robotik Kodlama Atölyesi Kurulumu' hizmetimiz ile öğrencilere teknolojiyle tanışma ve kodlama becerilerini geliştirme fırsatı sunuyoruz.",
 
   //eğitim teknolojileri
   eduTech1: "Geleceği eğitim teknolojileriyle şekillendiriyoruz",
@@ -291,6 +291,11 @@ export const tr = {
     "Başvuru Takibi ve İletişim: Ajans, başvuruların ilgili eğitim kurumlarına zamanında ulaşmasını sağlar ve sürecin her aşamasını yakından takip eder. Başvuru süreci boyunca öğrencilerle düzenli iletişim kurarak herhangi bir eksiklik veya gecikme durumunda hızlı çözümler üretir.",
   sTransfer6:
     "Yerleştirme ve Uyum: Ajans, öğrencilerin kabul edildikleri eğitim kurumlarına yerleştirilme sürecinde de onlara rehberlik eder. Ayrıca, öğrencilerin yeni eğitim ortamlarına uyum sağlamalarını kolaylaştırmak için oryantasyon programları düzenler.",
+
+  header1: "İlkokullar İçin Hizmetlerimiz",
+  header2: "Ortaokullar İçin Hizmetlerimiz",
+  header3: "Liseler İçin Hizmetlerimiz",
+  header4: "Üniversiteler İçin Hizmetlerimiz",
 
   //video va rasmlar
   videoandpic: "Videolar ve resimler:",

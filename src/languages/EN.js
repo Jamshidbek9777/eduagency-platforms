@@ -74,32 +74,32 @@ export const en = {
   eduDesign2: "Classroom Concepts and Arrangements",
   eduDesign3:
     "Classrooms equipped with modern technologies are important for increasing the effectiveness of education nowadays.",
-  eduDesign4:
-    "Building equipment: Classrooms equipped with interactive screens and multimedia systems.",
-  eduDesign5:
-    "Provide convenient workspaces for tablets and personal computers in every classroom.",
-  eduDesign6:
-    "Equipping students with ergonomic furniture (desks and chairs) and paying attention to the aesthetic aspect.",
   eduDesign7: "Laboratory Setup",
   eduDesign8:
     "Ta'limning fan yo‘nalishida sifatini oshirish uchun zamonaviy va xavfsiz laboratoriyalarni o‘rnatamiz:",
+  eduDesign4: "Active Learning Center",
+  eduDesign5:
+    "In an active learning center, both teachers and students can  use their classrooms according to their needs, they can work  more effectively and achieve better results in the learning  environment they create.",
+  eduDesign6: "Flexibel classroom",
   eduDesign9:
-    "Kimyo va biologiya tajribalarini amalga oshirish uchun maxsus laboratoriya jihozlari.",
-  eduDesign10: "STEM Laboratoriyalari",
-  eduDesign11:
-    "STEM yo‘nalishi uchun quyidagi xizmatlarni taklif etamiz:Robototexnika, 3D printerlar va dasturlash uchun maxsus jihozlar.Zamonaviy qurilmalar yordamida muhandislik va texnologik amaliy mashg‘ulotlar.Yuqori Texnologiyalar bilan",
+    "Effects of classroom structure on learning styles learner Marilee Sprenger learning and the environment focuses on the relationship between Sprenger's states that students are only in an environment suitable for them are engaged in an effective learning process.",
+  eduDesign10:
+    "STEM education aims to provide knowledge and skills in production and invention. STEM Education is accepted as an interdisciplinary approach that covers the entire education process from preschool to higher education.",
+  eduDesign11: "Melody",
   eduDesign12:
-    "Ta'minlangan Ta'lim MaydonlariBizning laboratoriyalarimiz virtual haqiqat va kengaytirilgan haqiqat (VR/AR) vositalari bilan jihozlangan:Talabalar innovatsion asbob-uskunalar yordamida fanga bo‘lgan qiziqishlarini oshiradilar.Xususiylashtirilgan dasturlar va interaktiv darslarni o‘tkazish imkoniyati.",
-  eduDesign13: "Why Choose Us?",
-  eduDesign14: "Professional Approach:",
-  eduDesign15:
-    "We develop a special plan for each project and focus on quality.",
-  eduDesign16: "Innovative Technologies:",
-  eduDesign17:
-    "We improve the educational process by using modern and leading technologies.",
-  eduDesign18: "Customization:",
-  eduDesign19:
-    "Each class or laboratory is designed according to the client's requirements.",
+    "Group music studies are very important in the changing development of children and young people. Individuals who believe in the necessity of being a social person with music education can do various studies in a music group and turn them into activities.",
+  eduDesign13: "STEM labaratories",
+  eduDesign14:
+    "In today's world, where education and research activities in the field of STEM (Science, Technology, Engineering and Mathematics) are becoming more and more widespread, STEM workshops are attracting more and more attention and gaining importance day by day.",
+  eduDesign15: "Astronomy workshops",
+  eduDesign16:
+    "Astronomy is one of the branches of science full of  curiosity to discover the secrets of the universe. As  Eduagency, the 'Astronomy Workshop Installation' service  that we offer to educational institutions provides students  with the opportunity to get to know the sky and learn the  science of astronomy in depth.",
+  eduDesign17: "Electronics workshop",
+  eduDesign18:
+    " Electronics workshops offer students an ideal environment   deepen their basic electronics knowledge and gain   skills. As Eduagency, with the 'Electronics   Setup' service specially designed for training programs,   offer applied training opportunities such as   circuit design, soldering techniques,   programming and robotic systems.",
+  eduDesign19: "Robotics",
+  eduDesign20:
+    "Robotic coding workshops offer an ideal environment for students to gain programming and engineering skills. As Eduagency, we offer students the opportunity to meet technology and develop their coding skills with our 'Robotic Coding Workshop Installation' service, which we have specially designed for educational institutions.",
 
   //education technologies
   eduTech1: "We shape the future with education technologies",
@@ -292,6 +292,12 @@ export const en = {
     " Application Tracking and Communication: The agency ensures that applications reach the relevant educational institutions on time and closely follows every stage of the process. It establishes regular communication with students throughout the application process and produces rapid solutions in case of any deficiencies or delays.",
   sTransfer6:
     "Placement and Adaptation: The agency also guides students in the  process of being placed in the educational institutions they are  accepted to. It also organizes orientation programs to  facilitate students' adaptation to the new educational  environment.",
+
+  //headers
+  header1: "Our Services for Elementary schools",
+  header2: "Our Services for Intermediate schools",
+  header3: "Our Services for High schools",
+  header4: "Our Services for Universities",
 
   //video va rasmlar
   videoandpic: "Videos and pictures:",

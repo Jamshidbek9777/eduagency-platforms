@@ -72,35 +72,35 @@ export const uz = {
 
   //education design
   eduDesign1: "Ta'lim dizayni",
-  eduDesign2: "Sinf kontseptsiyalari va tartibga solish",
+  eduDesign2: "Sinfxonalar konsepsiyalari va tartibi",
   eduDesign3:
-    "Zamonaviy texnologiyalar bilan jihozlangan sinfxonalar bugungi kunda ta'lim samaradorligini oshirishda muhim ahamiyatga ega.",
-  eduDesign4:
-    "Binolarni jihozlash: Interaktiv ekranlar va multimedia tizimlari bilan jihozlangan sinfxonalar.",
-  eduDesign5:
-    "Har bir sinfda planshetlar va shaxsiy kompyuterlar uchun qulay ish joylarini taqdim eting.",
-  eduDesign6:
-    "O‘quvchilarni ergonomik mebellar (parta va stullar) bilan ta'minlash va estetik jihatlarga e'tibor qaratish.",
-  eduDesign7: "Laboratoriya O'rnatish",
+    "Zamonaviy texnologiyalar bilan jihozlangan sinfxonalar bugungi kunda ta'lim samaradorligini oshirish uchun muhimdir.",
+  eduDesign7: "Laboratoriyalarni o‘rnatish",
   eduDesign8:
-    "Ta'limning fan yo‘nalishida sifatini oshirish uchun zamonaviy va xavfsiz laboratoriyalarni o‘rnatamiz:",
+    "Fan yo‘nalishida ta’lim sifatini oshirish uchun zamonaviy va xavfsiz laboratoriyalarni yaratamiz:",
+  eduDesign4: "Faol o‘quv markazi",
+  eduDesign5:
+    "Faol o‘quv markazida o‘qituvchilar va o‘quvchilar o‘z ehtiyojlariga mos ravishda sinfxonalaridan foydalanib, samaraliroq ishlashlari va o‘zlari yaratgan o‘quv muhitida yaxshi natijalarga erishishlari mumkin.",
+  eduDesign6: "Moslashuvchan sinf xonalari",
   eduDesign9:
-    "Kimyo va biologiya tajribalarini amalga oshirish uchun maxsus laboratoriya jihozlari.",
-  eduDesign10: "STEM Laboratoriyalari",
-  eduDesign11:
-    "STEM yo‘nalishi uchun quyidagi xizmatlarni taklif etamiz:Robototexnika, 3D printerlar va dasturlash uchun maxsus jihozlar. Zamonaviy qurilmalar yordamida muhandislik va texnologik amaliy mashg‘ulotlar.",
+    "Sinfxona tuzilmasining o‘quv uslublariga ta’siri. Marili Sprengerning tadqiqotlari o‘quv va muhit o‘rtasidagi bog‘liqlikka qaratilgan. Sprengerning fikricha, talabalar faqat ularga mos muhitda samarali o‘quv jarayonida ishtirok etadilar.",
+  eduDesign10:
+    "STEM ta’limi ishlab chiqarish va ixtiro qilish bo‘yicha bilim va ko‘nikmalarni taqdim etishga qaratilgan. STEM ta’limi maktabgacha ta’limdan oliy ta’limgacha bo‘lgan jarayonni qamrab oluvchi ko‘p sohalarni o‘z ichiga olgan yondashuv sifatida qabul qilinadi.",
+  eduDesign11: "Melodiya",
   eduDesign12:
-    "Yuqori texnologiyalar bilan ta'minlangan ta'lim maydonlari. Bizning laboratoriyalarimiz virtual haqiqat va kengaytirilgan haqiqat (VR/AR) vositalari bilan jihozlangan:Talabalar innovatsion asbob-uskunalar yordamida fanga bo‘lgan qiziqishlarini oshiradilar. Xususiylashtirilgan dasturlar va interaktiv darslarni o‘tkazish imkoniyati.",
-  eduDesign13: "Nima uchun bizni tanlaysiz?",
-  eduDesign14: "Professional Yondashuv:",
-  eduDesign15:
-    "Har bir loyiha uchun maxsus reja ishlab chiqamiz va sifatga e'tibor qaratamiz.",
-  eduDesign16: "Innovatsion Texnologiyalar:",
-  eduDesign17:
-    "Zamonaviy va ilg‘or texnologiyalardan foydalangan holda ta'lim jarayonini yaxshilaymiz.",
-  eduDesign18: "Moslashtirish:",
-  eduDesign19:
-    "Har bir sinf yoki laboratoriya mijozning talablariga muvofiq loyihalashtiriladi.",
+    "Guruhda musiqa o‘rganish bolalar va yoshlarning rivojlanishida katta ahamiyatga ega. Musiqa ta’limi orqali jamiyat a’zosi bo‘lish zarurligiga ishongan shaxslar musiqa guruhlarida turli tadbirlarni amalga oshirib, ularni faoliyatga aylantirishlari mumkin.",
+  eduDesign13: "STEM laboratoriyalari",
+  eduDesign14:
+    "Hozirgi kunda STEM (Fan, Texnologiya, Muhandislik va Matematika) sohasida ta’lim va tadqiqot faoliyatlari tobora ommalashib borayotgan bir paytda, STEM ustaxonalari ko‘proq e’tiborni tortmoqda va ahamiyati ortib bormoqda.",
+  eduDesign15: "Astronomiya ustaxonalari",
+  eduDesign16:
+    "Astronomiya - bu koinot sirlarini o‘rganishga bo‘lgan qiziqish bilan to‘la fan tarmog‘i. Eduagency sifatida ta’lim muassasalariga taqdim etadigan 'Astronomiya ustaxonasi o‘rnatish' xizmati o‘quvchilarga osmonni o‘rganish va astronomiya fanini chuqur o‘rganish imkonini beradi.",
+  eduDesign17: "Elektronika ustaxonalari",
+  eduDesign18:
+    "Elektronika ustaxonalari talabalar uchun asosiy elektronika bo‘yicha bilimlarini chuqurlashtirish va amaliy ko‘nikmalarni oshirish uchun ideal muhitni taklif qiladi. Eduagency sifatida biz ta’lim dasturlari uchun maxsus ishlab chiqilgan 'Elektronika o‘rnatish' xizmati orqali sxema chizish, lehimlash texnikasi, dasturlash va robototexnika kabi amaliy mashg‘ulotlarni taklif qilamiz.",
+  eduDesign19: "Robototexnika",
+  eduDesign20:
+    "Robototexnika kodlash ustaxonalari o‘quvchilar uchun dasturlash va muhandislik ko‘nikmalarini rivojlantirish uchun ideal muhitni taqdim etadi. Eduagency sifatida biz ta’lim muassasalari uchun maxsus ishlab chiqilgan 'Robototexnika kodlash ustaxonasi o‘rnatish' xizmati bilan o‘quvchilarga texnologiya bilan tanishish va kodlash ko‘nikmalarini rivojlantirish imkonini taqdim etamiz.",
 
   //ta'lim texnologiyalari
   eduTech1: "Biz kelajakni ta'lim texnologiyalari bilan shakllantiramiz",
@@ -324,6 +324,11 @@ export const uz = {
     "Ariza kuzatuvi va aloqa: Agentlik arizalarni tegishli ta'lim muassasalariga vaqtida yetkazilishini ta'minlaydi va jarayonning har bir bosqichini diqqat bilan kuzatib boradi. Ariza jarayonida talabalar bilan muntazam aloqada bo'lib, har qanday kamchilik yoki kechikish holatida tezkor yechimlar ishlab chiqadi.",
   sTransfer6:
     "Joylashtirish va moslashish: Agentlik talabalariga qabul qilingan ta'lim muassasalariga joylashish jarayonida ham yo'riq beradi. Shuningdek, talabalarning yangi ta'lim muhitiga moslashishini osonlashtirish uchun yo'riq dasturlarini tashkil etadi.",
+
+  header1: "Boshlang'ich maktablar uchun xizmatlarimiz",
+  header2: "O'rta maktablar uchun xizmatlarimiz",
+  header3: "O'rta maxsus maktablar uchun xizmatlarimiz",
+  header4: "Universitetlar uchun xizmatlarimiz",
 
   //video va rasmlar
   videoandpic: "Video va rasmlar:",

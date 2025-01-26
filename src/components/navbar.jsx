@@ -161,6 +161,7 @@ const Navbar = () => {
   const menu1 = {
     items: nav1Items,
   };
+
   const nav2Items = [
     {
       key: "2",
@@ -171,6 +172,7 @@ const Navbar = () => {
       ),
     },
   ];
+
   const menu2 = {
     items: nav2Items,
   };
@@ -201,31 +203,9 @@ const Navbar = () => {
       ),
     },
   ];
+
   const menu3 = {
     items: nav3Items,
-  };
-
-  const nav4Items = [
-    {
-      key: "1",
-      label: (
-        <a className="text-[16px]" href="/">
-          {getText("navbar14")}
-        </a>
-      ),
-    },
-    {
-      key: "2",
-      label: (
-        <a className="text-[16px]" href="/">
-          {getText("navbar15")}
-        </a>
-      ),
-    },
-  ];
-
-  const menu4 = {
-    items: nav4Items,
   };
 
   const menuItems = [
@@ -276,7 +256,7 @@ const Navbar = () => {
       ],
     },
     {
-      key: "",
+      key: "ss",
       label: getText("navbar3"),
       children: [
         {

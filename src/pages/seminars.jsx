@@ -38,36 +38,41 @@ const Seminars = () => {
             </p>
           </section>
 
-          {/* Key Features Section */}
           <section className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-12">
-            <div className="bg-white shadow-lg rounded-2xl p-8 text-center hover:shadow-2xl transition">
-              <div className="text-blue-500 text-6xl mb-6">
-                <FaChalkboardTeacher />
-              </div>
-              <h3 className="text-2xl font-bold mb-4">
+            <div
+              className="bg-cover bg-center rounded-2xl p-8 text-center hover:shadow-2xl transition"
+              style={{ backgroundImage: "url('img/teachers.webp')" }}
+            >
+              <h3 className="text-2xl font-bold text-white mb-4">
                 Professional O‘qituvchilar
               </h3>
-              <p className="text-gray-600">
+              <p className="text-white">
                 Tajribali o‘qituvchilar va xalqaro ekspertlar sizga bilimlar
                 ulashadi.
               </p>
             </div>
-            <div className="bg-white shadow-lg rounded-2xl p-8 text-center hover:shadow-2xl transition">
-              <div className="text-green-500 text-6xl mb-6">
-                <FaUsers />
-              </div>
-              <h3 className="text-2xl font-bold mb-4">Tarmoq Yaratish</h3>
-              <p className="text-gray-600">
+
+            <div
+              className="bg-cover bg-center rounded-2xl p-8 text-center hover:shadow-2xl transition"
+              style={{ backgroundImage: "url('img/network-background.jpg')" }}
+            >
+              <h3 className="text-2xl font-bold text-white mb-4">
+                Tarmoq Yaratish
+              </h3>
+              <p className="text-white">
                 Seminarlar davomida yangi hamkorlik aloqalarini yo‘lga
                 qo‘yishingiz mumkin.
               </p>
             </div>
-            <div className="bg-white shadow-lg rounded-2xl p-8 text-center hover:shadow-2xl transition">
-              <div className="text-yellow-500 text-6xl mb-6">
-                <FaGlobe />
-              </div>
-              <h3 className="text-2xl font-bold mb-4">Global Ko‘nikmalar</h3>
-              <p className="text-gray-600">
+
+            <div
+              className="bg-cover bg-center rounded-2xl p-8 text-center hover:shadow-2xl transition"
+              style={{ backgroundImage: "url('img/global-background.jpg')" }}
+            >
+              <h3 className="text-2xl font-bold text-white mb-4">
+                Global Ko‘nikmalar
+              </h3>
+              <p className="text-white">
                 Dunyo bo‘ylab bilimlaringizni oshirib, yangi tajribalar oling.
               </p>
             </div>
@@ -80,6 +85,11 @@ const Seminars = () => {
             </h3>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
               <div className="bg-white shadow-lg rounded-xl p-6">
+                <img
+                  src="img/seminar1.jpg"
+                  alt="Kosmik lager bo'yicha"
+                  className="mb-4 w-full h-48 object-cover rounded-lg"
+                />
                 <h4 className="text-2xl font-bold mb-4">
                   Kosmik lager bo'yicha
                 </h4>
@@ -93,6 +103,11 @@ const Seminars = () => {
               </div>
 
               <div className="bg-white shadow-lg rounded-xl p-6">
+                <img
+                  src="img/seminar2.jpg"
+                  alt="OkulAIle"
+                  className="mb-4 w-full h-48 object-cover rounded-lg"
+                />
                 <h4 className="text-2xl font-bold mb-4">OkulAIle</h4>
                 <p className="text-gray-600">
                   2025-yil, Aprel | Tashkent, O‘zbekistan

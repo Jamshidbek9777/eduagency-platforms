@@ -1,8 +1,12 @@
 import React, { useContext } from "react";
 import Wrapper from "../layout/wrapper";
-import { FaSchool, FaBook, FaRunning } from "react-icons/fa";
+import { FaSchool, FaBook, FaRunning, FaMarker } from "react-icons/fa";
 import { getText } from "../languages";
 import { LanguageContext } from "../context/language";
+import { RiFocus2Line, RiSpeakAiLine } from "react-icons/ri";
+import { MdBookOnline } from "react-icons/md";
+import { GiProgression } from "react-icons/gi";
+import { LuFlipVertical2 } from "react-icons/lu";
 
 const EducationStrategies = () => {
   const { selectedLanguage } = useContext(LanguageContext);
@@ -10,40 +14,46 @@ const EducationStrategies = () => {
     {
       title: getText("eduStr1"),
       description: getText("eduStr2"),
+      icon: <MdBookOnline size={30} className="text-[#1E73BE]" />,
     },
     {
       title: getText("eduStr3"),
       description: getText("eduStr4"),
+      icon: <GiProgression size={30} className="text-[#1E73BE]" />,
     },
     {
       title: getText("eduStr5"),
       description: getText("eduStr6"),
+      icon: <FaMarker size={30} className="text-[#1E73BE]" />,
     },
     {
       title: getText("eduStr7"),
       description: getText("eduStr8"),
+      icon: <LuFlipVertical2 size={30} className="text-[#1E73BE]" />,
     },
     {
       title: getText("eduStr9"),
       description: getText("eduStr10"),
+      icon: <RiSpeakAiLine size={30} className="text-[#1E73BE]" />,
     },
     {
       title: getText("eduStr11"),
       description: getText("eduStr12"),
+      icon: <RiFocus2Line size={30} className="text-[#1E73BE]" />,
     },
   ];
 
   return (
     <>
       <div
-        className="relative bg-cover bg-center h-[708px] flex flex-col items-center justify-center text-white"
+        className="relative bg-cover bg-center h-[600px] flex flex-col items-center justify-center text-white"
         style={{
           backgroundImage: "url('img/eduStrBg.jpeg')",
         }}
       >
         <div className="absolute inset-0 bg-black bg-opacity-40"></div>
         <h1 className="relative z-10 text-6xl font-bold">
-          {getText("eduHeader")}
+          Dasturlar va strategiyalar
         </h1>
       </div>
 
