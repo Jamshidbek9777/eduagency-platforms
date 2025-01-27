@@ -36,21 +36,20 @@ const Exhibitions = () => {
           <section className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             <div className="bg-white shadow-lg rounded-xl p-6 text-center hover:shadow-2xl transition">
               <img
-                src="img/art-exhibition.jpg"
+                src="img/exh1.jpeg"
                 alt="San’at Ko‘rgazmalari"
                 className="w-full h-40 object-cover rounded-xl mb-6"
               />
-              <h3 className="text-2xl font-semibold mb-2">
-                San’at Ko‘rgazmalari
-              </h3>
+              <h3 className="text-2xl font-semibold mb-2">Thematic fairs</h3>
               <p className="text-gray-600">
-                Rang-barang san’at asarlari va dizaynlar bilan tanishing. Har
-                bir asar sizni ilhomlantiradi.
+                We organize many thematic fairs, from university promotions to
+                professional career guidance. We offer participants the chance
+                to explore global opportunities.
               </p>
             </div>
             <div className="bg-white shadow-lg rounded-xl p-6 text-center hover:shadow-2xl transition">
               <img
-                src="img/photo-exhibition.jpg"
+                src="img/exh2.jpg"
                 alt="Foto Ko‘rgazmalar"
                 className="w-full h-40 object-cover rounded-xl mb-6"
               />
@@ -62,7 +61,7 @@ const Exhibitions = () => {
             </div>
             <div className="bg-white shadow-lg rounded-xl p-6 text-center hover:shadow-2xl transition">
               <img
-                src="img/science-exhibition.jpg"
+                src="img/exh3.jpeg"
                 alt="Ilmiy Yutuqlar"
                 className="w-full h-40 object-cover rounded-xl mb-6"
               />

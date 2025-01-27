@@ -11,16 +11,16 @@ import { LanguageContext } from "../context/language.jsx";
 const SchoolArchitecture = () => {
   const cardsData = [
     {
-      title: getText("okul3"),
+      title: getText("eduDesign2"),
       description: getText("okul4"),
       icon: <FaBuilding className="text-4xl text-blue-500" />,
-      image: "/img/okulcard1.jpg",
+      image: "/img/classConcepts2.jpg",
     },
     {
-      title: getText("okul5"),
+      title: getText("eduDesign7"),
       description: getText("okul6"),
       icon: <FaChalkboardTeacher className="text-4xl text-white" />,
-      image: "/img/okulcard2.webp",
+      image: "/img/electronicsLab.jpg",
     },
   ];
 
@@ -48,7 +48,7 @@ const SchoolArchitecture = () => {
           {cardsData.map((card, index) => (
             <div
               key={index}
-              className="flex rounded-xl overflow-hidden  h-[220px] gap-2 hover:gap-4 transition-all ease-in-out"
+              className="flex rounded-xl overflow-hidden  h-[200px] gap-2 hover:gap-4 transition-all ease-in-out"
             >
               <div className="bg-black flex items-center justify-center w-1/4 p-4">
                 {card.icon}

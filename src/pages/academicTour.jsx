@@ -26,7 +26,7 @@ const AcademicTourPage = () => {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center bg-[#E6EAF4] p-4 rounded-[20px]">
             <div className="w-full h-[400px] md:h-[500px] overflow-hidden rounded-[18px] shadow-lg">
               <img
-                src="/img/service1.jpg"
+                src="/img/space1.jpg"
                 alt="Classroom Design"
                 className="w-full h-full object-cover"
               />
@@ -37,7 +37,7 @@ const AcademicTourPage = () => {
               </h2>
               <p className="mb-2">{getText("akTour2")}</p>
               <ul className="list-disc pl-5 space-y-2">
-                <li>{getText("akTour3")}</li>
+                {/* <li>{getText("akTour3")}</li> */}
               </ul>
             </div>
           </div>
@@ -63,7 +63,7 @@ const AcademicTourPage = () => {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center bg-[#E6EAF4] p-4 rounded-[20px]">
             <div className="w-full h-[400px] md:h-[500px] overflow-hidden rounded-lg shadow-lg">
               <img
-                src="/img/akademikcard2.jpg"
+                src="/img/bilim.jpg"
                 alt="Classroom Design"
                 className="w-full h-full object-cover"
               />

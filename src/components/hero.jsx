@@ -45,7 +45,7 @@ const HeroSection = () => {
             <div
               className="h-full bg-cover bg-center relative "
               style={{
-                backgroundImage: "url('/img/slider1.jpeg')",
+                backgroundImage: "url('/img/labsBg.jpeg')",
               }}
             >
               <div className="bg-black/40 h-full flex items-end justify-center p-8">
@@ -69,6 +69,38 @@ const HeroSection = () => {
                 <div className="text-center text-black bg-white/70 rounded-[30px]">
                   <h2 className="text-[20px] px-6 py-2  font-bold ">
                     {getText("navbar7")}
+                  </h2>
+                </div>
+              </div>
+            </div>
+          </SwiperSlide>
+          <SwiperSlide>
+            <div
+              className="h-full bg-cover bg-center relative"
+              style={{
+                backgroundImage: "url('/img/truzex.jpeg')",
+              }}
+            >
+              <div className="bg-black/40 h-full flex items-end justify-center p-8">
+                <div className="text-center text-black bg-white/70 rounded-[30px]">
+                  <h2 className="text-[20px] px-6 py-2  font-bold ">
+                    Study in Turkey
+                  </h2>
+                </div>
+              </div>
+            </div>
+          </SwiperSlide>
+          <SwiperSlide>
+            <div
+              className="h-full bg-cover bg-center relative"
+              style={{
+                backgroundImage: "url('/img/space1.jpg')",
+              }}
+            >
+              <div className="bg-black/40 h-full flex items-end justify-center p-8">
+                <div className="text-center text-black bg-white/70 rounded-[30px]">
+                  <h2 className="text-[20px] px-6 py-2  font-bold ">
+                    Sace Camp
                   </h2>
                 </div>
               </div>

@@ -49,7 +49,7 @@ const Advantages = () => {
             {advantages.map((advantage) => (
               <div
                 key={advantage.id}
-                className="relative flex items-center justify-center h-[220px] group bg-cover bg-center shadow-md rounded-lg p-6 text-center border border-gray-200 transition-transform duration-300 hover:items-end"
+                className="relative flex items-center justify-center h-[130px] group bg-cover bg-center shadow-md rounded-lg p-6 text-center border border-gray-200 transition-transform duration-300 hover:items-end"
                 style={{
                   backgroundImage: `url(${advantage.bgImage})`,
                 }}

@@ -13,7 +13,7 @@ const StudyTurkey = () => {
       <div
         className="relative bg-cover bg-center h-[708px] flex flex-col items-center justify-center text-white"
         style={{
-          backgroundImage: "url('img/academicTourBg.jpg')",
+          backgroundImage: "url('img/eduTurkeyBg.jpeg')",
         }}
       >
         <div className="absolute inset-0 bg-black bg-opacity-50"></div>

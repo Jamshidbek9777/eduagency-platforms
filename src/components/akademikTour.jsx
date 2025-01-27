@@ -52,7 +52,7 @@ const AkademikTour = () => {
             <img
               src={program.image}
               alt={program.title}
-              className="w-full h-40 object-cover rounded-t-lg mb-4"
+              className="w-full h-36 object-cover rounded-t-lg mb-4"
             />
             <h3 className="text-xl font-bold text-gray-800 mb-2">
               {program.title}
