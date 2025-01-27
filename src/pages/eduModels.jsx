@@ -57,7 +57,7 @@ const EducationModels = () => {
     <>
       {/* Hero Section */}
       <div
-        className="relative bg-cover bg-center h-[708px] flex flex-col items-center justify-center text-white"
+        className="relative bg-cover bg-center h-[600px] flex flex-col items-center justify-center text-white"
         style={{
           backgroundImage: "url('img/eduModelsBg.jpeg')",
         }}
@@ -66,7 +66,6 @@ const EducationModels = () => {
         <h1 className="relative z-10 text-6xl font-bold">
           {getText("eduModelHeader")}
         </h1>
-      
       </div>
 
       {/* Education Models Section */}

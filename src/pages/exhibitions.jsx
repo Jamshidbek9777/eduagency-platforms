@@ -6,7 +6,7 @@ const Exhibitions = () => {
     <>
       {/* Hero Section */}
       <div
-        className="relative bg-cover bg-center h-[708px] flex flex-col items-center justify-center text-white"
+        className="relative bg-cover bg-center h-[600px] flex flex-col items-center justify-center text-white"
         style={{
           backgroundImage: "url('img/exhubitions.jpg')",
         }}

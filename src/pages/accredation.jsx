@@ -8,14 +8,13 @@ const Accredation = () => {
     <>
       {/* Hero Section */}
       <div
-        className="relative bg-cover bg-center h-[708px] flex flex-col items-center justify-center text-white"
+        className="relative bg-cover bg-center h-[600px] flex flex-col items-center justify-center text-white"
         style={{
           backgroundImage: "url('img/accredationBg.jpg')",
         }}
       >
         <div className="absolute inset-0 bg-black bg-opacity-50"></div>
-        <h1 className="relative z-10 text-5xl md:text-6xl font-extrabold tracking-tight text-center">
-        </h1>
+        <h1 className="relative z-10 text-5xl md:text-6xl font-extrabold tracking-tight text-center"></h1>
       </div>
 
       {/* Content Section */}
