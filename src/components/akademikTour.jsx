@@ -18,7 +18,7 @@ const AkademikTour = () => {
     {
       id: 2,
       title: "Kosmik lager",
-      image: "/img/akademikcard1.jpg",
+      image: "/img/space1.jpg",
     },
     {
       id: 3,

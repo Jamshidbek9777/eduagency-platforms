@@ -55,7 +55,7 @@ const Footer = () => {
               </li>
               <li>
                 <a
-                  href="/intermediate"
+                  href="/intermediate-school"
                   className="hover:text-blue-400 transition"
                 >
                   O‘rta Maktablar
