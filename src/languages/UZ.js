@@ -333,6 +333,19 @@ export const uz = {
   //video va rasmlar
   videoandpic: "Video va rasmlar:",
 
+  seminar1: "Seminarlar va Konferensiyalar",
+  seminar2: "Professional O‘qituvchilar",
+  seminar3:
+    "Tajribali o‘qituvchilar va xalqaro ekspertlar sizga bilimlar ulashadi.",
+  seminar4: "Tarmoq Yaratish",
+  seminar5:
+    "Seminarlar davomida yangi hamkorlik aloqalarini yo‘lga qo‘yishingiz mumkin.",
+  seminar6: "Global Ko‘nikmalar",
+  seminar7: "Dunyo bo‘ylab bilimlaringizni oshirib, yangi tajribalar oling.",
+  seminar8: "Yaqinlashayotgan Seminarlar",
+  seminar9: "Kosmik lager bo'yicha",
+  seminar10:
+    "Seminar davomida biz yoshlarga Kosmosx tizimi va kosmik lager bo'yicha ma'lumot ulashamiz",
   // contact
   contactHeader: "Biz bilan bog'lanish",
   placeHolderName: "Ismingizni kiriting",

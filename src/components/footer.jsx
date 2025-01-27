@@ -1,7 +1,11 @@
 import React, { useContext } from "react";
 import Wrapper from "../layout/wrapper";
-import { BiLogoInstagramAlt } from "react-icons/bi";
-import { FaFacebook, FaPhoneSquareAlt, FaTelegram } from "react-icons/fa";
+import {
+  FaFacebook,
+  FaInstagram,
+  FaTelegram,
+  FaPhoneAlt,
+} from "react-icons/fa";
 import { MdEmail, MdLocationOn, MdAccessTime } from "react-icons/md";
 import { LanguageContext } from "../context/language";
 
@@ -9,103 +13,143 @@ const Footer = () => {
   const { selectedLanguage } = useContext(LanguageContext);
 
   return (
-    <div className="bg-[#D2D2D2] py-10">
+    <footer className="bg-gray-800 text-gray-300 py-12">
       <Wrapper>
-        <div className="flex flex-col lg:flex-row justify-between items-center gap-8">
-          {/* Left Section: Logo */}
-          <div className="flex flex-col items-center lg:items-start">
-            <a href="/" className="mb-4">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-12">
+          {/* Left Section: Logo and Tagline */}
+          <div>
+            <a href="/" className="inline-block mb-6">
               <img
-                src="/img/logo.png"
-                alt="Logo"
-                className="h-16 object-contain cursor-pointer"
+                src="/img/logo-white.png"
+                alt="EduAgency Logo"
+                className="h-16 object-contain"
               />
             </a>
-            <p className="text-sm text-center lg:text-left">
-              © 2025 EduAgency. All Rights Reserved.
+            <p className="text-sm leading-relaxed">
+              EduAgency ta’lim sohasida yuqori sifatli xizmatlar taqdim etadi.
+              Biz bilan kelajakka yo‘l oching!
             </p>
           </div>
 
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-2 gap-6">
-            <div className="flex items-center gap-2">
-              <div className="flex items-center justify-center rounded-full bg-white border border-gray-300 h-[60px] w-[60px]">
-                <MdEmail className="text-2xl" />
-              </div>
-              <div>
-                <p className="font-semibold">Pochta:</p>
+          {/* Middle Section: Quick Links */}
+          <div>
+            <h3 className="text-lg font-semibold mb-4 text-white">
+              Foydali Havolalar
+            </h3>
+            <ul className="space-y-3">
+              <li>
                 <a
-                  href="mailto:info@EduAgency.uz"
-                  className="text-blue-600 hover:underline"
+                  href="/kindergartens"
+                  className="hover:text-blue-400 transition"
                 >
-                  info@EduAgency.uz
+                  Bog‘chalar
                 </a>
-              </div>
-            </div>
-            <div className="flex items-start gap-2">
-              <div className="flex items-center justify-center rounded-full bg-white border border-gray-300 h-[60px] w-[60px]">
-                <MdLocationOn className="text-2x" size={32} />
-              </div>
-              <div>
-                <p className="font-semibold">Manzil:</p>
-                <p>Toshkent shahri, Muqimiy ko‘chasi, 7 uy</p>
-              </div>
-            </div>
-            <div className="flex items-start gap-2">
-              <div className="flex items-center justify-center rounded-full bg-white border border-gray-300 h-[60px] w-[60px]">
-                <MdAccessTime className="text-2xl" />
-              </div>
-              <div>
-                <p className="font-semibold">Ish vaqti:</p>
-                <p>
-                  Dushanba - Juma
-                  <br />
-                  9:00 - 18:00
-                </p>
-              </div>
-            </div>
-            <div className="flex items-start gap-2">
-              <div className="flex items-center justify-center rounded-full bg-white border border-gray-300 h-[60px] w-[60px]">
-                <FaPhoneSquareAlt className="text-2xl" />
-              </div>
-              <div>
-                <p className="font-semibold">Bog‘lanish:</p>
+              </li>
+              <li>
                 <a
-                  href="tel:+998901234567"
-                  className="text-blue-600 hover:underline"
+                  href="/elementary-schools"
+                  className="hover:text-blue-400 transition"
                 >
-                  +998 (90) 123-45-67
+                  Boshlang‘ich Maktablar
                 </a>
-              </div>
-            </div>
+              </li>
+              <li>
+                <a
+                  href="/intermediate"
+                  className="hover:text-blue-400 transition"
+                >
+                  O‘rta Maktablar
+                </a>
+              </li>
+              <li>
+                <a
+                  href="/high-schools"
+                  className="hover:text-blue-400 transition"
+                >
+                  Yuqori Sinflar
+                </a>
+              </li>
+              <li>
+                <a
+                  href="/universities"
+                  className="hover:text-blue-400 transition"
+                >
+                  Universitetlar
+                </a>
+              </li>
+            </ul>
           </div>
 
-          <div className="flex flex-col items-center lg:items-end">
-            <div className="flex gap-6 mb-4">
-              <a href="/about" className="hover:underline">
-                Biz haqimizda
-              </a>
-              <a href="/contact" className="hover:underline">
-                Bog‘lanish
-              </a>
-            </div>
-            <div className="flex gap-4 text-blue-600">
-              <a href="#" target="_blank" rel="noopener noreferrer">
-                <FaFacebook className="text-2xl" />
-              </a>
-              <a href="#" target="_blank" rel="noopener noreferrer">
-                <BiLogoInstagramAlt className="text-2xl" />
-              </a>
-              <a href="#" target="_blank" rel="noopener noreferrer">
-                <FaTelegram className="text-2xl" />
-              </a>
-              <a href="#" target="_blank" rel="noopener noreferrer">
-                <FaPhoneSquareAlt className="text-2xl" />
-              </a>
-            </div>
+          {/* Right Section: Contact Information */}
+          <div>
+            <h3 className="text-lg font-semibold mb-4 text-white">
+              Aloqa Ma’lumotlari
+            </h3>
+            <ul className="space-y-6">
+              <li className="flex items-start gap-3">
+                <MdEmail className="text-2xl text-blue-400" />
+                <div>
+                  <p className="font-medium">Email:</p>
+                  <a
+                    href="mailto:info@EduAgency.uz"
+                    className="hover:text-blue-400 transition"
+                  >
+                    info@EduAgency.uz
+                  </a>
+                </div>
+              </li>
+              <li className="flex items-start gap-3">
+                <MdLocationOn className="text-2xl text-blue-400" />
+                <div>
+                  <p className="font-medium">Manzil:</p>
+                  <p>Toshkent, Muqimiy ko‘chasi, 7-uy</p>
+                </div>
+              </li>
+              <li className="flex items-start gap-3">
+                <MdAccessTime className="text-2xl text-blue-400" />
+                <div>
+                  <p className="font-medium">Ish vaqti:</p>
+                  <p>
+                    Dushanba - Juma, <br />
+                    9:00 - 18:00
+                  </p>
+                </div>
+              </li>
+              <li className="flex items-start gap-3">
+                <FaPhoneAlt className="text-2xl text-blue-400" />
+                <div>
+                  <p className="font-medium">Telefon:</p>
+                  <a
+                    href="tel:+998901234567"
+                    className="hover:text-blue-400 transition"
+                  >
+                    +998 (90) 123-45-67
+                  </a>
+                </div>
+              </li>
+            </ul>
           </div>
         </div>
+
+        {/* Bottom Section: Social Media */}
+        {/* <div className="mt-12 flex flex-col items-center">
+          <div className="flex gap-6 mb-4 text-blue-400">
+            <a href="#" target="_blank" rel="noopener noreferrer">
+              <FaFacebook className="text-2xl hover:text-white transition" />
+            </a>
+            <a href="#" target="_blank" rel="noopener noreferrer">
+              <FaInstagram className="text-2xl hover:text-white transition" />
+            </a>
+            <a href="#" target="_blank" rel="noopener noreferrer">
+              <FaTelegram className="text-2xl hover:text-white transition" />
+            </a>
+          </div>
+          <p className="text-sm text-gray-500">
+            © 2025 EduAgency. Barcha huquqlar himoyalangan.
+          </p>
+        </div> */}
       </Wrapper>
-    </div>
+    </footer>
   );
 };
 

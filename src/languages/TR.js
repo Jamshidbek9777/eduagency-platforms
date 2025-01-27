@@ -297,6 +297,19 @@ export const tr = {
   header3: "Liseler İçin Hizmetlerimiz",
   header4: "Üniversiteler İçin Hizmetlerimiz",
 
+  seminar1: "Seminerler ve Konferanslar",
+  seminar2: "Profesyonel Öğretmenler",
+  seminar3:
+    "Deneyimli öğretmenler ve uluslararası uzmanlar sizlerle bilgilerini paylaşacak.",
+  seminar4: "Ağ Kurma",
+  seminar5: "Seminerler sırasında yeni iş birlikleri kurma fırsatınız olacak.",
+  seminar6: "Küresel Beceriler",
+  seminar7: "Dünya çapında bilgilerinizi artırın ve yeni deneyimler kazanın.",
+  seminar8: "Yaklaşan Seminerler",
+  seminar9: "Uzay Kampı Hakkında",
+  seminar10:
+    "Seminer sırasında Cosmosx sistemi ve uzay kampı hakkında gençlere bilgi vereceğiz.",
+
   //video va rasmlar
   videoandpic: "Videolar ve resimler:",
 

@@ -299,6 +299,22 @@ export const en = {
   header3: "Our Services for High schools",
   header4: "Our Services for Universities",
 
+  //seminars
+ 
+  seminar1: "Seminars and Conferences",
+  seminar2: "Professional Educators",
+  seminar3:
+    "Experienced teachers and international experts will share their knowledge with you.",
+  seminar4: "Networking",
+  seminar5:
+    "During the seminars, you can establish new collaborative connections.",
+  seminar6: "Global Skills",
+  seminar7: "Enhance your knowledge worldwide and gain new experiences.",
+  seminar8: "Upcoming Seminars",
+  seminar9: "About Space Camp",
+  seminar10:
+    "During the seminar, we will share information about the Cosmosx system and space camp with the youth.",
+
   //video va rasmlar
   videoandpic: "Videos and pictures:",
 
