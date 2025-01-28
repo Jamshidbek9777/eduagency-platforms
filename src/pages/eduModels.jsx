@@ -1,11 +1,6 @@
 import React, { useContext } from "react";
 import Wrapper from "../layout/wrapper";
-import {
-  FaSchool,
-  FaBook,
-  FaRunning,
-  FaChalkboardTeacher,
-} from "react-icons/fa";
+import { FaSchool, FaBook, FaChalkboardTeacher } from "react-icons/fa";
 import { getText } from "../languages";
 import { LanguageContext } from "../context/language";
 import { FaChildReaching, FaChildren } from "react-icons/fa6";
@@ -55,14 +50,13 @@ const EducationModels = () => {
 
   return (
     <>
-      {/* Hero Section */}
       <div
         className="relative bg-cover bg-center h-[600px] flex flex-col items-center justify-center text-white"
         style={{
           backgroundImage: "url('img/eduModelsBg.jpeg')",
         }}
       >
-        <div className="absolute inset-0 bg-gradient-to-b from-black via-transparent to-black"></div>
+        <div className="absolute inset-0 bg-black bg-opacity-40"></div>
         <h1 className="relative z-10 text-6xl font-bold">
           {getText("eduModelHeader")}
         </h1>

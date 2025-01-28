@@ -2,9 +2,28 @@ import React, { useContext } from "react";
 import Wrapper from "../layout/wrapper";
 import { getText } from "../languages";
 import { LanguageContext } from "../context/language";
-import { FaArrowAltCircleRight } from "react-icons/fa";
+import { FaArrowAltCircleRight, FaMarker } from "react-icons/fa";
+import { MdBookOnline } from "react-icons/md";
+import { GiProgression } from "react-icons/gi";
 
 const IntermediateSchools = () => {
+  const models = [
+    {
+      title: getText("eduStr1"),
+      description: getText("eduStr2"),
+      icon: <MdBookOnline size={30} className="text-[#1E73BE]" />,
+    },
+    {
+      title: getText("eduStr3"),
+      description: getText("eduStr4"),
+      icon: <GiProgression size={30} className="text-[#1E73BE]" />,
+    },
+    {
+      title: getText("eduStr5"),
+      description: getText("eduStr6"),
+      icon: <FaMarker size={30} className="text-[#1E73BE]" />,
+    },
+  ];
   const { selectedLanguage } = useContext(LanguageContext);
 
   return (
@@ -131,6 +150,55 @@ const IntermediateSchools = () => {
               </div>
             </div>
 
+            {/* Piagmo */}
+            <div className="mt-10">
+              <h1 className="text-2xl font-bold mb-4">Piagmo</h1>
+              <div className="flex flex-col md:flex-row gap-6 items-center">
+                <img
+                  src="/img/paigmo.png"
+                  alt="K12NET"
+                  className="w- h-auto rounded-lg"
+                />
+                <p className="mt-4 text-base">{getText("piagmo1")}</p>
+              </div>
+              <p className="mt-4 text-base">{getText("piagmo2")}</p>
+              <p className="mt-4 text-base">{getText("piagmo3")}</p>
+
+              <div className="mt-4">
+                <p className="text-lg mb-4">{getText("videoandpic")}</p>
+
+                <div className="flex flex-wrap justify-start gap-4">
+                  {/* Video 2 */}
+                  <div className="w-full sm:w-[calc(50%-1rem)] lg:w-[calc(33.333%-1rem)]">
+                    <img
+                      src="/img/piagmo1.avif"
+                      className="w-full h-[200px] sm:h-[250px] md:h-[280px] lg:h-[315px] rounded-lg shadow-lg object-cover"
+                      alt=""
+                    />
+                  </div>
+                  <div className="w-full sm:w-[calc(50%-1rem)] lg:w-[calc(33.333%-1rem)]">
+                    <img
+                      src="/img/piagmo2.webp"
+                      className="w-full h-[200px] sm:h-[250px] md:h-[280px] lg:h-[315px] rounded-lg shadow-lg object-cover"
+                      alt=""
+                    />
+                  </div>
+                  {/* Video 1 */}
+                  <div className="w-full sm:w-[calc(50%-1rem)] lg:w-[calc(33.333%-1rem)]">
+                    <iframe
+                      width="100%"
+                      height="315"
+                      src="https://www.youtube.com/embed/grCf4NhnYZ8"
+                      title="K12NET Video 1"
+                      allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                      allowFullScreen
+                      className="w-full h-[200px] sm:h-[250px] md:h-[280px] lg:h-[315px] rounded-lg shadow-lg object-cover"
+                    ></iframe>
+                  </div>
+                </div>
+              </div>
+            </div>
+
             {/* Edudesign */}
             <div className="mt-10">
               <h1 className="text-2xl font-bold mb-4">
@@ -178,56 +246,6 @@ const IntermediateSchools = () => {
               </div>
             </div>
 
-            {/* Vedubox */}
-            <div className="mt-10">
-              <h1 className="text-4xl font-bold mb-4">Vedubox</h1>
-              <div className="flex flex-col md:flex-row gap-6 items-center">
-                <img
-                  src="/img/vedubox_logo.svg"
-                  alt="K12NET"
-                  className="w- h-auto rounded-lg"
-                />
-                <p className="mt-4 text-base">{getText("vdebox1")}</p>
-              </div>
-              <p className="mt-4 text-base">{getText("vdebox2")}</p>
-
-              <div className="mt-4">
-                <div className="flex flex-wrap justify-start gap-4">
-                  {/* Video 2 */}
-                  <div className="w-full sm:w-[calc(50%-1rem)] lg:w-[calc(33.333%-1rem)]">
-                    <img
-                      src="/img/vbox1.jpg"
-                      className="w-full h-[200px] sm:h-[250px] md:h-[280px] lg:h-[315px] rounded-lg shadow-lg object-cover"
-                      alt=""
-                    />
-                  </div>
-                  <div className="w-full sm:w-[calc(50%-1rem)] lg:w-[calc(33.333%-1rem)]">
-                    <iframe
-                      width="100%"
-                      height="315"
-                      src="https://www.youtube.com/embed/L83ip_6fq_s"
-                      title="K12NET Video 1"
-                      allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-                      allowFullScreen
-                      className="w-full h-[200px] sm:h-[250px] md:h-[280px] lg:h-[315px] rounded-lg shadow-lg object-cover"
-                    ></iframe>
-                  </div>
-                  {/* Video 1 */}
-                  <div className="w-full sm:w-[calc(50%-1rem)] lg:w-[calc(33.333%-1rem)]">
-                    <iframe
-                      width="100%"
-                      height="315"
-                      src="https://www.youtube.com/embed/70OpEZmIQ6M"
-                      title="K12NET Video 1"
-                      allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-                      allowFullScreen
-                      className="w-full h-[200px] sm:h-[250px] md:h-[280px] lg:h-[315px] rounded-lg shadow-lg object-cover"
-                    ></iframe>
-                  </div>
-                </div>
-              </div>
-            </div>
-
             {/* Ta'lim modellari */}
             <div className="mt-10">
               <div className="flex justify-between items-center">
@@ -254,27 +272,6 @@ const IntermediateSchools = () => {
                     />
                     <h1 className="text-2xl mt-2 text-center font-bold">
                       Maarif ta'lim modeli
-                    </h1>
-                  </div>
-                  <div className="w-full sm:w-[calc(50%-1rem)] lg:w-[calc(33.333%-1rem)]">
-                    <img
-                      src="/img/eduModel2.jpg"
-                      className="w-full h-[200px] sm:h-[250px] md:h-[280px] lg:h-[315px] rounded-lg shadow-lg object-cover"
-                      alt=""
-                    />
-                    <h1 className="text-2xl mt-2 text-center font-bold">
-                      O'zel egitim
-                    </h1>
-                  </div>
-                  {/* Video 1 */}
-                  <div className="w-full sm:w-[calc(50%-1rem)] lg:w-[calc(33.333%-1rem)]">
-                    <img
-                      src="/img/eduModel3.jpg"
-                      className="w-full h-[200px] sm:h-[250px] md:h-[280px] lg:h-[315px] rounded-lg shadow-lg object-cover"
-                      alt=""
-                    />
-                    <h1 className="text-2xl mt-2 text-center font-bold">
-                      Montessori
                     </h1>
                   </div>
                 </div>
@@ -323,6 +320,115 @@ const IntermediateSchools = () => {
                   </div>
                 </div>
               </div>
+            </div>
+
+            {/* Exhibitions */}
+            <h1 className="text-4xl font-bold mb-4 mt-8">
+              {getText("navbar11")}
+            </h1>
+            <section className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+              <div className="bg-white shadow-lg rounded-xl p-6 text-center hover:shadow-2xl transition">
+                <img
+                  src="img/exh1.jpeg"
+                  alt="San’at Ko‘rgazmalari"
+                  className="w-full h-40 object-cover rounded-xl mb-6"
+                />
+                <h3 className="text-2xl font-semibold mb-2">Thematic fairs</h3>
+                <p className="text-gray-600">
+                  We organize many thematic fairs, from university promotions to
+                  professional career guidance. We offer participants the chance
+                  to explore global opportunities.
+                </p>
+              </div>
+              <div className="bg-white shadow-lg rounded-xl p-6 text-center hover:shadow-2xl transition">
+                <img
+                  src="img/exh2.jpg"
+                  alt="Foto Ko‘rgazmalar"
+                  className="w-full h-40 object-cover rounded-xl mb-6"
+                />
+                <h3 className="text-2xl font-semibold mb-2">
+                  Foto Ko‘rgazmalar
+                </h3>
+                <p className="text-gray-600">
+                  Dunyoning turli burchaklaridagi manzaralarni va unutilmas
+                  lahzalarni o‘rganing.
+                </p>
+              </div>
+              <div className="bg-white shadow-lg rounded-xl p-6 text-center hover:shadow-2xl transition">
+                <img
+                  src="img/exh3.jpeg"
+                  alt="Ilmiy Yutuqlar"
+                  className="w-full h-40 object-cover rounded-xl mb-6"
+                />
+                <h3 className="text-2xl font-semibold mb-2">Ilmiy Yutuqlar</h3>
+                <p className="text-gray-600">
+                  Zamonaviy texnologiyalar va innovatsion yutuqlarni namoyish
+                  qiluvchi ilmiy ko‘rgazmalar.
+                </p>
+              </div>
+            </section>
+
+            {/* Seminars */}
+            <h1 className="text-4xl font-bold mb-4 mt-8">
+              {getText("navbar10")}
+            </h1>
+            <section className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-12">
+              <div className="bg-white shadow-lg rounded-2xl p-8 text-center hover:shadow-2xl transition">
+                <img
+                  src="img/teachers.jpg"
+                  alt="Professional O'qituvchilar"
+                  className="w-full h-40 object-cover rounded-xl mb-6"
+                />
+                <h3 className="text-2xl font-bold mb-4">
+                  {getText("seminar2")}
+                </h3>
+                <p className="text-gray-600">{getText("seminar3")}</p>
+              </div>
+
+              <div className="bg-white shadow-lg rounded-2xl p-8 text-center hover:shadow-2xl transition">
+                <img
+                  src="img/global.jpg"
+                  alt="Tarmoq Yaratish"
+                  className="w-full h-40 object-cover rounded-xl mb-6"
+                />
+                <h3 className="text-2xl font-bold mb-4">
+                  {" "}
+                  {getText("seminar4")}
+                </h3>
+                <p className="text-gray-600">{getText("seminar5")}</p>
+              </div>
+
+              <div className="bg-white shadow-lg rounded-2xl p-8 text-center hover:shadow-2xl transition">
+                <img
+                  src="img/global.webp"
+                  alt="Global Ko‘nikmalar"
+                  className="w-full h-40 object-cover rounded-xl mb-6"
+                />
+                <h3 className="text-2xl font-bold mb-4">
+                  {" "}
+                  {getText("seminar6")}
+                </h3>
+                <p className="text-gray-600">{getText("seminar7")}</p>
+              </div>
+            </section>
+
+            {/* dasturlar va strategiyalar */}
+            <h1 className="text-4xl font-bold mb-4 mt-8">
+              {getText("navbar8")}
+            </h1>
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+              {models.map((model, index) => (
+                <div
+                  key={index}
+                  className="p-6 bg-white rounded-[20px] flex flex-col items-center border-l-8 shadow-lg border-[#1E73BE]"
+                >
+                  <div className="flex items-center justify-between w-full">
+                    <h2 className="text-xl font-semibold">{model.title}</h2>
+                    {model.icon}
+                  </div>
+                  <p className="text-gray-600 mt-2">{model.description}</p>
+                </div>
+              ))}
             </div>
           </div>
         </div>

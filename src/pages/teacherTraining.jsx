@@ -54,7 +54,7 @@ const TeacherTrainings = () => {
           backgroundImage: "url('img/teacherTrainingsBg.jpeg')",
         }}
       >
-        <div className="absolute inset-0 bg-gradient-to-b from-black via-transparent to-black"></div>
+        <div className="absolute inset-0 bg-black bg-opacity-40"></div>
         <h1 className="relative z-10 text-6xl font-bold">
           {getText("tTraningHeader")}
         </h1>

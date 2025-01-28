@@ -28,6 +28,9 @@ import ElementarySchool from "./pages/elemantarySchool.jsx";
 import IntermediateSchools from "./pages/intermediateSchools.jsx";
 import HighSchools from "./pages/highSchools.jsx";
 import Universities from "./pages/universities.jsx";
+import ScrollToTop from "./components/scrollToTop.js";
+import Ozel from "./pages/ozel.jsx";
+import StudyCenter from "./pages/studyCenter.jsx";
 
 const Root = () => {
   return (
@@ -36,6 +39,7 @@ const Root = () => {
         <NextUIProvider>
           <BrowserRouter>
             <Navbar />
+            <ScrollToTop />
             <Routes className="min-h-screen">
               <Route path="/" element={<App />} />
               <Route path="/eduModels" element={<EducationModels />} />
@@ -64,6 +68,8 @@ const Root = () => {
               />
               <Route path="/high-schools" element={<HighSchools />} />
               <Route path="/universities" element={<Universities />} />
+              <Route path="/ozel" element={<Ozel />} />
+              <Route path="/study-center" element={<StudyCenter />} />
             </Routes>
           </BrowserRouter>
           <Footer />

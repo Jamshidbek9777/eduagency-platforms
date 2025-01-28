@@ -173,102 +173,46 @@ const Kindergartens = () => {
               </div>
             </div>
 
-            {/* Space camp */}
+            {/* Vedubox */}
             <div className="mt-10">
-              <h1 className="text-2xl font-bold mb-4">
-                {getText("uzayKampi")}
-              </h1>
+              <h1 className="text-4xl font-bold mb-4">Vedubox</h1>
               <div className="flex flex-col md:flex-row gap-6 items-center">
                 <img
-                  src="/img/partner9.png"
+                  src="/img/vedubox_logo.svg"
                   alt="K12NET"
                   className="w- h-auto rounded-lg"
                 />
-                <p className="mt-4 text-base">{getText("uzayKapmi1")}</p>
+                <p className="mt-4 text-base">{getText("vdebox1")}</p>
               </div>
-              <p className="mt-4 text-base">{getText("uzayKapmi2")}</p>
-              <p className="mt-4 text-base">{getText("uzayKapmi3")}</p>
-              <p className="mt-4 text-base">{getText("uzayKapmi4")}</p>
-              <div className="mt-4">
-                <p className="text-lg mb-4">{getText("videoandpic")}</p>
+              <p className="mt-4 text-base">{getText("vdebox2")}</p>
 
+              <div className="mt-4">
                 <div className="flex flex-wrap justify-start gap-4">
                   {/* Video 2 */}
                   <div className="w-full sm:w-[calc(50%-1rem)] lg:w-[calc(33.333%-1rem)]">
                     <img
-                      src="/img/space1.jpg"
+                      src="/img/vbox1.jpg"
                       className="w-full h-[200px] sm:h-[250px] md:h-[280px] lg:h-[315px] rounded-lg shadow-lg object-cover"
                       alt=""
                     />
                   </div>
-                  {/* Video 1 */}
                   <div className="w-full sm:w-[calc(50%-1rem)] lg:w-[calc(33.333%-1rem)]">
                     <iframe
                       width="100%"
                       height="315"
-                      src="https://www.youtube.com/embed/yQWTdC9h6Lc"
+                      src="https://www.youtube.com/embed/L83ip_6fq_s"
                       title="K12NET Video 1"
                       allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
                       allowFullScreen
                       className="w-full h-[200px] sm:h-[250px] md:h-[280px] lg:h-[315px] rounded-lg shadow-lg object-cover"
                     ></iframe>
                   </div>
-
-                  {/* Video 2 */}
-                  <div className="w-full sm:w-[calc(50%-1rem)] lg:w-[calc(33.333%-1rem)]">
-                    <iframe
-                      width="100%"
-                      height="315"
-                      src="https://www.youtube.com/embed/RXEWJptQ0J0"
-                      title="K12NET Video 2"
-                      allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-                      allowFullScreen
-                      className="w-full h-[200px] sm:h-[250px] md:h-[280px] lg:h-[315px] rounded-lg shadow-lg object-cover"
-                    ></iframe>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            {/* Piagmo */}
-            <div className="mt-10">
-              <h1 className="text-2xl font-bold mb-4">Piagmo</h1>
-              <div className="flex flex-col md:flex-row gap-6 items-center">
-                <img
-                  src="/img/paigmo.png"
-                  alt="K12NET"
-                  className="w- h-auto rounded-lg"
-                />
-                <p className="mt-4 text-base">{getText("piagmo1")}</p>
-              </div>
-              <p className="mt-4 text-base">{getText("piagmo2")}</p>
-              <p className="mt-4 text-base">{getText("piagmo3")}</p>
-
-              <div className="mt-4">
-                <p className="text-lg mb-4">{getText("videoandpic")}</p>
-
-                <div className="flex flex-wrap justify-start gap-4">
-                  {/* Video 2 */}
-                  <div className="w-full sm:w-[calc(50%-1rem)] lg:w-[calc(33.333%-1rem)]">
-                    <img
-                      src="/img/piagmo1.avif"
-                      className="w-full h-[200px] sm:h-[250px] md:h-[280px] lg:h-[315px] rounded-lg shadow-lg object-cover"
-                      alt=""
-                    />
-                  </div>
-                  <div className="w-full sm:w-[calc(50%-1rem)] lg:w-[calc(33.333%-1rem)]">
-                    <img
-                      src="/img/piagmo2.webp"
-                      className="w-full h-[200px] sm:h-[250px] md:h-[280px] lg:h-[315px] rounded-lg shadow-lg object-cover"
-                      alt=""
-                    />
-                  </div>
                   {/* Video 1 */}
                   <div className="w-full sm:w-[calc(50%-1rem)] lg:w-[calc(33.333%-1rem)]">
                     <iframe
                       width="100%"
                       height="315"
-                      src="https://www.youtube.com/embed/grCf4NhnYZ8"
+                      src="https://www.youtube.com/embed/70OpEZmIQ6M"
                       title="K12NET Video 1"
                       allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
                       allowFullScreen
@@ -356,12 +300,12 @@ const Kindergartens = () => {
                   </div>
                   <div className="w-full sm:w-[calc(50%-1rem)] lg:w-[calc(33.333%-1rem)]">
                     <img
-                      src="/img/eduModel2.jpg"
+                      src="/img/stemModel.png"
                       className="w-full h-[200px] sm:h-[250px] md:h-[280px] lg:h-[315px] rounded-lg shadow-lg object-cover"
                       alt=""
                     />
                     <h1 className="text-2xl mt-2 text-center font-bold">
-                      O'zel egitim
+                      STEM
                     </h1>
                   </div>
                   {/* Video 1 */}

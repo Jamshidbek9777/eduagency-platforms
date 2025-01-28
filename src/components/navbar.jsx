@@ -53,6 +53,14 @@ const Navbar = () => {
       key: "5",
       label: <Link to={"/universities"}>{getText("servicesText5")}</Link>,
     },
+    {
+      key: "6",
+      label: <Link to={"/ozel"}>Nogirin bolalar uchun</Link>,
+    },
+    {
+      key: "7",
+      label: <Link to={"/study-center"}>O'quv markaz</Link>,
+    },
   ];
 
   //language items

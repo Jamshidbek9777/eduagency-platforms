@@ -88,7 +88,7 @@ const Contact = () => {
                   Tashkent, Uzbekistan
                 </p>
                 <p className="text-gray-600">
-                  <strong>Phone:</strong> +998 90 123 45 67
+                  <strong>Phone:</strong> +998 90 277 73 66
                 </p>
                 <p className="text-gray-600">
                   <strong>Email:</strong> info@eduagency.uz

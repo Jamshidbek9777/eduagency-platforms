@@ -125,112 +125,6 @@ const ElementarySchool = () => {
               </div>
             </div>
 
-            {/* Space camp */}
-            <div className="mt-10">
-              <h1 className="text-2xl font-bold mb-4">
-                {getText("uzayKampi")}
-              </h1>
-              <div className="flex flex-col md:flex-row gap-6 items-center">
-                <img
-                  src="/img/partner9.png"
-                  alt="K12NET"
-                  className="w- h-auto rounded-lg"
-                />
-                <p className="mt-4 text-base">{getText("uzayKapmi1")}</p>
-              </div>
-              <p className="mt-4 text-base">{getText("uzayKapmi2")}</p>
-              <p className="mt-4 text-base">{getText("uzayKapmi3")}</p>
-              <p className="mt-4 text-base">{getText("uzayKapmi4")}</p>
-              <div className="mt-4">
-                <p className="text-lg mb-4">{getText("videoandpic")}</p>
-
-                <div className="flex flex-wrap justify-start gap-4">
-                  {/* Video 2 */}
-                  <div className="w-full sm:w-[calc(50%-1rem)] lg:w-[calc(33.333%-1rem)]">
-                    <img
-                      src="/img/space1.jpg"
-                      className="w-full h-[200px] sm:h-[250px] md:h-[280px] lg:h-[315px] rounded-lg shadow-lg object-cover"
-                      alt=""
-                    />
-                  </div>
-                  {/* Video 1 */}
-                  <div className="w-full sm:w-[calc(50%-1rem)] lg:w-[calc(33.333%-1rem)]">
-                    <iframe
-                      width="100%"
-                      height="315"
-                      src="https://www.youtube.com/embed/yQWTdC9h6Lc"
-                      title="K12NET Video 1"
-                      allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-                      allowFullScreen
-                      className="w-full h-[200px] sm:h-[250px] md:h-[280px] lg:h-[315px] rounded-lg shadow-lg object-cover"
-                    ></iframe>
-                  </div>
-
-                  {/* Video 2 */}
-                  <div className="w-full sm:w-[calc(50%-1rem)] lg:w-[calc(33.333%-1rem)]">
-                    <iframe
-                      width="100%"
-                      height="315"
-                      src="https://www.youtube.com/embed/RXEWJptQ0J0"
-                      title="K12NET Video 2"
-                      allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-                      allowFullScreen
-                      className="w-full h-[200px] sm:h-[250px] md:h-[280px] lg:h-[315px] rounded-lg shadow-lg object-cover"
-                    ></iframe>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            {/* Piagmo */}
-            <div className="mt-10">
-              <h1 className="text-2xl font-bold mb-4">Piagmo</h1>
-              <div className="flex flex-col md:flex-row gap-6 items-center">
-                <img
-                  src="/img/paigmo.png"
-                  alt="K12NET"
-                  className="w- h-auto rounded-lg"
-                />
-                <p className="mt-4 text-base">{getText("piagmo1")}</p>
-              </div>
-              <p className="mt-4 text-base">{getText("piagmo2")}</p>
-              <p className="mt-4 text-base">{getText("piagmo3")}</p>
-
-              <div className="mt-4">
-                <p className="text-lg mb-4">{getText("videoandpic")}</p>
-
-                <div className="flex flex-wrap justify-start gap-4">
-                  {/* Video 2 */}
-                  <div className="w-full sm:w-[calc(50%-1rem)] lg:w-[calc(33.333%-1rem)]">
-                    <img
-                      src="/img/piagmo1.avif"
-                      className="w-full h-[200px] sm:h-[250px] md:h-[280px] lg:h-[315px] rounded-lg shadow-lg object-cover"
-                      alt=""
-                    />
-                  </div>
-                  <div className="w-full sm:w-[calc(50%-1rem)] lg:w-[calc(33.333%-1rem)]">
-                    <img
-                      src="/img/piagmo2.webp"
-                      className="w-full h-[200px] sm:h-[250px] md:h-[280px] lg:h-[315px] rounded-lg shadow-lg object-cover"
-                      alt=""
-                    />
-                  </div>
-                  {/* Video 1 */}
-                  <div className="w-full sm:w-[calc(50%-1rem)] lg:w-[calc(33.333%-1rem)]">
-                    <iframe
-                      width="100%"
-                      height="315"
-                      src="https://www.youtube.com/embed/grCf4NhnYZ8"
-                      title="K12NET Video 1"
-                      allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-                      allowFullScreen
-                      className="w-full h-[200px] sm:h-[250px] md:h-[280px] lg:h-[315px] rounded-lg shadow-lg object-cover"
-                    ></iframe>
-                  </div>
-                </div>
-              </div>
-            </div>
-
             {/* Edudesign */}
             <div className="mt-10">
               <h1 className="text-2xl font-bold mb-4">
@@ -402,27 +296,77 @@ const ElementarySchool = () => {
                   </div>
                   <div className="w-full sm:w-[calc(50%-1rem)] lg:w-[calc(33.333%-1rem)]">
                     <img
-                      src="/img/eduModel2.jpg"
+                      src="/img/bilsemModel.jpeg"
                       className="w-full h-[200px] sm:h-[250px] md:h-[280px] lg:h-[315px] rounded-lg shadow-lg object-cover"
                       alt=""
                     />
                     <h1 className="text-2xl mt-2 text-center font-bold">
-                      O'zel egitim
+                      BILSEM
                     </h1>
                   </div>
                   {/* Video 1 */}
                   <div className="w-full sm:w-[calc(50%-1rem)] lg:w-[calc(33.333%-1rem)]">
                     <img
-                      src="/img/eduModel3.jpg"
+                      src="/img/stemModel.png"
                       className="w-full h-[200px] sm:h-[250px] md:h-[280px] lg:h-[315px] rounded-lg shadow-lg object-cover"
                       alt=""
                     />
                     <h1 className="text-2xl mt-2 text-center font-bold">
-                      Montessori
+                      STEM
                     </h1>
                   </div>
                 </div>
               </div>
+
+              {/* Exhibitions */}
+              <h1 className="text-4xl font-bold mb-4 mt-8">
+                {getText("navbar11")}
+              </h1>
+              <section className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <div className="bg-white shadow-lg rounded-xl p-6 text-center hover:shadow-2xl transition">
+                  <img
+                    src="img/exh1.jpeg"
+                    alt="San’at Ko‘rgazmalari"
+                    className="w-full h-40 object-cover rounded-xl mb-6"
+                  />
+                  <h3 className="text-2xl font-semibold mb-2">
+                    Thematic fairs
+                  </h3>
+                  <p className="text-gray-600">
+                    We organize many thematic fairs, from university promotions
+                    to professional career guidance. We offer participants the
+                    chance to explore global opportunities.
+                  </p>
+                </div>
+                <div className="bg-white shadow-lg rounded-xl p-6 text-center hover:shadow-2xl transition">
+                  <img
+                    src="img/exh2.jpg"
+                    alt="Foto Ko‘rgazmalar"
+                    className="w-full h-40 object-cover rounded-xl mb-6"
+                  />
+                  <h3 className="text-2xl font-semibold mb-2">
+                    Foto Ko‘rgazmalar
+                  </h3>
+                  <p className="text-gray-600">
+                    Dunyoning turli burchaklaridagi manzaralarni va unutilmas
+                    lahzalarni o‘rganing.
+                  </p>
+                </div>
+                <div className="bg-white shadow-lg rounded-xl p-6 text-center hover:shadow-2xl transition">
+                  <img
+                    src="img/exh3.jpeg"
+                    alt="Ilmiy Yutuqlar"
+                    className="w-full h-40 object-cover rounded-xl mb-6"
+                  />
+                  <h3 className="text-2xl font-semibold mb-2">
+                    Ilmiy Yutuqlar
+                  </h3>
+                  <p className="text-gray-600">
+                    Zamonaviy texnologiyalar va innovatsion yutuqlarni namoyish
+                    qiluvchi ilmiy ko‘rgazmalar.
+                  </p>
+                </div>
+              </section>
             </div>
           </div>
         </div>
