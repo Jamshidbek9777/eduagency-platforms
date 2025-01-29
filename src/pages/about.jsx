@@ -30,16 +30,18 @@ const About = () => {
       <div
         className="relative bg-cover bg-center h-[600px] flex flex-col items-center justify-center text-white"
         style={{
-          backgroundImage: "url('img/abBgdekstop.png')",
+          backgroundImage: "url('img/aboutusBg.jpg')",
         }}
       >
+        <div className="absolute inset-0 bg-black bg-opacity-40"></div>
         <h1 className="relative z-10 text-6xl font-bold drop-shadow-lg text-center">
-          About us
+          {getText("topbar3")}
         </h1>
       </div>
       <Wrapper>
         <div className="mt-10 flex flex-col items-center">
-          <div className="pb-10  ">
+          <div className="pb-10">
+            <h1 className="text-2xl mb-4">{getText("aboutText")}</h1>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
               <div className="p-6 bg-white shadow-lg rounded-lg">
                 <h3 className="text-2xl font-bold text-[#4A90E2] mb-4">
@@ -101,9 +103,6 @@ const About = () => {
             </ul>
           </div>
         </div>
-
-        {/* Contact Us Section */}
-        <ContactUs />
       </Wrapper>
     </>
   );

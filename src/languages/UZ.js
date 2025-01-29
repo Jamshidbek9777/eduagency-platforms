@@ -456,4 +456,7 @@ export const uz = {
   labelPhone: "Telefon",
   labelEmail: "Email",
   labelMessage: "Xabar",
+
+  aboutText:
+    "EduAgency sifatida biz Turkiya va Oʻzbekiston oʻrtasida taʼlim sohasida hamkorlik qilamiz. Ko'prik vazifasini bajaradigan innovatsion va yechimga yo'naltirilgan integrator Biz kompaniyamiz. Ta'lim tizimini rivojlantirish va xalqaro standartlarda xizmat ko'rsatish uchun maktab muassasasidan Biz o'qituvchilar tayyorlashdan tortib o'qituvchilar malakasini oshirishgacha bo'lgan keng qamrovli echimlarni taklif qilamiz.",
 };

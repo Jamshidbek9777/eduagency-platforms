@@ -425,4 +425,7 @@ export const en = {
   labelPhone: "Phone",
   labelEmail: "Email",
   labelMessage: "Message",
+
+  aboutText:
+    "As EduAgency, we cooperate in the field of education between Türkiye and Uzbekistan. An innovative and solution-oriented integrator that acts as a bridge We are a company. Development of education systems and international from school establishment in order to provide service at standards We offer comprehensive solutions ranging from teacher training to teacher training.",
 };

@@ -30,81 +30,106 @@ const Universities = () => {
             <div className="mt-10">
               <div className="flex justify-between items-center">
                 <h1 className="text-4xl font-bold mb-4">
-                  {getText("sTransfer1")}
+                  {getText("navbar3")}
                 </h1>
               </div>
-              <div className="flex flex-col md:flex-row gap-6 items-center">
-                <p className="mt-4 text-xl font-bold">
-                  {getText("sTransfer1")}
-                </p>
-              </div>
-              <p className="mt-4 text-base">{getText("sTransfer3")}</p>
-              <p className="mt-4 text-base">{getText("sTransfer4")}</p>
-              <p className="mt-4 text-base">{getText("sTransfer5")}</p>
-              <p className="mt-4 text-base">{getText("sTransfer6")}</p>
-
-              <div className="mt-4">
-                <div className="flex flex-wrap justify-start gap-4">
-                  {/* Video 2 */}
-                  <div className="w-full sm:w-[calc(50%-1rem)] lg:w-[calc(33.333%-1rem)]">
-                    <img
-                      src="/img/studyTurkey1.jpg"
-                      className="w-full h-[200px] sm:h-[250px] md:h-[280px] lg:h-[315px] rounded-lg shadow-lg object-cover"
-                      alt=""
-                    />
-                  </div>
-                  <div className="w-full sm:w-[calc(50%-1rem)] lg:w-[calc(33.333%-1rem)]">
-                    <img
-                      src="/img/studyTurkey2.jpg"
-                      className="w-full h-[200px] sm:h-[250px] md:h-[280px] lg:h-[315px] rounded-lg shadow-lg object-cover"
-                      alt=""
-                    />
-                  </div>
-                  {/* Video 1 */}
-                  <div className="w-full sm:w-[calc(50%-1rem)] lg:w-[calc(33.333%-1rem)]">
-                    <img
-                      src="/img/studyTurkey3.webp"
-                      className="w-full h-[200px] sm:h-[250px] md:h-[280px] lg:h-[315px] rounded-lg shadow-lg object-cover"
-                      alt=""
-                    />
-                  </div>
+              <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-12">
+                <div className="bg-white p-8 rounded-2xl shadow-lg text-center space-y-4">
+                  <img
+                    src="img/truzex.jpeg"
+                    alt="Öğrenci ve Akademisyen Transferi"
+                    className="w-full h-48 object-cover rounded-md mb-4"
+                  />
+                  <h4 className="text-xl font-semibold text-gray-800">
+                    {getText("partnership1")}
+                  </h4>
+                  <ul className="list-disc pl-6 text-lg text-gray-600 space-y-3">
+                    <li>{getText("partnership2")}</li>
+                  </ul>
                 </div>
-              </div>
-            </div>
-            {/* Edudesign */}
-            <div className="mt-10">
-              <div className="flex flex-col md:flex-row gap-6 items-center">
-                <p className="mt-4 text-4xl font-bold">
-                  {getText("eduDesign7")}
-                </p>
-              </div>
-              <p className="mt-4 text-base">{getText("eduDesign8")}</p>
 
-              <div className="mt-4">
-                <div className="flex flex-wrap justify-start gap-4">
-                  {/* Video 2 */}
-                  <div className="w-full sm:w-[calc(50%-1rem)] lg:w-[calc(33.333%-1rem)]">
-                    <img
-                      src="/img/stemLab1.jpg"
-                      className="w-full h-[200px] sm:h-[250px] md:h-[280px] lg:h-[315px] rounded-lg shadow-lg object-cover"
-                      alt=""
-                    />
-                  </div>
-                  <div className="w-full sm:w-[calc(50%-1rem)] lg:w-[calc(33.333%-1rem)]">
-                    <img
-                      src="/img/astranomy.jpg"
-                      className="w-full h-[200px] sm:h-[250px] md:h-[280px] lg:h-[315px] rounded-lg shadow-lg object-cover"
-                      alt=""
-                    />
-                  </div>
-                  {/* Video 1 */}
-                  <div className="w-full sm:w-[calc(50%-1rem)] lg:w-[calc(33.333%-1rem)]">
-                    <img
-                      src="/img/lab1.jpg"
-                      className="w-full h-[200px] sm:h-[250px] md:h-[280px] lg:h-[315px] rounded-lg shadow-lg object-cover"
-                      alt=""
-                    />
-                  </div>
+                <div className="bg-white p-8 rounded-2xl shadow-lg text-center space-y-4">
+                  <img
+                    src="img/franchize.png"
+                    alt="Franchise ve İşbirliği Yönetimi"
+                    className="w-full h-48 object-cover rounded-md mb-4"
+                  />
+                  <h4 className="text-xl font-semibold text-gray-800">
+                    {getText("partnership3")}
+                  </h4>
+                  <ul className="list-disc pl-6 text-lg text-gray-600 space-y-3">
+                    <li>{getText("partnership4")}</li>
+                  </ul>
+                </div>
+
+                <div className="bg-white p-8 rounded-2xl shadow-lg text-center space-y-4">
+                  <img
+                    src="img/truz.jpg"
+                    alt="Pazar Araştırması ve Rekabet Analizi"
+                    className="w-full h-48 object-cover rounded-md mb-4"
+                  />
+                  <h4 className="text-xl font-semibold text-gray-800">
+                    {getText("partnership5")}
+                  </h4>
+                  <ul className="list-disc pl-6 text-lg text-gray-600 space-y-3">
+                    <li>{getText("partnership6")}</li>
+                  </ul>
+                </div>
+
+                <div className="bg-white p-8 rounded-2xl shadow-lg text-center space-y-4">
+                  <img
+                    src="img/internationalEvent.jpeg"
+                    alt="Uluslararası Etkinlik ve Organizasyon Yönetimi"
+                    className="w-full h-48 object-cover rounded-md mb-4"
+                  />
+                  <h4 className="text-xl font-semibold text-gray-800">
+                    {getText("partnership7")}
+                  </h4>
+                  <ul className="list-disc pl-6 text-lg text-gray-600 space-y-3">
+                    <li>{getText("partnership8")}</li>
+                  </ul>
+                </div>
+
+                <div className="bg-white p-8 rounded-2xl shadow-lg text-center space-y-4">
+                  <img
+                    src="img/teknoloji.webp"
+                    alt="Teknoloji ve Dijital Çözümler"
+                    className="w-full h-48 object-cover rounded-md mb-4"
+                  />
+                  <h4 className="text-xl font-semibold text-gray-800">
+                    {getText("partnership9")}
+                  </h4>
+                  <ul className="list-disc pl-6 text-lg text-gray-600 space-y-3">
+                    <li>{getText("partnership10")}</li>
+                  </ul>
+                </div>
+
+                <div className="bg-white p-8 rounded-2xl shadow-lg text-center space-y-4">
+                  <img
+                    src="img/accredationBg.jpg"
+                    alt="Sertifikasyon ve Akreditasyon Hizmetleri"
+                    className="w-full h-48 object-cover rounded-md mb-4"
+                  />
+                  <h4 className="text-xl font-semibold text-gray-800">
+                    {getText("partnership11")}
+                  </h4>
+                  <ul className="list-disc pl-6 text-lg text-gray-600 space-y-3">
+                    <li>{getText("partnership12")}</li>
+                  </ul>
+                </div>
+
+                <div className="bg-white p-8 rounded-2xl shadow-lg text-center space-y-4">
+                  <img
+                    src="img/joint.jpg"
+                    alt="Ortak Eğitim Programları Geliştirme"
+                    className="w-full h-48 object-cover rounded-md mb-4"
+                  />
+                  <h4 className="text-xl font-semibold text-gray-800">
+                    {getText("partnership13")}
+                  </h4>
+                  <ul className="list-disc pl-6 text-lg text-gray-600 space-y-3">
+                    <li>{getText("partnership14")}</li>
+                  </ul>
                 </div>
               </div>
             </div>
@@ -152,96 +177,6 @@ const Universities = () => {
                 </div>
               </div>
             </div>
-
-            {/* Exhibitions */}
-            <h1 className="text-4xl font-bold mb-4 mt-8">
-              {getText("navbar11")}
-            </h1>
-            <section className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-              <div className="bg-white shadow-lg rounded-xl p-6 text-center hover:shadow-2xl transition">
-                <img
-                  src="img/exh1.jpeg"
-                  alt="San’at Ko‘rgazmalari"
-                  className="w-full h-40 object-cover rounded-xl mb-6"
-                />
-                <h3 className="text-2xl font-semibold mb-2">Thematic fairs</h3>
-                <p className="text-gray-600">
-                  We organize many thematic fairs, from university promotions to
-                  professional career guidance. We offer participants the chance
-                  to explore global opportunities.
-                </p>
-              </div>
-              <div className="bg-white shadow-lg rounded-xl p-6 text-center hover:shadow-2xl transition">
-                <img
-                  src="img/exh2.jpg"
-                  alt="Foto Ko‘rgazmalar"
-                  className="w-full h-40 object-cover rounded-xl mb-6"
-                />
-                <h3 className="text-2xl font-semibold mb-2">
-                  Foto Ko‘rgazmalar
-                </h3>
-                <p className="text-gray-600">
-                  Dunyoning turli burchaklaridagi manzaralarni va unutilmas
-                  lahzalarni o‘rganing.
-                </p>
-              </div>
-              <div className="bg-white shadow-lg rounded-xl p-6 text-center hover:shadow-2xl transition">
-                <img
-                  src="img/exh3.jpeg"
-                  alt="Ilmiy Yutuqlar"
-                  className="w-full h-40 object-cover rounded-xl mb-6"
-                />
-                <h3 className="text-2xl font-semibold mb-2">Ilmiy Yutuqlar</h3>
-                <p className="text-gray-600">
-                  Zamonaviy texnologiyalar va innovatsion yutuqlarni namoyish
-                  qiluvchi ilmiy ko‘rgazmalar.
-                </p>
-              </div>
-            </section>
-
-            {/* Seminars */}
-            <h1 className="text-4xl font-bold mb-4 mt-8">
-              {getText("navbar10")}
-            </h1>
-            <section className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-12">
-              <div className="bg-white shadow-lg rounded-2xl p-8 text-center hover:shadow-2xl transition">
-                <img
-                  src="img/teachers.jpg"
-                  alt="Professional O'qituvchilar"
-                  className="w-full h-40 object-cover rounded-xl mb-6"
-                />
-                <h3 className="text-2xl font-bold mb-4">
-                  {getText("seminar2")}
-                </h3>
-                <p className="text-gray-600">{getText("seminar3")}</p>
-              </div>
-
-              <div className="bg-white shadow-lg rounded-2xl p-8 text-center hover:shadow-2xl transition">
-                <img
-                  src="img/global.jpg"
-                  alt="Tarmoq Yaratish"
-                  className="w-full h-40 object-cover rounded-xl mb-6"
-                />
-                <h3 className="text-2xl font-bold mb-4">
-                  {" "}
-                  {getText("seminar4")}
-                </h3>
-                <p className="text-gray-600">{getText("seminar5")}</p>
-              </div>
-
-              <div className="bg-white shadow-lg rounded-2xl p-8 text-center hover:shadow-2xl transition">
-                <img
-                  src="img/global.webp"
-                  alt="Global Ko‘nikmalar"
-                  className="w-full h-40 object-cover rounded-xl mb-6"
-                />
-                <h3 className="text-2xl font-bold mb-4">
-                  {" "}
-                  {getText("seminar6")}
-                </h3>
-                <p className="text-gray-600">{getText("seminar7")}</p>
-              </div>
-            </section>
           </div>
         </div>
       </Wrapper>

@@ -421,4 +421,7 @@ export const tr = {
   labelPhone: "Telefon",
   labelEmail: "E-posta",
   labelMessage: "Mesaj",
+
+  aboutText:
+    "EduAgency olarak, Türkiye ve Özbekistan arasında eğitim alanında  köprü görevi üstlenen, yenilikçi ve çözüm odaklı bir entegratör  firmasıyız. Eğitim sistemlerinin geliştirilmesi ve uluslararası  standartlarda hizmet sağlanması amacıyla okul kurulumundan  öğretmen eğitimlerine kadar geniş kapsamlı çözümler sunuyoruz.",
 };

@@ -60,7 +60,7 @@ const Recommended = () => {
                 />
                 <div>
                   <h3 className="font-bold text-xl">Future astronaut</h3>
-                  <p className="text-gray-600">
+                  <p className="text-gray-600 line-clamp-2">
                     {" "}
                     {getText("recommendedText4")}
                   </p>
