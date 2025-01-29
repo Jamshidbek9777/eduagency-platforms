@@ -24,7 +24,7 @@ const Universities = () => {
 
       {/* Content Section */}
       <Wrapper>
-        <div className="py-14 space-y-20">
+        <div className="py-14 space-y-10">
           <div className="p-6 bg-white rounded-lg shadow-lg">
             {/* Student transfer */}
             <div className="mt-10">
@@ -176,6 +176,67 @@ const Universities = () => {
                   </div>
                 </div>
               </div>
+            </div>
+          </div>
+
+          <h1 className="text-4xl font-bold">{getText("navbar12")}</h1>
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center bg-[#E6EAF4] p-4 rounded-[20px]">
+            <div className="w-full h-[200px] md:h-[300px] overflow-hidden rounded-[18px] shadow-lg">
+              <img
+                src="/img/space1.jpg"
+                alt="Classroom Design"
+                className="w-full h-full object-cover"
+              />
+            </div>
+            <div>
+              <h2 className="text-2xl font-bold mb-4">
+                {getText("akTourTitle")}
+              </h2>
+              <p className="mb-2">{getText("akTour2")}</p>
+              <ul className="list-disc pl-5 space-y-2">
+                {/* <li>{getText("akTour3")}</li> */}
+              </ul>
+            </div>
+          </div>
+          {/* Teknofest */}
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center bg-[#E6EAF4] p-4 rounded-[20px]">
+            <div className="w-full h-[200px] md:h-[300px] overflow-hidden rounded-lg shadow-lg ">
+              <img
+                src="/img/service4.jpg"
+                alt="Classroom Design"
+                className="w-full h-full object-cover"
+              />
+            </div>
+            <div>
+              <h2 className="text-2xl font-bold mb-4">Teknofest</h2>
+              <p className="mb-2">{getText("akTour3")}</p>
+
+              <h2 className="text-md mb-4">{getText("akTour4")}</h2>
+            </div>
+          </div>
+
+          {/* Bilim va kashf */}
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center bg-[#E6EAF4] p-4 rounded-[20px]">
+            <div className="w-full h-[200px] md:h-[300px] overflow-hidden rounded-lg shadow-lg">
+              <img
+                src="/img/bilim.jpg"
+                alt="Classroom Design"
+                className="w-full h-full object-cover"
+              />
+            </div>
+            <div>
+              <h2 className="text-2xl font-bold mb-4">{getText("akTour5")}</h2>
+              <p className="mb-2">{getText("akTour7")}</p>
+
+              <h2 className="text-md font-semibold mb-4 mt-4">
+                {getText("akTour8")}
+              </h2>
+              <ul className="list-disc pl-6">
+                <li>{getText("akTour9")}</li>
+                <li>{getText("akTour10")}</li>
+                <li>{getText("akTour11")}</li>
+                <li>{getText("akTour12")}</li>
+              </ul>
             </div>
           </div>
         </div>
