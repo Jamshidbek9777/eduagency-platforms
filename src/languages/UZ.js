@@ -419,6 +419,39 @@ export const uz = {
   studyTurkey15:
     "Natijalarni Boshqarish: Muvofiqlik tasdiqlangandan so‘ng, talabaga keyingi bosqichlarni oson bosib o‘tishida yo‘l-yo‘riq ko‘rsatamiz.",
 
+  partnership1: "Talaba almashinuvi va o'qituvchi transferi",
+  partnership2:
+    "O‘zbekiston va Turkiya o‘quv muassasalari o‘rtasida talaba va akademiklar almashinuvi dasturlarini boshqarish. Xalqaro talabalarning qabul va joylashtirish jarayonlarini o‘quv muassasalari nomidan tashkil etish.",
+  partnership3: "Franshiza va Hamkorlikni Boshqarish",
+  partnership4:
+    "O‘zbekiston hududida Turkiyadagi o‘quv muassasalarining franshiza ochish jarayonlarini boshqarish. O‘zbekiston o‘quv muassasalari va Turkiya bilan qo‘shma loyihalar va hamkorliklar yaratishni ta'minlash.",
+  partnership5: "Bozor Tadqiqotlari va Raqobat Tahlili",
+  partnership6:
+    "O‘zbekiston va Turkiya ta'lim sohasi holatini tahlil qiluvchi hisobotlarni o‘quv muassasalariga taqdim etish. Maqsadli auditoriya va raqobatbardosh ustunliklar asosida strategiyalar ishlab chiqish.",
+  partnership7: "Xalqaro Tadbirlar va Tashkilotlarni Boshqarish",
+  partnership8:
+    "O‘quv muassasalariga oid yarmarkalar, konferensiyalar va targ‘ibot tadbirlarini tashkil etish. Akademik turlar, ekspeditsiyalar va ilm-fanga yo‘naltirilgan sayohatlar tashkil etish.",
+  partnership9: "Texnologiya va Raqamli Yechimlar",
+  partnership10:
+    "Ta'lim muassasalarini raqamlashtirish uchun infratuzilma va texnologiya yechimlarini taqdim etish. Onlayn platformalar, raqamli sinflar va masofaviy ta'lim yechimlarini rivojlantirish.",
+  partnership11: "Sertifikatlash va Akkreditatsiya Xizmatlari",
+  partnership12:
+    "Xalqaro akkreditatsiya qo‘llab-quvvatlash va sertifikatlash jarayonlarini boshqarish. Mutaxassislik sertifikati dasturlari, professional rivojlanish dasturlari va sertifikatlar.",
+  partnership13: "Qo‘shma Ta'lim Dasturlarini Rivojlantirish",
+  partnership14:
+    "Ikki diplomli dasturlar, xalqaro o‘quv rejalari va sertifikatlash jarayonlarini tashkil etish. Ta'lim muassasalari o‘rtasida madaniy va akademik loyihalarni rejalashtirish.",
+
+  //footer
+  footer1:
+    "EduAgency ta’lim sohasida yuqori sifatli xizmatlar taqdim etadi. Biz bilan kelajakka yo‘l oching!",
+  footer2: "Foydali Havolalar",
+  footer3: "Aloqa Ma’lumotlari",
+  footer4: "Manzil:",
+  footer5: "Ish vaqti:",
+  footer6: "Toshkent, Muqimiy ko‘chasi, 7-uy",
+  footer7: "Dushanba - Juma",
+  footer8: "Telefon:",
+
   labelName: "Ism",
   labelPhone: "Telefon",
   labelEmail: "Email",

@@ -367,15 +367,47 @@ export const tr = {
   studyTurkey10:
     "Türkiye’de eğitim hayatına devam etmek isteyen öğrencilerin diplomalarının denklik işlemlerini sorunsuz bir şekilde tamamlamalarına yardımcı oluyoruz.",
   studyTurkey11:
-    " Denklik Uygunluğu Kontrolü: Öğrencinin mevcut diploma ve sertifikalarının denklik kapsamına girip girmediğini analiz ediyoruz. ",
+    "Denklik Uygunluğu Kontrolü: Öğrencinin mevcut diploma ve sertifikalarının denklik kapsamına girip girmediğini analiz ediyoruz. ",
   studyTurkey12:
-    " Belge Hazırlığı ve Tercüme: Diploma, transkript gibi belgelerin tercümesini yapıyor ve noter onaylarıyla süreç için hazır hale getiriyoruz.",
+    "Belge Hazırlığı ve Tercüme: Diploma, transkript gibi belgelerin tercümesini yapıyor ve noter onaylarıyla süreç için hazır hale getiriyoruz.",
   studyTurkey13:
-    " Başvuru Yapılması: Türkiye’nin ilgili kurumlarına resmi başvuruları öğrencimiz adına gerçekleştiriyoruz.",
+    "Başvuru Yapılması: Türkiye’nin ilgili kurumlarına resmi başvuruları öğrencimiz adına gerçekleştiriyoruz.",
   studyTurkey14:
-    " Takip ve Bilgilendirme: Süreci yakından takip ederek öğrenciye düzenli bilgilendirme yapıyoruz.",
+    "Takip ve Bilgilendirme: Süreci yakından takip ederek öğrenciye düzenli bilgilendirme yapıyoruz.",
   studyTurkey15:
-    " Sonuç Yönetimi: Denklik onayı alındığında öğrencimizin sonraki adımları kolayca atabilmesi için yönlendirme sağlıyoruz.",
+    "Sonuç Yönetimi: Denklik onayı alındığında öğrencimizin sonraki adımları kolayca atabilmesi için yönlendirme sağlıyoruz.",
+
+  footer1:
+    "EduAgency, eğitim alanında yüksek kaliteli hizmetler sunmaktadır. Bizimle geleceğe açılın!",
+  footer2: "Faydalı Bağlantılar",
+  footer3: "İletişim Bilgileri",
+  footer4: "Adres:",
+  footer5: "Çalışma Saatleri:",
+  footer6: "Taşkent, Muqimiy Caddesi, 7. Ev",
+  footer7: "Pazartesi - Cuma",
+  footer8: "Telefon:",
+
+  partnership1: "Öğrenci değişimi ve öğretmen transferi",
+  partnership2:
+    "Eğitim kurumları arasında Özbekistan ile Türkiye arasında öğrenci ve akademisyen değişim programlarının yönetimi. Eğitim kurumları adına uluslararası öğrencilerin kabul ve yerleştirme süreçlerinin düzenlenmesi.",
+  partnership3: "Franchise ve İşbirliği Yönetimi",
+  partnership4:
+    "Türkiye'deki eğitim kurumlarının Özbekistan'da franchise açılış süreçlerinin yönetimi. Özbekistan'daki eğitim kurumlarının Türkiye ile ortak projeler ve işbirlikleri geliştirmelerini sağlamak.",
+  partnership5: "Pazar Araştırması ve Rekabet Analizi",
+  partnership6:
+    "Eğitim kurumlarına, Türkiye ve Özbekistan'daki eğitim sektörünün mevcut durumunu analiz eden raporlar sunulması. Hedef kitle ve rekabet avantajlarına dayalı stratejiler oluşturulması.",
+  partnership7: "Uluslararası Etkinlik ve Organizasyon Yönetimi",
+  partnership8:
+    "Eğitim kurumları için fuar, konferans ve tanıtım etkinliklerinin düzenlenmesi. Akademik turlar, keşif gezileri ve bilim odaklı seyahatlerin organizasyonu.",
+  partnership9: "Teknoloji ve Dijital Çözümler",
+  partnership10:
+    "Eğitim kurumlarının dijitalleşmesi için altyapı ve teknoloji çözümleri sağlanması. Çevrimiçi platformlar, dijital sınıflar ve uzaktan eğitim çözümleri geliştirilmesi.",
+  partnership11: "Sertifikasyon ve Akreditasyon Hizmetleri",
+  partnership12:
+    "Uluslararası akreditasyon desteği ve sertifikasyon süreçlerinin yönetimi. Uzmanlık sertifika programları, profesyonel gelişim programları ve sertifikalar.",
+  partnership13: "Ortak Eğitim Programları Geliştirme",
+  partnership14:
+    "Çift diploma programları, uluslararası müfredatlar ve sertifikasyon süreçlerinin kurulması. Eğitim kurumları arasında kültürel ve akademik projeler planlanması.",
 
   // contact
   contactHeader: "Bize Ulaşın",

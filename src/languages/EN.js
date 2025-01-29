@@ -380,6 +380,39 @@ export const en = {
   studyTurkey15:
     "Result Management: Once the equivalency approval is obtained, we guide the student through the next steps for a smooth transition.",
 
+  footer1:
+    "EduAgency provides high-quality services in the field of education. Open the way to the future with us!",
+  footer2: "Useful Links",
+  footer3: "Contact Information",
+  footer4: "Address:",
+  footer5: "Working Hours:",
+  footer6: "Tashkent, Muqimiy Street, House 7",
+  footer7: "Monday - Friday",
+  footer8: "Phone:",
+
+  //partnership
+  partnership1: "Student exchange and teacher transfer",
+  partnership2:
+    "Management of student and academician exchange programs between Uzbekistan and Türkiye for educational institutions. Organizing the admission and placement processes of international students on behalf of educational institutions.",
+  partnership3: "Franchise and Cooperation Management",
+  partnership4:
+    "Managing the franchise opening processes of educational institutions in Turkey in Uzbekistan. Ensuring that educational institutions in Uzbekistan develop joint projects and collaborations with Türkiye.",
+  partnership5: "Market Research and Competition Analysis",
+  partnership6:
+    "Providing reports to educational institutions analyzing the current situation of the education sector in Türkiye and Uzbekistan. Creating strategies based on target audience and competitive advantages.",
+  partnership7: "Uluslararası Etkinlik ve Organizasyon Yönetimi",
+  partnership8:
+    "Organizing fairs, conferences and promotional events for educational institutions. Organization of academic tours, expeditions and science-oriented travel.",
+  partnership9: "Technology and Digital Solutions",
+  partnership10:
+    "Providing infrastructure and technology solutions for the digitalization of educational institutions. Developing online platforms, digital classrooms and distance education solutions.",
+  partnership11: "Certification and Accreditation Services",
+  partnership12:
+    "International accreditation support and management of certification processes. Specialty certificate programs, professional development programs and certifications.",
+  partnership13: "Developing Joint Education Programs",
+  partnership14:
+    "Establishment of double degree programs, international curricula and certification processes. Planning cultural and academic projects among educational institutions.",
+
   //contact
   contactHeader: "Contact us",
   placeHolderName: "Enter you name",

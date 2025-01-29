@@ -1,6 +1,7 @@
 import React, { useContext } from "react";
 import Wrapper from "../layout/wrapper";
 import { LanguageContext } from "../context/language";
+import { getText } from "../languages";
 
 const Partnership = () => {
   const { selectedLanguage } = useContext(LanguageContext);
@@ -15,7 +16,7 @@ const Partnership = () => {
       >
         <div className="absolute inset-0 bg-black bg-opacity-50"></div>
         <h1 className="relative z-10 text-5xl md:text-6xl font-extrabold tracking-tight text-center">
-          Partnership services
+          {getText("navbar3")}
         </h1>
       </div>
 
@@ -30,17 +31,10 @@ const Partnership = () => {
                 className="w-full h-48 object-cover rounded-md mb-4"
               />
               <h4 className="text-xl font-semibold text-gray-800">
-                Student exchange
+                {getText("partnership1")}
               </h4>
               <ul className="list-disc pl-6 text-lg text-gray-600 space-y-3">
-                <li>
-                  Eğitim kurumları için Özbekistan-Türkiye arasında öğrenci ve
-                  akademisyen değişim programlarının yönetimi.
-                </li>
-                <li>
-                  Eğitim kurumları adına uluslararası öğrencilerin kabul ve
-                  yerleştirme süreçlerini organize etme.
-                </li>
+                <li>{getText("partnership2")}</li>
               </ul>
             </div>
 
@@ -51,17 +45,10 @@ const Partnership = () => {
                 className="w-full h-48 object-cover rounded-md mb-4"
               />
               <h4 className="text-xl font-semibold text-gray-800">
-                Franchise ve İşbirliği Yönetimi
+                {getText("partnership3")}
               </h4>
               <ul className="list-disc pl-6 text-lg text-gray-600 space-y-3">
-                <li>
-                  Türkiye’deki eğitim kurumlarının Özbekistan’da franchise açma
-                  süreçlerini yönetme.
-                </li>
-                <li>
-                  Özbekistan’daki eğitim kurumlarının Türkiye ile ortak projeler
-                  ve işbirlikleri geliştirmesini sağlama.
-                </li>
+                <li>{getText("partnership4")}</li>
               </ul>
             </div>
 
@@ -72,17 +59,10 @@ const Partnership = () => {
                 className="w-full h-48 object-cover rounded-md mb-4"
               />
               <h4 className="text-xl font-semibold text-gray-800">
-                Pazar Araştırması ve Rekabet Analizi
+                {getText("partnership5")}
               </h4>
               <ul className="list-disc pl-6 text-lg text-gray-600 space-y-3">
-                <li>
-                  Eğitim kurumlarına, Türkiye ve Özbekistan’daki eğitim
-                  sektörünün güncel durumunu analiz eden raporlar sunma.
-                </li>
-                <li>
-                  Hedef kitle ve rekabet avantajları üzerine stratejiler
-                  oluşturma.
-                </li>
+                <li>{getText("partnership6")}</li>
               </ul>
             </div>
 
@@ -93,17 +73,10 @@ const Partnership = () => {
                 className="w-full h-48 object-cover rounded-md mb-4"
               />
               <h4 className="text-xl font-semibold text-gray-800">
-                Uluslararası Etkinlik ve Organizasyon Yönetimi
+                {getText("partnership7")}
               </h4>
               <ul className="list-disc pl-6 text-lg text-gray-600 space-y-3">
-                <li>
-                  Eğitim kurumları için fuar, konferans ve tanıtım
-                  etkinliklerini düzenleme.
-                </li>
-                <li>
-                  Akademik turlar, keşif gezileri ve bilim odaklı seyahatlerin
-                  organizasyonu.
-                </li>
+                <li>{getText("partnership8")}</li>
               </ul>
             </div>
 
@@ -114,17 +87,10 @@ const Partnership = () => {
                 className="w-full h-48 object-cover rounded-md mb-4"
               />
               <h4 className="text-xl font-semibold text-gray-800">
-                Teknoloji ve Dijital Çözümler
+                {getText("partnership9")}
               </h4>
               <ul className="list-disc pl-6 text-lg text-gray-600 space-y-3">
-                <li>
-                  Eğitim kurumlarının dijitalleşmesi için altyapı ve teknoloji
-                  çözümleri sağlama.
-                </li>
-                <li>
-                  Online platformlar, dijital sınıflar ve uzaktan eğitim
-                  çözümleri geliştirme.
-                </li>
+                <li>{getText("partnership10")}</li>
               </ul>
             </div>
 
@@ -135,17 +101,10 @@ const Partnership = () => {
                 className="w-full h-48 object-cover rounded-md mb-4"
               />
               <h4 className="text-xl font-semibold text-gray-800">
-                Sertifikasyon ve Akreditasyon Hizmetleri
+                {getText("partnership11")}
               </h4>
               <ul className="list-disc pl-6 text-lg text-gray-600 space-y-3">
-                <li>
-                  Uluslararası akreditasyon desteği ve belgelendirme
-                  süreçlerinin yönetimi.
-                </li>
-                <li>
-                  Uzmanlık sertifikası programları, mesleki gelişim programları
-                  ve sertifikasyonlar.
-                </li>
+                <li>{getText("partnership12")}</li>
               </ul>
             </div>
 
@@ -156,17 +115,10 @@ const Partnership = () => {
                 className="w-full h-48 object-cover rounded-md mb-4"
               />
               <h4 className="text-xl font-semibold text-gray-800">
-                Ortak Eğitim Programları Geliştirme
+                {getText("partnership13")}
               </h4>
               <ul className="list-disc pl-6 text-lg text-gray-600 space-y-3">
-                <li>
-                  Çift diploma programları, uluslararası müfredat ve
-                  sertifikasyon süreçlerinin oluşturulması.
-                </li>
-                <li>
-                  Eğitim kurumları arasında kültürel ve akademik projelerin
-                  planlanması.
-                </li>
+                <li>{getText("partnership14")}</li>
               </ul>
             </div>
           </div>

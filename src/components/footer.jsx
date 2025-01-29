@@ -1,13 +1,9 @@
 import React, { useContext } from "react";
 import Wrapper from "../layout/wrapper";
-import {
-  FaFacebook,
-  FaInstagram,
-  FaTelegram,
-  FaPhoneAlt,
-} from "react-icons/fa";
+import { FaPhoneAlt } from "react-icons/fa";
 import { MdEmail, MdLocationOn, MdAccessTime } from "react-icons/md";
 import { LanguageContext } from "../context/language";
+import { getText } from "../languages";
 
 const Footer = () => {
   const { selectedLanguage } = useContext(LanguageContext);
@@ -25,16 +21,13 @@ const Footer = () => {
                 className="h-16 object-contain"
               />
             </a>
-            <p className="text-sm leading-relaxed">
-              EduAgency ta’lim sohasida yuqori sifatli xizmatlar taqdim etadi.
-              Biz bilan kelajakka yo‘l oching!
-            </p>
+            <p className="text-sm leading-relaxed">{getText("footer1")}</p>
           </div>
 
           {/* Middle Section: Quick Links */}
           <div>
             <h3 className="text-lg font-semibold mb-4 text-white">
-              Foydali Havolalar
+              {getText("footer2")}
             </h3>
             <ul className="space-y-3">
               <li>
@@ -42,7 +35,7 @@ const Footer = () => {
                   href="/kindergartens"
                   className="hover:text-blue-400 transition"
                 >
-                  Bog‘chalar
+                  {getText("servicesText1")}
                 </a>
               </li>
               <li>
@@ -50,7 +43,7 @@ const Footer = () => {
                   href="/elementary-schools"
                   className="hover:text-blue-400 transition"
                 >
-                  Boshlang‘ich Maktablar
+                  {getText("servicesText2")}
                 </a>
               </li>
               <li>
@@ -58,7 +51,7 @@ const Footer = () => {
                   href="/intermediate-school"
                   className="hover:text-blue-400 transition"
                 >
-                  O‘rta Maktablar
+                  {getText("servicesText3")}
                 </a>
               </li>
               <li>
@@ -66,7 +59,7 @@ const Footer = () => {
                   href="/high-schools"
                   className="hover:text-blue-400 transition"
                 >
-                  Yuqori Sinflar
+                  {getText("servicesText4")}
                 </a>
               </li>
               <li>
@@ -74,16 +67,15 @@ const Footer = () => {
                   href="/universities"
                   className="hover:text-blue-400 transition"
                 >
-                  Universitetlar
+                  {getText("servicesText5")}
                 </a>
               </li>
             </ul>
           </div>
 
-          {/* Right Section: Contact Information */}
           <div>
             <h3 className="text-lg font-semibold mb-4 text-white">
-              Aloqa Ma’lumotlari
+              {getText("footer3")}
             </h3>
             <ul className="space-y-6">
               <li className="flex items-start gap-3">
@@ -101,16 +93,16 @@ const Footer = () => {
               <li className="flex items-start gap-3">
                 <MdLocationOn className="text-2xl text-blue-400" />
                 <div>
-                  <p className="font-medium">Manzil:</p>
-                  <p>Toshkent, Muqimiy ko‘chasi, 7-uy</p>
+                  <p className="font-medium">{getText("footer4")}</p>
+                  <p>{getText("footer6")}</p>
                 </div>
               </li>
               <li className="flex items-start gap-3">
                 <MdAccessTime className="text-2xl text-blue-400" />
                 <div>
-                  <p className="font-medium">Ish vaqti:</p>
+                  <p className="font-medium">{getText("footer5")}</p>
                   <p>
-                    Dushanba - Juma, <br />
+                    {getText("footer7")}, <br />
                     9:00 - 18:00
                   </p>
                 </div>
@@ -118,7 +110,7 @@ const Footer = () => {
               <li className="flex items-start gap-3">
                 <FaPhoneAlt className="text-2xl text-blue-400" />
                 <div>
-                  <p className="font-medium">Telefon:</p>
+                  <p className="font-medium">{getText("footer8")}</p>
                   <a
                     href="tel:+998901234567"
                     className="hover:text-blue-400 transition"
