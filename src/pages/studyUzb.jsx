@@ -1,136 +1,137 @@
-import React, { useContext } from "react";
+import React from "react";
 import Wrapper from "../layout/wrapper";
-import { IoCheckmarkDone } from "react-icons/io5";
-import { getText } from "../languages";
-import { LanguageContext } from "../context/language";
+import { FaCheckCircle } from "react-icons/fa";
+import { FaCheckToSlot } from "react-icons/fa6";
 
-const StudyUz = () => {
-  const { selectedLanguage } = useContext(LanguageContext);
+const StudyUzb = () => {
   return (
     <>
       {/* Header Section */}
       <div
-        className="relative bg-cover bg-center h-[600px] flex flex-col items-center justify-center text-white"
-        style={{
-          backgroundImage: "url('img/eduUzbBg.jpeg')",
-        }}
+        className="relative bg-cover bg-center h-[500px] flex flex-col items-center justify-center text-white"
+        style={{ backgroundImage: "url('img/eduUzbBg.jpeg')" }}
       >
-        <div className="absolute inset-0 bg-black bg-opacity-40"></div>
-        <h1 className="relative z-10 text-6xl font-bold">
-          Study in Uzbekistan
+        <div className="absolute inset-0 bg-black bg-opacity-50"></div>
+        <h1 className="relative z-10 text-5xl font-bold text-center">
+          Ozbekistanda Eğitim Hizmetleri
         </h1>
       </div>
 
       {/* Content Section */}
       <Wrapper>
-        <div className="bg-[#F0F4F8] p-8 rounded-lg shadow-lg">
-          <h1 className="text-3xl font-bold mb-6">
-            Turkiyadan Oʻzbekistonga Ekspert Oʻqituvchilar Xizmati
+        <div className="py-12 space-y-12">
+          {/* Kabul Mektubu Hizmeti */}
+          <h1 className="text-xl">
+            EduAgency olarak Özbekistan’da, eğitim ve bilimsel gelişime katkı
+            sunan organizasyon hizmetleriyle fark yaratıyoruz. Konferanslar,
+            fuarlar ve akademik turlar alanında sunduğumuz kapsamlı
+            hizmetlerimiz, öğrencilerden eğitimcilere kadar geniş bir kitleye
+            hitap etmektedir. Bu kapsamda gerçekleştirdiğimiz etkinlikler
+            hakkında detaylı bilgiye aşağıda ulaşabilirsiniz:{" "}
           </h1>
-
-          <p className="mb-4">
-            EduAgency Turkiyadan Oʻzbekistonga yetakchi va tajribali
-            oʻqituvchilarni olib kelish xizmatini taklif etadi. Bizning asosiy
-            maqsadimiz – Oʻzbekiston taʼlim tizimini xalqaro standartlarga mos
-            ravishda rivojlantirish va yuqori sifatli oʻqituvchilardan
-            foydalanish imkoniyatini taʼminlash.
-          </p>
-
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-            {/* Xizmatning Afzalliklari */}
-            <div>
-              <h2 className="text-2xl font-semibold mb-4">
-                Xizmatning Afzalliklari
-              </h2>
-              <ul className="list-disc pl-6 mb-4">
-                <li>
-                  Yetakchi universitetlardan tajribali oʻqituvchilarni jalb
-                  qilish
-                </li>
-                <li>
-                  Oʻquvchilarga xalqaro darajadagi taʼlim berish imkoniyati
-                </li>
-                <li>
-                  Fan va texnologiya sohasida ilgʻor bilimlarni taqdim etish
-                </li>
-                <li>Taʼlim sifatini oshirish va natijadorlikni yaxshilash</li>
-                <li>
-                  Oʻzbekiston taʼlim tizimini rivojlantirishga hissa qoʻshish
-                </li>
-              </ul>
-            </div>
-
-            {/* Jarayon haqida */}
-            <div>
-              <h2 className="text-2xl font-semibold mb-4">
-                Ekspertlarni Jalb Qilish Jarayoni
-              </h2>
-              <p className="mb-4">
-                Ekspert oʻqituvchilarni jalb qilish quyidagi bosqichlarda amalga
-                oshiriladi:
-              </p>
-              <ul className="list-decimal pl-6">
-                <li>
-                  <strong>Ehtiyojlarni aniqlash:</strong> Mijozlar talablarini
-                  batafsil oʻrganamiz.
-                </li>
-                <li>
-                  <strong>Kadrlarni tanlash:</strong> Tajribali oʻqituvchilarni
-                  saralab olish.
-                </li>
-                <li>
-                  <strong>Hujjatlarni rasmiylashtirish:</strong> Kerakli
-                  hujjatlar va ish vizalarini tayyorlash.
-                </li>
-                <li>
-                  <strong>Yordam ko'rsatish:</strong> Oʻqituvchilarni
-                  Oʻzbekistonga olib kelish va joylashtirish.
-                </li>
-              </ul>
-            </div>
-          </div>
-
-          <div className="mt-8">
-            {/* Yashash va Faoliyat Shartlari */}
-            <h2 className="text-2xl font-semibold mb-4">
-              Yashash va Faoliyat Shartlari
+          <div className="bg-white p-8 rounded-lg shadow-lg border border-gray-200">
+            <h2 className="text-3xl font-semibold mb-6 text-center">
+              Öğretmen ve Akademisyen Kariyer Danışmanlığı
             </h2>
-            <p className="mb-4">
-              Ekspert oʻqituvchilarni Oʻzbekistonga olib kelish jarayonida biz
-              barcha yashash va ishlash sharoitlarini tashkil qilamiz. Ular
-              uchun qulay yashash joylari va mos shart-sharoitlar yaratishga
-              harakat qilamiz.
+            <p className="text-lg text-gray-700 mb-4">
+              Türkiye’deki öğretmenler ve üniversite hocalarının, Özbekistan’da
+              eğitim kurumlarında istihdam edilmesine destek veriyoruz. Bu
+              hizmet, öğretim görevlilerinin mesleki becerilerini uluslararası
+              ölçekte değerlendirmelerine olanak tanır.
             </p>
-            <p className="mb-4">
-              Bizning xizmatlarimiz orqali oʻqituvchilar Oʻzbekistonda ishlash
-              davomida nafaqat tajriba almashish, balki taʼlim sifatini
-              yaxshilashga xizmat qiladi.
-            </p>
-          </div>
-
-          <div className="mt-8">
-            {/* Tez-tez So'raladigan Savollar */}
-            <h2 className="text-2xl font-semibold mb-4">
-              Tez-tez So'raladigan Savollar
-            </h2>
-            <ul className="list-disc pl-6">
+            <ul className="list-disc pl-6 space-y-3 text-lg">
               <li>
+                <FaCheckCircle className="inline text-blue-500 mr-2" />
                 <strong>
-                  Qaysi sohalardagi oʻqituvchilarni olib kelish mumkin?
-                </strong>
-                Biz fan, texnologiya, matematika, tilshunoslik va boshqa
-                sohalardagi oʻqituvchilarni jalb qilamiz.
+                  Profil Değerlendirmesi ve Kariyer Danışmanlığı:
+                </strong>{" "}
+                Adayın akademik geçmişi, mesleki tecrübeleri ve yetkinlikleri
+                analiz edilir. Kariyer hedeflerine uygun kurumlar ve pozisyonlar
+                belirlenir.
               </li>
               <li>
-                <strong>
-                  Ekspert oʻqituvchilar qancha vaqt davomida faoliyat yuritadi?
-                </strong>
-                Faoliyat muddati mijozning talablariga qarab belgilanadi, odatda
-                6 oydan 2 yilgacha.
+                <FaCheckCircle className="inline text-blue-500 mr-2" />
+                <strong> İş İlanlarının Yönetimi: </strong> Özbekistan’daki
+                eğitim kurumlarından gelen iş talepleri düzenli olarak takip
+                edilir ve adaylara uygun pozisyonlarla eşleştirilir.
               </li>
               <li>
-                <strong>Hujjatlarni rasmiylashtirish qancha vaqt oladi?</strong>
-                Hujjatlarni tayyorlash jarayoni odatda 1-2 oy davom etadi.
+                <FaCheckCircle className="inline text-blue-500 mr-2" />
+                <strong>Başvuru Sürecinin Yönetimi:</strong> Özbekistan’daki
+                eğitim kurumlarının talep ettiği belgeler hazırlanır. İş
+                başvuruları tamamlanarak gerekli mülakatlar düzenlenir
+              </li>
+              <li>
+                <FaCheckCircle className="inline text-blue-500 mr-2" />
+                <strong>Dil ve Kültür Hazırlığı: </strong> Adaylara
+                Özbekistan’da çalışacakları dönemde faydalı olacak dil ve
+                kültürel oryantasyon programları sunulur.
+              </li>
+
+              <li>
+                <FaCheckCircle className="inline text-blue-500 mr-2" />
+                <strong>İş Sözleşmesi ve Yasal Destek: </strong> İş
+                tekliflerinin yasal uygunluğu incelenir, adaylara sözleşme
+                detayları konusunda bilgilendirme yapılır ve gerekiyorsa yerel
+                hukuk desteği sağlanır.
+              </li>
+              <li>
+                <FaCheckCircle className="inline text-blue-500 mr-2" />
+                <strong>Barınma ve Yaşam Desteği: </strong> Adayların konaklama
+                ve Özbekistan’daki yaşam süreçleri hakkında rehberlik hizmeti
+                sunulur.
+              </li>
+            </ul>
+          </div>
+
+          {/* Denklik İşlemleri Hizmeti */}
+          <div className="bg-gray-100 p-8 rounded-lg shadow-lg border border-gray-300">
+            <h2 className="text-3xl font-semibold mb-6 text-center">
+              Öğrencilere Özbekistan Üniversitelerinde Eğitim Danışmanlığı
+            </h2>
+            <p className="text-lg text-gray-700 mb-4">
+              Türkiye’deki öğrencilerin Özbekistan’daki üniversitelerde kaliteli
+              ve uygun maliyetli eğitim alması için kapsamlı danışmanlık hizmeti
+              sunuyoruz.
+            </p>
+            <ul className="list-disc pl-6 space-y-3 text-lg">
+              <li>
+                <FaCheckToSlot className="inline text-green-500 mr-2" />{" "}
+                Üniversite Seçim Danışmanlığı: Öğrencinin eğitim hedefleri,
+                bütçesi ve kariyer planlarına göre Özbekistan’daki en uygun
+                üniversiteler belirlenir. Üniversitelerin bölümleri, burs
+                olanakları ve program detayları hakkında bilgilendirme yapılır.
+              </li>
+              <li>
+                <FaCheckToSlot className="inline text-green-500 mr-2" /> Başvuru
+                Belgelerinin Hazırlanması: Gerekli belgeler (pasaport,
+                transkript, diploma vb.) eksiksiz hazırlanır. Eğer dil
+                yeterliliği gerekiyorsa, ek dil sertifikası süreci planlanır.
+              </li>
+              <li>
+                <FaCheckToSlot className="inline text-green-500 mr-2" /> Başvuru
+                ve Kabul Süreci Yönetimi: Üniversite başvuruları titizlikle
+                yapılır ve süreç aday adına takip edilir. Kabul belgesinin
+                alınması sağlanır.
+              </li>
+              <li>
+                <FaCheckToSlot className="inline text-green-500 mr-2" /> Burs ve
+                Konaklama Danışmanlığı: Öğrencilere uygun burs olanakları ve
+                konaklama imkanları hakkında rehberlik edilir. Konaklama
+                tercihleri ve yerleşim süreçlerinde öğrencinin yanında olunur.
+              </li>
+              <li>
+                <FaCheckToSlot className="inline text-green-500 mr-2" /> Yasal
+                İşlemler ve Vize Desteği: Özbekistan’da eğitim alacak
+                öğrencilerin ihtiyaç duyabileceği vize işlemleri ve yerel
+                düzenlemeler konusunda tam destek sağlanır.
+              </li>
+              <li>
+                <FaCheckToSlot className="inline text-green-500 mr-2" />
+                Uyum Programları: Yeni bir ülkede eğitim alacak öğrencilerin
+                karşılaşabileceği uyum sorunlarını önlemek için dil, kültür ve
+                yerel yaşam alışkanlıklarına yönelik rehberlik programları
+                sunulur.
               </li>
             </ul>
           </div>
@@ -140,4 +141,4 @@ const StudyUz = () => {
   );
 };
 
-export default StudyUz;
+export default StudyUzb;

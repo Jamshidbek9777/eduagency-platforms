@@ -1,147 +1,109 @@
-import React, { useContext } from "react";
+import React from "react";
 import Wrapper from "../layout/wrapper";
-import { IoCheckmarkDone } from "react-icons/io5";
-import { FaGraduationCap, FaUniversity, FaLandmark } from "react-icons/fa";
-import { GiMoneyStack, GiOpenBook } from "react-icons/gi";
-import { LanguageContext } from "../context/language";
+import { FaCheckCircle, FaFileAlt } from "react-icons/fa";
 
 const StudyTurkey = () => {
-  const { selectedLanguage } = useContext(LanguageContext);
   return (
     <>
       {/* Header Section */}
       <div
-        className="relative bg-cover bg-center h-[600px] flex flex-col items-center justify-center text-white"
-        style={{
-          backgroundImage: "url('img/eduTurkeyBg.jpeg')",
-        }}
+        className="relative bg-cover bg-center h-[500px] flex flex-col items-center justify-center text-white"
+        style={{ backgroundImage: "url('img/eduTurkeyBg.jpeg')" }}
       >
         <div className="absolute inset-0 bg-black bg-opacity-50"></div>
-        <h1 className="relative z-10 text-6xl font-extrabold text-center">
-          Study in Turkey
+        <h1 className="relative z-10 text-5xl font-bold text-center">
+          Türkiye’de Eğitim Hizmetleri
         </h1>
       </div>
 
       {/* Content Section */}
       <Wrapper>
-        <div className="py-12 space-y-16">
-          {/* Turkiyada o'qish */}
-          <div className="bg-[#F0F4F8] p-8 rounded-lg shadow-lg">
-            <h1 className="text-3xl font-semibold mb-6 text-center">
-              Turkiyada O'qish va Transfer Jarayoni
-            </h1>
-
-            <p className="mb-4 text-lg">
-              EduAgency orqali o'zbekistonlik talabalarga Turkiyada o'qish
-              imkoniyatlarini yaratish va ularning o'qish transferini amalga
-              oshirish jarayonini soddalashtirganmiz. Bizning xizmatlarimiz
-              orqali siz Turkiyadagi yetakchi universitetlarda o'qish
-              imkoniyatiga ega bo'lasiz.
+        <div className="py-12 space-y-12">
+          <h1 className="text-xl">
+            Özbekistan ve Türkiye arasında eğitim alanında köprü görevi gören
+            EduAgency, öğretmenlerin ve akademisyenlerin Özbekistan’da kariyer
+            fırsatları yakalamasını, aynı zamanda öğrencilerin Özbekistan’daki
+            üniversitelerde eğitim almasını sağlayan profesyonel danışmanlık
+            hizmetleri sunmaktadır. Hizmetlerimiz iki ana başlıkta
+            detaylandırılmıştır:
+          </h1>
+          {/* Kabul Mektubu Hizmeti */}
+          <div className="bg-white p-8 rounded-lg shadow-lg border border-gray-200">
+            <h2 className="text-3xl font-semibold mb-6 text-center">
+              Türkiye’de Öğrenci Kabul Mektubu Alma Hizmeti
+            </h2>
+            <p className="text-lg text-gray-700 mb-4">
+              Türkiye’deki eğitim kurumlarına başvuru yapmak için kabul mektubu
+              almanız gerektiğinin farkındayız. Bu süreci sizin için
+              kolaylaştırarak doğru adımlar atmanızı sağlıyoruz.
             </p>
+            <ul className="list-disc pl-6 space-y-3 text-lg">
+              <li>
+                <FaCheckCircle className="inline text-blue-500 mr-2" />
+                <strong>Kuruma Uygunluk Analizi:</strong> Öğrencinin akademik
+                başarılarını, dil becerilerini ve kariyer hedeflerini dikkate
+                alarak uygun kurumları belirliyoruz.
+              </li>
+              <li>
+                <FaCheckCircle className="inline text-blue-500 mr-2" />
+                <strong>Başvuru Belgesi Hazırlığı:</strong> Gerekli belgelerin
+                (not dökümleri, pasaport, dil sertifikaları vb.) eksiksiz
+                hazırlanmasını sağlıyoruz.
+              </li>
+              <li>
+                <FaCheckCircle className="inline text-blue-500 mr-2" />
+                <strong>Başvuru Sürecinin Yönetimi:</strong> Seçilen eğitim
+                kurumlarının sistemleri üzerinden resmi başvuruları biz
+                yönetiyoruz.
+              </li>
+              <li>
+                <FaCheckCircle className="inline text-blue-500 mr-2" />
+                <strong>Süreç Takibi ve Onay:</strong> Başvuru sürecini düzenli
+                olarak takip ediyor, en kısa sürede kabul mektubunun temin
+                edilmesini sağlıyoruz.
+              </li>
+            </ul>
+          </div>
 
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
-              <div>
-                <h2 className="text-2xl font-semibold mb-4 flex items-center">
-                  <FaGraduationCap className="mr-3 text-xl" />
-                  Turkiyada O'qishning Afzalliklari
-                </h2>
-                <ul className="list-disc pl-6 mb-4 space-y-3">
-                  <li>Yuqori sifatli ta'lim tizimi va xalqaro diplomlar</li>
-                  <li>Turli sohalarda ko'plab o'qish imkoniyatlari</li>
-                  <li>
-                    Turkiyaning boy madaniyati va til o'rganish imkoniyati
-                  </li>
-                  <li>O'qish va ishlash imkoniyatlari, stipendiyalar</li>
-                  <li>Oson va qulay yashash shartlari</li>
-                </ul>
-              </div>
-              <div>
-                <h2 className="text-2xl font-semibold mb-4 flex items-center">
-                  <FaUniversity className="mr-3 text-xl" />
-                  Transfer Jarayoni
-                </h2>
-                <p className="mb-4">
-                  Bizning agentlik orqali Turkiyaga transfer jarayoni quyidagi
-                  bosqichlarda amalga oshiriladi:
-                </p>
-                <ul className="list-decimal pl-6 space-y-3">
-                  <li>
-                    <strong>Ariza topshirish:</strong> Talaba tomonidan ariza
-                    yuboriladi.
-                  </li>
-                  <li>
-                    <strong>Hujjatlar tekshiruvi:</strong> O'qish uchun zarur
-                    bo'lgan barcha hujjatlar tekshiriladi.
-                  </li>
-                  <li>
-                    <strong>Universitet tanlash:</strong> Talaba uchun eng mos
-                    universitet va fakultet tanlanadi.
-                  </li>
-                  <li>
-                    <strong>Qabul qilish:</strong> Universitetdan qabul xati
-                    olinadi.
-                  </li>
-                  <li>
-                    <strong>Visa va yo'l hujjatlari:</strong> Talaba uchun
-                    vizalar va boshqa hujjatlar tayyorlanadi.
-                  </li>
-                  <li>
-                    <strong>Transfer jarayoni:</strong> Talaba Turkiyaga ko'chib
-                    o'tadi va o'qishni boshlaydi.
-                  </li>
-                </ul>
-              </div>
-            </div>
-
-            <div className="mt-12">
-              <h2 className="text-2xl font-semibold mb-4 flex items-center">
-                <GiMoneyStack className="mr-3 text-xl" />
-                Turkiyada Yashash va O'qish Shartlari
-              </h2>
-              <p className="mb-4 text-lg">
-                Turkiyada o'qish nafaqat bilim olish, balki hayot tajribasini
-                orttirish imkonini ham beradi. O'qish davomida talabalar
-                Turkiyaning boy madaniyati bilan tanishishadi, yangi do'stlar
-                orttirishadi va turli xil ishlash imkoniyatlaridan
-                foydalanishadi. Universitetlar talabalarga turli xil yordamlar,
-                stipendiyalar va yashash joylari bilan ta'minlaydi.
-              </p>
-              <p className="mb-4 text-lg">
-                Yashash shartlari o'rtacha, lekin turli shaharlarda turar joy
-                narxlari farq qiladi. Istanbul va Ankara kabi yirik shaharlar
-                nisbatan qimmat, ammo o'qish va yashash uchun arzonroq hududlar
-                ham mavjud.
-              </p>
-            </div>
-
-            <div className="mt-12">
-              <h2 className="text-2xl font-semibold mb-4 flex items-center">
-                <GiOpenBook className="mr-3 text-xl" />
-                Tez-tez So'raladigan Savollar
-              </h2>
-              <ul className="list-disc pl-6 space-y-3">
-                <li>
-                  <strong>Qaysi universitetlarga transfer mumkin?</strong>{" "}
-                  Bizning tashkilotimiz Turkiyadagi ko'plab universitetlar bilan
-                  hamkorlik qiladi, shu jumladan Istanbul, Ankara va Izmirdagi
-                  yetakchi o'quv muassasalari.
-                </li>
-                <li>
-                  <strong>Transfer jarayoni qancha vaqt davom etadi?</strong>{" "}
-                  Transfer jarayoni 1-2 oy davom etishi mumkin.
-                </li>
-                <li>
-                  <strong>Stipendiya imkoniyatlari bormi?</strong> Ha, biz
-                  talabalarga stipendiyalar va turli moliyaviy yordamlar taklif
-                  qilamiz.
-                </li>
-                <li>
-                  <strong>Turkiyada ishlash mumkinmi?</strong> Ha, talabalarga
-                  ish ruxsatnomasi berilishi mumkin, lekin o'qish bilan birga
-                  ishlash imkoniyatlari cheklangan.
-                </li>
-              </ul>
-            </div>
+          {/* Denklik İşlemleri Hizmeti */}
+          <div className="bg-gray-100 p-8 rounded-lg shadow-lg border border-gray-300">
+            <h2 className="text-3xl font-semibold mb-6 text-center">
+              Türkiye Denklik İşlemleri Hizmeti
+            </h2>
+            <p className="text-lg text-gray-700 mb-4">
+              Türkiye’de eğitim hayatına devam etmek isteyen öğrencilerin
+              diplomalarının denklik işlemlerini sorunsuz bir şekilde
+              tamamlamalarına yardımcı oluyoruz.
+            </p>
+            <ul className="list-disc pl-6 space-y-3 text-lg">
+              <li>
+                <FaFileAlt className="inline text-green-500 mr-2" /> Denklik
+                Uygunluğu Kontrolü: Öğrencinin mevcut diploma ve
+                sertifikalarının denklik kapsamına girip girmediğini analiz
+                ediyoruz.
+              </li>
+              <li>
+                <FaFileAlt className="inline text-green-500 mr-2" /> Belge
+                Hazırlığı ve Tercüme: Diploma, transkript gibi belgelerin
+                tercümesini yapıyor ve noter onaylarıyla süreç için hazır hale
+                getiriyoruz.
+              </li>
+              <li>
+                <FaFileAlt className="inline text-green-500 mr-2" /> Başvuru
+                Yapılması: Türkiye’nin ilgili kurumlarına resmi başvuruları
+                öğrencimiz adına gerçekleştiriyoruz.
+              </li>
+              <li>
+                <FaFileAlt className="inline text-green-500 mr-2" /> Takip ve
+                Bilgilendirme: Süreci yakından takip ederek öğrenciye düzenli
+                bilgilendirme yapıyoruz.
+              </li>
+              <li>
+                <FaFileAlt className="inline text-green-500 mr-2" /> Sonuç
+                Yönetimi: Denklik onayı alındığında öğrencimizin sonraki
+                adımları kolayca atabilmesi için yönlendirme sağlıyoruz.
+              </li>
+            </ul>
           </div>
         </div>
       </Wrapper>

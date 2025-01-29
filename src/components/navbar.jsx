@@ -171,21 +171,6 @@ const Navbar = () => {
     items: nav1Items,
   };
 
-  const nav2Items = [
-    {
-      key: "2",
-      label: (
-        <a className="text-[16px]" href="/accredation">
-          {getText("navbar15")}
-        </a>
-      ),
-    },
-  ];
-
-  const menu2 = {
-    items: nav2Items,
-  };
-
   const nav3Items = [
     {
       key: "1",
@@ -462,14 +447,13 @@ const Navbar = () => {
                       {getText("navbar2")}
                     </a>
                   </Dropdown>
-                  <Dropdown trigger={["hover"]} menu={menu2}>
-                    <a
-                      onClick={(e) => e.preventDefault()}
-                      className="hover:text-[#0556FF] transition text-[17px] font-bold cursor-pointer"
-                    >
-                      {getText("navbar3")}
-                    </a>
-                  </Dropdown>
+
+                  <a
+                    href="/partnership"
+                    className="hover:text-[#0556FF] transition text-[17px] font-bold cursor-pointer"
+                  >
+                    {getText("navbar3")}
+                  </a>
                 </div>
 
                 {/* left side */}

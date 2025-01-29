@@ -13,7 +13,7 @@ const HighSchools = () => {
       <div
         className="relative bg-cover bg-center h-[600px] flex flex-col items-center justify-center text-white"
         style={{
-          backgroundImage: "url('img/intermediate-school.JPG')",
+          backgroundImage: "url('img/highSchoolBg.jpg')",
         }}
       >
         <div className="absolute inset-0 bg-gradient-to-b from-black to-transparent"></div>
@@ -206,27 +206,6 @@ const HighSchools = () => {
                     />
                     <h1 className="text-2xl mt-2 text-center font-bold">
                       Maarif ta'lim modeli
-                    </h1>
-                  </div>
-                  <div className="w-full sm:w-[calc(50%-1rem)] lg:w-[calc(33.333%-1rem)]">
-                    <img
-                      src="/img/eduModel2.jpg"
-                      className="w-full h-[200px] sm:h-[250px] md:h-[280px] lg:h-[315px] rounded-lg shadow-lg object-cover"
-                      alt=""
-                    />
-                    <h1 className="text-2xl mt-2 text-center font-bold">
-                      O'zel egitim
-                    </h1>
-                  </div>
-                  {/* Video 1 */}
-                  <div className="w-full sm:w-[calc(50%-1rem)] lg:w-[calc(33.333%-1rem)]">
-                    <img
-                      src="/img/eduModel3.jpg"
-                      className="w-full h-[200px] sm:h-[250px] md:h-[280px] lg:h-[315px] rounded-lg shadow-lg object-cover"
-                      alt=""
-                    />
-                    <h1 className="text-2xl mt-2 text-center font-bold">
-                      Montessori
                     </h1>
                   </div>
                 </div>
