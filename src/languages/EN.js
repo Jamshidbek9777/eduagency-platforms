@@ -300,7 +300,7 @@ export const en = {
   header4: "Our Services for Universities",
 
   //seminars
- 
+
   seminar1: "Seminars and Conferences",
   seminar2: "Professional Educators",
   seminar3:
@@ -317,6 +317,68 @@ export const en = {
 
   //video va rasmlar
   videoandpic: "Videos and pictures:",
+
+  stduz1: "Education in Uzbekistan",
+  stduz2:
+    "As EduAgency, we stand out with our organizational services that contribute to education and scientific development in Uzbekistan. Our comprehensive services in conferences, fairs, and academic tours appeal to a wide audience, from students to educators. You can find detailed information about the events we organize below:",
+  stduz3: "Career Counseling for Teachers and Academics",
+  stduz4:
+    "We support teachers and university lecturers from Turkey in securing employment at educational institutions in Uzbekistan. This service allows educators to evaluate their professional skills on an international scale.",
+  stduz5:
+    "Profile Evaluation and Career Counseling: The candidate's academic background, professional experience, and competencies are analyzed. Suitable institutions and positions are identified based on career goals.",
+  stduz6:
+    "Job Listings Management: Job requests from educational institutions in Uzbekistan are regularly monitored and matched with suitable candidates.",
+  stduz7:
+    "Application Process Management: Required documents for job applications in Uzbekistan are prepared. Applications are completed, and necessary interviews are arranged.",
+  stduz8:
+    "Language and Cultural Preparation: Candidates are provided with language and cultural orientation programs to help them during their work period in Uzbekistan.",
+  stduz9:
+    "Employment Contract and Legal Support: The legal compliance of job offers is reviewed, candidates are informed about contract details, and local legal support is provided if needed.",
+  stduz10:
+    "Accommodation and Living Support: Guidance services are offered for candidates regarding accommodation and living conditions in Uzbekistan.",
+  stduz11: "Educational Consultancy for Students at Uzbek Universities",
+  stduz12:
+    "We provide comprehensive consultancy services to help students from Turkey receive quality and affordable education at universities in Uzbekistan.",
+  stduz13:
+    "University Selection Consultancy: The most suitable universities in Uzbekistan are determined based on the student's educational goals, budget, and career plans. Information is provided about university programs, scholarship opportunities, and course details.",
+  stduz14:
+    "Preparation of Application Documents: All required documents (passport, transcript, diploma, etc.) are properly prepared. If language proficiency is needed, additional language certification processes are planned.",
+  stduz15:
+    "Application and Admission Process Management: University applications are carefully handled, and the process is monitored on behalf of the candidate to ensure admission is secured.",
+  stduz16:
+    "Scholarship and Accommodation Consultancy: Students are guided on available scholarship opportunities and housing options. Support is provided in selecting accommodation and managing settlement procedures.",
+  stduz17:
+    "Legal Procedures and Visa Assistance: Full support is provided for visa processes and local regulations required for students studying in Uzbekistan.",
+  stduz18:
+    "Adaptation Programs: To prevent adaptation challenges for students studying in a new country, guidance programs on language, culture, and local lifestyle habits are provided.",
+
+  studyTurkey1: "Educational Services in Turkey",
+  studyTurkey2:
+    "We provide comprehensive and professional support to help students from Uzbekistan achieve their academic goals in Turkey. Our services are categorized into two main areas:",
+  studyTurkey3: "Admission Letter Service for Studying in Turkey",
+  studyTurkey4:
+    "We understand that obtaining an admission letter is a crucial step in applying to educational institutions in Turkey. We simplify this process for you and ensure you take the right steps.",
+  studyTurkey5:
+    "Institution Suitability Analysis: We evaluate the student’s academic achievements, language skills, and career goals to determine the most suitable institutions.",
+  studyTurkey6:
+    "Preparation of Application Documents: We ensure that all necessary documents (transcripts, passport, language certificates, etc.) are fully prepared.",
+  studyTurkey7:
+    "Application Process Management: We handle official applications through the selected educational institutions' systems.",
+  studyTurkey8:
+    "Process Monitoring and Approval: We closely monitor the application process and ensure the admission letter is obtained in the shortest possible time.",
+  studyTurkey9: "Equivalency Procedures Service in Turkey",
+  studyTurkey10:
+    "We assist students who wish to continue their education in Turkey in successfully completing their diploma equivalency procedures.",
+  studyTurkey11:
+    "Equivalency Eligibility Check: We analyze whether the student's current diploma and certificates fall within the scope of equivalency.",
+  studyTurkey12:
+    "Document Preparation and Translation: We translate diplomas, transcripts, and other necessary documents and ensure they are notarized for the process.",
+  studyTurkey13:
+    "Application Submission: We submit official applications to the relevant institutions in Turkey on behalf of the student.",
+  studyTurkey14:
+    "Tracking and Updates: We closely monitor the process and provide students with regular updates.",
+  studyTurkey15:
+    "Result Management: Once the equivalency approval is obtained, we guide the student through the next steps for a smooth transition.",
 
   //contact
   contactHeader: "Contact us",

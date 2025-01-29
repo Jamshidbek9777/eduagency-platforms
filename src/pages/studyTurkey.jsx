@@ -1,8 +1,12 @@
-import React from "react";
+import React, { useContext } from "react";
 import Wrapper from "../layout/wrapper";
 import { FaCheckCircle, FaFileAlt } from "react-icons/fa";
+import { getText } from "../languages";
+import { LanguageContext } from "../context/language";
 
 const StudyTurkey = () => {
+  const { selectedLanguage } = useContext(LanguageContext);
+
   return (
     <>
       {/* Header Section */}
@@ -12,52 +16,38 @@ const StudyTurkey = () => {
       >
         <div className="absolute inset-0 bg-black bg-opacity-50"></div>
         <h1 className="relative z-10 text-5xl font-bold text-center">
-          Türkiye’de Eğitim Hizmetleri
+          {getText("studyTurkey1")}
         </h1>
       </div>
 
       {/* Content Section */}
       <Wrapper>
         <div className="py-12 space-y-12">
-          <h1 className="text-xl">
-            Özbekistan’daki öğrencilerimizin Türkiye’deki akademik hedeflerine
-            ulaşmalarını sağlamak için kapsamlı ve profesyonel destek sunuyoruz.
-            Hizmetlerimiz iki ana başlık altında toplanmaktadır:
-          </h1>
+          <h1 className="text-xl">{getText("studyTurkey2")}</h1>
           {/* Kabul Mektubu Hizmeti */}
           <div className="bg-white p-8 rounded-lg shadow-lg border border-gray-200">
             <h2 className="text-3xl font-semibold mb-6 text-center">
-              Türkiye’de Öğrenci Kabul Mektubu Alma Hizmeti
+              {getText("studyTurkey3")}
             </h2>
             <p className="text-lg text-gray-700 mb-4">
-              Türkiye’deki eğitim kurumlarına başvuru yapmak için kabul mektubu
-              almanız gerektiğinin farkındayız. Bu süreci sizin için
-              kolaylaştırarak doğru adımlar atmanızı sağlıyoruz.
+              {getText("studyTurkey4")}
             </p>
             <ul className="list-disc pl-6 space-y-3 text-lg">
               <li>
                 <FaCheckCircle className="inline text-blue-500 mr-2" />
-                <strong>Kuruma Uygunluk Analizi:</strong> Öğrencinin akademik
-                başarılarını, dil becerilerini ve kariyer hedeflerini dikkate
-                alarak uygun kurumları belirliyoruz.
+                {getText("studyTurkey5")}
               </li>
               <li>
                 <FaCheckCircle className="inline text-blue-500 mr-2" />
-                <strong>Başvuru Belgesi Hazırlığı:</strong> Gerekli belgelerin
-                (not dökümleri, pasaport, dil sertifikaları vb.) eksiksiz
-                hazırlanmasını sağlıyoruz.
+                {getText("studyTurkey6")}
               </li>
               <li>
                 <FaCheckCircle className="inline text-blue-500 mr-2" />
-                <strong>Başvuru Sürecinin Yönetimi:</strong> Seçilen eğitim
-                kurumlarının sistemleri üzerinden resmi başvuruları biz
-                yönetiyoruz.
+                {getText("studyTurkey7")}
               </li>
               <li>
                 <FaCheckCircle className="inline text-blue-500 mr-2" />
-                <strong>Süreç Takibi ve Onay:</strong> Başvuru sürecini düzenli
-                olarak takip ediyor, en kısa sürede kabul mektubunun temin
-                edilmesini sağlıyoruz.
+                {getText("studyTurkey8")}
               </li>
             </ul>
           </div>
@@ -65,40 +55,31 @@ const StudyTurkey = () => {
           {/* Denklik İşlemleri Hizmeti */}
           <div className="bg-gray-100 p-8 rounded-lg shadow-lg border border-gray-300">
             <h2 className="text-3xl font-semibold mb-6 text-center">
-              Türkiye Denklik İşlemleri Hizmeti
+              {getText("studyTurkey9")}
             </h2>
             <p className="text-lg text-gray-700 mb-4">
-              Türkiye’de eğitim hayatına devam etmek isteyen öğrencilerin
-              diplomalarının denklik işlemlerini sorunsuz bir şekilde
-              tamamlamalarına yardımcı oluyoruz.
+              {getText("studyTurkey10")}
             </p>
             <ul className="list-disc pl-6 space-y-3 text-lg">
               <li>
-                <FaFileAlt className="inline text-green-500 mr-2" /> Denklik
-                Uygunluğu Kontrolü: Öğrencinin mevcut diploma ve
-                sertifikalarının denklik kapsamına girip girmediğini analiz
-                ediyoruz.
+                <FaFileAlt className="inline text-green-500 mr-2" />{" "}
+                {getText("studyTurkey11")}
               </li>
               <li>
-                <FaFileAlt className="inline text-green-500 mr-2" /> Belge
-                Hazırlığı ve Tercüme: Diploma, transkript gibi belgelerin
-                tercümesini yapıyor ve noter onaylarıyla süreç için hazır hale
-                getiriyoruz.
+                <FaFileAlt className="inline text-green-500 mr-2" />{" "}
+                {getText("studyTurkey12")}
               </li>
               <li>
-                <FaFileAlt className="inline text-green-500 mr-2" /> Başvuru
-                Yapılması: Türkiye’nin ilgili kurumlarına resmi başvuruları
-                öğrencimiz adına gerçekleştiriyoruz.
+                <FaFileAlt className="inline text-green-500 mr-2" />{" "}
+                {getText("studyTurkey13")}
               </li>
               <li>
-                <FaFileAlt className="inline text-green-500 mr-2" /> Takip ve
-                Bilgilendirme: Süreci yakından takip ederek öğrenciye düzenli
-                bilgilendirme yapıyoruz.
+                <FaFileAlt className="inline text-green-500 mr-2" />{" "}
+                {getText("studyTurkey14")}
               </li>
               <li>
-                <FaFileAlt className="inline text-green-500 mr-2" /> Sonuç
-                Yönetimi: Denklik onayı alındığında öğrencimizin sonraki
-                adımları kolayca atabilmesi için yönlendirme sağlıyoruz.
+                <FaFileAlt className="inline text-green-500 mr-2" />{" "}
+                {getText("studyTurkey15")}
               </li>
             </ul>
           </div>

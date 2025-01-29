@@ -355,6 +355,70 @@ export const uz = {
   submitButton: "Yuborish",
 
   //study-in-turkey
+
+  stduz1: "O‘zbekistonda ta’lim",
+  stduz2:
+    "EduAgency sifatida O‘zbekistonda ta’lim va ilmiy taraqqiyotga hissa qo‘shuvchi tashkilot xizmatlari bilan ajralib turamiz. Konferensiyalar, yarmarkalar va akademik sayohatlar bo‘yicha taqdim etayotgan keng qamrovli xizmatlarimiz talabalardan tortib, o‘qituvchilargacha bo‘lgan keng auditoriyaga mo‘ljallangan. Quyida tashkil qilayotgan tadbirlarimiz haqida batafsil ma’lumot olishingiz mumkin:",
+  stduz3: "O‘qituvchilar va akademiklar uchun kariyera maslahatlari",
+  stduz4:
+    "Biz Turkiyadagi o‘qituvchilar va universitet o‘qituvchilarini O‘zbekiston ta’lim muassasalarida ish bilan ta’minlashga ko‘maklashamiz. Ushbu xizmat o‘qituvchilarga o‘z kasbiy mahoratlarini xalqaro miqyosda baholash imkoniyatini taqdim etadi.",
+  stduz5:
+    "Profilni baholash va kasbiy yo‘nalish bo‘yicha maslahat: Nomzodning akademik tajribasi, kasbiy malakasi va qobiliyatlari tahlil qilinadi. Unga mos keladigan muassasalar va lavozimlar aniqlanadi.",
+  stduz6:
+    "Ish e’lonlarini boshqarish: O‘zbekistondagi ta’lim muassasalaridan kelayotgan ish takliflari doimiy ravishda kuzatilib, nomzodlarga mos keladigan lavozimlar bilan bog‘lanadi.",
+  stduz7:
+    "Ariza topshirish jarayonini boshqarish: O‘zbekistondagi ta’lim muassasalarining talablariga muvofiq zaruriy hujjatlar tayyorlanadi. Ish uchun arizalar to‘ldiriladi va zarur bo‘lsa, suhbatlar tashkil qilinadi.",
+  stduz8:
+    "Til va madaniyat tayyorgarligi: Nomzodlarga O‘zbekistonda ishlash davomida foydali bo‘ladigan til va madaniyatga oid moslashuv dasturlari taqdim etiladi.",
+  stduz9:
+    "Mehnat shartnomasi va huquqiy yordam: Ish takliflarining huquqiy jihatlari o‘rganilib, nomzodlarga shartnoma tafsilotlari tushuntiriladi, zarurat tug‘ilganda mahalliy yuridik yordam ko‘rsatiladi.",
+  stduz10:
+    "Turar joy va yashash bo‘yicha qo‘llab-quvvatlash: Nomzodlarga O‘zbekistondagi yashash sharoitlari va turar joy bilan bog‘liq masalalar bo‘yicha maslahat beriladi.",
+  stduz11:
+    "Talabalar uchun O‘zbekiston universitetlarida o‘qish bo‘yicha maslahat",
+  stduz12:
+    "Biz Turkiyadagi talabalarga O‘zbekiston universitetlarida sifatli va maqbul narxlardagi ta’lim olishlari uchun keng qamrovli maslahat xizmatlarini taqdim etamiz.",
+  stduz13:
+    "Universitet tanlash bo‘yicha maslahat: Talabaning ta’lim maqsadlari, byudjeti va kelajakdagi kasb rejalari asosida O‘zbekistondagi eng mos universitetlar tanlanadi. Universitetlarning yo‘nalishlari, stipendiya imkoniyatlari va dastur tafsilotlari bo‘yicha ma’lumot beriladi.",
+  stduz14:
+    "Ariza topshirish hujjatlarini tayyorlash: Barcha zarur hujjatlar (pasport, transkript, diplom va boshqalar) to‘liq tayyorlanadi. Agar til bilish talabi mavjud bo‘lsa, qo‘shimcha til sertifikati jarayoni rejalashtiriladi.",
+  stduz15:
+    "Ariza va qabul jarayonini boshqarish: Universitetga arizalar ehtiyotkorlik bilan topshiriladi va jarayon nomzod nomidan kuzatib boriladi, qabul xati olish ta’minlanadi.",
+  stduz16:
+    "Stipendiya va turar joy bo‘yicha maslahat: Talabalarga mavjud stipendiya imkoniyatlari va turar joy variantlari haqida maslahat beriladi. Yashash joyi tanlash va joylashish jarayonida talabalarga ko‘mak ko‘rsatiladi.",
+  stduz17:
+    "Huquqiy jarayonlar va viza yordami: O‘zbekistonda ta’lim olish uchun zarur bo‘ladigan viza jarayonlari va mahalliy qonuniy masalalar bo‘yicha to‘liq yordam ko‘rsatiladi.",
+  stduz18:
+    "Moslashuv dasturlari: Yangi mamlakatda ta’lim olayotgan talabalar duch kelishi mumkin bo‘lgan moslashuv qiyinchiliklarini oldini olish maqsadida til, madaniyat va mahalliy turmush tarzi bo‘yicha maslahat dasturlari taqdim etiladi.",
+
+  studyTurkey1: "Turkiyada Ta'lim Xizmatlari",
+  studyTurkey2:
+    "O‘zbekistondagi talabalarimizning Turkiyada akademik maqsadlariga erishishlari uchun keng qamrovli va professional qo‘llab-quvvatlash xizmatlarini taqdim etamiz. Xizmatlarimiz ikki asosiy bo‘limga bo‘lingan:",
+  studyTurkey3: "Turkiyada Talabalar Uchun Qabul Xati Olish Xizmati",
+  studyTurkey4:
+    "Turkiyadagi ta’lim muassasalariga hujjat topshirishda qabul xati olish muhimligini bilamiz. Ushbu jarayonni osonlashtirish orqali sizga to‘g‘ri qadamlarni qo‘yishda yordam beramiz.",
+  studyTurkey5:
+    "Muassasaga Moslik Tahlili: Talabaning akademik natijalari, til bilimi va kelajakdagi maqsadlarini hisobga olgan holda eng mos ta’lim muassasalarini aniqlaymiz.",
+  studyTurkey6:
+    "Hujjat Tayyorlash: Kerakli hujjatlarning (baholar varaqasi, pasport, til sertifikatlari va boshqalar) to‘liq tayyorlanishini ta’minlaymiz.",
+  studyTurkey7:
+    "Ariza Berish Jarayoni: Tanlangan ta’lim muassasalari tizimlari orqali rasmiy arizalarni biz boshqaramiz.",
+  studyTurkey8:
+    "Jarayonni Kuzatish va Tasdiq Olish: Ariza topshirish jarayonini doimiy ravishda kuzatib boramiz va qabul xatini eng qisqa muddatda olishni ta’minlaymiz.",
+  studyTurkey9: "Turkiyada Diplom Denklik (Muvofiqlik) Xizmati",
+  studyTurkey10:
+    "Turkiyada o‘qishni davom ettirmoqchi bo‘lgan talabalar uchun ularning diplomlarini muvofiqlik jarayonidan muammosiz o‘tishida yordam beramiz.",
+  studyTurkey11:
+    "Muvofiqlik Talablarini Tekshirish: Talabaning mavjud diplomi va sertifikatlari muvofiqlik mezonlariga mos kelishini tahlil qilamiz.",
+  studyTurkey12:
+    "Hujjat Tayyorlash va Tarjima: Diplom, baholar varaqasi kabi hujjatlarning tarjimasini amalga oshirib, notarial tasdiqlash bilan jarayonga tayyorlaymiz.",
+  studyTurkey13:
+    "Rasmiy Ariza Topsirish: Turkiyaning tegishli idoralariga rasmiy arizalarni talabalar nomidan topshiramiz.",
+  studyTurkey14:
+    "Jarayonni Kuzatish va Xabardor Qilish: Jarayonni diqqat bilan kuzatib boramiz va talabaga muntazam ma’lumot berib boramiz.",
+  studyTurkey15:
+    "Natijalarni Boshqarish: Muvofiqlik tasdiqlangandan so‘ng, talabaga keyingi bosqichlarni oson bosib o‘tishida yo‘l-yo‘riq ko‘rsatamiz.",
+
   labelName: "Ism",
   labelPhone: "Telefon",
   labelEmail: "Email",

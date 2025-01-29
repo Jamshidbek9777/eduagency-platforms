@@ -313,6 +313,70 @@ export const tr = {
   //video va rasmlar
   videoandpic: "Videolar ve resimler:",
 
+  //study uz
+  stduz1: "Özbekistan'da Eğitim",
+  stduz2:
+    "EduAgency olarak Özbekistan’da, eğitim ve bilimsel gelişime katkı sunan organizasyon hizmetleriyle fark yaratıyoruz. Konferanslar, fuarlar ve akademik turlar alanında sunduğumuz kapsamlı hizmetlerimiz, öğrencilerden eğitimcilere kadar geniş bir kitleye hitap etmektedir. Bu kapsamda gerçekleştirdiğimiz etkinlikler hakkında detaylı bilgiye aşağıda ulaşabilirsiniz:",
+  stduz3: "Öğretmen ve Akademisyen Kariyer Danışmanlığı",
+  stduz4:
+    "Türkiye’deki öğretmenler ve üniversite hocalarının, Özbekistan’da eğitim kurumlarında istihdam edilmesine destek veriyoruz. Bu hizmet, öğretim görevlilerinin mesleki becerilerini uluslararası ölçekte değerlendirmelerine olanak tanır.",
+  stduz5:
+    "Profil Değerlendirmesi ve Kariyer Danışmanlığı: Adayın akademik geçmişi, mesleki tecrübeleri ve yetkinlikleri analiz edilir. Kariyer hedeflerine uygun kurumlar ve pozisyonlar belirlenir.",
+  stduz6:
+    "İş İlanlarının Yönetimi: Özbekistan’daki eğitim kurumlarından gelen iş talepleri düzenli olarak takip edilir ve adaylara uygun pozisyonlarla eşleştirilir.",
+  stduz7:
+    "Başvuru Sürecinin Yönetimi: Özbekistan’daki eğitim kurumlarının talep ettiği belgeler hazırlanır. İş başvuruları tamamlanarak gerekli mülakatlar düzenlenir",
+  stduz8:
+    "Dil ve Kültür Hazırlığı: Adaylara Özbekistan’da çalışacakları dönemde faydalı olacak dil ve kültürel oryantasyon programları sunulur.",
+  stduz9:
+    "İş Sözleşmesi ve Yasal Destek: İş tekliflerinin yasal uygunluğu incelenir, adaylara sözleşme detayları konusunda bilgilendirme yapılır ve gerekiyorsa yerel hukuk desteği sağlanır.",
+  stduz10:
+    "Barınma ve Yaşam Desteği: Adayların konaklama ve Özbekistan’daki yaşam süreçleri hakkında rehberlik hizmeti sunulur.",
+  stduz11: "Öğrencilere Özbekistan Üniversitelerinde Eğitim Danışmanlığı",
+  stduz12:
+    "Türkiye’deki öğrencilerin Özbekistan’daki üniversitelerde kaliteli ve uygun maliyetli eğitim alması için kapsamlı danışmanlık hizmeti sunuyoruz.",
+  stduz13:
+    "Üniversite Seçim Danışmanlığı: Öğrencinin eğitim hedefleri, bütçesi ve kariyer planlarına göre Özbekistan’daki en uygun üniversiteler belirlenir. Üniversitelerin bölümleri, burs olanakları ve program detayları hakkında bilgilendirme yapılır.",
+  stduz14:
+    "Başvuru Belgelerinin Hazırlanması: Gerekli belgeler (pasaport, transkript, diploma vb.) eksiksiz hazırlanır. Eğer dil yeterliliği gerekiyorsa, ek dil sertifikası süreci planlanır.",
+  stduz15:
+    "Başvuru ve Kabul Süreci Yönetimi: Üniversite başvuruları titizlikle yapılır ve süreç aday adına takip edilir. Kabul belgesinin alınması sağlanır.",
+  stduz16:
+    "Burs ve Konaklama Danışmanlığı: Öğrencilere uygun burs olanakları ve konaklama imkanları hakkında rehberlik edilir. Konaklama tercihleri ve yerleşim süreçlerinde öğrencinin yanında olunur.",
+  stduz17:
+    "Yasal İşlemler ve Vize Desteği: Özbekistan’da eğitim alacak öğrencilerin ihtiyaç duyabileceği vize işlemleri ve yerel düzenlemeler konusunda tam destek sağlanır.",
+  stduz18:
+    "Uyum Programları: Yeni bir ülkede eğitim alacak öğrencilerin karşılaşabileceği uyum sorunlarını önlemek için dil, kültür ve yerel yaşam alışkanlıklarına yönelik rehberlik programları sunulur.",
+
+  //study turkey
+  studyTurkey1: "Türkiye’de Eğitim Hizmetleri",
+  studyTurkey2:
+    "Özbekistan’daki öğrencilerimizin Türkiye’deki akademik hedeflerine ulaşmalarını sağlamak için kapsamlı ve profesyonel destek sunuyoruz. Hizmetlerimiz iki ana başlık altında toplanmaktadır:",
+  studyTurkey3: "Türkiye’de Öğrenci Kabul Mektubu Alma Hizmeti ",
+  studyTurkey4:
+    "Türkiye’deki eğitim kurumlarına başvuru yapmak için kabul mektubu almanız gerektiğinin farkındayız. Bu süreci sizin için kolaylaştırarak doğru adımlar atmanızı sağlıyoruz. ",
+  studyTurkey5:
+    "Kuruma Uygunluk Analizi: Öğrencinin akademik başarılarını, dil becerilerini ve kariyer hedeflerini dikkate alarak uygun kurumları belirliyoruz. ",
+  studyTurkey6:
+    "Başvuru Belgesi Hazırlığı: Gerekli belgelerin (not dökümleri, pasaport, dil sertifikaları vb.) eksiksiz hazırlanmasını sağlıyoruz. ",
+  studyTurkey7:
+    "Başvuru Sürecinin Yönetimi: Seçilen eğitim kurumlarının sistemleri üzerinden resmi başvuruları biz yönetiyoruz.",
+  studyTurkey8:
+    "Süreç Takibi ve Onay: Başvuru sürecini düzenli olarak takip ediyor, en kısa sürede kabul mektubunun temin edilmesini sağlıyoruz.",
+  studyTurkey9: "Türkiye Denklik İşlemleri Hizmeti",
+  studyTurkey10:
+    "Türkiye’de eğitim hayatına devam etmek isteyen öğrencilerin diplomalarının denklik işlemlerini sorunsuz bir şekilde tamamlamalarına yardımcı oluyoruz.",
+  studyTurkey11:
+    " Denklik Uygunluğu Kontrolü: Öğrencinin mevcut diploma ve sertifikalarının denklik kapsamına girip girmediğini analiz ediyoruz. ",
+  studyTurkey12:
+    " Belge Hazırlığı ve Tercüme: Diploma, transkript gibi belgelerin tercümesini yapıyor ve noter onaylarıyla süreç için hazır hale getiriyoruz.",
+  studyTurkey13:
+    " Başvuru Yapılması: Türkiye’nin ilgili kurumlarına resmi başvuruları öğrencimiz adına gerçekleştiriyoruz.",
+  studyTurkey14:
+    " Takip ve Bilgilendirme: Süreci yakından takip ederek öğrenciye düzenli bilgilendirme yapıyoruz.",
+  studyTurkey15:
+    " Sonuç Yönetimi: Denklik onayı alındığında öğrencimizin sonraki adımları kolayca atabilmesi için yönlendirme sağlıyoruz.",
+
   // contact
   contactHeader: "Bize Ulaşın",
   placeHolderName: "Adınızı girin",

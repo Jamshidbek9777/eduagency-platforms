@@ -134,35 +134,6 @@ const EducationDesign = () => {
               </div>
             </div>
           </div>
-          {/* Why Choose Us Section */}
-          <div className="bg-[#E6EAF4] p-8 rounded-lg shadow-lg">
-            <h2 className="text-2xl font-bold mb-4">
-              {getText("eduDesign13")}
-            </h2>
-            <ul className="list-none space-y-4">
-              <li className="flex items-start">
-                <IoCheckmarkDone className="text-green-500 mt-1 mr-2" />
-                <p>
-                  <strong>{getText("eduDesign14")}</strong>{" "}
-                  {getText("eduDesign15")}
-                </p>
-              </li>
-              <li className="flex items-start">
-                <IoCheckmarkDone className="text-green-500 mt-1 mr-2" />
-                <p>
-                  <strong>{getText("eduDesign16")}</strong>
-                  {getText("eduDesign17")}
-                </p>
-              </li>
-              <li className="flex items-start">
-                <IoCheckmarkDone className="text-green-500 mt-1 mr-2" />
-                <p>
-                  <strong>{getText("eduDesign18")}</strong>{" "}
-                  {getText("eduDesign19")}
-                </p>
-              </li>
-            </ul>
-          </div>
         </div>
       </Wrapper>
     </>
