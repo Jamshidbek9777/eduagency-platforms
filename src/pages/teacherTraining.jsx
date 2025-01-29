@@ -3,7 +3,7 @@ import Wrapper from "../layout/wrapper";
 import { LanguageContext } from "../context/language";
 import { getText } from "../languages";
 import { GiBrain } from "react-icons/gi";
-import { FaChalkboardTeacher } from "react-icons/fa";
+import { FaChalkboardTeacher, FaMarker } from "react-icons/fa";
 import { RiFocus2Line } from "react-icons/ri";
 import { IoGameController } from "react-icons/io5";
 import { MdChecklist } from "react-icons/md";
@@ -37,6 +37,11 @@ const TeacherTrainings = () => {
       title: getText("tTraining9"),
       description: getText("tTraining10"),
       icon: <MdChecklist size={30} className="text-[#1E73BE]" />,
+    },
+    {
+      title: getText("eduStr5"),
+      description: getText("eduStr6"),
+      icon: <FaMarker size={30} className="text-[#1E73BE]" />,
     },
   ];
 

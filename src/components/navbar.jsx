@@ -141,14 +141,7 @@ const Navbar = () => {
         </a>
       ),
     },
-    {
-      key: "3",
-      label: (
-        <a className="text-[16px]" href="/eduStrategies">
-          {getText("navbar8")}
-        </a>
-      ),
-    },
+
     {
       key: "4",
       label: (
