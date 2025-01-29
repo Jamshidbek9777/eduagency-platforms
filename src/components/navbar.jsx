@@ -166,6 +166,7 @@ const Navbar = () => {
       ),
     },
   ];
+
   const menu1 = {
     items: nav1Items,
   };

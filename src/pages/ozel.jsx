@@ -32,7 +32,7 @@ const Ozel = () => {
       <div
         className="relative bg-cover bg-center h-[600px] flex flex-col items-center justify-center text-white"
         style={{
-          backgroundImage: "url('img/intermediate-school.JPG')",
+          backgroundImage: "url('img/ozelBg.jpg')",
         }}
       >
         <div className="absolute inset-0 bg-gradient-to-b from-black to-transparent"></div>

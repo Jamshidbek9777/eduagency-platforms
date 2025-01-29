@@ -98,6 +98,48 @@ const Accredation = () => {
                 </li>
               </ul>
             </div>
+
+            <div className="bg-white p-8 rounded-2xl shadow-lg text-center space-y-4">
+              <img
+                src="img/internationalEvent.jpeg"
+                alt="Uluslararası Etkinlik ve Organizasyon Yönetimi"
+                className="w-full h-48 object-cover rounded-md mb-4"
+              />
+              <h4 className="text-xl font-semibold text-gray-800">
+                Uluslararası Etkinlik ve Organizasyon Yönetimi
+              </h4>
+              <ul className="list-disc pl-6 text-lg text-gray-600 space-y-3">
+                <li>
+                  Eğitim kurumları için fuar, konferans ve tanıtım
+                  etkinliklerini düzenleme.
+                </li>
+                <li>
+                  Akademik turlar, keşif gezileri ve bilim odaklı seyahatlerin
+                  organizasyonu.
+                </li>
+              </ul>
+            </div>
+
+            <div className="bg-white p-8 rounded-2xl shadow-lg text-center space-y-4">
+              <img
+                src="img/teknoloji.webp"
+                alt="Teknoloji ve Dijital Çözümler"
+                className="w-full h-48 object-cover rounded-md mb-4"
+              />
+              <h4 className="text-xl font-semibold text-gray-800">
+                Teknoloji ve Dijital Çözümler
+              </h4>
+              <ul className="list-disc pl-6 text-lg text-gray-600 space-y-3">
+                <li>
+                  Eğitim kurumlarının dijitalleşmesi için altyapı ve teknoloji
+                  çözümleri sağlama.
+                </li>
+                <li>
+                  Online platformlar, dijital sınıflar ve uzaktan eğitim
+                  çözümleri geliştirme.
+                </li>
+              </ul>
+            </div>
           </div>
         </div>
       </Wrapper>

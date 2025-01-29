@@ -91,7 +91,37 @@ const StudyCenter = () => {
                 </div>
               </div>
             </div>
+            {/* Ta'lim modellari */}
+            <div className="mt-10">
+              <div className="flex justify-between items-center">
+                <h1 className="text-4xl font-bold mb-4">
+                  {getText("navbar5")}
+                </h1>
+                <a href="/education-models" className="flex items-center gap-2">
+                  <p>Learn more</p>
+                  <FaArrowAltCircleRight />
+                </a>
+              </div>
+              <div className="flex flex-col md:flex-row gap-6 items-center">
+                <p className="mt-4 text-base">{getText("eduModeTitle")}</p>
+              </div>
 
+              <div className="mt-4">
+                <div className="flex flex-wrap justify-start gap-4">
+                  {/* Video 2 */}
+                  <div className="w-full sm:w-[calc(50%-1rem)] lg:w-[calc(33.333%-1rem)]">
+                    <img
+                      src="/img/eduModel1.jpg"
+                      className="w-full h-[200px] sm:h-[250px] md:h-[280px] lg:h-[315px] rounded-lg shadow-lg object-cover"
+                      alt=""
+                    />
+                    <h1 className="text-2xl mt-2 text-center font-bold">
+                      Maarif ta'lim modeli
+                    </h1>
+                  </div>
+                </div>
+              </div>
+            </div>
             {/* Exhibitions */}
             <h1 className="text-4xl font-bold mb-4 mt-8">
               {getText("navbar11")}
