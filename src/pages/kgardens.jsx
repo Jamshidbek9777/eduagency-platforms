@@ -173,46 +173,46 @@ const Kindergartens = () => {
               </div>
             </div>
 
-            {/* Vedubox */}
+            {/* Piagmo */}
             <div className="mt-10">
-              <h1 className="text-4xl font-bold mb-4">Vedubox</h1>
+              <h1 className="text-2xl font-bold mb-4">Piagmo</h1>
               <div className="flex flex-col md:flex-row gap-6 items-center">
                 <img
-                  src="/img/vedubox_logo.svg"
+                  src="/img/paigmo.png"
                   alt="K12NET"
                   className="w- h-auto rounded-lg"
                 />
-                <p className="mt-4 text-base">{getText("vdebox1")}</p>
+                <p className="mt-4 text-base">{getText("piagmo1")}</p>
               </div>
-              <p className="mt-4 text-base">{getText("vdebox2")}</p>
+              <p className="mt-4 text-base">{getText("piagmo2")}</p>
+              <p className="mt-4 text-base">{getText("piagmo3")}</p>
 
               <div className="mt-4">
+                <p className="text-lg mb-4">{getText("videoandpic")}</p>
+
                 <div className="flex flex-wrap justify-start gap-4">
                   {/* Video 2 */}
                   <div className="w-full sm:w-[calc(50%-1rem)] lg:w-[calc(33.333%-1rem)]">
                     <img
-                      src="/img/vbox1.jpg"
+                      src="/img/piagmo1.avif"
                       className="w-full h-[200px] sm:h-[250px] md:h-[280px] lg:h-[315px] rounded-lg shadow-lg object-cover"
                       alt=""
                     />
                   </div>
                   <div className="w-full sm:w-[calc(50%-1rem)] lg:w-[calc(33.333%-1rem)]">
-                    <iframe
-                      width="100%"
-                      height="315"
-                      src="https://www.youtube.com/embed/L83ip_6fq_s"
-                      title="K12NET Video 1"
-                      allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-                      allowFullScreen
+                    <img
+                      src="/img/piagmo2.webp"
                       className="w-full h-[200px] sm:h-[250px] md:h-[280px] lg:h-[315px] rounded-lg shadow-lg object-cover"
-                    ></iframe>
+                      alt=""
+                    />
                   </div>
+
                   {/* Video 1 */}
                   <div className="w-full sm:w-[calc(50%-1rem)] lg:w-[calc(33.333%-1rem)]">
                     <iframe
                       width="100%"
                       height="315"
-                      src="https://www.youtube.com/embed/70OpEZmIQ6M"
+                      src="https://www.youtube.com/embed/grCf4NhnYZ8"
                       title="K12NET Video 1"
                       allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
                       allowFullScreen
@@ -287,27 +287,6 @@ const Kindergartens = () => {
 
               <div className="mt-4">
                 <div className="flex flex-wrap justify-start gap-4">
-                  {/* Video 2 */}
-                  <div className="w-full sm:w-[calc(50%-1rem)] lg:w-[calc(33.333%-1rem)]">
-                    <img
-                      src="/img/eduModel1.jpg"
-                      className="w-full h-[200px] sm:h-[250px] md:h-[280px] lg:h-[315px] rounded-lg shadow-lg object-cover"
-                      alt=""
-                    />
-                    <h1 className="text-2xl mt-2 text-center font-bold">
-                      Maarif ta'lim modeli
-                    </h1>
-                  </div>
-                  <div className="w-full sm:w-[calc(50%-1rem)] lg:w-[calc(33.333%-1rem)]">
-                    <img
-                      src="/img/stemModel.png"
-                      className="w-full h-[200px] sm:h-[250px] md:h-[280px] lg:h-[315px] rounded-lg shadow-lg object-cover"
-                      alt=""
-                    />
-                    <h1 className="text-2xl mt-2 text-center font-bold">
-                      STEM
-                    </h1>
-                  </div>
                   {/* Video 1 */}
                   <div className="w-full sm:w-[calc(50%-1rem)] lg:w-[calc(33.333%-1rem)]">
                     <img
@@ -318,6 +297,50 @@ const Kindergartens = () => {
                     <h1 className="text-2xl mt-2 text-center font-bold">
                       Montessori
                     </h1>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            {/* Teacher trainings */}
+            <div className="mt-10">
+              <div className="flex justify-between items-center">
+                <h1 className="text-4xl font-bold mb-4">
+                  {getText("navbar9")}
+                </h1>
+                <a href="/teacherTrainings" className="flex items-center gap-2">
+                  <p>Learn more</p>
+                  <FaArrowAltCircleRight />
+                </a>
+              </div>
+              <div className="flex flex-col md:flex-row gap-6 items-center">
+                <p className="mt-4 text-base">{getText("tTrain1")}</p>
+              </div>
+
+              <div className="mt-4">
+                <div className="flex flex-wrap justify-start gap-4">
+                  {/* Video 2 */}
+                  <div className="w-full sm:w-[calc(50%-1rem)] lg:w-[calc(33.333%-1rem)]">
+                    <img
+                      src="/img/tTraining1.jpeg"
+                      className="w-full h-[200px] sm:h-[250px] md:h-[280px] lg:h-[315px] rounded-lg shadow-lg object-cover"
+                      alt=""
+                    />
+                  </div>
+                  <div className="w-full sm:w-[calc(50%-1rem)] lg:w-[calc(33.333%-1rem)]">
+                    <img
+                      src="/img/tTraining2.jpg"
+                      className="w-full h-[200px] sm:h-[250px] md:h-[280px] lg:h-[315px] rounded-lg shadow-lg object-cover"
+                      alt=""
+                    />
+                  </div>
+                  {/* Video 1 */}
+                  <div className="w-full sm:w-[calc(50%-1rem)] lg:w-[calc(33.333%-1rem)]">
+                    <img
+                      src="/img/tTraining3.jpg"
+                      className="w-full h-[200px] sm:h-[250px] md:h-[280px] lg:h-[315px] rounded-lg shadow-lg object-cover"
+                      alt=""
+                    />
                   </div>
                 </div>
               </div>

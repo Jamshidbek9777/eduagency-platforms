@@ -327,7 +327,7 @@ export const uz = {
 
   header1: "Boshlang'ich maktablar uchun xizmatlarimiz",
   header2: "O'rta maktablar uchun xizmatlarimiz",
-  header3: "O'rta maxsus maktablar uchun xizmatlarimiz",
+  header3: "Oliy maktablar uchun xizmatlarimiz",
   header4: "Universitetlar uchun xizmatlarimiz",
 
   //video va rasmlar
