@@ -38,11 +38,6 @@ const TeacherTrainings = () => {
       description: getText("tTraining10"),
       icon: <MdChecklist size={30} className="text-[#1E73BE]" />,
     },
-    {
-      title: getText("tTraining11"),
-      description: getText("tTraining12"),
-      icon: <PiStudentBold size={30} className="text-[#1E73BE]" />,
-    },
   ];
 
   return (

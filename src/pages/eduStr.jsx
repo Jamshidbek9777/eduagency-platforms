@@ -12,35 +12,12 @@ const EducationStrategies = () => {
   const { selectedLanguage } = useContext(LanguageContext);
   const models = [
     {
-      title: getText("eduStr1"),
-      description: getText("eduStr2"),
-      icon: <MdBookOnline size={30} className="text-[#1E73BE]" />,
-    },
-    {
-      title: getText("eduStr3"),
-      description: getText("eduStr4"),
-      icon: <GiProgression size={30} className="text-[#1E73BE]" />,
-    },
-    {
       title: getText("eduStr5"),
       description: getText("eduStr6"),
       icon: <FaMarker size={30} className="text-[#1E73BE]" />,
     },
-    {
-      title: getText("eduStr7"),
-      description: getText("eduStr8"),
-      icon: <LuFlipVertical2 size={30} className="text-[#1E73BE]" />,
-    },
-    {
-      title: getText("eduStr9"),
-      description: getText("eduStr10"),
-      icon: <RiSpeakAiLine size={30} className="text-[#1E73BE]" />,
-    },
-    {
-      title: getText("eduStr11"),
-      description: getText("eduStr12"),
-      icon: <RiFocus2Line size={30} className="text-[#1E73BE]" />,
-    },
+
+    
   ];
 
   return (

@@ -11,40 +11,17 @@ const EducationModels = () => {
 
   const models = [
     {
-      title: getText("eduModel1"),
-      description: getText("eduModel2"),
-      details: getText("eduModelDetails1"),
-      icon: <FaChalkboardTeacher className="text-6xl text-[#1E73BE]" />,
-    },
-    {
-      title: getText("eduModel3"),
-      description: getText("eduModel4"),
-      details: getText("eduModelDetails2"),
-      icon: <FaBook className="text-6xl text-[#1E73BE]" />,
-    },
-    {
       title: getText("eduModel5"),
       description: getText("eduModel6"),
       details: getText("eduModelDetails3"),
       icon: <FaChildren className="text-6xl text-[#1E73BE]" />,
     },
-    {
-      title: getText("eduModel7"),
-      description: getText("eduModel8"),
-      details: getText("eduModelDetails4"),
-      icon: <FaSchool className="text-6xl text-[#1E73BE]" />,
-    },
+
     {
       title: getText("eduModel9"),
       description: getText("eduModel10"),
       details: getText("eduModelDetails5"),
       icon: <HiPresentationChartBar className="text-6xl text-[#1E73BE]" />,
-    },
-    {
-      title: getText("eduModel11"),
-      description: getText("eduModel12"),
-      details: getText("eduModelDetails6"),
-      icon: <FaChildReaching className="text-6xl text-[#1E73BE]" />,
     },
   ];
 

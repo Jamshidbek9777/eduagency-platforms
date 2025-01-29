@@ -30,7 +30,7 @@ const Partnership = () => {
                 className="w-full h-48 object-cover rounded-md mb-4"
               />
               <h4 className="text-xl font-semibold text-gray-800">
-                Öğrenci ve Akademisyen Transferi Hizmetleri
+                Student exchange
               </h4>
               <ul className="list-disc pl-6 text-lg text-gray-600 space-y-3">
                 <li>

@@ -53,14 +53,6 @@ const Navbar = () => {
       key: "5",
       label: <Link to={"/universities"}>{getText("servicesText5")}</Link>,
     },
-    {
-      key: "6",
-      label: <Link to={"/ozel"}>Nogirin bolalar uchun</Link>,
-    },
-    {
-      key: "7",
-      label: <Link to={"/study-center"}>O'quv markaz</Link>,
-    },
   ];
 
   //language items
@@ -173,22 +165,6 @@ const Navbar = () => {
 
   const nav3Items = [
     {
-      key: "1",
-      label: (
-        <Link className="text-[16px]" to="/seminars">
-          {getText("navbar10")}
-        </Link>
-      ),
-    },
-    {
-      key: "2",
-      label: (
-        <Link className="text-[16px]" to="/exhibitons">
-          {getText("navbar11")}
-        </Link>
-      ),
-    },
-    {
       key: "3",
       label: (
         <Link className="text-[16px]" to="/academic-tour">
@@ -237,10 +213,7 @@ const Navbar = () => {
           key: "",
           label: <Link to="/eduModels">{getText("navbar10")}</Link>,
         },
-        {
-          key: "",
-          label: <Link to="/education-design">{getText("navbar11")}</Link>,
-        },
+
         {
           key: "",
           label: (
