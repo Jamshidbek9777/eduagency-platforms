@@ -20,12 +20,9 @@ const StudyTurkey = () => {
       <Wrapper>
         <div className="py-12 space-y-12">
           <h1 className="text-xl">
-            Özbekistan ve Türkiye arasında eğitim alanında köprü görevi gören
-            EduAgency, öğretmenlerin ve akademisyenlerin Özbekistan’da kariyer
-            fırsatları yakalamasını, aynı zamanda öğrencilerin Özbekistan’daki
-            üniversitelerde eğitim almasını sağlayan profesyonel danışmanlık
-            hizmetleri sunmaktadır. Hizmetlerimiz iki ana başlıkta
-            detaylandırılmıştır:
+            Özbekistan’daki öğrencilerimizin Türkiye’deki akademik hedeflerine
+            ulaşmalarını sağlamak için kapsamlı ve profesyonel destek sunuyoruz.
+            Hizmetlerimiz iki ana başlık altında toplanmaktadır:
           </h1>
           {/* Kabul Mektubu Hizmeti */}
           <div className="bg-white p-8 rounded-lg shadow-lg border border-gray-200">

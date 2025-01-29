@@ -13,7 +13,7 @@ const EducationTechnologies = () => {
       <div
         className="relative bg-cover bg-center h-[600px] flex flex-col items-center justify-center text-white"
         style={{
-          backgroundImage: "url('img/eduTechBg.jpeg')",
+          backgroundImage: "url('img/eduTechBg.png')",
         }}
       >
         <div className="absolute inset-0 bg-black bg-opacity-40"></div>
