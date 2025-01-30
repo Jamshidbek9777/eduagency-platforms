@@ -117,6 +117,59 @@ const EducationTechnologies = () => {
                 </h2>
                 <p className="text-lg">{getText("eduTech10")}</p>
                 {/* Vedubox */}
+                {/* Uppy */}
+                <div className="mt-10">
+                  <h1 className="text-2xl font-bold mb-4">UppyEdu</h1>
+                  <div className="mt-1">
+                    <img
+                      src="/img/uppy.png"
+                      alt="K12NET"
+                      className="w- h-auto rounded-lg bg-blue-900 p-3"
+                    />
+                    <p className="mt-4 text-base">
+                      Not an ordinary App, it’s Uppy. Your child’s first and
+                      100% safe digital experience.
+                    </p>
+                    <p className="mt-4 text-base">
+                      Thousands of content scientifically created especially for
+                      children by experts as a result of 3 years of study are in
+                      a single application. Google Play App Store App Gallery
+                      Uppy Web
+                    </p>
+                    <div className="mt-4">
+                      {/* <p className="text-lg mb-4">{getText("eduTech17")}</p> */}
+
+                      <div className="flex flex-wrap justify-start gap-4">
+                        {/* Video 1 */}
+                        <div className="w-full sm:w-[calc(50%-1rem)] lg:w-[calc(33.333%-1rem)]">
+                          <img
+                            src="/img/uppy1.jpg"
+                            className="w-full h-[200px] sm:h-[250px] md:h-[280px] lg:h-[315px] rounded-lg shadow-lg object-cover"
+                            alt="MUP 1"
+                          />
+                        </div>
+
+                        {/* Video 2 */}
+                        <div className="w-full sm:w-[calc(50%-1rem)] lg:w-[calc(33.333%-1rem)]">
+                          <img
+                            src="/img/uppy2.jpg"
+                            className="w-full h-[200px] sm:h-[250px] md:h-[280px] lg:h-[315px] rounded-lg shadow-lg object-cover"
+                            alt="MUP 1"
+                          />
+                        </div>
+
+                        {/* Video 3 */}
+                        <div className="w-full sm:w-[calc(50%-1rem)] lg:w-[calc(33.333%-1rem)]">
+                          <img
+                            src="/img/uppy3.jpg"
+                            className="w-full h-[200px] sm:h-[250px] md:h-[280px] lg:h-[315px] rounded-lg shadow-lg object-cover"
+                            alt="MUP 2"
+                          />
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
               </div>
             </TabPane>
 
