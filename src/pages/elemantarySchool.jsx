@@ -28,7 +28,7 @@ const ElementarySchool = () => {
           <div className="p-6 bg-white rounded-lg shadow-lg">
             {/* MentalUp */}
             <div className="">
-              <h1 className="text-4xl font-bold mb-4">Mental Up</h1>
+              <h1 className="text-2xl font-bold mb-4">Mental Up</h1>
               <div className="mt-10">
                 <img
                   src="/img/mentalup.webp"
@@ -74,9 +74,62 @@ const ElementarySchool = () => {
               </div>
             </div>
 
+            {/* Uppy */}
+            <div className="mt-10">
+              <h1 className="text-2xl font-bold mb-4">UppyEdu</h1>
+              <div className="mt-1">
+                <img
+                  src="/img/uppy.png"
+                  alt="K12NET"
+                  className="w- h-auto rounded-lg bg-blue-900 p-3"
+                />
+                <p className="mt-4 text-base">
+                  Not an ordinary App, it’s Uppy. Your child’s first and 100%
+                  safe digital experience.
+                </p>
+                <p className="mt-4 text-base">
+                  Thousands of content scientifically created especially for
+                  children by experts as a result of 3 years of study are in a
+                  single application. Google Play App Store App Gallery Uppy Web
+                </p>
+                <div className="mt-4">
+                  {/* <p className="text-lg mb-4">{getText("eduTech17")}</p> */}
+
+                  <div className="flex flex-wrap justify-start gap-4">
+                    {/* Video 1 */}
+                    <div className="w-full sm:w-[calc(50%-1rem)] lg:w-[calc(33.333%-1rem)]">
+                      <img
+                        src="/img/uppy1.jpg"
+                        className="w-full h-[200px] sm:h-[250px] md:h-[280px] lg:h-[315px] rounded-lg shadow-lg object-cover"
+                        alt="MUP 1"
+                      />
+                    </div>
+
+                    {/* Video 2 */}
+                    <div className="w-full sm:w-[calc(50%-1rem)] lg:w-[calc(33.333%-1rem)]">
+                      <img
+                        src="/img/uppy2.jpg"
+                        className="w-full h-[200px] sm:h-[250px] md:h-[280px] lg:h-[315px] rounded-lg shadow-lg object-cover"
+                        alt="MUP 1"
+                      />
+                    </div>
+
+                    {/* Video 3 */}
+                    <div className="w-full sm:w-[calc(50%-1rem)] lg:w-[calc(33.333%-1rem)]">
+                      <img
+                        src="/img/uppy3.jpg"
+                        className="w-full h-[200px] sm:h-[250px] md:h-[280px] lg:h-[315px] rounded-lg shadow-lg object-cover"
+                        alt="MUP 2"
+                      />
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
             {/* Future ast */}
             <div className="mt-10">
-              <h1 className="text-4xl font-bold mb-4">Future astronaut</h1>
+              <h1 className="text-2xl font-bold mb-4">Future astronaut</h1>
               <div className="flex flex-col md:flex-row gap-6 items-center">
                 <img
                   src="/img/futureast.png"
@@ -175,7 +228,7 @@ const ElementarySchool = () => {
             {/* Teacher trainings */}
             <div className="mt-10">
               <div className="flex justify-between items-center">
-                <h1 className="text-4xl font-bold mb-4">
+                <h1 className="text-2xl font-bold mb-4">
                   {getText("navbar9")}
                 </h1>
                 <a href="/teacherTrainings" className="flex items-center gap-2">
@@ -219,7 +272,7 @@ const ElementarySchool = () => {
             {/* Ta'lim modellari */}
             <div className="mt-10">
               <div className="flex justify-between items-center">
-                <h1 className="text-4xl font-bold mb-4">
+                <h1 className="text-2xl font-bold mb-4">
                   {getText("navbar5")}
                 </h1>
                 <a href="/education-models" className="flex items-center gap-2">

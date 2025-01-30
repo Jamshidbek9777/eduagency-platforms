@@ -273,7 +273,7 @@ const Kindergartens = () => {
             {/* Ta'lim modellari */}
             <div className="mt-10">
               <div className="flex justify-between items-center">
-                <h1 className="text-4xl font-bold mb-4">
+                <h1 className="text-2xl font-bold mb-4">
                   {getText("navbar5")}
                 </h1>
                 <a href="/education-models" className="flex items-center gap-2">
@@ -305,7 +305,7 @@ const Kindergartens = () => {
             {/* Teacher trainings */}
             <div className="mt-10">
               <div className="flex justify-between items-center">
-                <h1 className="text-4xl font-bold mb-4">
+                <h1 className="text-2xl font-bold mb-4">
                   {getText("navbar9")}
                 </h1>
                 <a href="/teacherTrainings" className="flex items-center gap-2">
