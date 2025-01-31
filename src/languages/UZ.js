@@ -67,7 +67,7 @@ export const uz = {
   eduModel12:
     "Bu bolalar va yoshlarni falsafiy fikrlashni rivojlantirishga yo'naltirilgan ta'lim yondashuvi. P4C modeli, o'quvchilarga mustaqil va tanqidiy fikrlash ko'nikmalarini o'rgatishga, ular bilan falsafiy muhokamalarga kirishishga va har bir insonning qarashlarini, fikrlarini va his-tuyg'ularini tushunishga yordam beradi.",
   eduModelPlus:
-    "Kerakli o'quv modelini bu yerda topa olmadingizmi? Biz sizga kerakli ta'lim modelini yaratishda yordam beramiz.",
+    "Kerakli o'quv modelini bu yerda topa olmadingizmi? Biz sizga kerakli ta'lim modelini ixtiro yordam beramiz.",
   eduModelButton: "Biz bilan bog'laning",
 
   //education design
@@ -77,10 +77,10 @@ export const uz = {
     "Zamonaviy texnologiyalar bilan jihozlangan sinfxonalar bugungi kunda ta'lim samaradorligini oshirish uchun muhimdir.",
   eduDesign7: "Laboratoriyalarni o‘rnatish",
   eduDesign8:
-    "Fan yo‘nalishida ta’lim sifatini oshirish uchun zamonaviy va xavfsiz laboratoriyalarni yaratamiz:",
+    "Fan yo‘nalishida ta’lim sifatini oshirish uchun zamonaviy va xavfsiz laboratoriyalarni quramiz:",
   eduDesign4: "Faol o‘quv markazi",
   eduDesign5:
-    "Faol o‘quv markazida o‘qituvchilar va o‘quvchilar o‘z ehtiyojlariga mos ravishda sinfxonalaridan foydalanib, samaraliroq ishlashlari va o‘zlari yaratgan o‘quv muhitida yaxshi natijalarga erishishlari mumkin.",
+    "Faol o‘quv markazida o‘qituvchilar va o‘quvchilar o‘z ehtiyojlariga mos ravishda sinfxonalaridan foydalanib, samaraliroq ishlashlari va o‘zlari topgan o‘quv muhitida yaxshi natijalarga erishishlari mumkin.",
   eduDesign6: "Moslashuvchan sinf xonalari",
   eduDesign9:
     "Sinfxona tuzilmasining o‘quv uslublariga ta’siri. Marili Sprengerning tadqiqotlari o‘quv va muhit o‘rtasidagi bog‘liqlikka qaratilgan. Sprengerning fikricha, talabalar faqat ularga mos muhitda samarali o‘quv jarayonida ishtirok etadilar.",
@@ -116,7 +116,7 @@ export const uz = {
   eduTech8: "OkulAile haqida videolavhalar",
   eduTech9: "Elektron ta'lim platformasi",
   eduTech10:
-    "Elektron ta'lim platformalari ta'lim jarayonini takomillashtiradi. Biz ta'lim jarayonlarini moslashtirish, testlarni avtomatlashtirish va o'quvchilar uchun interaktiv materiallar yaratish uchun ishlatiladigan platformalarni taqdim etamiz.",
+    "Elektron ta'lim platformalari ta'lim jarayonini takomillashtiradi. Biz ta'lim jarayonlarini moslashtirish, testlarni avtomatlashtirish va o'quvchilar uchun interaktiv materiallar ixtiro uchun ishlatiladigan platformalarni taqdim etamiz.",
   eduTech11:
     "Vedubox — bu bulutda ishlovchi barcha-in-bir platforma bo'lib, u e-learning, onlayn treninglar va vebinarlar uchun mo'ljallangan. U virtual sinflar, jonli efirlar, kontentni boshqarish va imtihonlarni o'tkazish uchun vositalarni integratsiya qiladi. Bu platforma ta'limchilar, bizneslar va tashkilotlar orasida onlayn kurslar taklif qilish yoki trening dasturlarini boshqarish uchun mashhur.",
   eduTech12: "Vedubox haqidagi videolar",
@@ -140,10 +140,10 @@ export const uz = {
     "Renzulli O‘rganish Tizimi talabalarning qiziqishlari, o‘rganish uslublari va qobiliyatlariga asoslangan shaxsiylashtirilgan ta'limni taqdim etadi. Ushbu onlayn platforma har bir talabani o‘z kuchli tomonlari orqali minglab boyitish faoliyatlari bilan bog‘laydi. Natijada, talabalar motivatsiyasi oshadi va akademik muvaffaqiyat qo‘llab-quvvatlanadi.",
   eduStr3: "Mizaçga Asoslangan Ta'lim va Yo‘riqlik Yondashuvi",
   eduStr4:
-    "Mizaçga asoslangan ta'lim talabalarning tug‘ma mizaç xususiyatlarini hisobga olib, shaxsiylashtirilgan o‘rganish muhitini yaratishga qaratilgan. Ushbu yondashuv talabalarning tabiiy moyilliklari va xulq-atvor shakllarini tushunib, ularga mos yo‘riqlik va qo‘llab-quvvatlashni taqdim etadi. Bu talabalarning potentsiallarini eng yuqori darajada ishlatishga undaydi.",
+    "Mizaçga asoslangan ta'lim talabalarning tug‘ma mizaç xususiyatlarini hisobga olib, shaxsiylashtirilgan o‘rganish muhitini ixtiro qaratilgan. Ushbu yondashuv talabalarning tabiiy moyilliklari va xulq-atvor shakllarini tushunib, ularga mos yo‘riqlik va qo‘llab-quvvatlashni taqdim etadi. Bu talabalarning potentsiallarini eng yuqori darajada ishlatishga undaydi.",
   eduStr5: "Portfel Baholash",
   eduStr6:
-    "Portfel baholash talabalar o‘z ishlarini va rivojlanishlarini tizimli ravishda yig‘adigan va o‘z o‘rganish jarayonlarini aks ettiradigan usuldir. Ushbu yondashuv talabalar o‘zini baholash imkoniyatini yaratadi, kuchli va zaif tomonlarini tan olishga yordam beradi. Shuningdek, o‘qituvchilarga talabalar rivojlanishini yanada kengroq kuzatish imkoniyatini beradi.",
+    "Portfel baholash talabalar o‘z ishlarini va rivojlanishlarini tizimli ravishda yig‘adigan va o‘z o‘rganish jarayonlarini aks ettiradigan usuldir. Ushbu yondashuv talabalar o‘zini baholash imkoniyatini topadi, kuchli va zaif tomonlarini tan olishga yordam beradi. Shuningdek, o‘qituvchilarga talabalar rivojlanishini yanada kengroq kuzatish imkoniyatini beradi.",
   eduStr7: "Flipped Learning (Teskari O‘rganish)",
   eduStr8:
     "Flipped Learning — bu an'anaviy o‘qitish usulini teskari aylantirgan modeldir. Ushbu usulda talabalar dars materiallarini uyda onlayn manbalar orqali o‘rganadilar, dars vaqti esa amaliyot, muhokama va muammo yechish faoliyatlari bilan o‘tkaziladi. Bu talabalar darsda faol qatnashishiga yordam beradi va o‘rganish jarayonini chuqurlashtiradi.",
@@ -158,7 +158,7 @@ export const uz = {
   tTraningHeader: "O'qituvchilarni tayyorlash",
   tTraining1: "Miya va o'rganish",
   tTraining2:
-    "Ushbu dastur o'qituvchilarga miya asosidagi o'rganish yondashuvlari bilan tanishtirishni maqsad qiladi. Ishtirokchilar, o'rganish jarayoniga miya qanday ta'sir qilishini tushunib, samarali o'qitish dizaynini yaratish uchun ilmiy usullarni o'rganadilar. Neyrobiologiya va ta'lim o'rtasidagi bog'lanishga e'tibor qaratilib, o'rganish yanada mazmunli va barqaror bo'lishi ta'minlanadi.",
+    "Ushbu dastur o'qituvchilarga miya asosidagi o'rganish yondashuvlari bilan tanishtirishni maqsad qiladi. Ishtirokchilar, o'rganish jarayoniga miya qanday ta'sir qilishini tushunib, samarali o'qitish dizaynini barpo etish uchun ilmiy usullarni o'rganadilar. Neyrobiologiya va ta'lim o'rtasidagi bog'lanishga e'tibor qaratilib, o'rganish yanada mazmunli va barqaror bo'lishi ta'minlanadi.",
   tTraining3: "Global O'qituvchi (Küresel Öğretmen Programı)",
   tTraining4:
     "Ushbu o'quv dasturi o'qituvchilarga global ta'lim tendensiyalari va turli madaniy yondashuvlar bilan tanishtiradi. Xalqaro miqyosda amal qiluvchi metodologiyalar, raqamli vositalar va ko'p madaniyatli sinflarda ishlash ko'nikmalarini o'zlashtirish imkoniyatini beradi. O'qituvchilar, XXI asrning ta'lim ehtiyojlarini qondirish uchun global ko'nikmalarga ega bo'lishadi.",
@@ -195,7 +195,7 @@ export const uz = {
   akTour9: "Shaxsiy va kasbiy rivojlanish",
   akTour10: "Innovatsion va kreativ fikrlashni rivojlantirish",
   akTour11: "Ilmiy va texnologik yutuqlarni o'rganish",
-  akTour12: "Yangi imkoniyatlar yaratish va kashf etish",
+  akTour12: "Yangi imkoniyatlar barpo eitsh va kashf etish",
 
   //advantages
   advHeader: "Afzalliklar",
@@ -209,7 +209,7 @@ export const uz = {
   //hakkimizda
   hakkimizdaHeader: "Biz haqimizda",
   hakkimizdaDesc:
-    "EduAgency, biz Turkiya va O'zbekiston o'rtasidagi ta'lim sohasida rezonans yaratish maqsadida almashish, uzatish va hamkorlik qilishga qaratilgan ta'lim hamjamiyatimiz. Bizning vizyonimiz Turkiya va O‘zbekistonning tarixiy madaniy aloqalaridan olgan kuchimiz bilan ta’lim sohasida umumiy jarayonning qurilishiga mazmunli hissa qo‘shishdir.",
+    "EduAgency, biz Turkiya va O'zbekiston o'rtasidagi ta'lim sohasida rezonans barpo eitsh maqsadida almashish, uzatish va hamkorlik qilishga qaratilgan ta'lim hamjamiyatimiz. Bizning vizyonimiz Turkiya va O‘zbekistonning tarixiy madaniy aloqalaridan olgan kuchimiz bilan ta’lim sohasida umumiy jarayonning qurilishiga mazmunli hissa qo‘shishdir.",
   hakkimizdaCardTitle: "Bizning Qadriyatlarimiz",
 
   hakkimizdaCard1Header: "Yaxshilik",
@@ -231,14 +231,14 @@ export const uz = {
   vizyonText1: "Vizyonimiz",
   vizyonText2: "Missiyamiz",
   vizyonText3:
-    "Turkiya va O‘zbekistonning ta'lim sohasidagi salohiyatini maksimal darajada oshirib, xalqaro maydonda namuna bo‘ladigan birlashtirish modelini yaratish.",
+    "Turkiya va O‘zbekistonning ta'lim sohasidagi salohiyatini maksimal darajada oshirib, xalqaro maydonda namuna bo‘ladigan birlashtirish modelini barpo eitsh.",
   vizyonText4:
-    "Ikki davlatning ta'lim tizimlarini bir-biriga integratsiya qiladigan yangilikchi loyihalar va barqaror hamkorliklar yaratish, o‘quvchilar va o‘qituvchilarning kelajagiga yo‘l-yo‘riq ko‘rsatish.",
+    "Ikki davlatning ta'lim tizimlarini bir-biriga integratsiya qiladigan yangilikchi loyihalar va barqaror hamkorliklar barpo eitsh, o‘quvchilar va o‘qituvchilarning kelajagiga yo‘l-yo‘riq ko‘rsatish.",
 
   //hakkimizda
   hakkimizdaHeader: "Biz haqimizda",
   hakkimizdaDesc:
-    "EduAgency, biz Turkiya va O'zbekiston o'rtasidagi ta'lim sohasida rezonans yaratish maqsadida almashish, uzatish va hamkorlik qilishga qaratilgan ta'lim hamjamiyatimiz. Bizning vizyonimiz Turkiya va O‘zbekistonning tarixiy madaniy aloqalaridan olgan kuchimiz bilan ta’lim sohasida umumiy jarayonning qurilishiga mazmunli hissa qo‘shishdir.",
+    "EduAgency, biz Turkiya va O'zbekiston o'rtasidagi ta'lim sohasida rezonans barpo eitsh maqsadida almashish, uzatish va hamkorlik qilishga qaratilgan ta'lim hamjamiyatimiz. Bizning vizyonimiz Turkiya va O‘zbekistonning tarixiy madaniy aloqalaridan olgan kuchimiz bilan ta’lim sohasida umumiy jarayonning qurilishiga mazmunli hissa qo‘shishdir.",
   hakkimizdaCardTitle: "Bizning Qadriyatlarimiz",
 
   hakkimizdaCard1Header: "Yaxshilik",
@@ -260,9 +260,9 @@ export const uz = {
   vizyonText1: "Vizyonimiz",
   vizyonText2: "Missiyamiz",
   vizyonText3:
-    "Turkiya va O‘zbekistonning ta'lim sohasidagi salohiyatini maksimal darajada oshirib, xalqaro maydonda namuna bo‘ladigan birlashtirish modelini yaratish.",
+    "Turkiya va O‘zbekistonning ta'lim sohasidagi salohiyatini maksimal darajada oshirib, xalqaro maydonda namuna bo‘ladigan birlashtirish modelini barpo eitsh.",
   vizyonText4:
-    "Ikki davlatning ta'lim tizimlarini bir-biriga integratsiya qiladigan yangilikchi loyihalar va barqaror hamkorliklar yaratish, o‘quvchilar va o‘qituvchilarning kelajagiga yo‘l-yo‘riq ko‘rsatish.",
+    "Ikki davlatning ta'lim tizimlarini bir-biriga integratsiya qiladigan yangilikchi loyihalar va barqaror hamkorliklar barpo eitsh, o‘quvchilar va o‘qituvchilarning kelajagiga yo‘l-yo‘riq ko‘rsatish.",
 
   //degeler
   degeHeader: "Qadriyatlarimiz",
@@ -274,7 +274,7 @@ export const uz = {
   degeText6: "Madaniy moslashuvni va hamkorlikni yuqori baholaymiz.",
   degeText7:
     "Zamonaviy ta'lim modellari va mahalliy xususiyatlarni uyg‘unlashtiramiz.",
-  degeText8: "Uzoq muddatli loyihalar bilan barqaror qiymat yaratamiz.",
+  degeText8: "Uzoq muddatli loyihalar bilan barqaror qiymat barpo etamiz.",
 
   //kindergartens
   //kosmik lager
@@ -293,7 +293,7 @@ export const uz = {
   piagmo1:
     "Qiziq. O‘rgan. Kashf et. Bolalar uchun har bir lahza qadrli. Biz ushbu qimmatli vaqtni ta’limiy kontent bilan boyitishga ko‘maklashamiz!",
   piagmo2:
-    "Piagmo Technology kompaniyasida biz o‘yin o‘rganishning asosidir deb hisoblaymiz. Montessori pedagogikasidan ilhomlanib, bolalarning tabiiy qiziqishi va kashf etishga bo‘lgan sevgisini rivojlantiruvchi mobil o‘yinlar yaratamiz. Bizning sayohatimiz oddiy g‘oya bilan boshlandi: ta’lim va qiziqarli o‘yinlarni yosh onglar uchun oson va jalb etuvchi tarzda birlashtirish.",
+    "Piagmo Technology kompaniyasida biz o‘yin o‘rganishning asosidir deb hisoblaymiz. Montessori pedagogikasidan ilhomlanib, bolalarning tabiiy qiziqishi va kashf etishga bo‘lgan sevgisini rivojlantiruvchi mobil o‘yinlar barpo etamiz. Bizning sayohatimiz oddiy g‘oya bilan boshlandi: ta’lim va qiziqarli o‘yinlarni yosh onglar uchun oson va jalb etuvchi tarzda birlashtirish.",
   piagmo3:
     "Biz o‘qishni quvonchli bir sarguzashtga aylantirishga ishtiyoqmandmiz va har bir bolaning o‘z salohiyatiga erishishiga yordam berishga sodiqmiz. Har bir o‘yinda bu maqsadimizni amalga oshiramiz.",
 
@@ -305,7 +305,7 @@ export const uz = {
   vdebox1:
     "Vedubox - O‘quv jarayonlari uchun sun’iy intellekt asosidagi super ilova",
   vdebox2:
-    "Vedubox — bu bizneslar, ta’lim muassasalari va tashkilotlar uchun e-o‘qitish, onlayn trening va muloqot jarayonlarini soddalashtirishga mo‘ljallangan bulutga asoslangan kompleks O‘quv jarayonlarini boshqarish tizimi (LMS). Platforma kuchli funksiyalarni taklif etadi, jumladan kurslarni yaratish va boshqarish, jonli video treninglar, vebinarlar o‘tkazish, avtomatlashtirilgan baholashlar va batafsil tahlillar. Zoom va Microsoft Teams kabi vositalar bilan uzviy integratsiya orqali Vedubox interaktiv o‘quv tajribalarini taqdim etadi. Maxsus brendlash imkoniyatlari va avtomatlashtirilgan sertifikat yaratish xususiyati tufayli bu platforma professional va shaxsiylashtirilgan trening yechimlarini taqdim etish uchun ideal hisoblanadi. Korporativ treninglar, akademik dasturlar yoki vebinarlar uchun bo‘lsin, Vedubox onlayn o‘quv jarayonini soddalashtiradi va takomillashtiradi.",
+    "Vedubox — bu bizneslar, ta’lim muassasalari va tashkilotlar uchun e-o‘qitish, onlayn trening va muloqot jarayonlarini soddalashtirishga mo‘ljallangan bulutga asoslangan kompleks O‘quv jarayonlarini boshqarish tizimi (LMS). Platforma kuchli funksiyalarni taklif etadi, jumladan kurslarni barpo eitsh va boshqarish, jonli video treninglar, vebinarlar o‘tkazish, avtomatlashtirilgan baholashlar va batafsil tahlillar. Zoom va Microsoft Teams kabi vositalar bilan uzviy integratsiya orqali Vedubox interaktiv o‘quv tajribalarini taqdim etadi. Maxsus brendlash imkoniyatlari va avtomatlashtirilgan sertifikat barpo eitsh xususiyati tufayli bu platforma professional va shaxsiylashtirilgan trening yechimlarini taqdim etish uchun ideal hisoblanadi. Korporativ treninglar, akademik dasturlar yoki vebinarlar uchun bo‘lsin, Vedubox onlayn o‘quv jarayonini soddalashtiradi va takomillashtiradi.",
 
   tTrain1:
     "Biz ushbu tizim orqali o‘qituvchilarni o‘qitish mahoratini oshirishga yordam berishga bag‘ishlanganmiz. Ularga yanada samarali pedagog bo‘lishlari va umumiy dars o‘tish usullarini takomillashtirish uchun zarur bo‘lgan vositalar va treninglarni taqdim etamiz.",
@@ -337,7 +337,7 @@ export const uz = {
   seminar2: "Professional O‘qituvchilar",
   seminar3:
     "Tajribali o‘qituvchilar va xalqaro ekspertlar sizga bilimlar ulashadi.",
-  seminar4: "Tarmoq Yaratish",
+  seminar4: "Tarmoq Ixtirosi",
   seminar5:
     "Seminarlar davomida yangi hamkorlik aloqalarini yo‘lga qo‘yishingiz mumkin.",
   seminar6: "Global Ko‘nikmalar",
@@ -424,7 +424,7 @@ export const uz = {
     "O‘zbekiston va Turkiya o‘quv muassasalari o‘rtasida talaba va akademiklar almashinuvi dasturlarini boshqarish. Xalqaro talabalarning qabul va joylashtirish jarayonlarini o‘quv muassasalari nomidan tashkil etish.",
   partnership3: "Franshiza va Hamkorlikni Boshqarish",
   partnership4:
-    "O‘zbekiston hududida Turkiyadagi o‘quv muassasalarining franshiza ochish jarayonlarini boshqarish. O‘zbekiston o‘quv muassasalari va Turkiya bilan qo‘shma loyihalar va hamkorliklar yaratishni ta'minlash.",
+    "O‘zbekiston hududida Turkiyadagi o‘quv muassasalarining franshiza ochish jarayonlarini boshqarish. O‘zbekiston o‘quv muassasalari va Turkiya bilan qo‘shma loyihalar va hamkorliklar ixtirosin ta'minlash.",
   partnership5: "Bozor Tadqiqotlari va Raqobat Tahlili",
   partnership6:
     "O‘zbekiston va Turkiya ta'lim sohasi holatini tahlil qiluvchi hisobotlarni o‘quv muassasalariga taqdim etish. Maqsadli auditoriya va raqobatbardosh ustunliklar asosida strategiyalar ishlab chiqish.",
