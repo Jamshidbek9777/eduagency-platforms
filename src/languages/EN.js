@@ -176,13 +176,13 @@ export const en = {
 
   // Academic Tour
   akTourHeader: "",
-  akTourTitle: "Trip to the Cosmic Camp",
+  akTourTitle: "Trip to the Space Camp",
   akTour1:
     "Kosmosx, as the exclusive distributor of the space camp in Turkey, offers its participants a unique space experience. The trip to the space camp is an exciting program that allows every participant to explore the secrets of space and serves as an inspiration for future scientists.",
   akTour2:
     "This trip provides participants with in-depth knowledge of space technologies and sciences, while also offering opportunities to develop skills in teamwork, problem-solving, and leadership. Through activities such as simulations, rocket design, and astronaut training in the space camp, participants combine theoretical knowledge with practical experiences.",
   akTour3:
-    "This year, the TEKNOFEST technology festival in the Turkish Republic of Northern Cyprus aims to bring innovations to the technology world through new competitions. Participants will have the opportunity to showcase and develop their projects. A total of 2.5 million TL prize money and 3 million TL financial support will be provided for teams.",
+    "This year, the TEKNOFEST technology festival in the Turkish Republic of Northern Cyprus aims to bring innovations to the technology world through new competitions. Participants will have the opportunity to showcase and develop their projects.",
   akTour4:
     "The competitions within TEKNOFEST 2025 offer opportunities to develop innovative solutions in various technology fields. The Tourism Technologies Competition will focus on innovative solutions for the rich cultural heritage, tourism potential, culture, and events of Turkey and the Turkish Republic of Northern Cyprus. The Social Innovation Competition, held for the first time, will propose creative, technology-based approaches to social problems.",
   akTour5: "Knowledge and Discovery Journey",

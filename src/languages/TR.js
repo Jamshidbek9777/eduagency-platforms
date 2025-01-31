@@ -183,7 +183,7 @@ export const tr = {
   akTour2:
     "Bu seyahat, katılımcılara uzay teknolojileri ve bilimleri hakkında derinlemesine bilgi verirken, aynı zamanda takım çalışması, problem çözme ve liderlik gibi becerilerini geliştirme fırsatı sunar. Simülasyon, roket tasarımı ve uzay kampında astronot eğitimi gibi etkinliklerle katılımcılar teorik bilgilerini pratik deneyimlerle birleştirirler.",
   akTour3:
-    "Bu yıl Kuzey Kıbrıs Türk Cumhuriyeti'nde düzenlenecek olan TEKNOFEST, teknoloji dünyasına yeni yarışmalar aracılığıyla yenilik getirmeyi hedefliyor. Katılımcılar, projelerini sergileyip geliştirme fırsatına sahip olacaklar. Takımlar için toplamda 2,5 milyon TL ödül ve 3 milyon TL mali destek sağlanacaktır.",
+    "Bu yıl Kuzey Kıbrıs Türk Cumhuriyeti'nde düzenlenecek olan TEKNOFEST, teknoloji dünyasına yeni yarışmalar aracılığıyla yenilik getirmeyi hedefliyor. Katılımcılar, projelerini sergileyip geliştirme fırsatına sahip olacaklar.",
   akTour4:
     "TEKNOFEST 2025 kapsamında düzenlenecek yarışmalar, farklı teknoloji alanlarında yenilikçi çözümler geliştirme fırsatları sunuyor. Turizm Teknolojileri Yarışması, Türkiye ve Kuzey Kıbrıs Türk Cumhuriyeti'nin zengin kültürel mirası, turizm potansiyeli, kültürü ve etkinlikleri için yenilikçi çözümler geliştirecek. İlk kez düzenlenecek olan Sosyal İnovasyon Yarışması ise sosyal sorunlara teknoloji temelli yaratıcı çözümler sunmayı hedefliyor.",
   akTour5: "Bilgi ve Keşif Seyahati",

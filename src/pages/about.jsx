@@ -47,13 +47,17 @@ const About = () => {
                 <h3 className="text-2xl font-bold text-[#4A90E2] mb-4">
                   {getText("vizyonText1")}
                 </h3>
-                <p className="text-gray-600">{getText("vizyonText3")}</p>
+                <p className="text-gray-600 text-lg">
+                  {getText("vizyonText3")}
+                </p>
               </div>
               <div className="p-6 bg-white shadow-lg rounded-lg">
                 <h3 className="text-2xl font-bold text-[#4A90E2] mb-4">
                   {getText("vizyonText2")}
                 </h3>
-                <p className="text-gray-600">{getText("vizyonText4")}</p>
+                <p className="text-gray-600 text-lg   ">
+                  {getText("vizyonText4")}
+                </p>
               </div>
             </div>
           </div>

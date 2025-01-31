@@ -162,17 +162,13 @@ const HighSchools = () => {
                 {getText("eduDesign1")}
               </h1>
               <div className="flex flex-col md:flex-row gap-6 items-center">
-                <p className="mt-4 text-xl font-bold">
-                  {getText("eduDesign2")}
-                </p>
+                <p className="mt-2">{getText("eduDesign2")}:</p>
               </div>
-              <p className="mt-4 text-base">{getText("eduDesign3")}</p>
+              <p className="text-base">{getText("eduDesign3")}</p>
               <div className="flex flex-col md:flex-row gap-6 items-center">
-                <p className="mt-4 text-xl font-bold">
-                  {getText("eduDesign7")}
-                </p>
+                <p className=" ">{getText("eduDesign7")}:</p>
               </div>
-              <p className="mt-4 text-base">{getText("eduDesign8")}</p>
+              <p className=" text-base">{getText("eduDesign8")}</p>
 
               <div className="mt-4">
                 <div className="flex flex-wrap justify-start gap-4">
@@ -206,7 +202,7 @@ const HighSchools = () => {
             {/* Teacher trainings */}
             <div className="mt-10">
               <div className="flex justify-between items-center">
-                <h1 className="text-4xl font-bold mb-4">
+                <h1 className="text-2xl font-bold mb-4">
                   {getText("navbar9")}
                 </h1>
                 <a href="/teacherTrainings" className="flex items-center gap-2">

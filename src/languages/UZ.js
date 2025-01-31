@@ -67,7 +67,7 @@ export const uz = {
   eduModel12:
     "Bu bolalar va yoshlarni falsafiy fikrlashni rivojlantirishga yo'naltirilgan ta'lim yondashuvi. P4C modeli, o'quvchilarga mustaqil va tanqidiy fikrlash ko'nikmalarini o'rgatishga, ular bilan falsafiy muhokamalarga kirishishga va har bir insonning qarashlarini, fikrlarini va his-tuyg'ularini tushunishga yordam beradi.",
   eduModelPlus:
-    "Kerakli o'quv modelini bu yerda topa olmadingizmi? Biz sizga kerakli ta'lim modelini ixtiro yordam beramiz.",
+    "Kerakli o'quv modelini bu yerda topa olmadingizmi? Biz sizga kerakli ta'lim modelini barpo etishda yordam beramiz.",
   eduModelButton: "Biz bilan bog'laning",
 
   //education design
@@ -177,13 +177,13 @@ export const uz = {
 
   //akademikTour
   akTourHeader: "",
-  akTourTitle: "Komsik lagerga sayohat",
+  akTourTitle: "Kosmik lagerga sayohat",
   akTour1:
     "Kosmosx Turkiyadagi kosmik lagerning O'zbekistondagi eksklyuziv distribyutori sifatida o'z ishtirokchilariga noyob kosmik tajribani taklif etadi. Kosmik lagerga sayohat-bu har bir hayot ishtirokchisiga Kosmos sirlarini kashf etish va kelajakda olimlar uchun Ilhom manbai bo'lishga imkon beradigan qiziqarli dastur.",
   akTour2:
     "Ushbu sayohat ishtirokchilarga kosmik texnologiyalar va fanlar bo'yicha chuqur bilim beradi, shu bilan birga jamoaviy ish, muammolarni hal qilish va etakchilik kabi vakolatlarini rivojlantirish imkoniyatini beradi. Simulyatsiya, raketa dizayni va kosmik lagerda kosmonavtlarni tayyorlash kabi tadbirlar bilan ishtirokchilar nazariy bilimlarni amaliy tajribalar bilan birlashtiradilar.",
   akTour3:
-    "Bu yil Shimoliy Kipr Turk Respublikasida bo‘lib o‘tadigan TEKNOFEST texnologiya olamiga yangi musobaqalar orqali innovatsiyalarni olib kirishni maqsad qilgan. Ishtirokchilar o‘z loyihalarini namoyish etish va rivojlantirish imkoniyatiga ega bo‘lishadi. Jamoalar uchun jami 2 yarim million TL mukofot puli va 3 million TL moliyaviy qo‘llab-quvvatlash taqdim etiladi.",
+    "Bu yil Shimoliy Kipr Turk Respublikasida bo‘lib o‘tadigan TEKNOFEST texnologiya olamiga yangi musobaqalar orqali innovatsiyalarni olib kirishni maqsad qilgan. Ishtirokchilar o‘z loyihalarini namoyish etish va rivojlantirish imkoniyatiga ega bo‘lishadi.",
   akTour4:
     "TEKNOFEST 2025 doirasida tashkil etiladigan musobaqalar turli texnologiya sohalarida innovatsion yechimlarni rivojlantirish imkoniyatini taklif etadi. Turizm Texnologiyalari Musobaqasi orqali Turkiya va Shimoliy Kipr Turk Respublikasining boy madaniy merosi, turizm salohiyati, madaniyati va tadbirlari uchun innovatsion yechimlar ishlab chiqiladi. Ilk bor o‘tkaziladigan Ijtimoiy Innovatsiya Musobaqasi esa ijtimoiy muammolarga texnologiyaga asoslangan ijodiy yondashuvlarni taklif etadi.",
   akTour5: "Bilim va kashf sayohati",
