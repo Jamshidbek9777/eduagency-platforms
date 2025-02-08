@@ -386,7 +386,7 @@ export const en = {
   footer3: "Contact Information",
   footer4: "Address:",
   footer5: "Working Hours:",
-  footer6: "Tashkent, Muqimiy Street, House 7",
+  footer6: "Sheikh Zainiddin street, 2A, Sheikhontohur district, Tashkent",
   footer7: "Monday - Friday",
   footer8: "Phone:",
 
@@ -420,6 +420,23 @@ export const en = {
   placeHolderEmail: "Enter your email",
   placeHolderText: "Write your message here",
   submitButton: "Submit",
+
+  planetariumText1: "Planetarium Installation",
+  planetariumText2:
+    "Design and Consulting: Turnkey planetarium projects tailored to your needs and budget.",
+  planetariumText3:
+    "State-of-the-Art Systems: Cutting-edge technical infrastructure, from digital projectors to wide-angle domes.",
+  planetariumText4:
+    "Training and Support: Post-installation training and continuous technical support services.",
+  planetariumText5:
+    "Modular Solutions: Flexible options for mobile planetariums and permanent structures.",
+  planetariumText6: "Planetarium Films",
+  planetariumText7:
+    "Educational Films: Products that make learning engaging through scientific content.",
+  planetariumText8:
+    "Entertainment Films: Artistic and visual experiences that captivate the audience.",
+  planetariumText9:
+    "Customizable Licensing: Licensing solutions for schools, science centers, and special events.",
 
   labelName: "Name",
   labelPhone: "Phone",

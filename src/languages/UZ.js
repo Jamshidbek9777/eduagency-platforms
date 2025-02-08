@@ -23,8 +23,8 @@ export const uz = {
   navbar15: "Akkreditatsiya",
 
   //topbar
-  topbar1: "Turkiyada o‘qish",
-  topbar2: "O‘zbekistonda o‘qish",
+  topbar1: "Turkiyada ta'lim",
+  topbar2: "O‘zbekistonda ta'lim",
   topbar3: "Biz haqimizda",
   topbar4: "Biz bilan bog‘lanish",
 
@@ -448,9 +448,26 @@ export const uz = {
   footer3: "Aloqa Ma’lumotlari",
   footer4: "Manzil:",
   footer5: "Ish vaqti:",
-  footer6: "Toshkent, Muqimiy ko‘chasi, 7-uy",
+  footer6: "Shayx Zayniddin ko'chasi, 2A, Shayxontohur tumani, Toshkent",
   footer7: "Dushanba - Juma",
   footer8: "Telefon:",
+
+  planetariumText1: "Planetaryum O‘rnatish",
+  planetariumText2:
+    "Dizayn va Konsultatsiya: Talablaringiz va byudjetingizga mos keluvchi, kalit topshiruv asosida planetaryum loyihalari.",
+  planetariumText3:
+    "Eng Zamonaviy Tizimlar: Raqamli proyektorlar va keng burchakli gumbazlardan iborat ilg‘or texnik infratuzilmalar.",
+  planetariumText4:
+    "Ta'lim va Qo‘llab-quvvatlash: O‘rnatishdan keyin treninglar va uzluksiz texnik yordam xizmatlari.",
+  planetariumText5:
+    "Modulli Yechimlar: Mobil planetaryumlar va statsionar tuzilmalar uchun moslashuvchan variantlar.",
+  planetariumText6: "Planetaryum Filmlari",
+  planetariumText7:
+    "Ta’lim Filmlari: Ilmiy mazmun orqali bilim olishni qiziqarli qiluvchi mahsulotlar.",
+  planetariumText8:
+    "Ko‘ngilochar Filmlar: Tomoshabinlarni hayratga soluvchi badiiy va vizual tajribalar.",
+  planetariumText9:
+    "Moslashtirilgan Litsenziyalash: Maktablar, ilmiy markazlar va maxsus tadbirlar uchun litsenziyalash yechimlari.",
 
   labelName: "Ism",
   labelPhone: "Telefon",

@@ -1,8 +1,29 @@
 import React, { useContext } from "react";
 import Wrapper from "../layout/wrapper";
-import { IoCheckmarkDone } from "react-icons/io5";
 import { getText } from "../languages";
 import { LanguageContext } from "../context/language";
+import { GoDotFill } from "react-icons/go";
+
+const images = [
+  "planetarium1.webp",
+  "planetarium2.avif",
+  "planetarium3.avif",
+  "planetarium4.avif",
+  "planetarium5.avif",
+  "planetarium6.webp",
+  "planetarium7.avif",
+];
+
+const films = [
+  { src: "film1.avif", title: "MARS 1001" },
+  { src: "film2.avif", title: "ASTRALIS" },
+  { src: "film3.avif", title: "BEYOND THE SUN" },
+  { src: "film4.avif", title: "THE GREAT PYRAMIDS OF GIZA" },
+  { src: "film5.avif", title: "EXPLODING UNIVERSE" },
+  { src: "film6.avif", title: "TRAVELLING WITH LIGHT" },
+  { src: "film7.avif", title: "THE BIRTH OF SOLAR SYSTEM" },
+  { src: "film8.avif", title: "OUR VIOLENT PLANET" },
+];
 
 const EducationDesign = () => {
   const { selectedLanguage } = useContext(LanguageContext);
@@ -131,6 +152,38 @@ const EducationDesign = () => {
                   </h2>
                   <p>{getText("eduDesign20")}</p>
                 </div>
+              </div>
+
+              <div className="section-header mb-8 mt-8">
+                <h1 className="text-4xl font-bold text-center">Planetarium</h1>
+              </div>
+              <div className="mb-3">
+                <li className="flex gap-1 items-center">  
+                  <GoDotFill size={10} />{" "}
+                  <p className="text-lg">{getText("planetariumText2")}</p>
+                </li>
+                <li className="flex gap-1 items-center">
+                  <GoDotFill size={10} />{" "}
+                  <p className="text-lg">{getText("planetariumText3")}</p>
+                </li>
+                <li className="flex gap-1 items-center">
+                  <GoDotFill size={10} />{" "}
+                  <p className="text-lg">{getText("planetariumText4")}</p>
+                </li>
+                <li className="flex gap-1 items-center">
+                  <GoDotFill size={10} />{" "}
+                  <p className="text-lg">{getText("planetariumText5")}</p>
+                </li>
+              </div>
+              <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
+                {images.map((image, index) => (
+                  <img
+                    key={index}
+                    src={`/img/${image}`}
+                    alt={`Planetarium Image ${index + 1}`}
+                    className="w-full h-52 object-cover rounded shadow-sm cursor-pointer"
+                  />
+                ))}
               </div>
             </div>
           </div>

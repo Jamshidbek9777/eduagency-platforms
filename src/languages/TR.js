@@ -383,7 +383,7 @@ export const tr = {
   footer3: "İletişim Bilgileri",
   footer4: "Adres:",
   footer5: "Çalışma Saatleri:",
-  footer6: "Taşkent, Muqimiy Caddesi, 7. Ev",
+  footer6: "Şeyh Zainiddin caddesi, 2A, Şeyhontohur bölgesi, Taşkent",
   footer7: "Pazartesi - Cuma",
   footer8: "Telefon:",
 
@@ -416,6 +416,23 @@ export const tr = {
   placeHolderEmail: "E-posta adresinizi girin",
   placeHolderText: "Mesajınızı buraya yazın",
   submitButton: "Göndermek",
+
+  planetariumText1: "Planetaryum Kurulumu",
+  planetariumText2:
+    "Tasarım ve Danışmanlık: İhtiyaçlarınıza ve bütçenize uygun, anahtar teslim planetaryum projeleri.",
+  planetariumText3:
+    "Son Teknoloji Sistemler: Dijital projektörlerden geniş açılı kubbelere kadar üstün teknik altyapılar.",
+  planetariumText4:
+    "Eğitim ve Destek: Kurulum sonrası eğitim ve sürekli teknik destek hizmetleri.",
+  planetariumText5:
+    "Modüler Çözümler: Mobil planetaryumlar ve sabit yapılar için uygun esnek seçenekler.",
+  planetariumText6: "Planetaryum Filmleri",
+  planetariumText7:
+    "Eğitim Filmleri: Bilimsel içeriklerle öğrenmeyi eğlenceli hale getiren yapımlar.",
+  planetariumText8:
+    " Eğlence Filmleri: İzleyiciyi büyüleyen sanatsal ve görsel deneyimler.",
+  planetariumText9:
+    " Kişiselleştirilebilir Lisanslama: Okullar, bilim merkezleri ve özel etkinlikler için lisanslama çözümleri.",
 
   labelName: "Ad",
   labelPhone: "Telefon",

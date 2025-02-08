@@ -31,6 +31,7 @@ import ScrollToTop from "./components/scrollToTop.js";
 import Ozel from "./pages/ozel.jsx";
 import StudyCenter from "./pages/studyCenter.jsx";
 import Partnership from "./pages/partnership.jsx";
+import Teknofest from "./pages/teknofest.jsx";
 
 const Root = () => {
   return (
@@ -70,6 +71,7 @@ const Root = () => {
               <Route path="/universities" element={<Universities />} />
               <Route path="/ozel" element={<Ozel />} />
               <Route path="/study-center" element={<StudyCenter />} />
+              <Route path="/teknofest" element={<Teknofest />} />
             </Routes>
           </BrowserRouter>
           <Footer />
