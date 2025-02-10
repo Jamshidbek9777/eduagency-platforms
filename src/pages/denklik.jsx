@@ -4,7 +4,7 @@ import { FaCheckCircle, FaFileAlt } from "react-icons/fa";
 import { getText } from "../languages";
 import { LanguageContext } from "../context/language";
 
-const StudyTurkey = () => {
+const Denklik = () => {
   const { selectedLanguage } = useContext(LanguageContext);
 
   return (
@@ -12,11 +12,11 @@ const StudyTurkey = () => {
       {/* Header Section */}
       <div
         className="relative bg-cover bg-center h-[500px] flex flex-col items-center justify-center text-white"
-        style={{ backgroundImage: "url('img/eduTurkeyBg.jpeg')" }}
+        style={{ backgroundImage: "url('img/denklikBg.jpg')" }}
       >
         <div className="absolute inset-0 bg-black bg-opacity-50"></div>
         <h1 className="relative z-10 text-5xl font-bold text-center">
-          {getText("studyTurkey1")}
+          Denlik xizmati
         </h1>
       </div>
 
@@ -24,30 +24,35 @@ const StudyTurkey = () => {
       <Wrapper>
         <div className="py-12 space-y-12">
           <h1 className="text-xl">{getText("studyTurkey2")}</h1>
-          {/* Kabul Mektubu Hizmeti */}
-          <div className="bg-white p-8 rounded-lg shadow-lg border border-gray-200">
+
+          {/* Denklik İşlemleri Hizmeti */}
+          <div className="bg-gray-100 p-8 rounded-lg shadow-lg border border-gray-300">
             <h2 className="text-3xl font-semibold mb-6 text-center">
-              {getText("studyTurkey3")}
+              {getText("studyTurkey9")}
             </h2>
             <p className="text-lg text-gray-700 mb-4">
-              {getText("studyTurkey4")}
+              {getText("studyTurkey10")}
             </p>
             <ul className="list-disc pl-6 space-y-3 text-lg">
               <li>
-                <FaCheckCircle className="inline text-blue-500 mr-2" />
-                {getText("studyTurkey5")}
+                <FaFileAlt className="inline text-green-500 mr-2" />{" "}
+                {getText("studyTurkey11")}
               </li>
               <li>
-                <FaCheckCircle className="inline text-blue-500 mr-2" />
-                {getText("studyTurkey6")}
+                <FaFileAlt className="inline text-green-500 mr-2" />{" "}
+                {getText("studyTurkey12")}
               </li>
               <li>
-                <FaCheckCircle className="inline text-blue-500 mr-2" />
-                {getText("studyTurkey7")}
+                <FaFileAlt className="inline text-green-500 mr-2" />{" "}
+                {getText("studyTurkey13")}
               </li>
               <li>
-                <FaCheckCircle className="inline text-blue-500 mr-2" />
-                {getText("studyTurkey8")}
+                <FaFileAlt className="inline text-green-500 mr-2" />{" "}
+                {getText("studyTurkey14")}
+              </li>
+              <li>
+                <FaFileAlt className="inline text-green-500 mr-2" />{" "}
+                {getText("studyTurkey15")}
               </li>
             </ul>
           </div>
@@ -57,4 +62,4 @@ const StudyTurkey = () => {
   );
 };
 
-export default StudyTurkey;
+export default Denklik;

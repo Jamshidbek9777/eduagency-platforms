@@ -158,7 +158,7 @@ const EducationDesign = () => {
                 <h1 className="text-4xl font-bold text-center">Planetarium</h1>
               </div>
               <div className="mb-3">
-                <li className="flex gap-1 items-center">  
+                <li className="flex gap-1 items-center">
                   <GoDotFill size={10} />{" "}
                   <p className="text-lg">{getText("planetariumText2")}</p>
                 </li>

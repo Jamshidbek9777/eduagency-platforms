@@ -13,25 +13,23 @@ import Footer from "./components/footer.jsx";
 import Contact from "./pages/contact.jsx";
 import EducationStrategies from "./pages/eduStr.jsx";
 import TeacherTrainings from "./pages/teacherTraining.jsx";
-import EduMaterials from "./pages/eduMaterials.jsx";
 import AcademicTour from "./pages/academicTour.jsx";
 import EducationModels from "./pages/eduModels.jsx";
 import EducationDesign from "./pages/eduDesign.jsx";
 import EducationTechnologies from "./pages/eduTech.jsx";
 import StudyTurkey from "./pages/studyTurkey.jsx";
 import StudyUz from "./pages/studyUzb.jsx";
-import Seminars from "./pages/seminars.jsx";
-import Exhibitions from "./pages/exhibitions.jsx";
 import Kindergartens from "./pages/kgardens.jsx";
 import ElementarySchool from "./pages/elemantarySchool.jsx";
 import IntermediateSchools from "./pages/intermediateSchools.jsx";
 import HighSchools from "./pages/highSchools.jsx";
 import Universities from "./pages/universities.jsx";
 import ScrollToTop from "./components/scrollToTop.js";
-import Ozel from "./pages/ozel.jsx";
-import StudyCenter from "./pages/studyCenter.jsx";
 import Partnership from "./pages/partnership.jsx";
-import Teknofest from "./pages/teknofest.jsx";
+import Denklik from "./pages/denklik.jsx";
+import Management from "./pages/management.jsx";
+import EPlatforms from "./pages/e-platforms.jsx";
+import EGames from "./pages/e-games.jsx";
 
 const Root = () => {
   return (
@@ -54,13 +52,10 @@ const Root = () => {
               <Route path="/contact" element={<Contact />} />
 
               <Route path="/teacherTrainings" element={<TeacherTrainings />} />
-              <Route path={"/edu-materials"} element={<EduMaterials />} />
-              <Route path={"/academic-tour"} element={<AcademicTour />} />
+              <Route path="/academic-tour" element={<AcademicTour />} />
               <Route path="/partnership" element={<Partnership />} />
               <Route path="/study-turkey" element={<StudyTurkey />} />
               <Route path="/study-uz" element={<StudyUz />} />
-              <Route path="/seminars" element={<Seminars />} />
-              <Route path="/exhibitons" element={<Exhibitions />} />
               <Route path="/kindergartens" element={<Kindergartens />} />
               <Route path="/elementary-school" element={<ElementarySchool />} />
               <Route
@@ -69,9 +64,12 @@ const Root = () => {
               />
               <Route path="/high-schools" element={<HighSchools />} />
               <Route path="/universities" element={<Universities />} />
-              <Route path="/ozel" element={<Ozel />} />
-              <Route path="/study-center" element={<StudyCenter />} />
-              <Route path="/teknofest" element={<Teknofest />} />
+              <Route path="/denlik" element={<Denklik />} />
+
+              {/* eduTech */}
+              <Route path="/management" element={<Management />} />
+              <Route path="/e-platforms" element={<EPlatforms />} />
+              <Route path="/e-games" element={<EGames />} />
             </Routes>
           </BrowserRouter>
           <Footer />

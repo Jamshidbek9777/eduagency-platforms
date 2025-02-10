@@ -62,7 +62,7 @@ const HeroSection = () => {
             <div
               className="h-full bg-cover bg-center relative"
               style={{
-                backgroundImage: "url('/img/slider2.jpeg')",
+                backgroundImage: "url('/img/edutechSlider.jpg')",
               }}
             >
               <div className="bg-black/40 h-full flex items-end justify-center p-8">
@@ -100,7 +100,7 @@ const HeroSection = () => {
               <div className="bg-black/40 h-full flex items-end justify-center p-8">
                 <div className="text-center text-black bg-white/70 rounded-[30px]">
                   <h2 className="text-[20px] px-6 py-2  font-bold ">
-                    Sace Camp
+                    Space Camp
                   </h2>
                 </div>
               </div>

@@ -133,14 +133,6 @@ const Navbar = () => {
         </a>
       ),
     },
-    {
-      key: "6",
-      label: (
-        <a className="text-[16px]" href="/education-technologies">
-          {getText("navbar7")}
-        </a>
-      ),
-    },
 
     {
       key: "4",
@@ -160,8 +152,24 @@ const Navbar = () => {
     {
       key: "3",
       label: (
-        <Link className="text-[16px]" to="/academic-tour">
-          {getText("navbar12")}
+        <Link className="text-[16px]" to="/management">
+          Maktab boshqaruv tizimlari
+        </Link>
+      ),
+    },
+    {
+      key: "4",
+      label: (
+        <Link className="text-[16px]" to="/e-platforms">
+          Elektron talim platformalari
+        </Link>
+      ),
+    },
+    {
+      key: "5",
+      label: (
+        <Link className="text-[16px]" to="/e-games">
+          E-oyinlar
         </Link>
       ),
     },
@@ -337,7 +345,7 @@ const Navbar = () => {
       <div className="bg-white fixed w-full z-[999]">
         <div className="items-center h-8 bg-[#394B59] md:flex hidden">
           <Wrapper>
-            <div className="flex justify-between ">
+            <div className="flex justify-between  px-3">
               <div>
                 <a
                   href="mailto:info@EduAgency.uz"
@@ -350,6 +358,11 @@ const Navbar = () => {
                 <a href="/study-turkey" className="text-white text-lg">
                   {getText("topbar1")}
                 </a>
+
+                <a href="/denlik" className="text-white text-lg">
+                  Denglik xizmati
+                </a>
+
                 <a href="/study-uz" className="text-white text-lg">
                   {getText("topbar2")}
                 </a>
@@ -401,19 +414,23 @@ const Navbar = () => {
                       onClick={(e) => e.preventDefault()}
                       className="hover:text-[#0556FF] transition text-[17px] font-bold cursor-pointer"
                     >
-                      {getText("navbar1")}
+                      Ta'lim modernizatsiya
                     </a>
                   </Dropdown>
-
                   <Dropdown trigger={["hover"]} menu={menu3}>
                     <a
                       onClick={(e) => e.preventDefault()}
                       className="hover:text-[#0556FF] transition text-[17px] font-bold cursor-pointer"
                     >
-                      {getText("navbar2")}
+                      Raqamli ta'lim
                     </a>
                   </Dropdown>
-
+                  <a
+                    href="/academic-tour"
+                    className="hover:text-[#0556FF] transition text-[17px] font-bold cursor-pointer"
+                  >
+                    Akademik sayohat
+                  </a>
                   <a
                     href="/partnership"
                     className="hover:text-[#0556FF] transition text-[17px] font-bold cursor-pointer"
