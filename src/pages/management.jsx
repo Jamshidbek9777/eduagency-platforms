@@ -12,16 +12,14 @@ const Management = () => {
         }}
       >
         <div className="absolute inset-0 bg-black bg-opacity-40"></div>
-        <h1 className="relative z-10 text-4xl font-bold">
-          {getText("eduTech4")}
-        </h1>
+        <h1 className="relative z-10 text-4xl font-bold">Boshqaruv tizimi</h1>
       </div>
 
       <Wrapper>
         <>
           <div className="p-6 bg-white rounded-lg shadow-lg mt-4">
             <div>
-              <h2 className="text-2xl font-bold mb-4">{getText("eduTech4")}</h2>
+              <h2 className="text-2xl font-bold mb-4">Boshqaruv tizimi</h2>
               <p className="text-lg">{getText("eduTech5")}</p>
             </div>
 
