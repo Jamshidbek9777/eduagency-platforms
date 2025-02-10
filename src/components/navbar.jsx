@@ -153,7 +153,7 @@ const Navbar = () => {
       key: "3",
       label: (
         <Link className="text-[16px]" to="/management">
-          Maktab boshqaruv tizimlari
+          Boshqaruv tizimlari
         </Link>
       ),
     },
