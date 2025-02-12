@@ -28,7 +28,6 @@ const HeroSection = () => {
         <Swiper
           ref={swiperRef}
           navigation={false}
-          autoplay={{ delay: 5000, disableOnInteraction: false }}
           loop={true}
           modules={[Autoplay, Pagination, Navigation]}
           className="w-full md:h-[520px] h-[320px] rounded-md md:rounded-[16px] "
@@ -91,19 +90,15 @@ const HeroSection = () => {
             </div>
           </SwiperSlide>
           <SwiperSlide>
-            <div
-              className="h-full bg-cover bg-center relative"
-              style={{
-                backgroundImage: "url('/img/space1.jpg')",
-              }}
-            >
-              <div className="bg-black/40 h-full flex items-end justify-center p-8">
-                <div className="text-center text-black bg-white/70 rounded-[30px]">
-                  <h2 className="text-[20px] px-6 py-2  font-bold ">
-                    Space Camp
-                  </h2>
-                </div>
-              </div>
+            <div className="h-full relative flex items-center justify-center">
+              <iframe
+                className="w-full h-full rounded-md md:rounded-[16px]"
+                src="https://www.youtube.com/embed/M4QTKdVfGEk?autoplay=1&mute=1&controls=0&loop=1&playlist=M4QTKdVfGEk"
+                title="YouTube video"
+                frameBorder="0"
+                allow="autoplay; encrypted-media; picture-in-picture"
+                allowFullScreen
+              ></iframe>
             </div>
           </SwiperSlide>
         </Swiper>

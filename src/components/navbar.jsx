@@ -360,7 +360,7 @@ const Navbar = () => {
                 </a>
 
                 <a href="/denlik" className="text-white text-lg">
-                  Denglik xizmati
+                  Denklik belgisi
                 </a>
 
                 <a href="/study-uz" className="text-white text-lg">
