@@ -30,6 +30,7 @@ import Denklik from "./pages/denklik.jsx";
 import Management from "./pages/management.jsx";
 import EPlatforms from "./pages/e-platforms.jsx";
 import EGames from "./pages/e-games.jsx";
+import Modernizations from "./pages/modernizations.jsx";
 
 const Root = () => {
   return (
@@ -41,7 +42,7 @@ const Root = () => {
             <ScrollToTop />
             <Routes className="min-h-screen">
               <Route path="/" element={<App />} />
-              <Route path="/eduModels" element={<EducationModels />} />
+              <Route path="/modernization" element={<Modernizations />} />
               <Route path="/eduStrategies" element={<EducationStrategies />} />
               <Route path="/education-design" element={<EducationDesign />} />
               <Route

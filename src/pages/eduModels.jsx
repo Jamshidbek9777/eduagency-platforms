@@ -3,7 +3,7 @@ import Wrapper from "../layout/wrapper";
 import { FaSchool, FaBook, FaChalkboardTeacher } from "react-icons/fa";
 import { getText } from "../languages";
 import { LanguageContext } from "../context/language";
-import { FaChildReaching, FaChildren } from "react-icons/fa6";
+import { FaChildren } from "react-icons/fa6";
 import { HiPresentationChartBar } from "react-icons/hi";
 
 const EducationModels = () => {
