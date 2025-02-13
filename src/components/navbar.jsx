@@ -354,19 +354,7 @@ const Navbar = () => {
                   info@eduagency.uz
                 </a>
               </div>
-              <div className="flex gap-20">
-                <a href="/study-turkey" className="text-white text-lg">
-                  {getText("topbar1")}
-                </a>
-
-                <a href="/denlik" className="text-white text-lg">
-                  Denklik belgisi
-                </a>
-
-                <a href="/study-uz" className="text-white text-lg">
-                  {getText("topbar2")}
-                </a>
-              </div>
+    
               <div className="flex gap-4">
                 <a
                   href="/about"
