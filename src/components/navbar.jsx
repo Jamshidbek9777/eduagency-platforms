@@ -401,7 +401,7 @@ const Navbar = () => {
                     href="/modernization"
                     className="hover:text-[#0556FF] transition text-[17px] font-bold cursor-pointer"
                   >
-                    Ta'lim modernizatsiya
+                    Raqamli modernizatsiya
                   </a>
                   <a
                     href="/digital"
