@@ -17,7 +17,9 @@ const Digital = () => {
       <Wrapper>
         <div className="p-6 bg-white rounded-lg shadow-lg mt-4">
           <div>
-            <h2 className="text-2xl font-bold mb-4">Boshqaruv tizimi</h2>
+            <h2 className="text-4xl text-center font-bold mb-8">
+              Boshqaruv tizimlari
+            </h2>
             <p className="text-lg">{getText("eduTech5")}</p>
           </div>
 
@@ -68,7 +70,9 @@ const Digital = () => {
         {/*  */}
 
         <div className="p-6 bg-white rounded-lg shadow-lg">
-          <h2 className="text-2xl font-bold mb-4">{getText("eduTech9")}</h2>
+          <h2 className="text-4xl font-bold mb-8 text-center">
+            Raqamli ta'lim platformalari
+          </h2>
           <p className="text-lg">{getText("eduTech10")}</p>
           {/* Vedubox */}
           {/* Adaptive cirruculum */}
@@ -197,8 +201,57 @@ const Digital = () => {
         </div>
 
         <div className="p-6 bg-white rounded-lg shadow-lg">
-          <h2 className="text-2xl font-bold mb-4">Talim oyinlari</h2>
+          <h2 className="text-4xl font-bold mb-8 text-center">
+            Talim o'yinlari
+          </h2>
           <p className="text-lg">{getText("eduTech14")}</p>
+          <h1 className="text-2xl font-bold mb-4">UppyEdu</h1>
+          <div className="mt-1">
+            <img
+              src="/img/uppy.png"
+              alt="K12NET"
+              className="w- h-auto rounded-lg bg-blue-900 p-3"
+            />
+            <p className="mt-4 text-base">
+              Not an ordinary App, it’s Uppy. Your child’s first and 100% safe
+              digital experience.
+            </p>
+            <p className="mt-4 text-base">
+              Thousands of content scientifically created especially for
+              children by experts as a result of 3 years of study are in a
+              single application. Google Play App Store App Gallery Uppy Web
+            </p>
+            <div className="mt-4">
+              <div className="flex flex-wrap justify-start gap-4">
+                {/* Video 1 */}
+                <div className="w-full sm:w-[calc(50%-1rem)] lg:w-[calc(33.333%-1rem)]">
+                  <img
+                    src="/img/uppy1.jpg"
+                    className="w-full h-[200px] sm:h-[250px] md:h-[280px] lg:h-[315px] rounded-lg shadow-lg object-cover"
+                    alt="MUP 1"
+                  />
+                </div>
+
+                {/* Video 2 */}
+                <div className="w-full sm:w-[calc(50%-1rem)] lg:w-[calc(33.333%-1rem)]">
+                  <img
+                    src="/img/uppy2.jpg"
+                    className="w-full h-[200px] sm:h-[250px] md:h-[280px] lg:h-[315px] rounded-lg shadow-lg object-cover"
+                    alt="MUP 1"
+                  />
+                </div>
+
+                {/* Video 3 */}
+                <div className="w-full sm:w-[calc(50%-1rem)] lg:w-[calc(33.333%-1rem)]">
+                  <img
+                    src="/img/uppy3.jpg"
+                    className="w-full h-[200px] sm:h-[250px] md:h-[280px] lg:h-[315px] rounded-lg shadow-lg object-cover"
+                    alt="MUP 2"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
           <div className="mt-10">
             <img
               src="/img/mentalup.webp"
@@ -242,7 +295,7 @@ const Digital = () => {
 
           {/* future astranout */}
           <div className="mt-10">
-            <h1 className="text-4xl mb-4">{getText("eduTech18")}</h1>
+            <h1 className="text-2xl mb-4">{getText("eduTech18")}</h1>
             <div className="flex gap-6">
               <img
                 src="/img/futureast.png"
