@@ -163,8 +163,6 @@ const Digital = () => {
                 single application. Google Play App Store App Gallery Uppy Web
               </p>
               <div className="mt-4">
-                {/* <p className="text-lg mb-4">{getText("eduTech17")}</p> */}
-
                 <div className="flex flex-wrap justify-start gap-4">
                   {/* Video 1 */}
                   <div className="w-full sm:w-[calc(50%-1rem)] lg:w-[calc(33.333%-1rem)]">
@@ -197,8 +195,9 @@ const Digital = () => {
             </div>
           </div>
         </div>
+
         <div className="p-6 bg-white rounded-lg shadow-lg">
-          <h2 className="text-2xl font-bold mb-4">{getText("eduTech13")}</h2>
+          <h2 className="text-2xl font-bold mb-4">Talim oyinlari</h2>
           <p className="text-lg">{getText("eduTech14")}</p>
           <div className="mt-10">
             <img

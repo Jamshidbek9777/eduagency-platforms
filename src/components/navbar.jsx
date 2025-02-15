@@ -407,7 +407,7 @@ const Navbar = () => {
                     href="/digital"
                     className="hover:text-[#0556FF] transition text-[17px] font-bold cursor-pointer"
                   >
-                    Raqamli ta'lim
+                    Raqamli platformalar
                   </a>
                   <a
                     href="/academic-tour"
