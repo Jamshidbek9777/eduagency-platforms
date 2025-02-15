@@ -40,48 +40,6 @@ const Partnership = () => {
 
             <div className="bg-white p-8 rounded-2xl shadow-lg text-center space-y-4">
               <img
-                src="img/franchize.png"
-                alt="Franchise ve İşbirliği Yönetimi"
-                className="w-full h-48 object-cover rounded-md mb-4"
-              />
-              <h4 className="text-xl font-semibold text-gray-800">
-                {getText("partnership3")}
-              </h4>
-              <ul className="list-disc pl-6 text-lg text-gray-600 space-y-3">
-                <li>{getText("partnership4")}</li>
-              </ul>
-            </div>
-
-            <div className="bg-white p-8 rounded-2xl shadow-lg text-center space-y-4">
-              <img
-                src="img/truz.jpg"
-                alt="Pazar Araştırması ve Rekabet Analizi"
-                className="w-full h-48 object-cover rounded-md mb-4"
-              />
-              <h4 className="text-xl font-semibold text-gray-800">
-                {getText("partnership5")}
-              </h4>
-              <ul className="list-disc pl-6 text-lg text-gray-600 space-y-3">
-                <li>{getText("partnership6")}</li>
-              </ul>
-            </div>
-
-            <div className="bg-white p-8 rounded-2xl shadow-lg text-center space-y-4">
-              <img
-                src="img/internationalEvent.jpeg"
-                alt="Uluslararası Etkinlik ve Organizasyon Yönetimi"
-                className="w-full h-48 object-cover rounded-md mb-4"
-              />
-              <h4 className="text-xl font-semibold text-gray-800">
-                {getText("partnership7")}
-              </h4>
-              <ul className="list-disc pl-6 text-lg text-gray-600 space-y-3">
-                <li>{getText("partnership8")}</li>
-              </ul>
-            </div>
-
-            <div className="bg-white p-8 rounded-2xl shadow-lg text-center space-y-4">
-              <img
                 src="img/teknoloji.webp"
                 alt="Teknoloji ve Dijital Çözümler"
                 className="w-full h-48 object-cover rounded-md mb-4"
@@ -105,20 +63,6 @@ const Partnership = () => {
               </h4>
               <ul className="list-disc pl-6 text-lg text-gray-600 space-y-3">
                 <li>{getText("partnership12")}</li>
-              </ul>
-            </div>
-
-            <div className="bg-white p-8 rounded-2xl shadow-lg text-center space-y-4">
-              <img
-                src="img/joint.jpg"
-                alt="Ortak Eğitim Programları Geliştirme"
-                className="w-full h-48 object-cover rounded-md mb-4"
-              />
-              <h4 className="text-xl font-semibold text-gray-800">
-                {getText("partnership13")}
-              </h4>
-              <ul className="list-disc pl-6 text-lg text-gray-600 space-y-3">
-                <li>{getText("partnership14")}</li>
               </ul>
             </div>
           </div>

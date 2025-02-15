@@ -226,38 +226,6 @@ const Modernizations = () => {
                   <p>{getText("eduDesign20")}</p>
                 </div>
               </div>
-
-              <div className="section-header mb-8 mt-8">
-                <h1 className="text-4xl font-bold text-center">Planetarium</h1>
-              </div>
-              <div className="mb-3">
-                <li className="flex gap-1 items-center">
-                  <GoDotFill size={10} />{" "}
-                  <p className="text-lg">{getText("planetariumText2")}</p>
-                </li>
-                <li className="flex gap-1 items-center">
-                  <GoDotFill size={10} />{" "}
-                  <p className="text-lg">{getText("planetariumText3")}</p>
-                </li>
-                <li className="flex gap-1 items-center">
-                  <GoDotFill size={10} />{" "}
-                  <p className="text-lg">{getText("planetariumText4")}</p>
-                </li>
-                <li className="flex gap-1 items-center">
-                  <GoDotFill size={10} />{" "}
-                  <p className="text-lg">{getText("planetariumText5")}</p>
-                </li>
-              </div>
-              <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
-                {images.map((image, index) => (
-                  <img
-                    key={index}
-                    src={`/img/${image}`}
-                    alt={`Planetarium Image ${index + 1}`}
-                    className="w-full h-52 object-cover rounded shadow-sm cursor-pointer"
-                  />
-                ))}
-              </div>
             </div>
           </div>
         </div>

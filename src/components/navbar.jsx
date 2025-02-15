@@ -415,7 +415,7 @@ const Navbar = () => {
                     href="/academic-tour"
                     className="hover:text-[#0556FF] transition text-[17px] font-bold cursor-pointer"
                   >
-                    Akademik sayohat
+                    Tekno Tour
                   </a>
                   <a
                     href="/partnership"

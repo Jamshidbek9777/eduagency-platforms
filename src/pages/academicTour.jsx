@@ -12,7 +12,7 @@ const AcademicTourPage = () => {
       <div
         className="relative bg-cover bg-center h-[600px] flex flex-col items-center justify-center text-white"
         style={{
-          backgroundImage: "url('img/academicTourBg.jpg')",
+          backgroundImage: "url('img/academicTourB.jpg')",
         }}
       >
         <div className="absolute inset-0 bg-black bg-opacity-40"></div>
@@ -60,29 +60,6 @@ const AcademicTourPage = () => {
           </div>
 
           {/* Bilim va kashf */}
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center bg-[#E6EAF4] p-4 rounded-[20px]">
-            <div className="w-full h-[400px] md:h-[500px] overflow-hidden rounded-lg shadow-lg">
-              <img
-                src="/img/bilim.jpg"
-                alt="Classroom Design"
-                className="w-full h-full object-cover"
-              />
-            </div>
-            <div>
-              <h2 className="text-2xl font-bold mb-4">{getText("akTour5")}</h2>
-              <p className="mb-2">{getText("akTour7")}</p>
-
-              <h2 className="text-md font-semibold mb-4 mt-4">
-                {getText("akTour8")}
-              </h2>
-              <ul className="list-disc pl-6">
-                <li>{getText("akTour9")}</li>
-                <li>{getText("akTour10")}</li>
-                <li>{getText("akTour11")}</li>
-                <li>{getText("akTour12")}</li>
-              </ul>
-            </div>
-          </div>
         </div>
       </Wrapper>
     </>
