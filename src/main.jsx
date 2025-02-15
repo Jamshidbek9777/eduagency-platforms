@@ -31,6 +31,7 @@ import Management from "./pages/management.jsx";
 import EPlatforms from "./pages/e-platforms.jsx";
 import EGames from "./pages/e-games.jsx";
 import Modernizations from "./pages/modernizations.jsx";
+import Digital from "./pages/digital.jsx";
 
 const Root = () => {
   return (
@@ -71,6 +72,7 @@ const Root = () => {
               <Route path="/management" element={<Management />} />
               <Route path="/e-platforms" element={<EPlatforms />} />
               <Route path="/e-games" element={<EGames />} />
+              <Route path="/digital" element={<Digital />} />
             </Routes>
           </BrowserRouter>
           <Footer />

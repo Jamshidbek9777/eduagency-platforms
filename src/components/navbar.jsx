@@ -403,14 +403,12 @@ const Navbar = () => {
                   >
                     Ta'lim modernizatsiya
                   </a>
-                  <Dropdown trigger={["hover"]} menu={menu3}>
-                    <a
-                      onClick={(e) => e.preventDefault()}
-                      className="hover:text-[#0556FF] transition text-[17px] font-bold cursor-pointer"
-                    >
-                      Raqamli ta'lim
-                    </a>
-                  </Dropdown>
+                  <a
+                    href="/digital"
+                    className="hover:text-[#0556FF] transition text-[17px] font-bold cursor-pointer"
+                  >
+                    Raqamli ta'lim
+                  </a>
                   <a
                     href="/academic-tour"
                     className="hover:text-[#0556FF] transition text-[17px] font-bold cursor-pointer"
