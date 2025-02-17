@@ -1,161 +1,51 @@
 import Wrapper from "../layout/wrapper.jsx";
-import { useContext, useRef } from "react";
+import { useContext } from "react";
 import { LanguageContext } from "../context/language.jsx";
-import { Swiper, SwiperSlide } from "swiper/react";
-import "swiper/css";
-import "swiper/css/navigation";
-import "swiper/css/pagination";
-
-// import required modules
-import { Autoplay, Navigation, Pagination } from "swiper/modules";
-import { getText } from "../languages/index.js";
+import { FaCode } from "react-icons/fa";
 
 const HeroSection = () => {
   const { selectedLanguage } = useContext(LanguageContext);
-  const swiperRef = useRef(null);
-
-  const handleNext = () => {
-    if (swiperRef.current) swiperRef.current.swiper.slideNext();
-  };
-
-  const handlePrev = () => {
-    if (swiperRef.current) swiperRef.current.swiper.slidePrev();
-  };
 
   return (
     <Wrapper>
-      <div className="md:pt-1 pt-24  flex flex-wrap items-center justify-center lg:justify-between  relative">
-        <Swiper
-          ref={swiperRef}
-          navigation={false}
-          loop={true}
-          modules={[Autoplay, Pagination, Navigation]}
-          className="w-full md:h-[520px] h-[320px] rounded-md md:rounded-[16px] "
-          pagination={{
-            renderBullet: (index, className) => {
-              return `
-                <span class="${className} custom-pagination-bullet"></span>
-              `;
-            },
-            clickable: true,
-          }}
-        >
-          <SwiperSlide>
-            <div
-              className="h-full bg-cover bg-center relative "
-              style={{
-                backgroundImage: "url('/img/labsBg.jpeg')",
-              }}
-            >
-              <div className="bg-black/40 h-full flex items-end justify-center p-8">
-                <div className="text-center text-black bg-white/70 rounded-[30px]">
-                  <h2 className="text-[20px] px-6 py-2  font-bold ">
-                    {getText("navbar6")}
-                  </h2>
-                </div>
-              </div>
-            </div>
-          </SwiperSlide>
+      <div className="pt-16 flex flex-wrap items-center justify-center ">
+        <div className="bg-[#d8f0ed] flex flex-col md:flex-row w-full h-auto md:h-[600px] p-6 md:p-16 justify-between items-center rounded-lg gap-6 md:gap-0">
+          <div className="max-w-xl text-center md:text-left">
+            <p className="text-blue-500 uppercase text-lg font-semibold">
+              EduAgency xizmatlari vebsayti
+            </p>
+            <h1 className="text-4xl md:text-6xl font-bold text-gray-900 mt-2 leading-tight">
+              Ta'lim xizmatlarini <br className="hidden md:inline" />
+              ko'rsatamiz
+            </h1>
+            <button className="mt-6 bg-blue-500 text-white px-6 py-3 rounded-lg text-lg font-medium shadow-md hover:bg-blue-600 transition">
+              Ko'proq o'rganish
+            </button>
+          </div>
 
-          <SwiperSlide>
-            <div
-              className="h-full bg-cover bg-center relative"
-              style={{
-                backgroundImage: "url('/img/edutechSlider.jpg')",
-              }}
-            >
-              <div className="bg-black/40 h-full flex items-end justify-center p-8">
-                <div className="text-center text-black bg-white/70 rounded-[30px]">
-                  <h2 className="text-[20px] px-6 py-2  font-bold ">
-                    {getText("navbar7")}
-                  </h2>
-                </div>
-              </div>
+          <div className="relative w-full md:w-[400px] h-[300px] flex justify-center">
+            <div className="absolute bottom-10 right-8 md:right-10 w-32 h-44 md:w-56 md:h-72 bg-gray-300 rounded-lg overflow-hidden shadow-lg">
+              <img
+                src="/img/bekirbey.jpg"
+                alt="Speaker 1"
+                className="w-full h-full object-cover"
+              />
             </div>
-          </SwiperSlide>
-          <SwiperSlide>
-            <div
-              className="h-full bg-cover bg-center relative"
-              style={{
-                backgroundImage: "url('/img/truzex.jpeg')",
-              }}
-            >
-              <div className="bg-black/40 h-full flex items-end justify-center p-8">
-                <div className="text-center text-black bg-white/70 rounded-[30px]">
-                  <h2 className="text-[20px] px-6 py-2  font-bold ">
-                    Study in Turkey
-                  </h2>
-                </div>
-              </div>
-            </div>
-          </SwiperSlide>
-          <SwiperSlide>
-            <div className="h-full relative flex items-center justify-center">
-              <iframe
-                className="w-full h-full rounded-md md:rounded-[16px]"
-                src="https://www.youtube.com/embed/M4QTKdVfGEk?autoplay=1&mute=1&controls=0&loop=1&playlist=M4QTKdVfGEk"
-                title="YouTube video"
-                frameBorder="0"
-                allow="autoplay; encrypted-media; picture-in-picture"
-                allowFullScreen
-              ></iframe>
-            </div>
-          </SwiperSlide>
-        </Swiper>
 
-        <button
-          className="z-[888] hidden md:flex absolute left-4 top-1/2 transform -translate-y-1/2 bg-white text-black p-4 rounded-full shadow-lg"
-          onClick={handlePrev}
-        >
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            className="h-6 w-6"
-            fill="none"
-            viewBox="0 0 24 24"
-            stroke="currentColor"
-          >
-            <path
-              strokeLinecap="round"
-              strokeLinejoin="round"
-              strokeWidth="2"
-              d="M15 19l-7-7 7-7"
-            />
-          </svg>
-        </button>
-        <button
-          className="z-[888] hidden md:flex absolute right-4 top-1/2 transform -translate-y-1/2 bg-white text-black p-4 rounded-full shadow-lg"
-          onClick={handleNext}
-        >
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            className="h-6 w-6"
-            fill="none"
-            viewBox="0 0 24 24"
-            stroke="currentColor"
-          >
-            <path
-              strokeLinecap="round"
-              strokeLinejoin="round"
-              strokeWidth="2"
-              d="M9 5l7 7-7 7"
-            />
-          </svg>
-        </button>
+            <div className="absolute top-20 md:left-2 w-32 h-44 md:w-56 md:h-72 bg-gray-300 rounded-lg overflow-hidden shadow-lg">
+              <img
+                src="/img/truzex.jpeg"
+                alt="Speaker 2"
+                className="w-full h-full object-cover"
+              />
+            </div>
+
+            <div className="absolute bottom-[-10px] right-[-10px] bg-blue-500 text-white p-3 rounded-full shadow-md">
+              <FaCode size={24} />
+            </div>
+          </div>
+        </div>
       </div>
-      <div className="swiper-pagination"></div>
-      <style jsx>{`
-        .swiper-pagination-bullet {
-          background-color: #fff;
-          width: 12px;
-          height: 12px;
-          border-radius: 50%;
-          opacity: 1;
-        }
-
-        .swiper-pagination-bullet-active {
-          background-color: #0556ff;
-        }
-      `}</style>
     </Wrapper>
   );
 };

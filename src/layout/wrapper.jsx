@@ -1,6 +1,6 @@
 function Wrapper({ children }) {
   return (
-    <div className="max-w-[1720px] px-[20px] w-full mx-auto">{children}</div>
+    <div className="max-w-[1440px] px-[20px] w-full mx-auto">{children}</div>
   );
 }
 

@@ -1,23 +1,19 @@
-import Advantages from "./components/advantages";
-import LogoCarouselPage from "./components/partners";
-import SchoolArchitecture from "./components/schoolArchitecture.jsx";
-import HeroSection from "./components/hero.jsx";
-import AkademikTour from "./components/akademikTour.jsx";
-import Symbols from "./components/symbols.jsx";
-import Recommended from "./components/recommended.jsx";
-import News from "./components/news.jsx";
+import Cards from "./components/cards";
+import HeroSection from "./components/hero";
+import Numbers from "./components/numbers";
+import Partners from "./components/partners";
+import Services from "./components/services";
 
 function App() {
   return (
     <>
       <div className="min-h-screen">
-        <Symbols />
+        <h1>Salom</h1>
         <HeroSection />
-        <Recommended />
-        <SchoolArchitecture />
-        <AkademikTour />
-        <Advantages />
-        <LogoCarouselPage />
+        <Numbers />
+        <Cards />
+        <Services />
+        <Partners />
       </div>
     </>
   );

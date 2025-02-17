@@ -29,7 +29,6 @@ const Navbar = () => {
     setMenuOpen((prev) => !prev);
   };
 
-  //services items
   const items = [
     {
       key: "1",
@@ -343,44 +342,8 @@ const Navbar = () => {
   return (
     <>
       <div className="bg-white fixed w-full z-[999]">
-        <div className="items-center h-8 bg-[#394B59] md:flex hidden">
-          <Wrapper>
-            <div className="flex justify-between  px-3">
-              <div>
-                <a
-                  href="mailto:info@EduAgency.uz"
-                  className="text-white hover:underline select-none"
-                >
-                  info@eduagency.uz
-                </a>
-              </div>
-
-              <div className="flex gap-4">
-                <a
-                  href="/about"
-                  className="text-white cursor-pointer select-none"
-                >
-                  {getText("topbar3")}
-                </a>
-                <a
-                  href="/contact"
-                  className="text-white cursor-pointer select-none"
-                >
-                  {getText("topbar4")}
-                </a>
-              </div>
-            </div>
-          </Wrapper>
-        </div>
         <Wrapper>
-          <div
-            className="flex flex-row items-center px-2 py-4 gap-3"
-            style={{
-              borderBottom: "5px solid",
-              borderImage:
-                "linear-gradient(to right, #FFFFFF, #042E94, #FFFFFF) 1",
-            }}
-          >
+          <div className="flex flex-row items-center px-2 py-4 gap-3">
             <div className="w-full">
               <div className="flex items-center justify-between w-full gap-6">
                 {/* Logo */}
@@ -394,37 +357,27 @@ const Navbar = () => {
                   </Link>
                 </div>
 
-                {/* Items */}
-                <div className="relative hidden lg:flex gap-4 lg:gap-6 text-gray-700 text-sm text-center p-3  px-6 ">
-                  {/* Menu Items */}
-                  <a
-                    href="/modernization"
-                    className="hover:text-[#0556FF] transition text-[17px] font-bold cursor-pointer"
-                  >
-                    Raqamli modernizatsiya
-                  </a>
-                  <a
-                    href="/digital"
-                    className="hover:text-[#0556FF] transition text-[17px] font-bold cursor-pointer"
-                  >
-                    Raqamli platformalar
-                  </a>
-                  <a
-                    href="/academic-tour"
-                    className="hover:text-[#0556FF] transition text-[17px] font-bold cursor-pointer"
-                  >
-                    TeknoTour
-                  </a>
-                  <a
-                    href="/partnership"
-                    className="hover:text-[#0556FF] transition text-[17px] font-bold cursor-pointer"
-                  >
-                    {getText("navbar3")}
-                  </a>
-                </div>
-
-                {/* left side */}
                 <div className="flex items-center gap-8">
+                  <div className="relative hidden lg:flex gap-4 lg:gap-6 text-gray-700 text-sm text-center p-3  px-6 ">
+                    <a
+                      href="/modernization"
+                      className="hover:text-[#0556FF] transition text-[17px] font-bold cursor-pointer"
+                    >
+                      Xizmatlar
+                    </a>
+                    <a
+                      href="/digital"
+                      className="hover:text-[#0556FF] transition text-[17px] font-bold cursor-pointer"
+                    >
+                      Raqamli platformalar
+                    </a>
+                    <a
+                      href="/academic-tour"
+                      className="hover:text-[#0556FF] transition text-[17px] font-bold cursor-pointer"
+                    >
+                      TeknoTour
+                    </a>
+                  </div>
                   {/* services */}
                   <div className="hidden lg:flex items-center">
                     <div className="hidden lg:flex gap-4">
@@ -448,7 +401,7 @@ const Navbar = () => {
                           />
                         </div>
                       </Dropdown>
-                      <Dropdown
+                      {/* <Dropdown
                         trigger={["hover"]}
                         menu={{
                           items,
@@ -471,7 +424,7 @@ const Navbar = () => {
                             />
                           </Button>
                         </a>
-                      </Dropdown>
+                      </Dropdown> */}
                     </div>
                   </div>
                 </div>
