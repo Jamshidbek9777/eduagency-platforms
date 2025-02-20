@@ -44,8 +44,8 @@ const Services = () => {
   return (
     <div className="bg-[#091621] py-20">
       <Wrapper>
-        <div className="text-white p-6">
-          <h1 className="text-4xl font-bold">Kasblar</h1>
+        <div className="text-white p-6" id="services">
+          <h1 className="text-4xl font-bold">Serviclar</h1>
           <p className="text-gray-400 mt-2 max-w-xl">
             Kasbga yo'naltirilgan praktikumlar yordamida eng tez va samarali
             yo‘llar bilan mutaxassislar qatoriga qo‘shiling.

@@ -2,11 +2,10 @@ import { useContext, useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 import { LanguageContext } from "../context/language";
 import { getText } from "../languages";
-import { Button } from "@nextui-org/react";
 import { Dropdown, Menu } from "antd";
 import Wrapper from "../layout/wrapper";
 import { IoIosArrowDown } from "react-icons/io";
-
+import { Link as ScrollLink } from "react-scroll";
 const Navbar = () => {
   const { selectedLanguage, selectedFlag, changeLanguage } =
     useContext(LanguageContext);
@@ -359,20 +358,22 @@ const Navbar = () => {
 
                 <div className="flex items-center gap-8">
                   <div className="relative hidden lg:flex gap-4 lg:gap-6 text-gray-700 text-sm text-center p-3  px-6 ">
-                    <a
-                      href="/modernization"
+                    <ScrollLink
+                      to="services"
+                      smooth={true}
+                      duration={500}
                       className="hover:text-[#0556FF] transition text-[17px] font-bold cursor-pointer"
                     >
                       Xizmatlar
-                    </a>
-                    <a
+                    </ScrollLink>
+                    {/* <a
                       href="/digital"
                       className="hover:text-[#0556FF] transition text-[17px] font-bold cursor-pointer"
                     >
                       Raqamli platformalar
-                    </a>
+                    </a> */}
                     <a
-                      href="/academic-tour"
+                      href="/tours"
                       className="hover:text-[#0556FF] transition text-[17px] font-bold cursor-pointer"
                     >
                       TeknoTour

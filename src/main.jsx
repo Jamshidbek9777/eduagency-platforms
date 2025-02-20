@@ -10,6 +10,7 @@ import "./index.css";
 import Navbar from "./components/navbar.jsx";
 import Footer from "./components/footer.jsx";
 import ScrollToTop from "./components/scrollToTop.js";
+import Tours from "./pages/tours.jsx";
 
 const Root = () => {
   return (
@@ -21,6 +22,7 @@ const Root = () => {
             <ScrollToTop />
             <Routes className="min-h-screen">
               <Route path="/" element={<App />} />
+              <Route path="/tours" element={<Tours />} />
             </Routes>
           </BrowserRouter>
           <Footer />

@@ -1,14 +1,15 @@
 import React from "react";
 
 const partners = [
-  "/img/partner1.png",
-  "/img/partner2.png",
+  "/img/partner1.svg",
+  "/img/partner2.svg",
   "/img/partner3.png",
-  "/img/partner4.png",
+  "/img/partner4.svg",
   "/img/partner5.png",
-  "/img/partner6.png",
-  "/img/partner7.png",
+  "/img/partner6.webp",
+  "/img/partner7.svg",
   "/img/partner8.png",
+  "/img/partner9.png",
 ];
 
 const Partners = () => {
