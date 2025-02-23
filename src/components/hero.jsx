@@ -26,7 +26,7 @@ const HeroSection = () => {
           <div className="relative w-full md:w-[400px] h-[300px] flex justify-center">
             <div className="absolute bottom-10 right-8 md:right-10 w-32 h-44 md:w-56 md:h-72 bg-gray-300 rounded-lg overflow-hidden shadow-lg">
               <img
-                src="/img/bekirbey.jpg"
+                src="/img/home1.avif"
                 alt="Speaker 1"
                 className="w-full h-full object-cover"
               />

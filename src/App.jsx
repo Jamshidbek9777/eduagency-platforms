@@ -5,6 +5,8 @@ import Numbers from "./components/numbers";
 import Partners from "./components/partners";
 import Services from "./components/services";
 import Why from "./components/why";
+import Xizmatlar from "./components/xizmatlar";
+import Comments from "./components/comments";
 
 function App() {
   return (
@@ -17,6 +19,12 @@ function App() {
         <Why />
         <Element name="services">
           <Services />
+        </Element>
+        <Element name="xizmatlar">
+          <Xizmatlar />
+        </Element>
+        <Element name="comments">
+          <Comments />
         </Element>
         <Partners />
       </div>

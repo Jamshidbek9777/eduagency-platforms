@@ -2,50 +2,84 @@ import React, { useState } from "react";
 import Wrapper from "../layout/wrapper";
 
 const categories = [
-  { key: "All", label: "Barcha kasblar" },
-  { key: "Design", label: "Dizayn" },
-  { key: "Frontend", label: "Frontend" },
-  { key: "Mobile", label: "Mobil" },
-  { key: "Backend", label: "Backend" },
-  { key: "Full Stack", label: "Full Stack" },
-  { key: "AI", label: "Sun'iy Intellekt" },
-  { key: "Other", label: "Boshqalar" },
+  // { key: "All", label: "Barcha platformalar" },
+  { key: "okulaile", label: "OkulAile" },
+  { key: "future_astronaut", label: "Future Astronaut" },
+  { key: "mental_up", label: "Mental Up" },
+  { key: "piagmo", label: "Piagmo" },
+  { key: "adaptive", label: "Adaptive Cirriculum" },
+  { key: "uppy", label: "Uppy" },
+  { key: "sebit", label: "Sebit VCloud" },
 ];
 
-const cards = [
-  {
-    id: 1,
-    category: "AI",
-    title: "Data sayns va Sun'iy intellekt",
-    image: "/img/card1.png",
+const cards = {
+  okulaile: {
+    title: "OkulAile - Ta'lim platformasi",
+    description:
+      "OkulAilebu ta’lim muassasalari boshqaruvini osonlashtirish uchun ishlab chiqilgan keng qamrovli maktab avtomatlashtirish platformasidir.",
+    images: ["/img/okulaile1.jpg", "/img/okulaile2.jpg"],
+    videos: [
+      "https://www.youtube.com/embed/2xKsjJfT3YY",
+      "https://www.youtube.com/embed/2xKsjJfT3YY",
+    ],
   },
-  {
-    id: 2,
-    category: "Cybersecurity",
-    title: "Kiberxavfsizlik: pentesting",
-    image: "/img/card1.png",
+  future_astronaut: {
+    title: "Future Astronaut - Kosmik Ilm",
+    description:
+      "4-10 yoshdagi bolalar uchun mo'ljallangan ajoyib kosmik sarguzashtni boshlang! Future Astronaut — bu bolalar uchun kosmos va fan atrofida sevgi uyg'otadigan, o'yinlar, interaktiv missiyalar va qiziqarli ilmiy tajribalarni birlashtirgan eng mukammal ta'lim ilovasi. 🚀 Qiziqarli missiyalar bilan Koinotni kashf eting",
+    images: ["/img/9.jpg", "/img/12.jpg"],
+    videos: [
+      "https://www.youtube.com/embed/example_video_id2",
+      "https://www.youtube.com/embed/example_video_id3",
+    ],
   },
-  {
-    id: 3,
-    category: "Frontend",
-    title: "Frontend – ReactJS",
-    image: "/img/card1.png",
+  mental_up: {
+    title: "Mental Up - Aqlni rivojlantirish",
+    description:
+      "4-13 yoshdagi bolalar va hatto kattalar uchun kognitiv qobiliyatlarni rivojlantirishga mo'ljallangan gamifikatsiyalangan mashqlar — barchasi bitta ilovada, kuchli tomonlar va yaxshilanish kerak bo'lgan sohalar ko'rsatilgan hisobotlar bilan birga!",
+    images: ["/img/mup1.png", "/img/mup2.png"],
+    videos: ["https://www.youtube.com/embed/example_video_id4"],
   },
-];
+  piagmo: {
+    title: "Piagmo - O‘yin orqali o‘rganish va kashf etish!",
+    description:
+      "Piagmo Technology kompaniyasida biz o‘yin o‘rganishning asosidir deb hisoblaymiz. Montessori pedagogikasidan ilhomlanib, bolalarning tabiiy qiziqishi va kashf etishga bo‘lgan sevgisini rivojlantiruvchi mobil o‘yinlar barpo etamiz. Bizning sayohatimiz oddiy g‘oya bilan boshlandi: ta’lim va qiziqarli o‘yinlarni yosh onglar uchun oson va jalb etuvchi tarzda birlashtirish.",
+    images: ["/img/piagmo1.webp", "/img/piagmo2.webp"],
+    videos: ["https://www.youtube.com/embed/example_video_id4"],
+  },
+  adaptive: {
+    title: "Adaptive cirriculum - welcome to new way of learning!",
+    description:
+      "With Adaptive Curriculum, you can enhance your Middle or High School curriculum with interactive, 100% online instruction that answers the question for your students: `Why do I need to know this?`",
+    images: ["/img/adaptive1.jpg", "/img/adaptive2.jpg"],
+    videos: ["https://www.youtube.com/embed/example_video_id4"],
+  },
+  uppy: {
+    title: "Uppy - Boost Your Child's Learning with Uppy",
+    description:
+      "Thousands of content scientifically created especially for children by experts as a result of 3 years of study are in a single application. Google Play App Store App Gallery Uppy Web",
+    images: ["/img/uppy1.jpg", "/img/uppy2.jpg"],
+    videos: ["https://www.youtube.com/embed/example_video_id4"],
+  },
+  sebit: {
+    title:
+      "Sebit VCloud - INDIVIDUAL LEARNING PLATFORM THAT GOES BEYOND CLASSROOM WALLS",
+    description:
+      "Sebit VCloud, which started a brand new era in educational technologies, was designed to rapidly transform your educational environment as Turkey's first 'Next Generation Educational Sharing and Collaboration Platform'.",
+    images: ["/img/sebit1.jpg", "/img/sebit2.jpg"],
+    videos: ["https://www.youtube.com/embed/example_video_id4"],
+  },
+};
 
 const Services = () => {
-  const [activeTab, setActiveTab] = useState("All");
-
-  const filteredCards =
-    activeTab === "All"
-      ? cards
-      : cards.filter((card) => card.category === activeTab);
+  const [activeTab, setActiveTab] = useState("okulaile");
+  const activeCard = activeTab === "" ? null : cards[activeTab];
 
   return (
     <div className="bg-[#091621] py-20">
       <Wrapper>
         <div className="text-white p-6" id="services">
-          <h1 className="text-4xl font-bold">Serviclar</h1>
+          <h1 className="text-4xl font-bold">Platformalar</h1>
           <p className="text-gray-400 mt-2 max-w-xl">
             Kasbga yo'naltirilgan praktikumlar yordamida eng tez va samarali
             yo‘llar bilan mutaxassislar qatoriga qo‘shiling.
@@ -66,32 +100,37 @@ const Services = () => {
             ))}
           </div>
 
-          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 mt-6">
-            {filteredCards.map((card) => (
-              <div
-                key={card.id}
-                className="relative p-6 rounded-2xl border border-transparent transition-all duration-300 hover:border-blue-500 h-[300px]"
-                style={{
-                  background: "rgba(255, 255, 255, 0.05)",
-                  boxShadow: "0px 0px 10px rgba(0, 162, 255, 0.5)",
-                }}
-              >
-                <h3 className="text-xl font-semibold">{card.title}</h3>
-                <button className="text-blue-400 mt-4 flex items-center gap-1">
-                  BATAFSIL →
-                </button>
-                <img
-                  src={card.image}
-                  alt={card.title}
-                  className="w-52 h-52 absolute bottom-4 right-4 rounded-lg transition-transform duration-300 hover:scale-105"
-                  style={{
-                    filter: "drop-shadow(0px 0px 15px rgba(0, 162, 255, 0.9))",
-                    mixBlendMode: "screen",
-                  }}
-                />
+          {activeCard && (
+            <div className="mt-10 p-8 bg-gray-900 rounded-xl shadow-lg">
+              <h3 className="text-2xl font-semibold text-white">
+                {activeCard.title}
+              </h3>
+              <p className="text-gray-300 mt-4">{activeCard.description}</p>
+              <div className="mt-6 grid grid-cols-1 sm:grid-cols-2 gap-4">
+                {activeCard.images.map((img, index) => (
+                  <img
+                    key={index}
+                    src={img}
+                    alt={activeCard.title}
+                    className="w-full h-96 object-cover rounded-lg shadow-lg"
+                  />
+                ))}
               </div>
-            ))}
-          </div>
+              <div className="mt-6 grid grid-cols-1 sm:grid-cols-2 gap-4">
+                {activeCard.videos.map((video, index) => (
+                  <iframe
+                    key={index}
+                    className="w-full h-72 rounded-lg"
+                    src={video}
+                    title={activeCard.title}
+                    frameBorder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowFullScreen
+                  ></iframe>
+                ))}
+              </div>
+            </div>
+          )}
         </div>
       </Wrapper>
     </div>

@@ -342,7 +342,7 @@ const Navbar = () => {
     <>
       <div className="bg-white fixed w-full z-[999]">
         <Wrapper>
-          <div className="flex flex-row items-center px-2 py-4 gap-3">
+          <div className="flex flex-row items-center  py-4 gap-3">
             <div className="w-full">
               <div className="flex items-center justify-between w-full gap-6">
                 {/* Logo */}
@@ -357,9 +357,18 @@ const Navbar = () => {
                 </div>
 
                 <div className="flex items-center gap-8">
-                  <div className="relative hidden lg:flex gap-4 lg:gap-6 text-gray-700 text-sm text-center p-3  px-6 ">
+                  <div className="relative hidden lg:flex gap-4 lg:gap-6 text-gray-700 text-sm text-center p-3">
                     <ScrollLink
                       to="services"
+                      smooth={true}
+                      duration={500}
+                      className="hover:text-[#0556FF] transition text-[17px] font-bold cursor-pointer"
+                    >
+                      Platformalar
+                    </ScrollLink>
+
+                    <ScrollLink
+                      to="xizmatlar"
                       smooth={true}
                       duration={500}
                       className="hover:text-[#0556FF] transition text-[17px] font-bold cursor-pointer"
@@ -380,9 +389,9 @@ const Navbar = () => {
                     </a>
                   </div>
                   {/* services */}
-                  <div className="hidden lg:flex items-center">
-                    <div className="hidden lg:flex gap-4">
-                      <Dropdown
+                  {/* <div className="hidden lg:flex items-center"> */}
+                  {/* <div className="hidden lg:flex gap-4"> */}
+                  {/* <Dropdown
                         overlay={languageMenu}
                         trigger={["hover"]}
                         placement="bottom"
@@ -401,8 +410,8 @@ const Navbar = () => {
                             size={15}
                           />
                         </div>
-                      </Dropdown>
-                      {/* <Dropdown
+                      </Dropdown> */}
+                  {/* <Dropdown
                         trigger={["hover"]}
                         menu={{
                           items,
@@ -426,8 +435,8 @@ const Navbar = () => {
                           </Button>
                         </a>
                       </Dropdown> */}
-                    </div>
-                  </div>
+                  {/* </div> */}
+                  {/* </div> */}
                 </div>
               </div>
             </div>
