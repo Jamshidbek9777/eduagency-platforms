@@ -10,7 +10,7 @@ const Footer = () => {
           <div className="flex justify-between items-center my-10">
             <div>
               <h2 className="text-white text-xl font-semibold mb-4">
-                Kasb tanlashdagi birinchi yordamni beramiz!
+                EduAgency, ta'lim xizmatlarini ko'rsatamiz
               </h2>
               <p className="text-gray-400 text-sm">
                 Ma’lumotlaringizni qoldiring va sizga tez fursatda aloqaga

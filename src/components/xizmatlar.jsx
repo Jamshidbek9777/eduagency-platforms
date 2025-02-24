@@ -1,30 +1,26 @@
 import React, { useState } from "react";
 import Wrapper from "../layout/wrapper";
-import {
-  FaBookmark,
-  FaChalkboardTeacher,
-  FaUserGraduate,
-} from "react-icons/fa";
+import { FaBookmark, FaChalkboardTeacher } from "react-icons/fa";
 import { LuBrain } from "react-icons/lu";
 import { MdLooks } from "react-icons/md";
 import { IoGameController } from "react-icons/io5";
 import { GiTeacher } from "react-icons/gi";
 
 const categories = [
-  { key: "models", label: "Ta'lim modellari" },
-  { key: "design", label: "Ta'lim dizayni" },
+  { key: "models", label: "Raqamli ta'lim modellari" },
+  { key: "design", label: "Aqlli sinf" },
   { key: "trainings", label: "Treninglar" },
 ];
 
 const cards = {
   models: {
-    title: "Ta'lim modellari",
+    title: "Raqamli ta'lim modellari",
     description: "Ta'lim modellari orqali o'z o'quv dasturingizni yaxshilang.",
     images: ["/img/montessori1.webp", "/img/montessori2.jpeg"],
     imgDesc: ["Montessori ta'lim modeli", "Bilsem ta'lim modeli"],
   },
   design: {
-    title: "Ta'lim dizayni",
+    title: "Aqlli sinf",
     description:
       "Zamonaviy ta'lim dizayni bilan samarali o'qitish jarayonini yarating.",
     images: [

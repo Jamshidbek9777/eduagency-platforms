@@ -20,7 +20,7 @@ const cards = {
     images: ["/img/okulaile1.jpg", "/img/okulaile2.jpg"],
     videos: [
       "https://www.youtube.com/embed/2xKsjJfT3YY",
-      "https://www.youtube.com/embed/2xKsjJfT3YY",
+      "https://www.youtube.com/embed/NowOxndRqLs",
     ],
   },
   future_astronaut: {
@@ -29,8 +29,8 @@ const cards = {
       "4-10 yoshdagi bolalar uchun mo'ljallangan ajoyib kosmik sarguzashtni boshlang! Future Astronaut — bu bolalar uchun kosmos va fan atrofida sevgi uyg'otadigan, o'yinlar, interaktiv missiyalar va qiziqarli ilmiy tajribalarni birlashtirgan eng mukammal ta'lim ilovasi. 🚀 Qiziqarli missiyalar bilan Koinotni kashf eting",
     images: ["/img/9.jpg", "/img/12.jpg"],
     videos: [
-      "https://www.youtube.com/embed/example_video_id2",
-      "https://www.youtube.com/embed/example_video_id3",
+      "https://www.youtube.com/embed/5a6VH1m6BoA",
+      // "https://www.youtube.com/embed/example_video_id3",
     ],
   },
   mental_up: {
@@ -38,28 +38,28 @@ const cards = {
     description:
       "4-13 yoshdagi bolalar va hatto kattalar uchun kognitiv qobiliyatlarni rivojlantirishga mo'ljallangan gamifikatsiyalangan mashqlar — barchasi bitta ilovada, kuchli tomonlar va yaxshilanish kerak bo'lgan sohalar ko'rsatilgan hisobotlar bilan birga!",
     images: ["/img/mup1.png", "/img/mup2.png"],
-    videos: ["https://www.youtube.com/embed/example_video_id4"],
+    videos: ["https://www.youtube.com/embed/R-Y5JDOtSXE"],
   },
   piagmo: {
     title: "Piagmo - O‘yin orqali o‘rganish va kashf etish!",
     description:
       "Piagmo Technology kompaniyasida biz o‘yin o‘rganishning asosidir deb hisoblaymiz. Montessori pedagogikasidan ilhomlanib, bolalarning tabiiy qiziqishi va kashf etishga bo‘lgan sevgisini rivojlantiruvchi mobil o‘yinlar barpo etamiz. Bizning sayohatimiz oddiy g‘oya bilan boshlandi: ta’lim va qiziqarli o‘yinlarni yosh onglar uchun oson va jalb etuvchi tarzda birlashtirish.",
     images: ["/img/piagmo1.webp", "/img/piagmo2.webp"],
-    videos: ["https://www.youtube.com/embed/example_video_id4"],
+    videos: ["https://www.youtube.com/embed/grCf4NhnYZ8"],
   },
   adaptive: {
     title: "Adaptive cirriculum - welcome to new way of learning!",
     description:
       "With Adaptive Curriculum, you can enhance your Middle or High School curriculum with interactive, 100% online instruction that answers the question for your students: `Why do I need to know this?`",
     images: ["/img/adaptive1.jpg", "/img/adaptive2.jpg"],
-    videos: ["https://www.youtube.com/embed/example_video_id4"],
+    videos: ["https://www.youtube.com/embed/mrfs_eAR2r4"],
   },
   uppy: {
     title: "Uppy - Boost Your Child's Learning with Uppy",
     description:
       "Thousands of content scientifically created especially for children by experts as a result of 3 years of study are in a single application. Google Play App Store App Gallery Uppy Web",
     images: ["/img/uppy1.jpg", "/img/uppy2.jpg"],
-    videos: ["https://www.youtube.com/embed/example_video_id4"],
+    // videos: ["https://www.youtube.com/embed/example_video_id4"],
   },
   sebit: {
     title:
@@ -67,7 +67,7 @@ const cards = {
     description:
       "Sebit VCloud, which started a brand new era in educational technologies, was designed to rapidly transform your educational environment as Turkey's first 'Next Generation Educational Sharing and Collaboration Platform'.",
     images: ["/img/sebit1.jpg", "/img/sebit2.jpg"],
-    videos: ["https://www.youtube.com/embed/example_video_id4"],
+    videos: ["https://www.youtube.com/embed/XubQF9sVqbg"],
   },
 };
 
@@ -80,10 +80,6 @@ const Services = () => {
       <Wrapper>
         <div className="text-white p-6" id="services">
           <h1 className="text-4xl font-bold">Platformalar</h1>
-          <p className="text-gray-400 mt-2 max-w-xl">
-            Kasbga yo'naltirilgan praktikumlar yordamida eng tez va samarali
-            yo‘llar bilan mutaxassislar qatoriga qo‘shiling.
-          </p>
           <div className="flex gap-2 mt-6 flex-wrap">
             {categories.map((category) => (
               <button
@@ -117,7 +113,7 @@ const Services = () => {
                 ))}
               </div>
               <div className="mt-6 grid grid-cols-1 sm:grid-cols-2 gap-4">
-                {activeCard.videos.map((video, index) => (
+                {activeCard?.videos?.map((video, index) => (
                   <iframe
                     key={index}
                     className="w-full h-72 rounded-lg"
