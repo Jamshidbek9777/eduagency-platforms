@@ -7,6 +7,7 @@ import Services from "./components/services";
 import Why from "./components/why";
 import Xizmatlar from "./components/xizmatlar";
 import Comments from "./components/comments";
+import Tours from "./components/tour";
 
 function App() {
   return (
@@ -22,6 +23,9 @@ function App() {
         </Element>
         <Element name="xizmatlar">
           <Xizmatlar />
+        </Element>
+        <Element name="tours">
+          <Tours />
         </Element>
         <Element name="comments">
           <Comments />

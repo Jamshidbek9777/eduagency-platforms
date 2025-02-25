@@ -381,12 +381,14 @@ const Navbar = () => {
                     >
                       Raqamli platformalar
                     </a> */}
-                    <a
-                      href="/tours"
+                    <ScrollLink
+                      to="tours"
+                      smooth={true}
+                      duration={500}
                       className="hover:text-[#0556FF] transition text-[17px] font-bold cursor-pointer"
                     >
-                      TeknoTour
-                    </a>
+                      Akademik Tur
+                    </ScrollLink>
                   </div>
                   {/* services */}
                   {/* <div className="hidden lg:flex items-center"> */}
