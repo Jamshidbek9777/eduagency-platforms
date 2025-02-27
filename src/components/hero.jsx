@@ -2,6 +2,7 @@ import Wrapper from "../layout/wrapper.jsx";
 import { useContext } from "react";
 import { LanguageContext } from "../context/language.jsx";
 import { FaCode } from "react-icons/fa";
+import { getText } from "../languages/index.js";
 
 const HeroSection = () => {
   const { selectedLanguage } = useContext(LanguageContext);
@@ -12,14 +13,13 @@ const HeroSection = () => {
         <div className="bg-[#d8f0ed] flex flex-col md:flex-row w-full h-auto md:h-[600px] p-6 md:p-16 justify-between items-center rounded-lg gap-6 md:gap-0">
           <div className="max-w-xl text-center md:text-left">
             <p className="text-blue-500 uppercase text-lg font-semibold">
-              EduAgency xizmatlari vebsayti
+              {getText("hero1")}
             </p>
             <h1 className="text-4xl md:text-6xl font-bold text-gray-900 mt-2 leading-tight">
-              Ta'lim xizmatlarini <br className="hidden md:inline" />
-              ko'rsatamiz
+              {getText("hero2")}
             </h1>
             <button className="mt-6 bg-blue-500 text-white px-6 py-3 rounded-lg text-lg font-medium shadow-md hover:bg-blue-600 transition">
-              Ko'proq o'rganish
+              {getText("hero3")}
             </button>
           </div>
 

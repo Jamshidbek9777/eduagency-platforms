@@ -1,5 +1,7 @@
-import React, { useState } from "react";
+import React, { useContext, useState } from "react";
 import Wrapper from "../layout/wrapper";
+import { getText } from "../languages/index";
+import { LanguageContext } from "../context/language";
 
 const categories = [
   // { key: "All", label: "Barcha platformalar" },
@@ -14,9 +16,8 @@ const categories = [
 
 const cards = {
   okulaile: {
-    title: "OkulAile - Ta'lim platformasi",
-    description:
-      "OkulAilebu ta’lim muassasalari boshqaruvini osonlashtirish uchun ishlab chiqilgan keng qamrovli maktab avtomatlashtirish platformasidir.",
+    title: `OkulAile - ${getText("pl1")}`,
+    description: getText("pl2"),
     images: ["/img/okulaile1.jpg", "/img/okulaile2.jpg"],
     videos: [
       "https://www.youtube.com/embed/2xKsjJfT3YY",
@@ -24,9 +25,8 @@ const cards = {
     ],
   },
   future_astronaut: {
-    title: "Future Astronaut - Kosmik Ilm",
-    description:
-      "4-10 yoshdagi bolalar uchun mo'ljallangan ajoyib kosmik sarguzashtni boshlang! Future Astronaut — bu bolalar uchun kosmos va fan atrofida sevgi uyg'otadigan, o'yinlar, interaktiv missiyalar va qiziqarli ilmiy tajribalarni birlashtirgan eng mukammal ta'lim ilovasi. 🚀 Qiziqarli missiyalar bilan Koinotni kashf eting",
+    title: `Future Astronaut - ${getText("pl3")}`,
+    description: getText("pl4"),
     images: ["/img/9.jpg", "/img/12.jpg"],
     videos: [
       "https://www.youtube.com/embed/5a6VH1m6BoA",
@@ -34,38 +34,32 @@ const cards = {
     ],
   },
   mental_up: {
-    title: "Mental Up - Aqlni rivojlantirish",
-    description:
-      "4-13 yoshdagi bolalar va hatto kattalar uchun kognitiv qobiliyatlarni rivojlantirishga mo'ljallangan gamifikatsiyalangan mashqlar — barchasi bitta ilovada, kuchli tomonlar va yaxshilanish kerak bo'lgan sohalar ko'rsatilgan hisobotlar bilan birga!",
+    title: `Mental Up - ${getText("pl5")}`,
+    description: getText("pl6"),
     images: ["/img/mup1.png", "/img/mup2.png"],
     videos: ["https://www.youtube.com/embed/R-Y5JDOtSXE"],
   },
   piagmo: {
-    title: "Piagmo - O‘yin orqali o‘rganish va kashf etish!",
-    description:
-      "Piagmo Technology kompaniyasida biz o‘yin o‘rganishning asosidir deb hisoblaymiz. Montessori pedagogikasidan ilhomlanib, bolalarning tabiiy qiziqishi va kashf etishga bo‘lgan sevgisini rivojlantiruvchi mobil o‘yinlar barpo etamiz. Bizning sayohatimiz oddiy g‘oya bilan boshlandi: ta’lim va qiziqarli o‘yinlarni yosh onglar uchun oson va jalb etuvchi tarzda birlashtirish.",
+    title: `Piagmo - ${getText("pl7")}`,
+    description: getText("pl8"),
     images: ["/img/piagmo1.webp", "/img/piagmo2.webp"],
     videos: ["https://www.youtube.com/embed/grCf4NhnYZ8"],
   },
   adaptive: {
-    title: "Adaptive cirriculum - welcome to new way of learning!",
-    description:
-      "With Adaptive Curriculum, you can enhance your Middle or High School curriculum with interactive, 100% online instruction that answers the question for your students: `Why do I need to know this?`",
+    title: `Adaptive cirriculum - ${getText("pl9")}`,
+    description: getText("pl10"),
     images: ["/img/adaptive1.jpg", "/img/adaptive2.jpg"],
     videos: ["https://www.youtube.com/embed/mrfs_eAR2r4"],
   },
   uppy: {
-    title: "Uppy - Boost Your Child's Learning with Uppy",
-    description:
-      "Thousands of content scientifically created especially for children by experts as a result of 3 years of study are in a single application. Google Play App Store App Gallery Uppy Web",
+    title: `Uppy - ${getText("pl11")}`,
+    description: getText("pl12"),
     images: ["/img/uppy1.jpg", "/img/uppy2.jpg"],
     // videos: ["https://www.youtube.com/embed/example_video_id4"],
   },
   sebit: {
-    title:
-      "Sebit VCloud - INDIVIDUAL LEARNING PLATFORM THAT GOES BEYOND CLASSROOM WALLS",
-    description:
-      "Sebit VCloud, which started a brand new era in educational technologies, was designed to rapidly transform your educational environment as Turkey's first 'Next Generation Educational Sharing and Collaboration Platform'.",
+    title: `Sebit VCloud - ${getText("pl13")} `,
+    description: getText("pl14"),
     images: ["/img/sebit1.jpg", "/img/sebit2.jpg"],
     videos: ["https://www.youtube.com/embed/XubQF9sVqbg"],
   },
@@ -74,12 +68,13 @@ const cards = {
 const Services = () => {
   const [activeTab, setActiveTab] = useState("okulaile");
   const activeCard = activeTab === "" ? null : cards[activeTab];
+  const { selectedLanguage } = useContext(LanguageContext);
 
   return (
     <div className="bg-[#091621] py-20">
       <Wrapper>
         <div className="text-white p-6" id="services">
-          <h1 className="text-4xl font-bold">Platformalar</h1>
+          <h1 className="text-4xl font-bold">{getText("navbar1")}</h1>
           <div className="flex gap-2 mt-6 flex-wrap">
             {categories.map((category) => (
               <button

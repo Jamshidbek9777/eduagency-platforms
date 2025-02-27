@@ -28,32 +28,6 @@ const Navbar = () => {
     setMenuOpen((prev) => !prev);
   };
 
-  const items = [
-    {
-      key: "1",
-      label: <Link to={"/kindergartens"}>{getText("servicesText1")}</Link>,
-    },
-    {
-      key: "2",
-      label: <Link to={"/elementary-school"}>{getText("servicesText2")}</Link>,
-    },
-    {
-      key: "3",
-      label: (
-        <Link to={"/intermediate-school"}>{getText("servicesText3")}</Link>
-      ),
-    },
-    {
-      key: "4",
-      label: <Link to={"/high-schools"}>{getText("servicesText4")}</Link>,
-    },
-    {
-      key: "5",
-      label: <Link to={"/universities"}>{getText("servicesText5")}</Link>,
-    },
-  ];
-
-  //language items
   const languageMenu = (
     <Menu
       onClick={({ key }) => changeLanguage(key)}
@@ -113,69 +87,6 @@ const Navbar = () => {
       ]}
     />
   );
-
-  const nav1Items = [
-    {
-      key: "1",
-      label: (
-        <a className="text-[16px]" href="/eduModels">
-          {getText("navbar5")}
-        </a>
-      ),
-    },
-    {
-      key: "2",
-      label: (
-        <a className="text-[16px]" href="/education-design">
-          {getText("navbar6")}
-        </a>
-      ),
-    },
-
-    {
-      key: "4",
-      label: (
-        <a className="text-[16px]" href="/teacherTrainings">
-          {getText("navbar9")}
-        </a>
-      ),
-    },
-  ];
-
-  const menu1 = {
-    items: nav1Items,
-  };
-
-  const nav3Items = [
-    {
-      key: "3",
-      label: (
-        <Link className="text-[16px]" to="/management">
-          Boshqaruv tizimlari
-        </Link>
-      ),
-    },
-    {
-      key: "4",
-      label: (
-        <Link className="text-[16px]" to="/e-platforms">
-          Elektron talim platformalari
-        </Link>
-      ),
-    },
-    {
-      key: "5",
-      label: (
-        <Link className="text-[16px]" to="/e-games">
-          E-oyinlar
-        </Link>
-      ),
-    },
-  ];
-
-  const menu3 = {
-    items: nav3Items,
-  };
 
   const menuItems = [
     {
@@ -364,7 +275,7 @@ const Navbar = () => {
                       duration={500}
                       className="hover:text-[#0556FF] transition text-[17px] font-bold cursor-pointer"
                     >
-                      Platformalar
+                      {getText("navbar1")}
                     </ScrollLink>
 
                     <ScrollLink
@@ -373,14 +284,9 @@ const Navbar = () => {
                       duration={500}
                       className="hover:text-[#0556FF] transition text-[17px] font-bold cursor-pointer"
                     >
-                      Xizmatlar
+                      {getText("navbar2")}
                     </ScrollLink>
-                    {/* <a
-                      href="/digital"
-                      className="hover:text-[#0556FF] transition text-[17px] font-bold cursor-pointer"
-                    >
-                      Raqamli platformalar
-                    </a> */}
+
                     <ScrollLink
                       to="tours"
                       smooth={true}
@@ -390,29 +296,28 @@ const Navbar = () => {
                       Akademik Tur
                     </ScrollLink>
                   </div>
-                  {/* services */}
                   {/* <div className="hidden lg:flex items-center"> */}
                   {/* <div className="hidden lg:flex gap-4"> */}
-                  {/* <Dropdown
-                        overlay={languageMenu}
-                        trigger={["hover"]}
-                        placement="bottom"
-                      >
-                        <div className="flex items-center gap-[5px] cursor-pointer">
-                          <img
-                            src={selectedFlag}
-                            style={{ width: "20px", objectFit: "cover" }}
-                            alt="Selected Language"
-                          />
-                          <span className="text-black text-sm font-bold">
-                            {selectedLanguage.toUpperCase()}
-                          </span>
-                          <IoIosArrowDown
-                            className="text-black text-sm"
-                            size={15}
-                          />
-                        </div>
-                      </Dropdown> */}
+                  <Dropdown
+                    overlay={languageMenu}
+                    trigger={["hover"]}
+                    placement="bottom"
+                  >
+                    <div className="flex items-center gap-[5px] cursor-pointer">
+                      <img
+                        src={selectedFlag}
+                        style={{ width: "20px", objectFit: "cover" }}
+                        alt="Selected Language"
+                      />
+                      <span className="text-black text-sm font-bold">
+                        {selectedLanguage.toUpperCase()}
+                      </span>
+                      <IoIosArrowDown
+                        className="text-black text-sm"
+                        size={15}
+                      />
+                    </div>
+                  </Dropdown>
                   {/* <Dropdown
                         trigger={["hover"]}
                         menu={{

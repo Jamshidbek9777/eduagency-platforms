@@ -1,8 +1,12 @@
-import React from "react";
+import React, { useContext } from "react";
 import { FaTelegramPlane } from "react-icons/fa";
 import Wrapper from "../layout/wrapper";
+import { getText } from "../languages";
+import { LanguageContext } from "../context/language";
 
 const Footer = () => {
+  const { selectedLanguage } = useContext(LanguageContext);
+
   return (
     <footer className="bg-[#111827] text-gray-300 py-12">
       <Wrapper>
@@ -10,22 +14,19 @@ const Footer = () => {
           <div className="flex justify-between items-center my-10">
             <div>
               <h2 className="text-white text-xl font-semibold mb-4">
-                EduAgency, ta'lim xizmatlarini ko'rsatamiz
+                {getText("f1")}
               </h2>
-              <p className="text-gray-400 text-sm">
-                Ma’lumotlaringizni qoldiring va sizga tez fursatda aloqaga
-                chiqamiz.
-              </p>
+              <p className="text-gray-400 text-sm">{getText("f2")}</p>
             </div>
 
             <div className="bg-[#1F2937] p-6 rounded-lg shadow-lg">
               <h3 className="text-lg font-semibold text-white mb-4">
-                Biz bilan bog‘lanish
+                {getText("f3")}
               </h3>
               <form>
                 <div className="mb-4">
                   <label className="block text-gray-400 text-sm mb-2">
-                    Ismingiz
+                    {getText("f4")}
                   </label>
                   <input
                     type="text"
@@ -35,7 +36,7 @@ const Footer = () => {
                 </div>
                 <div className="mb-4">
                   <label className="block text-gray-400 text-sm mb-2">
-                    Telefon raqamingiz
+                    {getText("f5")}
                   </label>
                   <input
                     type="tel"
@@ -45,7 +46,7 @@ const Footer = () => {
                 </div>
                 <div className="mb-4">
                   <label className="block text-gray-400 text-sm mb-2">
-                    Telegram username
+                    {getText("f6")}
                   </label>
                   <div className="flex items-center bg-gray-700 rounded px-4 py-2">
                     <FaTelegramPlane className="text-blue-400 mr-2" />
@@ -57,20 +58,8 @@ const Footer = () => {
                   </div>
                 </div>
                 <button className="w-full bg-blue-500 hover:bg-blue-600 transition px-4 py-2 rounded-lg font-semibold">
-                  Jo‘natish
+                  {getText("f7")}
                 </button>
-                <p className="text-gray-500 text-xs mt-3 text-center">
-                  Tugmani bosib,{" "}
-                  <a href="#" className="text-blue-400">
-                    maxfiylik siyosati
-                  </a>{" "}
-                  va
-                  <a href="#" className="text-blue-400">
-                    {" "}
-                    foydalanuvchi shartnomasini
-                  </a>{" "}
-                  qabul qilgan bo‘lasiz.
-                </p>
               </form>
             </div>
           </div>
@@ -85,9 +74,9 @@ const Footer = () => {
                 className="h-10 mb-4"
               />
               <p className="text-gray-400 text-sm">
-                Toshkent shahar, Mirzo Ulug‘bek tumani, Muminov ko‘chasi, 4A
+                Shayx Zayniddin ko'chasi, 2A, Shayxontohur tumani, Toshkent
               </p>
-              <p className="text-lg font-semibold mt-2">+998 (78) 113 62 72</p>
+              <p className="text-lg font-semibold mt-2">+998 (33) 469 11 01</p>
             </div>
 
             {/* Links */}
@@ -107,60 +96,6 @@ const Footer = () => {
                   </li>
                 </ul>
               </div>
-              <div>
-                <h3 className="text-white font-semibold mb-3">Kompaniya</h3>
-                <ul className="space-y-2">
-                  <li>
-                    <a href="#" className="hover:text-blue-400 transition">
-                      Biz haqimizda
-                    </a>
-                  </li>
-                  <li>
-                    <a href="#" className="hover:text-blue-400 transition">
-                      Blog
-                    </a>
-                  </li>
-                  <li>
-                    <a href="#" className="hover:text-blue-400 transition">
-                      Maxfiylik siyosati
-                    </a>
-                  </li>
-                </ul>
-              </div>
-              <div>
-                <h3 className="text-white font-semibold mb-3">Ma’lumot</h3>
-                <ul className="space-y-2">
-                  <li>
-                    <a href="#" className="hover:text-blue-400 transition">
-                      Bog‘lanish
-                    </a>
-                  </li>
-                  <li>
-                    <a href="#" className="hover:text-blue-400 transition">
-                      FAQ
-                    </a>
-                  </li>
-                </ul>
-              </div>
-            </div>
-
-            {/* Certificates */}
-            <div className="flex space-x-4 mt-6 md:mt-0">
-              <img
-                src="/img/cert1.png"
-                alt="Tasdiqnoma"
-                className="w-20 h-20 object-cover rounded-lg"
-              />
-              <img
-                src="/img/cert2.png"
-                alt="Guvohnoma"
-                className="w-20 h-20 object-cover rounded-lg"
-              />
-              <img
-                src="/img/cert3.png"
-                alt="IT PARK rezidenti"
-                className="w-20 h-20 object-cover rounded-lg"
-              />
             </div>
           </div>
         </div>

@@ -27,9 +27,9 @@ function App() {
         <Element name="tours">
           <Tours />
         </Element>
-        <Element name="comments">
+        {/* <Element name="comments">
           <Comments />
-        </Element>
+        </Element> */}
         <Partners />
       </div>
     </>

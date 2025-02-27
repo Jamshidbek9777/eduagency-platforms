@@ -1,10 +1,12 @@
-import React, { useState } from "react";
+import React, { useContext, useState } from "react";
 import Wrapper from "../layout/wrapper";
 import { FaBookmark, FaChalkboardTeacher } from "react-icons/fa";
 import { LuBrain } from "react-icons/lu";
 import { MdLooks } from "react-icons/md";
 import { IoGameController } from "react-icons/io5";
 import { GiTeacher } from "react-icons/gi";
+import { getText } from "../languages";
+import { LanguageContext } from "../context/language";
 
 const categories = [
   { key: "models", label: "Raqamli ta'lim modellari" },
@@ -14,55 +16,49 @@ const categories = [
 
 const cards = {
   models: {
-    title: "Raqamli ta'lim modellari",
-    description: "Ta'lim modellari orqali o'z o'quv dasturingizni yaxshilang.",
+    title: getText("x1"),
+    description: getText("x5"),
     images: ["/img/montessori1.webp", "/img/montessori2.jpeg"],
-    imgDesc: ["Montessori ta'lim modeli", "Bilsem ta'lim modeli"],
+    imgDesc: [getText("x6"), , getText("x7")],
   },
   design: {
-    title: "Aqlli sinf",
-    description:
-      "Zamonaviy ta'lim dizayni bilan samarali o'qitish jarayonini yarating.",
+    title: getText("x2"),
+    description: getText("x8"),
     images: [
       "/img/classConcepts1.jpg",
       "/img/lab-main.png",
       "/img/melodyRoom.jpg",
       "/img/stemRoom.jpg",
     ],
-    imgDesc: [
-      "Active learning center",
-      "Labaratory Rooms",
-      "Melody Rooms",
-      "STEM Room",
-    ],
+    imgDesc: [getText("x9"), getText("x10"), getText("x11"), getText("x12")],
   },
   trainings: {
-    title: "Treninglar",
-    description: "O'qituvchilar uchun maxsus trening dasturlari.",
+    title: getText("x3"),
+    description: getText("x13"),
     icons: [
       {
         icon: <LuBrain size={50} className="text-blue-600" />,
-        label: "Miya va o'rganish",
+        label: getText("x14"),
       },
       {
         icon: <FaChalkboardTeacher size={50} className="text-red-600" />,
-        label: "Global o'qituvchi",
+        label: getText("x15"),
       },
       {
         icon: <MdLooks size={50} className="text-yellow-600" />,
-        label: "Diqqatni rivojlantiruvchi texnikalar",
+        label: getText("x16"),
       },
       {
         icon: <IoGameController size={50} className="text-green-600" />,
-        label: "O'yinlar bilan ishlash",
+        label: getText("x17"),
       },
       {
         icon: <GiTeacher size={50} className="text-green-600" />,
-        label: "Samarali o'qitish",
+        label: getText("x18"),
       },
       {
         icon: <FaBookmark size={50} className="text-black -600" />,
-        label: "Portfel baholash",
+        label: getText("x19"),
       },
     ],
   },
@@ -71,6 +67,7 @@ const cards = {
 const Xizmatlar = () => {
   const [activeTab, setActiveTab] = useState("models");
   const activeCard = cards[activeTab];
+  const { selectedLanguage } = useContext(LanguageContext);
 
   return (
     <Wrapper>

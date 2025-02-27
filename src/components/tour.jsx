@@ -1,15 +1,18 @@
-import React from "react";
+import React, { useContext } from "react";
 import Wrapper from "../layout/wrapper";
+import { getText } from "../languages";
+import { LanguageContext } from "../context/language";
 
 const Tours = () => {
+  const { selectedLanguage } = useContext(LanguageContext);
+
   return (
     <div className="bg-[#d8f0ed] py-20 text-white" id="tours">
       <Wrapper>
         <div className="text-center mb-16">
           <h1 className="text-4xl text-black font-bold mt-10">Akademik Tur</h1>
           <p className="text-gray-700 mt-4 mx-auto text-lg max-w-2xl">
-            Texnologiya va fan olamiga sayohat qiling! Eng innovatsion va
-            qiziqarli tadbirlarda qatnashing va yangi bilimlarga ega bo'ling.
+            {getText("tur1")}
           </p>
         </div>
 
@@ -30,9 +33,6 @@ const Tours = () => {
                 {tour.icon} {tour.title}
               </h3>
               <p className="text-gray-600 mt-3 text-lg">{tour.description}</p>
-              {/* <button className="mt-5 px-6 py-2 bg-blue-500 text-white rounded-full font-medium hover:bg-blue-400 transition-all">
-                Batafsil →
-              </button> */}
             </div>
           ))}
         </div>
@@ -44,17 +44,15 @@ const Tours = () => {
 const tourData = [
   {
     image: "/img/space1.jpg",
-    title: "Space Camp Türkiye",
+    title: "Space Camp Turkiye",
     icon: "🚀",
-    description:
-      "Kosmik tadqiqotlar va astronavtlar hayotini o'rganish imkoniyati! Haqiqiy fazogirlar tajribasini his eting.",
+    description: getText("tur2"),
   },
   {
     image: "/img/technofestBg.jpg",
-    title: "Teknofest Sayohati",
+    title: getText("tur3"),
     icon: "🎡",
-    description:
-      "Dunyodagi eng katta texnologiya festivallaridan biri! Startaplar, innovatsiyalar va turli ko'rgazmalar bilan tanishing.",
+    description: getText("tur4"),
   },
 ];
 

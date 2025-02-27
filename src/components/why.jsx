@@ -1,7 +1,10 @@
-import React from "react";
+import React, { useContext } from "react";
 import Wrapper from "../layout/wrapper";
-
+import { getText } from "../languages/index";
+import { LanguageContext } from "../context/language";
 const Why = () => {
+  const { selectedLanguage } = useContext(LanguageContext);
+
   return (
     <Wrapper>
       <div className="py-16 my-10 bg-gradient-to-r from-[#00264d] to-[#003366] text-white p-8 rounded-xl  flex flex-col md:flex-row items-center justify-between w-full  mx-auto shadow-xl relative overflow-hidden">
@@ -10,16 +13,12 @@ const Why = () => {
             Eduagency
           </p>
           <h2 className="text-3xl md:text-4xl font-extrabold mt-3 leading-tight">
-            Nima uchun <span className="text-blue-300">EduAgency</span> <br />
-            ni tanlash kerak
+            {getText("why1")}
           </h2>
-          <p className="text-gray-300 text-lg mt-2">
-            EduAgency xizmatlaridan foydalanish orqali o'zingiz uchun kerakli va
-            muhim <br />
-            bolgan xizmatlarni qolga kiritasiz
-          </p>
+          <p className="text-gray-300 text-lg mt-2">{getText("why2")}</p>
           <button className="mt-5 bg-blue-500 hover:bg-blue-600 transition-all px-5 py-3 rounded-full flex items-center text-lg font-semibold shadow-md hover:shadow-lg">
-            <span className="mr-2">▶</span> Video ko‘rish
+            <span className="mr-2">▶</span>
+            {getText("why3")}
           </button>
         </div>
 
