@@ -86,12 +86,12 @@ const Footer = () => {
                 <ul className="space-y-2">
                   <li>
                     <a href="#" className="hover:text-blue-400 transition">
-                      Kasblar
+                      Platformalar
                     </a>
                   </li>
                   <li>
                     <a href="#" className="hover:text-blue-400 transition">
-                      Kurslar
+                      Xizmatlar
                     </a>
                   </li>
                 </ul>

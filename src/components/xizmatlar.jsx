@@ -1,6 +1,11 @@
 import React, { useContext, useState } from "react";
 import Wrapper from "../layout/wrapper";
-import { FaBookmark, FaChalkboardTeacher } from "react-icons/fa";
+import {
+  FaBookmark,
+  FaChalkboardTeacher,
+  FaLaptopCode,
+  FaLightbulb,
+} from "react-icons/fa";
 import { LuBrain } from "react-icons/lu";
 import { MdLooks } from "react-icons/md";
 import { IoGameController } from "react-icons/io5";
@@ -12,7 +17,7 @@ const Xizmatlar = () => {
   const categories = [
     { key: "models", label: "Raqamli ta'lim modellari" },
     { key: "design", label: "Aqlli sinf" },
-    { key: "trainings", label: "Treninglar" },
+    { key: "trainings", label: "Dijital Öğretmenler" },
   ];
 
   const cards = {
@@ -46,33 +51,34 @@ const Xizmatlar = () => {
         getText("x24"),
       ],
     },
+
     trainings: {
       title: getText("x3"),
-      description: getText("x13"),
+      description: getText("x25"),
       icons: [
         {
           icon: <LuBrain size={50} className="text-blue-600" />,
-          label: getText("x14"),
+          label: getText("x26"),
         },
         {
           icon: <FaChalkboardTeacher size={50} className="text-red-600" />,
-          label: getText("x15"),
+          label: getText("x27"),
         },
         {
           icon: <MdLooks size={50} className="text-yellow-600" />,
-          label: getText("x16"),
+          label: getText("x28"),
         },
         {
           icon: <IoGameController size={50} className="text-green-600" />,
-          label: getText("x17"),
+          label: getText("x29"),
         },
         {
           icon: <GiTeacher size={50} className="text-green-600" />,
-          label: getText("x18"),
+          label: getText("x30"),
         },
         {
           icon: <FaBookmark size={50} className="text-black -600" />,
-          label: getText("x19"),
+          label: getText("x31"),
         },
       ],
     },
@@ -84,9 +90,56 @@ const Xizmatlar = () => {
   return (
     <Wrapper>
       <div id="xizmatlar" className="py-12 px-4 mx-auto">
-        <h1 className="text-4xl font-bold text-center text-gray-900">
-          Xizmatlar
-        </h1>
+        <Wrapper>
+          <div className="text-center">
+            <h1 className="text-4xl font-bold mb-4">
+              Dijital Modernizasyon Nedir?
+            </h1>
+            <p className="text-lg text-gray-800 mb-8">
+              Dijital modernizasyon, eğitimi ve öğrenme süreçlerini ileri
+              teknolojiyle destekleyerek daha etkili, erişilebilir ve verimli
+              hale getirme sürecidir. Akıllı sınıflar, dijital öğretmen araçları
+              ve bireyselleştirilmiş öğrenme modelleri ile geleceği bugünden
+              inşa ediyoruz.
+            </p>
+          </div>
+
+          <div className="grid md:grid-cols-3 gap-8 ">
+            <div className="bg-gray-800 rounded-2xl shadow-lg p-6 text-center">
+              <FaLaptopCode className="text-blue-400 text-5xl mx-auto mb-4" />
+              <h3 className="text-xl text-white font-semibold mb-2">
+                Dijital Eğitim Modeli
+              </h3>
+              <p className="text-gray-400 mb-4">
+                Öğrenme yönetim sistemleri, bireyselleştirilmiş içerikler ve
+                dijital ölçme araçlarıyla öğrencilerin kendi hızında öğrenmesini
+                sağlıyoruz.
+              </p>
+            </div>
+
+            <div className="bg-gray-800 rounded-2xl shadow-lg p-6 text-center">
+              <FaLightbulb className="text-yellow-400 text-5xl mx-auto mb-4" />
+              <h3 className="text-xl text-white font-semibold mb-2">
+                Akıllı Sınıflar
+              </h3>
+              <p className="text-gray-400 mb-4">
+                Artırılmış gerçeklik, akıllı tahtalar ve oyun tabanlı öğrenme
+                araçlarıyla sınıf ortamlarını yeniliyoruz.
+              </p>
+            </div>
+
+            <div className="bg-gray-800 rounded-2xl shadow-lg p-6 text-center">
+              <FaChalkboardTeacher className="text-green-400 text-5xl mx-auto mb-4" />
+              <h3 className="text-xl text-white font-semibold mb-2">
+                Dijital Öğretmenler
+              </h3>
+              <p className="text-gray-400 mb-4">
+                Yapay zeka destekli öğretim araçları ve interaktif eğitim
+                metotlarıyla öğretmenleri geleceğe hazırlıyoruz.
+              </p>
+            </div>
+          </div>
+        </Wrapper>
 
         <div className="flex gap-4 mt-8 justify-center">
           {categories.map((category) => (

@@ -4,7 +4,7 @@ export const uz = {
   navbar2: "Xizmatlar",
 
   hero1: "EduAgency xizmatlari vebsayti",
-  hero2: "Ta'lim xizmatlarini ko'rsatamiz",
+  hero2: "Raqamli modernizatsiya xizmatlari",
   hero3: "Ko'proq o'rganish",
 
   numbers1: "Bizning xizmatlardan foydalanganlar raqamlarda",
@@ -37,7 +37,7 @@ export const uz = {
 
   x1: "Raqami ta'lim modellari",
   x2: "Aqlli sinf",
-  x3: "Treninglar",
+  x3: "Raqamli o'qitish",
   x4: "Raqamli ta'lim modellari",
   x5: "Ta'lim modellari orqali o'z o'quv dasturingizni yaxshilang.",
   x6: "Montessori ta'lim modeli",

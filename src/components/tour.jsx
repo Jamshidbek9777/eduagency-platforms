@@ -18,7 +18,7 @@ const Tours = () => {
     <div className="bg-[#f4f7fc] py-20 text-gray-900" id="tours">
       <Wrapper>
         <div className="text-center mb-16">
-          <h1 className="text-5xl font-bold mt-10 flex items-center justify-center gap-2">
+          <h1 className="text-4xl font-bold mt-10 flex items-center justify-center gap-2">
             TeknoTour: Geleceğin Teknolojilerini Yerinde Keşfedin!
           </h1>
           <p className="text-lg text-gray-700 mt-6 max-w-3xl mx-auto">
@@ -33,41 +33,33 @@ const Tours = () => {
 
         <div className="text-center mt-12">
           <h2 className="text-3xl font-bold flex items-center justify-center gap-2">
-            <FaGlobe className="text-green-500" /> TeknoTour Destinasyonları 🌍
+            TeknoTour Destinasyonları 🌍
           </h2>
           <ul className="text-lg text-gray-600 mt-6 max-w-3xl mx-auto text-left space-y-4">
+            <li className="flex items-center gap-2">🚀 Uzay Kampı</li>
+            <li className="flex items-center gap-2">🎡 Teknofest</li>
             <li className="flex items-center gap-2">
-              <FaCheckCircle className="text-blue-500" /> 🚀 Uzay Kampı
-            </li>
-            <li className="flex items-center gap-2">
-              <FaCheckCircle className="text-blue-500" /> 🎡 Teknofest
-            </li>
-            <li className="flex items-center gap-2">
-              <FaCheckCircle className="text-blue-500" /> ✈ Gruba Özel
-              Destinasyon Dizaynı
+              ✈ Gruba Özel Destinasyon Dizaynı
             </li>
           </ul>
         </div>
 
         <div className="text-center mt-12">
           <h2 className="text-3xl font-bold flex items-center justify-center gap-2">
-            <FaUsers className="text-purple-500" /> Kimler İçin? 🎯
+            Kimler İçin? 🎯
           </h2>
           <ul className="text-lg text-gray-600 mt-6 max-w-3xl mx-auto text-left space-y-4">
             <li className="flex items-center gap-2">
-              <FaLightbulb className="text-yellow-500" /> 💡 Öğrenciler –
-              Teknolojiyi öğrenmek ve kariyerlerini şekillendirmek isteyen
-              gençler.
+              💡 Öğrenciler – Teknolojiyi öğrenmek ve kariyerlerini
+              şekillendirmek isteyen gençler.
             </li>
             <li className="flex items-center gap-2">
-              <FaUniversity className="text-red-500" /> 🎓 Akademisyenler ve
-              Eğitimciler – Yeni eğitim modelleri ve teknolojik gelişmeleri
-              yerinde görmek isteyen eğitim uzmanları.
+              🎓 Akademisyenler ve Eğitimciler – Yeni eğitim modelleri ve
+              teknolojik gelişmeleri yerinde görmek isteyen eğitim uzmanları.
             </li>
             <li className="flex items-center gap-2">
-              <FaRocket className="text-blue-500" /> 🚀 Girişimciler ve İş
-              İnsanları – Küresel teknoloji ekosistemiyle bağlantı kurarak
-              işlerini geleceğe taşımak isteyen profesyoneller.
+              🚀 Girişimciler ve İş İnsanları – Küresel teknoloji ekosistemiyle
+              bağlantı kurarak işlerini geleceğe taşımak isteyen profesyoneller.
             </li>
           </ul>
         </div>
@@ -98,9 +90,6 @@ const Tours = () => {
           <p className="text-lg text-gray-600 mt-6 max-w-3xl mx-auto">
             Bize ulaşın ve bir sonraki teknoloji gezisine katılın!
           </p>
-          <button className="mt-6 px-6 py-3 bg-blue-600 hover:bg-blue-700 text-white text-lg rounded-lg shadow-lg transition-all">
-            TeknoTour'a Katıl
-          </button>
         </div>
       </Wrapper>
     </div>

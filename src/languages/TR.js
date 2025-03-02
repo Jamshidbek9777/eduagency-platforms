@@ -4,7 +4,7 @@ export const tr = {
   navbar2: "Hizmetler",
 
   hero1: "EduAgency Hizmetleri Web Sitesi",
-  hero2: "Eğitim hizmetleri sunuyoruz",
+  hero2: "Dijital modernizasyon hizmetleri",
   hero3: "Daha Fazla Öğren",
 
   numbers1: "Hizmetlerimizin rakamlarla ifadesi",

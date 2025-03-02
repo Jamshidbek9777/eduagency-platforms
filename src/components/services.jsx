@@ -71,7 +71,7 @@ const Services = () => {
       <Wrapper>
         <div className="text-white p-6" id="services">
           <div className="text-center mb-12">
-            <h1 className="text-5xl font-bold leading-tight flex items-center justify-center gap-2">
+            <h1 className="text-4xl font-bold leading-tight flex items-center justify-center gap-2">
               Dünyanın En İyi Eğitim Teknolojileri, Özbekistan İçin Yeniden
               Tasarlandı!
             </h1>
@@ -87,8 +87,7 @@ const Services = () => {
 
           <div className="text-center mt-12">
             <h2 className="text-3xl font-bold flex items-center justify-center gap-2">
-              <FaRocket className="text-red-500" /> Global Başarılar, Yerel
-              Çözümler 🌍
+              Global Başarılar, Yerel Çözümler 🌍
             </h2>
             <ul className="text-lg text-gray-300 mt-6 max-w-3xl mx-auto text-left space-y-4">
               <li className="flex items-center gap-2">
@@ -108,8 +107,7 @@ const Services = () => {
 
           <div className="text-center mt-12">
             <h2 className="text-3xl font-bold flex items-center justify-center gap-2">
-              <FaLightbulb className="text-yellow-500" /> EduAgency’nin Eğitim
-              Teknolojisi Hizmetleri 🚀
+              EduAgency’nin Eğitim Teknolojisi Hizmetleri 🚀
             </h2>
             <p className="text-lg text-gray-300 mt-6 max-w-4xl mx-auto">
               Eğitimde teknoloji kullanımı, sadece bugünü değil, yarının

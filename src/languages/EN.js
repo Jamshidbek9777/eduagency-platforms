@@ -4,7 +4,7 @@ export const en = {
   navbar2: "Services",
 
   hero1: "EduAgency Services Website",
-  hero2: "We provide educational services",
+  hero2: "Digital modernization services",
   hero3: "Learn More",
 
   numbers1: "Our services in numbers",

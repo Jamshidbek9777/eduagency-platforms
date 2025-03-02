@@ -17,9 +17,8 @@ function App() {
         <h1>Salom</h1>
         <HeroSection />
         <Numbers />
-        <Modernization />
+        {/* <Modernization /> */}
         <Cards />
-        <Why />
         <Element name="services">
           <Services />
         </Element>
@@ -29,9 +28,8 @@ function App() {
         <Element name="tours">
           <Tours />
         </Element>
-        {/* <Element name="comments">
-          <Comments />
-        </Element> */}
+        <Why />
+
         <Partners />
       </div>
     </>
