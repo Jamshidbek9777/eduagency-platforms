@@ -293,7 +293,7 @@ const Navbar = () => {
                       duration={500}
                       className="hover:text-[#0556FF] transition text-[17px] font-bold cursor-pointer"
                     >
-                      Akademik Tur
+                      Tekno Tur
                     </ScrollLink>
                   </div>
                   {/* <div className="hidden lg:flex items-center"> */}

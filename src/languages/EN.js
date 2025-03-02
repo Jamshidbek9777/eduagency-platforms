@@ -1,7 +1,7 @@
 export const en = {
   // Main navigation
   navbar1: "Platforms",
-  navbar2: "Services",
+  navbar2: "Digital modernization",
 
   hero1: "EduAgency Services Website",
   hero2: "Digital modernization services",

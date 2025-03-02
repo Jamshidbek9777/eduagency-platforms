@@ -1,7 +1,7 @@
 export const tr = {
   // Ana menü
   navbar1: "Platformlar",
-  navbar2: "Hizmetler",
+  navbar2: "Raqamli modernizatsiya",
 
   hero1: "EduAgency Hizmetleri Web Sitesi",
   hero2: "Dijital modernizasyon hizmetleri",

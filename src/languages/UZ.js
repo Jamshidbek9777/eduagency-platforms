@@ -1,7 +1,7 @@
 export const uz = {
   //main nav
   navbar1: "Platformalar",
-  navbar2: "Xizmatlar",
+  navbar2: "Raqamli modernizatsiya",
 
   hero1: "EduAgency xizmatlari vebsayti",
   hero2: "Raqamli modernizatsiya xizmatlari",
