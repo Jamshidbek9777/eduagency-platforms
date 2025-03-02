@@ -8,6 +8,7 @@ import Why from "./components/why";
 import Xizmatlar from "./components/xizmatlar";
 import Comments from "./components/comments";
 import Tours from "./components/tour";
+import Modernization from "./components/modernization";
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
         <h1>Salom</h1>
         <HeroSection />
         <Numbers />
+        <Modernization />
         <Cards />
         <Why />
         <Element name="services">
