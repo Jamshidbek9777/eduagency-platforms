@@ -17,18 +17,17 @@ function App() {
         <h1>Salom</h1>
         <HeroSection />
         <Numbers />
-        {/* <Modernization /> */}
-        <Cards />
+        {/* <Cards /> */}
         <Element name="services">
           <Services />
         </Element>
-        <Element name="xizmatlar">
+        {/* <Element name="xizmatlar">
           <Xizmatlar />
         </Element>
         <Element name="tours">
           <Tours />
-        </Element>
-        <Why />
+        </Element> */}
+        {/* <Why /> */}
 
         <Partners />
       </div>

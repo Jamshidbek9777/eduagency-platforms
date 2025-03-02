@@ -277,27 +277,8 @@ const Navbar = () => {
                     >
                       {getText("navbar1")}
                     </ScrollLink>
-
-                    <ScrollLink
-                      to="xizmatlar"
-                      smooth={true}
-                      duration={500}
-                      className="hover:text-[#0556FF] transition text-[17px] font-bold cursor-pointer"
-                    >
-                      {getText("navbar2")}
-                    </ScrollLink>
-
-                    <ScrollLink
-                      to="tours"
-                      smooth={true}
-                      duration={500}
-                      className="hover:text-[#0556FF] transition text-[17px] font-bold cursor-pointer"
-                    >
-                      Tekno Tur
-                    </ScrollLink>
                   </div>
-                  {/* <div className="hidden lg:flex items-center"> */}
-                  {/* <div className="hidden lg:flex gap-4"> */}
+
                   <Dropdown
                     overlay={languageMenu}
                     trigger={["hover"]}

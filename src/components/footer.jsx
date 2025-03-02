@@ -89,11 +89,6 @@ const Footer = () => {
                       Platformalar
                     </a>
                   </li>
-                  <li>
-                    <a href="#" className="hover:text-blue-400 transition">
-                      Xizmatlar
-                    </a>
-                  </li>
                 </ul>
               </div>
             </div>
