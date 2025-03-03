@@ -12,9 +12,6 @@ const HeroSection = () => {
       <div className="pt-16 flex flex-wrap items-center justify-center ">
         <div className="bg-[#d8f0ed] flex flex-col md:flex-row w-full h-auto md:h-[600px] p-6 md:p-16 justify-between items-center rounded-lg gap-6 md:gap-0">
           <div className="max-w-xl text-center md:text-left">
-            <p className="text-blue-500 uppercase text-lg font-semibold">
-              {getText("hero1")}
-            </p>
             <h1 className="text-4xl md:text-6xl font-bold text-gray-900 mt-2 leading-tight">
               {getText("hero2")}
             </h1>

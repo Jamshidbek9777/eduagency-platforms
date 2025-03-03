@@ -29,7 +29,7 @@ function App() {
         </Element> */}
         {/* <Why /> */}
 
-        <Partners />
+        {/* <Partners /> */}
       </div>
     </>
   );

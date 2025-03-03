@@ -268,7 +268,7 @@ const Navbar = () => {
                 </div>
 
                 <div className="flex items-center gap-8">
-                  <div className="relative hidden lg:flex gap-4 lg:gap-6 text-gray-700 text-sm text-center p-3">
+                  <div className="relative hidden lg:flex gap-4 lg:gap-6 text-gray-700 text-sm text-center">
                     <ScrollLink
                       to="services"
                       smooth={true}
@@ -277,6 +277,23 @@ const Navbar = () => {
                     >
                       {getText("navbar1")}
                     </ScrollLink>
+                  </div>
+
+                  <div className="relative hidden lg:flex gap-4 lg:gap-6 text-gray-700 text-sm text-center">
+                    <a
+                      className="hover:text-[#0556FF] transition text-[17px] font-bold cursor-pointer"
+                      href="/okullar"
+                    >
+                      Maktablar uchun yechimlar
+                    </a>
+                  </div>
+                  <div className="relative hidden lg:flex gap-4 lg:gap-6 text-gray-700 text-sm text-center  ">
+                    <a
+                      className="hover:text-[#0556FF] transition text-[17px] font-bold cursor-pointer"
+                      href="/oilalar"
+                    >
+                      Oilalar uchun yechimlar
+                    </a>
                   </div>
 
                   <Dropdown

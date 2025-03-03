@@ -11,6 +11,8 @@ import Navbar from "./components/navbar.jsx";
 import Footer from "./components/footer.jsx";
 import ScrollToTop from "./components/scrollToTop.js";
 import Tours from "./pages/tours.jsx";
+import Okullar from "./pages/okullar.jsx";
+import Oilalar from "./pages/oilalar.jsx";
 
 const Root = () => {
   return (
@@ -23,6 +25,8 @@ const Root = () => {
             <Routes className="min-h-screen">
               <Route path="/" element={<App />} />
               <Route path="/tours" element={<Tours />} />
+              <Route path="/okullar" element={<Okullar />} />
+              <Route path="/oilalar" element={<Oilalar />} />
             </Routes>
           </BrowserRouter>
           <Footer />

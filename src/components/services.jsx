@@ -12,20 +12,20 @@ const categories = [
   { key: "adaptive", label: "Adaptive Cirriculum" },
   { key: "uppy", label: "Uppy" },
   { key: "sebit", label: "Sebit VCloud" },
+  { key: "uppyedu", label: "Uppy Edu" },
 ];
 
 const cards = {
   okulaile: {
-    title: `OkulAile - ${getText("pl1")}`,
-    description: getText("pl2"),
+    title: `OkulAile`,
+    description:
+      "Bolalar bog'chalarini boshqarish tizimlari ta'lim muassasalarining samarali ishlashini ta'minlash uchun mo'ljallangan. Biz o'qituvchilar, bolalar va ota-onalar o'rtasida aloqa o'rnatadigan va jarayonlarni raqamlashtirishga yordam beradigan echimlarni taklif qilamiz.",
     images: ["/img/okulaile1.jpg", "/img/okulaile2.jpg"],
-    videos: [
-      "https://www.youtube.com/embed/2xKsjJfT3YY",
-      "https://www.youtube.com/embed/NowOxndRqLs",
-    ],
+    videos: ["https://www.youtube.com/embed/nXlpH6WBcUI"],
+    link: "okullar",
   },
   future_astronaut: {
-    title: `Future Astronaut - ${getText("pl3")}`,
+    title: `Future Astronaut`,
     description: getText("pl4"),
     images: ["/img/9.jpg", "/img/12.jpg"],
     videos: ["https://www.youtube.com/embed/5a6VH1m6BoA"],
@@ -55,6 +55,12 @@ const cards = {
   },
   sebit: {
     title: `Sebit VCloud - ${getText("pl13")} `,
+    description: getText("pl14"),
+    images: ["/img/sebit1.jpg", "/img/sebit2.jpg"],
+    videos: ["https://www.youtube.com/embed/XubQF9sVqbg"],
+  },
+  uppyedu: {
+    title: `Uppy Edu`,
     description: getText("pl14"),
     images: ["/img/sebit1.jpg", "/img/sebit2.jpg"],
     videos: ["https://www.youtube.com/embed/XubQF9sVqbg"],
@@ -140,16 +146,7 @@ const Services = () => {
                 {activeCard.title}
               </h3>
               <p className="text-gray-300 mt-4">{activeCard.description}</p>
-              <div className="mt-6 grid grid-cols-1 sm:grid-cols-2 gap-4">
-                {activeCard.images.map((img, index) => (
-                  <img
-                    key={index}
-                    src={img}
-                    alt={activeCard.title}
-                    className="w-full h-96 object-cover rounded-lg shadow-lg"
-                  />
-                ))}
-              </div>
+
               <div className="mt-6 grid grid-cols-1 sm:grid-cols-2 gap-4">
                 {activeCard?.videos?.map((video, index) => (
                   <iframe
