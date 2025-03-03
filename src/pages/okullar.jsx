@@ -29,6 +29,12 @@ import {
   FaUsers,
   FaPlayCircle,
   FaShieldAlt,
+  FaBookOpen,
+  FaChalkboardTeacher,
+  FaLaptopCode,
+  FaBrain,
+  FaClipboardCheck,
+  FaAward,
 } from "react-icons/fa";
 
 const Okulaile = () => {
@@ -330,11 +336,11 @@ const Sebit = () => {
 
 const UppyEdu = () => {
   const screenshots = [
-    "/img/sUppy1.jpg",
-    "/img/sUppy1.jpg",
-    "/img/sUppy1.jpg",
-    "/img/sUppy1.jpg",
-    "/img/sUppy1.jpg",
+    "/img/uppyS1.webp",
+    "/img/uppyS2.webp",
+    "/img/uppyS3.webp",
+    "/img/uppyS4.webp",
+    "/img/uppyS5.webp",
   ];
 
   return (
@@ -467,11 +473,175 @@ const UppyEdu = () => {
   );
 };
 
-const Adaptive = () => (
-  <div className="p-6 text-center text-gray-700">
-    Adaptive Curriculum Content
-  </div>
-);
+const Adaptive = () => {
+  const screenshots = [
+    "/img/adaptive1.png",
+    "/img/adaptive2.png",
+    "/img/adaptive3.png",
+  ]; // Replace with actual paths
+
+  return (
+    <div className="bg-white text-gray-800">
+      {/* Hero Section */}
+      <section className="text-center py-16 bg-blue-50">
+        <h1 className="text-4xl font-bold mb-4">
+          Personalized Digital Learning
+        </h1>
+        <p className="text-lg mb-6">
+          Adaptive Curriculum provides interactive, standards-based learning
+          experiences to improve student achievement.
+        </p>
+        <a
+          href="#"
+          className="bg-blue-600 text-white px-6 py-3 rounded-full text-lg font-semibold hover:bg-blue-700 transition duration-300"
+        >
+          Explore Adaptive Curriculum
+        </a>
+        <p className="text-gray-600 mt-4">
+          Empowering students and educators with interactive and engaging
+          lessons.
+        </p>
+      </section>
+
+      <section className="py-16 max-w-6xl mx-auto px-4 flex flex-col md:flex-row gap-10 items-center">
+        <div className="md:w-1/2">
+          <img
+            src="/img/adaptiveLeftBg.jpg"
+            alt="Adaptive Learning Overview"
+            className="w-full rounded-lg shadow-lg"
+          />
+        </div>
+        <div className="md:w-1/2">
+          <h3 className="text-2xl font-semibold text-gray-800 mb-4">
+            What is Adaptive Curriculum?
+          </h3>
+          <p className="text-gray-600 mb-6">
+            Adaptive Curriculum is an innovative digital learning platform that
+            personalizes student learning through interactive content and
+            data-driven insights.
+          </p>
+          <a
+            href="#"
+            className="px-6 py-3 bg-blue-600 text-white font-semibold rounded-lg shadow-md hover:bg-blue-700 transition duration-300"
+          >
+            Learn More
+          </a>
+        </div>
+      </section>
+
+      {/* Features Section */}
+      <section className="py-16 bg-gray-50">
+        <div className="max-w-6xl mx-auto px-4">
+          <h2 className="text-3xl font-bold text-center mb-12">Key Features</h2>
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+            {[
+              {
+                icon: <FaBookOpen />,
+                title: "Interactive Lessons",
+                desc: "Engage students with hands-on digital content.",
+              },
+              {
+                icon: <FaChalkboardTeacher />,
+                title: "Real-Time Feedback",
+                desc: "Track student progress instantly.",
+              },
+              {
+                icon: <FaLaptopCode />,
+                title: "STEM-Based Approach",
+                desc: "Focus on Science, Math, and Technology.",
+              },
+              {
+                icon: <FaBrain />,
+                title: "Adaptive Learning Paths",
+                desc: "Personalized study plans for each student.",
+              },
+              {
+                icon: <FaUsers />,
+                title: "Collaborative Tools",
+                desc: "Facilitate group discussions and teamwork.",
+              },
+              {
+                icon: <FaMobileAlt />,
+                title: "Multi-Platform Access",
+                desc: "Learn anywhere, on any device.",
+              },
+            ].map((feature, index) => (
+              <div
+                key={index}
+                className="flex items-start gap-4 p-6 bg-white rounded-lg shadow-md hover:shadow-lg transition duration-300"
+              >
+                <div className="text-blue-600 text-3xl">{feature.icon}</div>
+                <div>
+                  <h4 className="text-lg font-semibold text-gray-800">
+                    {feature.title}
+                  </h4>
+                  <p className="text-gray-600 text-sm">{feature.desc}</p>
+                </div>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      <section className="py-16 bg-gray-100">
+        <div className="max-w-6xl mx-auto px-4">
+          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-8 text-center">
+            {[
+              {
+                icon: <FaClipboardCheck />,
+                value: "16%",
+                text: "Improvement in high-stakes test scores",
+              },
+              {
+                icon: <FaAward />,
+                value: "87%",
+                text: "Approval rate by students",
+              },
+              {
+                icon: <FaGlobe />,
+                value: "10+",
+                text: "Countries have Adaptive Curriculum subscribers",
+              },
+              {
+                icon: <FaUsers />,
+                value: "25M",
+                text: "Students impacted worldwide",
+              },
+            ].map((stat, index) => (
+              <div
+                key={index}
+                className="bg-white p-6 rounded-lg shadow-md flex flex-col items-center"
+              >
+                <div className="text-green-700 text-4xl mb-3">{stat.icon}</div>
+                <h3 className="text-3xl font-bold text-gray-900">
+                  {stat.value}
+                </h3>
+                <p className="text-gray-600 text-sm">{stat.text}</p>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* Call to Action */}
+      <section className="text-center py-16 bg-blue-50">
+        <h2 className="text-3xl font-bold mb-4">
+          Ready to Transform Learning?
+        </h2>
+        <p className="text-lg mb-6">
+          Experience Adaptive Curriculum and enhance student engagement with
+          interactive digital content.
+        </p>
+        <a
+          href="#"
+          className="bg-blue-600 text-white px-6 py-3 rounded-full text-lg font-semibold hover:bg-blue-700 transition duration-300"
+        >
+          Get Started
+        </a>
+      </section>
+    </div>
+  );
+};
 
 const Okullar = () => {
   const categories = [
