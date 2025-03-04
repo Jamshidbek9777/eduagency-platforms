@@ -93,26 +93,6 @@ const Services = () => {
 
           <div className="text-center mt-12">
             <h2 className="text-3xl font-bold flex items-center justify-center gap-2">
-              Global Başarılar, Yerel Çözümler 🌍
-            </h2>
-            <ul className="text-lg text-gray-300 mt-6 max-w-3xl mx-auto text-left space-y-4">
-              <li className="flex items-center gap-2">
-                ✅ Estonya, tüm derslerini dijitalleştirerek uzaktan ve hibrit
-                eğitimde öncü oldu.
-              </li>
-              <li className="flex items-center gap-2">
-                ✅ Güney Kore, akıllı sınıflarla öğrencilerine daha interaktif
-                ve kişiselleştirilmiş öğrenme sundu.
-              </li>
-              <li className="flex items-center gap-2">
-                ✅ Singapur, yapay zeka destekli öğretim sistemleri ile öğrenci
-                başarısını artırdı.
-              </li>
-            </ul>
-          </div>
-
-          <div className="text-center mt-12">
-            <h2 className="text-3xl font-bold flex items-center justify-center gap-2">
               EduAgency’nin Eğitim Teknolojisi Hizmetleri 🚀
             </h2>
             <p className="text-lg text-gray-300 mt-6 max-w-4xl mx-auto">
